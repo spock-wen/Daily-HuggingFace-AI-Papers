@@ -14815,5 +14815,651 @@
       "scraped_at": "2026-02-16T02:24:54.071460"
     },
     "scraped_date": "2026-02-16"
+  },
+  {
+    "title": "Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs",
+    "paper_url": "https://huggingface.co/papers/2602.10388",
+    "authors": [
+      "Ninghao Liu",
+      "Lijie Hu",
+      "Yijiang Li",
+      "Xuansheng Wu",
+      "Zhongzhi1228"
+    ],
+    "stars": "52",
+    "details": {
+      "title": "Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs",
+      "abstract": "Less is Enough shows that better data matters more than more data . Instead of generating massive amounts of synthetic sample, we look inside the model’s hidden features to find what is truly missing. We introduce Feature Activation Coverage (FAC) to measure which important internal features are underrepresented, then generate new samples that specifically activate those features. Result: FAC exhibits a strong correlation with downstream performance. Increasing FAC brings significantly larger gains than simply adding more samples. With only 2K synthetic samples , we match MAGPIE’s performance on AlpacaEval 2.0 (which uses 300K samples ) and outperform strong baselines across instruction following, toxicity detection, reward modeling, and behavior steering. Interestingly, we further discover a shared, interpretable feature space across LLaMA, Mistral, and Qwen, which enables effective cross-model knowledge transfer between different model families. Paper: arXiv:2602.10388 Code: GitHub Website: https://website-sigma-three-35.vercel.app/ Demo: https://huggingface.co/spaces/Zhongzhi1228/synthesis-demo (Work in Progress)",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10388",
+      "pdf_url": "https://arxiv.org/pdf/2602.10388",
+      "github_links": [
+        "https://github.com/Zhongzhi660/FAC-Synthesis"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10388",
+      "scraped_at": "2026-02-17T02:12:38.845357"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "SQuTR: A Robustness Benchmark for Spoken Query to Text Retrieval under Acoustic Noise",
+    "paper_url": "https://huggingface.co/papers/2602.12783",
+    "authors": [
+      "Jianhao Nie",
+      "Yueying Hua",
+      "Ke Yang",
+      "Yuejie Li",
+      "berlin8587"
+    ],
+    "stars": "96",
+    "details": {
+      "title": "SQuTR: A Robustness Benchmark for Spoken Query to Text Retrieval under Acoustic Noise",
+      "abstract": "SQuTR (Spoken Query-to-Text Retrieval) is a large-scale bilingual benchmark designed to evaluate the robustness of information retrieval (IR) systems under realistic and complex acoustic perturbations. While speech has become a primary interface for IR, performance often degrades significantly in noisy environments. SQuTR addresses this by extending 6 popular text retrieval datasets into the spoken domain, providing 37,317 complex queries across 6 domains, synthesized with 200 real speakers, and evaluated under 4 graded noise levels.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12783",
+      "pdf_url": "https://arxiv.org/pdf/2602.12783",
+      "github_links": [
+        "https://github.com/ttoyekk1a/SQuTR-Spoken-Query-to-Text-Retrieval"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12783",
+      "scraped_at": "2026-02-17T02:12:41.057577"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "MedXIAOHE: A Comprehensive Recipe for Building Medical MLLMs",
+    "paper_url": "https://huggingface.co/papers/2602.12705",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MedXIAOHE: A Comprehensive Recipe for Building Medical MLLMs",
+      "abstract": "We present MedXIAOHE, a medical vision-language foundation model designed to advance general-purpose medical understanding and reasoning in real-world clinical applications. MedXIAOHE achieves state-of-the-art performance across diverse medical benchmarks and surpasses leading closed-source multimodal systems on multiple capabilities. To achieve this, we propose an entity-aware continual pretraining framework that organizes heterogeneous medical corpora to broaden knowledge coverage and reduce long-tail gaps (e.g., rare diseases). For medical expert-level reasoning and interaction, MedXIAOHE incorporates diverse medical reasoning patterns via reinforcement learning and tool-augmented agentic training, enabling multi-step diagnostic reasoning with verifiable decision traces. To improve reliability in real-world use, MedXIAOHE integrates user-preference rubrics, evidence-grounded reasoning, and low-hallucination long-form report generation, with improved adherence to medical instructions. We release this report to document our practical design choices, scaling insights, and evaluation framework, hoping to inspire further research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12705",
+      "pdf_url": "https://arxiv.org/pdf/2602.12705",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12705",
+      "scraped_at": "2026-02-17T02:12:43.059432"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "Zooming without Zooming: Region-to-Image Distillation for Fine-Grained Multimodal Perception",
+    "paper_url": "https://huggingface.co/papers/2602.11858",
+    "authors": [],
+    "stars": "55",
+    "details": {
+      "title": "Zooming without Zooming: Region-to-Image Distillation for Fine-Grained Multimodal Perception",
+      "abstract": "Recent \"Thinking-with-Images\" methods improve fine-grained perception by iteratively zooming into regions of interest during inference, but incur high latency due to repeated tool calls and visual re-encoding. In this work, we present ZwZ models (4/7/8B), achieving SOTA performance on multimodal perception benchmarks among open-source models. In addition, we present ZoomBench, a hybrid-annotated benchmark of 845 VQA data spanning six fine-grained perceptual dimensions, together with a dual-view protocol that quantifies the global--regional \"zooming gap\". Github: https://github.com/inclusionAI/Zooming-without-Zooming Huggingface collection: https://huggingface.co/collections/inclusionAI/zooming-without-zooming",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11858",
+      "pdf_url": "https://arxiv.org/pdf/2602.11858",
+      "github_links": [
+        "https://github.com/inclusionAI/Zooming-without-Zooming"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11858",
+      "scraped_at": "2026-02-17T02:12:45.049315"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "OneVision-Encoder: Codec-Aligned Sparsity as a Foundational Principle for Multimodal Intelligence",
+    "paper_url": "https://huggingface.co/papers/2602.08683",
+    "authors": [],
+    "stars": "225",
+    "details": {
+      "title": "OneVision-Encoder: Codec-Aligned Sparsity as a Foundational Principle for Multimodal Intelligence",
+      "abstract": "Code: https://github.com/EvolvingLMMs-Lab/OneVision-Encoder Data: https://github.com/EvolvingLMMs-Lab/OneVision-Encoder/blob/main/docs/data_card.md Model: https://huggingface.co/collections/lmms-lab-encoder/onevision-encoder",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.08683",
+      "pdf_url": "https://arxiv.org/pdf/2602.08683",
+      "github_links": [
+        "https://github.com/EvolvingLMMs-Lab/OneVision-Encoder",
+        "https://github.com/EvolvingLMMs-Lab/OneVision-Encoder/blob/main/docs/data_card.md"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.08683",
+      "scraped_at": "2026-02-17T02:12:47.089120"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "CoPE-VideoLM: Codec Primitives For Efficient Video Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.13191",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CoPE-VideoLM: Codec Primitives For Efficient Video Language Models",
+      "abstract": "TL;DR: Replace dense per-frame image embeddings, use video codec primitives to reduce TTFT by up to 86% and token usage by up to 93% while maintaining video understanding performance. 🚀 Project Page: https://sayands.github.io/cope/",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13191",
+      "pdf_url": "https://arxiv.org/pdf/2602.13191",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13191",
+      "scraped_at": "2026-02-17T02:12:49.158934"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "GeoAgent: Learning to Geolocate Everywhere with Reinforced Geographic Characteristics",
+    "paper_url": "https://huggingface.co/papers/2602.12617",
+    "authors": [
+      "MingMing Cheng",
+      "Dingwen Zhang",
+      "Boyuan Sun",
+      "Yiming Zhang",
+      "ghost233lism"
+    ],
+    "stars": "15",
+    "details": {
+      "title": "GeoAgent: Learning to Geolocate Everywhere with Reinforced Geographic Characteristics",
+      "abstract": "GeoAgent is a model capable of reasoning closely with humans and deriving fine-grained address conclusions. For more details, please refer to our project and github repo",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12617",
+      "pdf_url": "https://arxiv.org/pdf/2602.12617",
+      "github_links": [
+        "https://github.com/HVision-NKU/GeoAgent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12617",
+      "scraped_at": "2026-02-17T02:12:51.194631"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "SemanticMoments: Training-Free Motion Similarity via Third Moment Features",
+    "paper_url": "https://huggingface.co/papers/2602.09146",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SemanticMoments: Training-Free Motion Similarity via Third Moment Features",
+      "abstract": "Modern video representations like VideoMAE and V-JEPA2 are biased toward appearance rather than motion. We introduce SemanticMoments, a training-free representation for semantic motion similarity.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.09146",
+      "pdf_url": "https://arxiv.org/pdf/2602.09146",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.09146",
+      "scraped_at": "2026-02-17T02:12:53.247760"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "What does RL improve for Visual Reasoning? A Frankenstein-Style Analysis",
+    "paper_url": "https://huggingface.co/papers/2602.12395",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "What does RL improve for Visual Reasoning? A Frankenstein-Style Analysis",
+      "abstract": "Reinforcement learning (RL) has become a common post-training stage for improving visual reasoning in multimodal models, but what exactly does RL improve internally? This paper introduces a Frankenstein-style causal analysis framework to dissect the role of RL in vision-language models. Instead of relying solely on end-to-end benchmark gains, the authors perform structured model merging across early, middle, and late transformer blocks to localize where RL induces functional changes. Check our code: https://github.com/tianyi-lab/Frankenstein",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12395",
+      "pdf_url": "https://arxiv.org/pdf/2602.12395",
+      "github_links": [
+        "https://github.com/tianyi-lab/Frankenstein"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12395",
+      "scraped_at": "2026-02-17T02:12:55.631104"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "Intelligent AI Delegation",
+    "paper_url": "https://huggingface.co/papers/2602.11865",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Intelligent AI Delegation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Agent Contracts: A Formal Framework for Resource-Bounded Autonomous AI Systems (2026) From Prompt-Response to Goal-Directed Systems: The Evolution of Agentic AI Software Architecture (2026) Communications-Incentivized Collaborative Reasoning in NetGPT through Agentic Reinforcement Learning (2026) The Orchestration of Multi-Agent Systems: Architectures, Protocols, and Enterprise Adoption (2026) Architecting Agentic Communities using Design Patterns (2026) A Survey of Agentic AI and Cybersecurity: Challenges, Opportunities and Use-case Prototypes (2026) Internet of Agentic AI: Incentive-Compatible Distributed Teaming and Workflow (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11865",
+      "pdf_url": "https://arxiv.org/pdf/2602.11865",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11865",
+      "scraped_at": "2026-02-17T02:12:57.553419"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "RLinf-Co: Reinforcement Learning-Based Sim-Real Co-Training for VLA Models",
+    "paper_url": "https://huggingface.co/papers/2602.12628",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RLinf-Co: Reinforcement Learning-Based Sim-Real Co-Training for VLA Models",
+      "abstract": "In this paper, we propose an RL-based sim-real Co-training (RL-Co) framework that leverages interactive simulation while preserving real-world capabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12628",
+      "pdf_url": "https://arxiv.org/pdf/2602.12628",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12628",
+      "scraped_at": "2026-02-17T02:12:59.522704"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "ABot-M0: VLA Foundation Model for Robotic Manipulation with Action Manifold Learning",
+    "paper_url": "https://huggingface.co/papers/2602.11236",
+    "authors": [],
+    "stars": "157",
+    "details": {
+      "title": "ABot-M0: VLA Foundation Model for Robotic Manipulation with Action Manifold Learning",
+      "abstract": "🌟** ABot-M0** is a general-purpose robotics model with the following core highlights: Massive & Unified Data: It integrates over 6 million open-source trajectories to form the largest unified dataset for robotic manipulation, providing a strong foundation for generalization. Innovative Action Paradigm :It pioneers Action Manifold Learning (AML), which directly predicts clean actions instead of noise, resulting in a more efficient and stable model. Modular 3D Perception :It supports plug-and-play modules to enhance 3D spatial understanding, improving execution precision for complex tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11236",
+      "pdf_url": "https://arxiv.org/pdf/2602.11236",
+      "github_links": [
+        "https://github.com/amap-cvlab/ABot-Manipulation"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11236",
+      "scraped_at": "2026-02-17T02:13:01.547705"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "Towards Universal Video MLLMs with Attribute-Structured and Quality-Verified Instructions",
+    "paper_url": "https://huggingface.co/papers/2602.13013",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Towards Universal Video MLLMs with Attribute-Structured and Quality-Verified Instructions",
+      "abstract": "ASID-Caption introduces a data-and-model suite for fine-grained audiovisual video understanding. We present: • ASID-1M, a large-scale collection of attribute-structured and quality-verified audiovisual instruction annotations; • ASID-Verify, a scalable multi-stage pipeline that generates, ensembles, verifies, and refines captions with semantic and temporal consistency checks; • ASID-Captioner, instruction-tuned audiovisual models trained on ASID-1M. Our framework moves beyond “one video → one generic caption” by enabling controllable, attribute-aware supervision across scene, objects, actions, speech, camera, and narrative elements. Project page: https://asid-caption.github.io/ Code: https://github.com/ASID-Caption/ASID-Caption",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13013",
+      "pdf_url": "https://arxiv.org/pdf/2602.13013",
+      "github_links": [
+        "https://github.com/ASID-Caption/ASID-Caption"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13013",
+      "scraped_at": "2026-02-17T02:13:03.528841"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "BPDQ: Bit-Plane Decomposition Quantization on a Variable Grid for Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.04163",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "BPDQ: Bit-Plane Decomposition Quantization on a Variable Grid for Large Language Models",
+      "abstract": "we propose Bit-Plane Decomposition Quantization (BPDQ) , which constructs a variable quantization grid via bit-planes and scalar coefficients, and iteratively refines them using approximate second-order information while progressively compensating quantization errors to minimize output discrepancy.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.04163",
+      "pdf_url": "https://arxiv.org/pdf/2602.04163",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.04163",
+      "scraped_at": "2026-02-17T02:13:05.548261"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "DICE: Diffusion Large Language Models Excel at Generating CUDA Kernels",
+    "paper_url": "https://huggingface.co/papers/2602.11715",
+    "authors": [
+      "Zhiqiang Tao",
+      "Jianmian Wang",
+      "Xueyi Chen",
+      "Lingcheng Kong",
+      "DeadlyKitt3n"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "DICE: Diffusion Large Language Models Excel at Generating CUDA Kernels",
+      "abstract": "DICE series are the first diffusion large language models (dLLMs) tailored for CUDA kernel generation. Welcome discussion and collaboration!",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11715",
+      "pdf_url": "https://arxiv.org/pdf/2602.11715",
+      "github_links": [
+        "https://github.com/deadlykitten4/DICE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11715",
+      "scraped_at": "2026-02-17T02:13:07.540989"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "SciAgentGym: Benchmarking Multi-Step Scientific Tool-use in LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2602.12984",
+    "authors": [
+      "Huayu Sha",
+      "Binze Hu",
+      "Zhiheng Xi",
+      "Yajie Yang",
+      "Yujiong Shen"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "SciAgentGym: Benchmarking Multi-Step Scientific Tool-use in LLM Agents",
+      "abstract": "Proposes SciAgentGym and SciAgentBench to benchmark and improve multi-step scientific tool-use in LLM agents via SciForge data synthesis and fine-tuning, enabling cross-domain transfer.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12984",
+      "pdf_url": "https://arxiv.org/pdf/2602.12984",
+      "github_links": [
+        "https://github.com/CMarsRover/SciAgentGYM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12984",
+      "scraped_at": "2026-02-17T02:13:09.518024"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "FLAC: Maximum Entropy RL via Kinetic Energy Regularized Bridge Matching",
+    "paper_url": "https://huggingface.co/papers/2602.12829",
+    "authors": [
+      "Xiao Ma",
+      "Fuchun Sun",
+      "Yu Luo",
+      "Yunfei Li",
+      "Lei Lv"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "FLAC: Maximum Entropy RL via Kinetic Energy Regularized Bridge Matching",
+      "abstract": "FLAC is a likelihood-free RL method using kinetic energy regularization and a generalized Schrödinger bridge to stay near a high-entropy reference while optimizing return, avoiding explicit density estimation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12829",
+      "pdf_url": "https://arxiv.org/pdf/2602.12829",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12829",
+      "scraped_at": "2026-02-17T02:13:11.438041"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution",
+    "paper_url": "https://huggingface.co/papers/2602.12684",
+    "authors": [],
+    "stars": "229",
+    "details": {
+      "title": "Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution",
+      "abstract": "Open-source Xiaomi-Robotics-0 delivers a vision-language-action model enabling real-time robotic action with cross-embodiment data and VLMs, plus asynchronous inference and smooth real-time rollouts.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12684",
+      "pdf_url": "https://arxiv.org/pdf/2602.12684",
+      "github_links": [
+        "https://github.com/XiaomiRobotics/Xiaomi-Robotics-0"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12684",
+      "scraped_at": "2026-02-17T02:13:13.365164"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "On Robustness and Chain-of-Thought Consistency of RL-Finetuned VLMs",
+    "paper_url": "https://huggingface.co/papers/2602.12506",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "On Robustness and Chain-of-Thought Consistency of RL-Finetuned VLMs",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Towards Faithful Reasoning in Comics for Small MLLMs (2026) Analyzing Reasoning Consistency in Large Multimodal Models under Cross-Modal Conflicts (2026) Seeing Is Believing? A Benchmark for Multimodal Large Language Models on Visual Illusions and Anomalies (2026) Lost in the Noise: How Reasoning Models Fail with Contextual Distractors (2026) Monitorability as a Free Gift: How RLVR Spontaneously Aligns Reasoning (2026) Ground What You See: Hallucination-Resistant MLLMs via Caption Feedback, Diversity-Aware Sampling, and Conflict Regularization (2026) CRAFT: Calibrated Reasoning with Answer-Faithful Traces via Reinforcement Learning for Multi-Hop Question Answering (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12506",
+      "pdf_url": "https://arxiv.org/pdf/2602.12506",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12506",
+      "scraped_at": "2026-02-17T02:13:15.258969"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "Code2Worlds: Empowering Coding LLMs for 4D World Generation",
+    "paper_url": "https://huggingface.co/papers/2602.11757",
+    "authors": [],
+    "stars": "23",
+    "details": {
+      "title": "Code2Worlds: Empowering Coding LLMs for 4D World Generation",
+      "abstract": "https://aigeeksgroup.github.io/Code2Worlds",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11757",
+      "pdf_url": "https://arxiv.org/pdf/2602.11757",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/Code2Worlds"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11757",
+      "scraped_at": "2026-02-17T02:13:17.242606"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "Self-EvolveRec: Self-Evolving Recommender Systems with LLM-based Directional Feedback",
+    "paper_url": "https://huggingface.co/papers/2602.12612",
+    "authors": [
+      "Jimin Seo",
+      "Wonjoong Kim",
+      "Hongseok Kang",
+      "Sangwu Park",
+      "Sein-Kim"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Self-EvolveRec: Self-Evolving Recommender Systems with LLM-based Directional Feedback",
+      "abstract": "We introduce Self-EvolveRec, a novel framework that enables recommender systems to autonomously evolve by transcending the limitations of simple scalar feedback. By implementing an LLM-based Directional Feedback Loop, we integrate qualitative critiques from a User Simulator with quantitative checks from a Model Diagnosis tool. This approach facilitates the co-evolution of both the recommender and their diagnostic criteria (i.e., Model Diagnosis Tool), ensuring they adapt dynamically to structural flaws. Our extensive experiments demonstrate that Self-EvolveRec significantly outperforms state-of-the-art NAS and LLM-based baselines in both accuracy and code quality.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12612",
+      "pdf_url": "https://arxiv.org/pdf/2602.12612",
+      "github_links": [
+        "https://github.com/Sein-Kim/self_evolverec"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12612",
+      "scraped_at": "2026-02-17T02:13:19.157543"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "Best of Both Worlds: Multimodal Reasoning and Generation via Unified Discrete Flow Matching",
+    "paper_url": "https://huggingface.co/papers/2602.12221",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Best of Both Worlds: Multimodal Reasoning and Generation via Unified Discrete Flow Matching",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12221",
+      "pdf_url": "https://arxiv.org/pdf/2602.12221",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12221",
+      "scraped_at": "2026-02-17T02:13:21.064166"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "TADA! Tuning Audio Diffusion Models through Activation Steering",
+    "paper_url": "https://huggingface.co/papers/2602.11910",
+    "authors": [
+      "Kamil Deja",
+      "Mateusz Modrzejewski",
+      "Katarzyna Zaleska",
+      "Łukasz Staniszewski"
+    ],
+    "stars": "9",
+    "details": {
+      "title": "TADA! Tuning Audio Diffusion Models through Activation Steering",
+      "abstract": "About In this work, we investigate the internal mechanisms 🔬 of text-to-audio 🎶 diffusion models, showing that various musical concepts (instruments 🎸, vocal 🎤, tempo 🏃, mood 🤗) are controlled by a small, shared subset of attention layers. By combining these insights with activation steering methods, we provide a new tool for controllable audio generation. Our contributions: 👷 We construct a counterfactual prompt dataset for probing layer-level roles in audio diffusion models. 🔍 We demonstrate that musical attributes are concentrated in just 2–4 cross-attention layers across all three architectures. 🎛 We leverage this localization to apply Contrastive Activation Addition (CAA) and Sparse Autoencoders (SAEs) for targeted activation steering.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11910",
+      "pdf_url": "https://arxiv.org/pdf/2602.11910",
+      "github_links": [
+        "https://github.com/luk-st/steer-audio"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11910",
+      "scraped_at": "2026-02-17T02:13:23.022893"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "Light4D: Training-Free Extreme Viewpoint 4D Video Relighting",
+    "paper_url": "https://huggingface.co/papers/2602.11769",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Light4D: Training-Free Extreme Viewpoint 4D Video Relighting",
+      "abstract": "https://aigeeksgroup.github.io/Light4D",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11769",
+      "pdf_url": "https://arxiv.org/pdf/2602.11769",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/Light4D"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11769",
+      "scraped_at": "2026-02-17T02:13:24.953417"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "Learning Image-based Tree Crown Segmentation from Enhanced Lidar-based Pseudo-labels",
+    "paper_url": "https://huggingface.co/papers/2602.13022",
+    "authors": [
+      "Xiaowei Yu",
+      "Niko Koivumäki",
+      "Josef Taher",
+      "Stefan Rua",
+      "Julppe1"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Learning Image-based Tree Crown Segmentation from Enhanced Lidar-based Pseudo-labels",
+      "abstract": "We present a lidar-based pseudo-supervision method for training tree crown instance segmentation models without manual annotation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13022",
+      "pdf_url": "https://arxiv.org/pdf/2602.13022",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13022",
+      "scraped_at": "2026-02-17T02:13:26.935902"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "Favia: Forensic Agent for Vulnerability-fix Identification and Analysis",
+    "paper_url": "https://huggingface.co/papers/2602.12500",
+    "authors": [
+      "Jingyue Li",
+      "Jiamou Sun",
+      "andstor"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Favia: Forensic Agent for Vulnerability-fix Identification and Analysis",
+      "abstract": "Favia is a forensic, agent-based framework that identifies vulnerability-fixing commits for disclosed CVEs by combining scalable candidate ranking with iterative, evidence-driven LLM reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12500",
+      "pdf_url": "https://arxiv.org/pdf/2602.12500",
+      "github_links": [
+        "https://github.com/andstor/agentic-security-patch-classification-replication-package"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12500",
+      "scraped_at": "2026-02-17T02:13:28.997487"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery",
+    "paper_url": "https://huggingface.co/papers/2602.11609",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery",
+      "abstract": "scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11609",
+      "pdf_url": "https://arxiv.org/pdf/2602.11609",
+      "github_links": [
+        "https://github.com/maitrix-org/scPilot"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11609",
+      "scraped_at": "2026-02-17T02:13:30.914930"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "Steer2Edit: From Activation Steering to Component-Level Editing",
+    "paper_url": "https://huggingface.co/papers/2602.09870",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Steer2Edit: From Activation Steering to Component-Level Editing",
+      "abstract": "Can steering vectors be turned into permanent, interpretable weight edits? STEER2EDIT converts steering signals into closed-form, component-level rank-1 updates on attention heads and MLP neurons — no fine-tuning required. Instead of globally shifting activations at inference time, STEER2EDIT redistributes behavioral influence across individual components while preserving the standard forward pass and compatibility with optimized inference. Across three behavioral control settings, we achieve strictly better attribute–utility trade-offs: 🔐 Safety alignment: +17.2% higher refusal rate at matched downstream utility ✅ Truthfulness promotion: +9.8% improvement in truthful preference ⚡ Efficient reasoning: −12.2% reduction in reasoning length on average, while maintaining accuracy The resulting edits are sparse, architecture-preserving, and interpretable — providing a principled bridge between representation steering and weight editing.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.09870",
+      "pdf_url": "https://arxiv.org/pdf/2602.09870",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.09870",
+      "scraped_at": "2026-02-17T02:13:32.813920"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "GeneralVLA: Generalizable Vision-Language-Action Models with Knowledge-Guided Trajectory Planning",
+    "paper_url": "https://huggingface.co/papers/2602.04315",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "GeneralVLA: Generalizable Vision-Language-Action Models with Knowledge-Guided Trajectory Planning",
+      "abstract": "https://aigeeksgroup.github.io/GeneralVLA",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.04315",
+      "pdf_url": "https://arxiv.org/pdf/2602.04315",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/GeneralVLA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.04315",
+      "scraped_at": "2026-02-17T02:13:34.737964"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "Quantized Evolution Strategies: High-precision Fine-tuning of Quantized LLMs at Low-precision Cost",
+    "paper_url": "https://huggingface.co/papers/2602.03120",
+    "authors": [
+      "Xin Qiu",
+      "Risto Miikkulainen",
+      "Dibbla"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "Quantized Evolution Strategies: High-precision Fine-tuning of Quantized LLMs at Low-precision Cost",
+      "abstract": "We study an interesting question of whether it is possible to perform full-parameter fine-tuning on Large Language Models (LLMs) directly within the quantized space, effectively bypassing the need for high-precision weights and standard backpropagation. Usually, Post-Training Quantization (PTQ) renders a model static; you can't easily apply standard fine-tuning or Reinforcement Learning (RL) because the parameter space becomes discrete and non-differentiable. Even standard Evolution Strategies (ES)—which are backprop-free—often struggle here due to vanishing or inaccurate gradients. We propose a novel solution called Quantized Evolution Strategies (QES). It enables direct optimization of quantized parameters through two key designs: Accumulated Error Feedback : This preserves high-precision gradient signals that would otherwise be lost. Stateless Seed Replay : This keeps memory usage down to low-precision inference levels. QES significantly outperforming state-of-the-art zeroth-order methods on arithmetic reasoning tasks, and more experiments are on the way. This could be a major step toward playing LLMs entirely in the quantized space!",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03120",
+      "pdf_url": "https://arxiv.org/pdf/2602.03120",
+      "github_links": [
+        "https://github.com/dibbla/Quantized-Evolution-Strategies"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03120",
+      "scraped_at": "2026-02-17T02:13:36.649438"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "OpenLID-v3: Improving the Precision of Closely Related Language Identification -- An Experience Report",
+    "paper_url": "https://huggingface.co/papers/2602.13139",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "OpenLID-v3: Improving the Precision of Closely Related Language Identification -- An Experience Report",
+      "abstract": "Language identification model Supports 194 languages High performance (FastText-based) Fast and easy to use Fully transparent: training data and per-language performance openly available Used by HPLT",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13139",
+      "pdf_url": "https://arxiv.org/pdf/2602.13139",
+      "github_links": [
+        "https://github.com/hplt-project/openlid"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13139",
+      "scraped_at": "2026-02-17T02:13:38.591705"
+    },
+    "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "Principled Synthetic Data Enables the First Scaling Laws for LLMs in Recommendation",
+    "paper_url": "https://huggingface.co/papers/2602.07298",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Principled Synthetic Data Enables the First Scaling Laws for LLMs in Recommendation",
+      "abstract": "We present the first empirically validated scaling laws for LLMs in recommendation, enabled by a principled layered synthetic data framework that transforms noisy, biased user interaction logs into a high-quality pedagogical curriculum—demonstrating that standard models trained on our synthetic data outperform those trained on real data by over 130% on Recall@100.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.07298",
+      "pdf_url": "https://arxiv.org/pdf/2602.07298",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.07298",
+      "scraped_at": "2026-02-17T02:13:40.501120"
+    },
+    "scraped_date": "2026-02-17"
   }
 ]
