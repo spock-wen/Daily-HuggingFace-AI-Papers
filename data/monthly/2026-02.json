@@ -15461,5 +15461,700 @@
       "scraped_at": "2026-02-17T02:13:40.501120"
     },
     "scraped_date": "2026-02-17"
+  },
+  {
+    "title": "DeepImageSearch: Benchmarking Multimodal Agents for Context-Aware Image Retrieval in Visual Histories",
+    "paper_url": "https://huggingface.co/papers/2602.10809",
+    "authors": [],
+    "stars": "27",
+    "details": {
+      "title": "DeepImageSearch: Benchmarking Multimodal Agents for Context-Aware Image Retrieval in Visual Histories",
+      "abstract": "Paper link: https://arxiv.org/abs/2602.10809 Github Repo: https://github.com/RUC-NLPIR/DeepImageSearch Leaderboard: https://huggingface.co/spaces/RUC-NLPIR/DISBench-Leaderboard",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10809",
+      "pdf_url": "https://arxiv.org/pdf/2602.10809",
+      "github_links": [
+        "https://github.com/RUC-NLPIR/DeepImageSearch"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10809",
+      "scraped_at": "2026-02-18T02:23:55.780265"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Experiential Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2602.13949",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Experiential Reinforcement Learning",
+      "abstract": "Experiential Reinforcement Learning is a new training paradigm that shifts language model learning from simple imitation or trial and error toward structured learning from experience. Instead of just copying examples like supervised finetuning or optimizing scalar rewards like traditional reinforcement learning, it explicitly turns feedback into behavioral revision and consolidation. This reframes learning as an iterative process where experience itself becomes the primary source of improvement, marking a conceptual shift in how models adapt and learn over time.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13949",
+      "pdf_url": "https://arxiv.org/pdf/2602.13949",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13949",
+      "scraped_at": "2026-02-18T02:23:57.699502"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "BitDance: Scaling Autoregressive Generative Models with Binary Tokens",
+    "paper_url": "https://huggingface.co/papers/2602.14041",
+    "authors": [
+      "Xuefeng Hu",
+      "Weijia Mao",
+      "Shaobin Zhuang",
+      "Jiaming Han",
+      "Yuang Ai"
+    ],
+    "stars": "153",
+    "details": {
+      "title": "BitDance: Scaling Autoregressive Generative Models with Binary Tokens",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Autoregressive Image Generation with Masked Bit Modeling (2026) NextFlow: Unified Sequential Modeling Activates Multimodal Understanding and Generation (2026) Soft Tail-dropping for Adaptive Visual Tokenization (2026) DPAR: Dynamic Patchification for Efficient Autoregressive Visual Generation (2025) Improving Flexible Image Tokenizers for Autoregressive Image Generation (2026) VideoAR: Autoregressive Video Generation via Next-Frame & Scale Prediction (2026) ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14041",
+      "pdf_url": "https://arxiv.org/pdf/2602.14041",
+      "github_links": [
+        "https://github.com/shallowdream204/BitDance"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14041",
+      "scraped_at": "2026-02-18T02:23:59.586524"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "REDSearcher: A Scalable and Cost-Efficient Framework for Long-Horizon Search Agents",
+    "paper_url": "https://huggingface.co/papers/2602.14234",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "REDSearcher: A Scalable and Cost-Efficient Framework for Long-Horizon Search Agents",
+      "abstract": "Large language models are transitioning from general purpose knowledge engines to real world problem solvers, yet optimizing them for deep search tasks remains challenging. The central bottleneck lies in the extreme sparsity of high quality search trajectories and reward signals, arising from the difficulty of scalable long horizon task construction and the high cost of interaction heavy rollouts involving external tool calls. To address these challenges, we propose REDSearcher, a unified framework that co-designs complex task synthesis, mid-training, and post-training for scalable search agent optimization. Specifically, REDSearcher introduces the following improvements: (1) We frame task synthesis as a dual-constrained optimization, where task difficulty is precisely governed by graph topology and evidence dispersion, allowing scalable generation of complex, high quality tasks. (2) We introduce tool augmented queries to encourage proactive tool use rather than passive recall.(3) During mid-training, we strengthen core atomic capabilities knowledge, planning, and function calling substantially reducing the cost of collecting high quality trajectories for downstream training. (4) We build a local simulated environment that enables rapid, low cost algorithmic iteration for reinforcement learning experiments. Across both text-only and multimodal search agent benchmarks, our approach achieves state-of-the-art performance. To facilitate future research on long horizon search agents, we will release 10K high quality complex text search trajectories, 5K multimodal trajectories and 1K text RL query set, and together with code and model checkpoints.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14234",
+      "pdf_url": "https://arxiv.org/pdf/2602.14234",
+      "github_links": [
+        "https://github.com/RedSearchAgent/REDSearcher"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14234",
+      "scraped_at": "2026-02-18T02:24:01.485191"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Query as Anchor: Scenario-Adaptive User Representation via Large Language Model",
+    "paper_url": "https://huggingface.co/papers/2602.14492",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Query as Anchor: Scenario-Adaptive User Representation via Large Language Model",
+      "abstract": "Query as Anchor: Scenario-Adaptive User Representation via Large Language Model Q-Anchor is a query-conditioned user representation framework that transforms static user embeddings into dynamic, scenario-adaptive representations using Large Language Models (LLMs). Instead of producing fixed task-agnostic embeddings, Q-Anchor introduces Query-as-Anchor , a mechanism that re-anchors the same user behavior profile under different downstream objectives via natural language queries. This enables a single model to serve multiple business scenarios without retraining. 🔑 Key Features Dynamic Query-Aware Embeddings Generates scenario-specific user representations conditioned on natural language queries. Hierarchical Multi-Modal Encoder Integrates heterogeneous behavioral logs (transactions, app usage, search, navigation, tabular features) into a coarse-to-fine structure aligned with LLM latent space. UserU Pretraining Dataset (100M+ samples) Combines: Future behavior prediction supervision Reflection-verified LLM-synthesized user QA pairs to inject temporal dynamics and semantic understanding. Joint Contrastive + Generative Training Aligns user embeddings with semantic targets while preserving token-level grounding. Lightweight Soft Prompt Tuning Enables efficient scenario specialization without modifying backbone weights. KV-Cache Optimized Inference User prefixes are encoded once and reused across multiple queries, enabling low-latency multi-scenario deployment. 📊 Performance Evaluated on 10 large-scale industrial benchmarks (Engagement, Risk, Marketing): SOTA AUC & KS across all domains +9.8% AUC improvement over strong general embedding baselines Consistent gains validated via large-scale online A/B testing Q-Anchor bridges the gap between sparse behavioral logs and LLM-level semantic understanding, enabling scalable, interpretable, and transferable user embeddings for industrial applications.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14492",
+      "pdf_url": "https://arxiv.org/pdf/2602.14492",
+      "github_links": [
+        "https://github.com/JhCircle/Q-Anchor"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14492",
+      "scraped_at": "2026-02-18T02:24:03.398869"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "STATe-of-Thoughts: Structured Action Templates for Tree-of-Thoughts",
+    "paper_url": "https://huggingface.co/papers/2602.14265",
+    "authors": [
+      "Brandon M. Stewart",
+      "Ofra Amir",
+      "Gilad Morad",
+      "Zachary Bamberger",
+      "TillRS"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "STATe-of-Thoughts: Structured Action Templates for Tree-of-Thoughts",
+      "abstract": "STATe introduces an interpretable Inference-Time-Compute (ITC) framework that replaces stochastic sampling with structured textual interventions to guide high-level reasoning choices. This approach significantly improves output diversity and quality while providing explicit, predictable action sequences that enhance the explainability of the model's decision-making process.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14265",
+      "pdf_url": "https://arxiv.org/pdf/2602.14265",
+      "github_links": [
+        "https://github.com/zbambergerNLP/state-of-thoughts"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14265",
+      "scraped_at": "2026-02-18T02:24:05.293657"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "InnoEval: On Research Idea Evaluation as a Knowledge-Grounded, Multi-Perspective Reasoning Problem",
+    "paper_url": "https://huggingface.co/papers/2602.14367",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "InnoEval: On Research Idea Evaluation as a Knowledge-Grounded, Multi-Perspective Reasoning Problem",
+      "abstract": "As LLMs generate research ideas at an unprecedented scale, we face a critical bottleneck: who evaluates these ideas? We frame idea evaluation as a knowledge-grounded, multi-perspective reasoning problem. InnoEval doesn't just predict accept/reject—it generates actionable evaluation reports with evidence-backed analysis and concrete revision suggestions, emulating the full scholarly review process.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14367",
+      "pdf_url": "https://arxiv.org/pdf/2602.14367",
+      "github_links": [
+        "https://github.com/zjunlp/InnoEval"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14367",
+      "scraped_at": "2026-02-18T02:24:07.226221"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Data Darwinism Part I: Unlocking the Value of Scientific Data for Pre-training",
+    "paper_url": "https://huggingface.co/papers/2602.07824",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "Data Darwinism Part I: Unlocking the Value of Scientific Data for Pre-training",
+      "abstract": "Data Darwinism The quality of training data fundamentally determines foundation model performance, yet the field lacks systematic frameworks for data processing. We introduce Data Darwinism , a ten-level hierarchical taxonomy (L0--L9) organizing data transformations from selection to generation, preservation to transformation, and human-centric to machine-driven processing. This framework conceptualizes data as co-evolving with models: advanced models enable sophisticated processing, which produces superior training data for next-generation systems. We validate this framework on scientific literature---a conceptually dense domain underutilized in open-source pre-training. We construct Darwin-Science , a 900B-token corpus implementing hierarchy levels L0--L5. Our key finding: raw scientific data suffers a severe learnability gap , providing negligible gains despite information density. We bridge this through L4 (Generative Refinement)---removing noise and repairing fragmentation---and L5 (Cognitive Completion)---expanding implicit reasoning, explicating terminology, and adding pedagogical bridges via frontier LLMs. We establish rigorous controlled experiments with Darwin-Science-Eval (150K expert-level questions) and daVinci-origin-3B/7B ---which we pre-train entirely from scratch on 5.37T tokens deliberately excluding scientific content, a substantial undertaking enabling contamination-free baselines and unambiguous attribution of gains to data processing rather than checkpoint artifacts. Through 600B continued pre-training tokens, Darwin-Science outperforms baselines by +2.12 (3B) and +2.95 (7B) points on 20+ benchmarks, amplifying to +5.60 and +8.40 points on domain-aligned evaluation. Hierarchy progression from L0 to L5 yields +1.36 total gain , with L5 contributing +0.98, confirming systematic ascension unlocks latent value. We release Darwin-Science and daVinci-origin-3B/7B models to enable principled, co-evolutionary data-model development.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.07824",
+      "pdf_url": "https://arxiv.org/pdf/2602.07824",
+      "github_links": [
+        "https://github.com/GAIR-NLP/Data-Darwinism"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.07824",
+      "scraped_at": "2026-02-18T02:24:09.141518"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Qute: Towards Quantum-Native Database",
+    "paper_url": "https://huggingface.co/papers/2602.14699",
+    "authors": [
+      "Surui Tang",
+      "Bangrui Xu",
+      "Wei Zhou",
+      "Xuanhe Zhou",
+      "Muzhi Chen"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "Qute: Towards Quantum-Native Database",
+      "abstract": "Please refer to our open-source prototype at: https://github.com/weAIDB/Qute .",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14699",
+      "pdf_url": "https://arxiv.org/pdf/2602.14699",
+      "github_links": [
+        "https://github.com/weAIDB/Qute"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14699",
+      "scraped_at": "2026-02-18T02:24:11.078540"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts",
+    "paper_url": "https://huggingface.co/papers/2602.13367",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts",
+      "abstract": "Via Victor Mustar's recommendation here. ** I am not affiliated with this paper! ** I am only submitting it to the Daily so that others can enjoy it! https://x.com/victormustar/status/2023423300278583727",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13367",
+      "pdf_url": "https://arxiv.org/pdf/2602.13367",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13367",
+      "scraped_at": "2026-02-18T02:24:12.981225"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "UniWeTok: An Unified Binary Tokenizer with Codebook Size 2^{128} for Unified Multimodal Large Language Model",
+    "paper_url": "https://huggingface.co/papers/2602.14178",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UniWeTok: An Unified Binary Tokenizer with Codebook Size 2^{128} for Unified Multimodal Large Language Model",
+      "abstract": "Github: https://github.com/shallowdream204/BitDance",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14178",
+      "pdf_url": "https://arxiv.org/pdf/2602.14178",
+      "github_links": [
+        "https://github.com/shallowdream204/BitDance"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14178",
+      "scraped_at": "2026-02-18T02:24:14.876491"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Learning to Configure Agentic AI Systems",
+    "paper_url": "https://huggingface.co/papers/2602.11574",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Learning to Configure Agentic AI Systems",
+      "abstract": "Building agentic systems is hard, but configuring them is even harder. We all know the struggle: Which LLM should handle the planning? Which tool does it need? How much context is too much? What is the most effective workflow? In our new paper, Learning to Configure Agentic AI Systems , we propose a framework (called ARC) that automates these decisions. Instead of manual trial-and-error, we use a Hierarchical Reinforcement Learning (HRL) algorithm to dynamically find the best configuration for a given input. #AgenticAI #LLMs #ReinforcementLearning",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11574",
+      "pdf_url": "https://arxiv.org/pdf/2602.11574",
+      "github_links": [
+        "https://github.com/somsagar07/Context_Optimization"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11574",
+      "scraped_at": "2026-02-18T02:24:16.734689"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings",
+    "paper_url": "https://huggingface.co/papers/2602.13823",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings",
+      "abstract": "Project Page: https://github.com/ZoengHN/Embed-RL",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13823",
+      "pdf_url": "https://arxiv.org/pdf/2602.13823",
+      "github_links": [
+        "https://github.com/ZoengHN/Embed-RL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13823",
+      "scraped_at": "2026-02-18T02:24:18.661329"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "BrowseComp-V^3: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents",
+    "paper_url": "https://huggingface.co/papers/2602.12876",
+    "authors": [
+      "Yanzhe Dan",
+      "Bowen Zhou",
+      "Bo Li",
+      "Jiepeng Zhou",
+      "Huanyao Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "BrowseComp-V^3: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents",
+      "abstract": "Introduces BrowseComp-V3, a 300-question multimodal web-browsing benchmark and OmniSeeker framework to evaluate deep, cross-modal reasoning and evidence-driven search in LLM-based agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12876",
+      "pdf_url": "https://arxiv.org/pdf/2602.12876",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12876",
+      "scraped_at": "2026-02-18T02:24:20.594703"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "WebWorld: A Large-Scale World Model for Web Agent Training",
+    "paper_url": "https://huggingface.co/papers/2602.14721",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "WebWorld: A Large-Scale World Model for Web Agent Training",
+      "abstract": "WebWorld presents a scalable large-scale web-world model trained on 1M+ open-web trajectories, enabling long-horizon simulation, cross-domain generalization, and effective inference-time search for web agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14721",
+      "pdf_url": "https://arxiv.org/pdf/2602.14721",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14721",
+      "scraped_at": "2026-02-18T02:24:22.447862"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Conversational Image Segmentation: Grounding Abstract Concepts with Scalable Supervision",
+    "paper_url": "https://huggingface.co/papers/2602.13195",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "Conversational Image Segmentation: Grounding Abstract Concepts with Scalable Supervision",
+      "abstract": "Conversational image segmentation grounds abstract, intent-driven concepts into pixel-accurate masks. Prior work on referring image grounding focuses on categorical and spatial queries (e.g., “left-most apple”) and overlooks functional and physical reasoning (e.g., “where can I safely store the knife?”). We address this gap and introduce Conversational Image Segmentation (CIS) and ConverSeg, a benchmark spanning entities, spatial relations, intent, affordances, functions, safety, and physical reasoning. We also present ConverSeg-Net, which fuses strong segmentation priors with language understanding, and an AI-powered data engine that generates prompt–mask pairs without human supervision. We show that ConverSeg-Net achieves significant gains on ConverSeg and maintains strong performance on existing benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13195",
+      "pdf_url": "https://arxiv.org/pdf/2602.13195",
+      "github_links": [
+        "https://github.com/AadSah/ConverSeg"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13195",
+      "scraped_at": "2026-02-18T02:24:24.373251"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "LaViDa-R1: Advancing Reasoning for Unified Multimodal Diffusion Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.14147",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LaViDa-R1: Advancing Reasoning for Unified Multimodal Diffusion Language Models",
+      "abstract": "Unified RL-SFT for multi-modal diffusion language models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14147",
+      "pdf_url": "https://arxiv.org/pdf/2602.14147",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14147",
+      "scraped_at": "2026-02-18T02:24:26.234725"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "FireRed-Image-Edit-1.0 Techinical Report",
+    "paper_url": "https://huggingface.co/papers/2602.13344",
+    "authors": [
+      "Cunzheng Wang",
+      "Chen Li",
+      "Chao Hui",
+      "Changhao Qiao",
+      "Super Intelligence Team"
+    ],
+    "stars": "390",
+    "details": {
+      "title": "FireRed-Image-Edit-1.0 Techinical Report",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API PosterOmni: Generalized Artistic Poster Creation via Task Distillation and Unified Reward Feedback (2026) Omni-Video 2: Scaling MLLM-Conditioned Diffusion for Unified Video Generation and Editing (2026) VIBE: Visual Instruction Based Editor (2026) FFP-300K: Scaling First-Frame Propagation for Generalizable Video Editing (2026) Agent Banana: High-Fidelity Image Editing with Agentic Thinking and Tooling (2026) VisionDirector: Vision-Language Guided Closed-Loop Refinement for Generative Image Synthesis (2025) SE360: Semantic Edit in 360° Panoramas via Hierarchical Data Construction (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13344",
+      "pdf_url": "https://arxiv.org/pdf/2602.13344",
+      "github_links": [
+        "https://github.com/FireRedTeam/FireRed-Image-Edit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13344",
+      "scraped_at": "2026-02-18T02:24:28.083858"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "MoRL: Reinforced Reasoning for Unified Motion Understanding and Generation",
+    "paper_url": "https://huggingface.co/papers/2602.14534",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "MoRL: Reinforced Reasoning for Unified Motion Understanding and Generation",
+      "abstract": "https://aigeeksgroup.github.io/MoRL/",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14534",
+      "pdf_url": "https://arxiv.org/pdf/2602.14534",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/MoRL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14534",
+      "scraped_at": "2026-02-18T02:24:29.888157"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "LM-Lexicon: Improving Definition Modeling via Harmonizing Semantic Experts",
+    "paper_url": "https://huggingface.co/papers/2602.14060",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "LM-Lexicon: Improving Definition Modeling via Harmonizing Semantic Experts",
+      "abstract": "We introduce LM-Lexicon, an innovative definition modeling approach that incorporates data clustering, semantic expert learning, and model merging using a sparse mixture-of-experts architecture. By decomposing the definition modeling task into specialized semantic domains, where small language models are trained as domain experts, LM-Lexicon achieves substantial improvements (+7% BLEU score compared with the prior state-of-the-art model) over existing methods on five widely used benchmarks. Empirically, we demonstrate that 1) the clustering strategy enables fine-grained expert specialization with nearly 10% improvement in definition quality; 2) the semantic-aware domain-level routing mechanism achieves higher expert efficacy (+1%) than conventional token-level routing; and 3) further performance gains can be obtained through test-time compute and semantic expert scaling. Our work advances definition modeling while providing insights into the development of efficient language models for semantic-intensive applications.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14060",
+      "pdf_url": "https://arxiv.org/pdf/2602.14060",
+      "github_links": [
+        "https://github.com/jacklanda/LMLexicon"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14060",
+      "scraped_at": "2026-02-18T02:24:31.800003"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "AIDev: Studying AI Coding Agents on GitHub",
+    "paper_url": "https://huggingface.co/papers/2602.09185",
+    "authors": [
+      "Ahmed E. Hassan",
+      "Haoxiang Zhang",
+      "hao-li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AIDev: Studying AI Coding Agents on GitHub",
+      "abstract": "AIDev is a dataset ( https://huggingface.co/datasets/hao-li/AIDev ) capturing agent-authored pull requests (Agentic-PRs) from real-world GitHub repositories: Scale: 932,791 Agentic-PRs Breadth: 116,211 repositories and 72,189 developers, across five AI agents (Claude Code, Cursor, Devin, GitHub Copilot, OpenAI Codex) Depth: 33,596 curated Agentic-PRs from 2,807 popular repositories (over 100 stars), enriched with comments, reviews, commits, and related issues",
+      "arxiv_page_url": "https://arxiv.org/abs/2507.15003",
+      "pdf_url": "https://arxiv.org/pdf/2602.09185",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.09185",
+      "scraped_at": "2026-02-18T02:24:33.742495"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "EditCtrl: Disentangled Local and Global Control for Real-Time Generative Video Editing",
+    "paper_url": "https://huggingface.co/papers/2602.15031",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "EditCtrl: Disentangled Local and Global Control for Real-Time Generative Video Editing",
+      "abstract": "Abstract: High-fidelity generative video editing has seen significant quality improvements by leveraging pre-trained video foundation models. However, their computational cost is a major bottleneck, as they are often designed to inefficiently process the full video context regardless of the inpainting mask's size, even for sparse, localized edits. In this work, we introduce EditCtrl, an efficient video inpainting control framework that focuses computation only where it is needed. Our approach features a novel local video context module that operates solely on masked tokens, yielding a computational cost proportional to the edit size. This local-first generation is then guided by a lightweight temporal global context embedder that ensures video-wide context consistency with minimal overhead. Not only is EditCtrl 10× more compute efficient than state-of-the-art generative editing methods, it even improves editing quality compared to methods designed with full-attention.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15031",
+      "pdf_url": "https://arxiv.org/pdf/2602.15031",
+      "github_links": [
+        "https://github.com/yehonathanlitman/EditCtrl"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15031",
+      "scraped_at": "2026-02-18T02:24:35.635241"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories",
+    "paper_url": "https://huggingface.co/papers/2602.14941",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14941",
+      "pdf_url": "https://arxiv.org/pdf/2602.14941",
+      "github_links": [
+        "https://github.com/wz0919/AnchorWeave"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14941",
+      "scraped_at": "2026-02-18T02:24:37.540588"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Exposing the Systematic Vulnerability of Open-Weight Models to Prefill Attacks",
+    "paper_url": "https://huggingface.co/papers/2602.14689",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Exposing the Systematic Vulnerability of Open-Weight Models to Prefill Attacks",
+      "abstract": "We conducted the largest empirical study of prefill attacks to date, testing 50 state-of-the-art open-weight models against 23 distinct attack strategies. Results show universal vulnerability with attack success rates approaching 100%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14689",
+      "pdf_url": "https://arxiv.org/pdf/2602.14689",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14689",
+      "scraped_at": "2026-02-18T02:24:39.413726"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Can I Have Your Order? Monte-Carlo Tree Search for Slot Filling Ordering in Diffusion Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.12586",
+    "authors": [
+      "Shay B. Cohen",
+      "Wenda Li",
+      "Mihaela Cătălina Stoian",
+      "Yu Zhao",
+      "Joshua Ong Jun Leang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Can I Have Your Order? Monte-Carlo Tree Search for Slot Filling Ordering in Diffusion Language Models",
+      "abstract": "We introduce McDiffuSE, a framework that formulates slot selection as decision making and optimises infilling orders through Monte Carlo Tree Search (MCTS). McDiffuSE uses look-ahead simulations to evaluate partial completions before commitment, systematically exploring the combinatorial space of generation orders.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12586",
+      "pdf_url": "https://arxiv.org/pdf/2602.12586",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12586",
+      "scraped_at": "2026-02-18T02:24:41.353240"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "CellMaster: Collaborative Cell Type Annotation in Single-Cell Analysis",
+    "paper_url": "https://huggingface.co/papers/2602.13346",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CellMaster: Collaborative Cell Type Annotation in Single-Cell Analysis",
+      "abstract": "CellMaster: Collaborative Cell Type Annotation in Single-Cell Analysis",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13346",
+      "pdf_url": "https://arxiv.org/pdf/2602.13346",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13346",
+      "scraped_at": "2026-02-18T02:24:43.196482"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "DHPLT: large-scale multilingual diachronic corpora and word representations for semantic change modelling",
+    "paper_url": "https://huggingface.co/papers/2602.11968",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DHPLT: large-scale multilingual diachronic corpora and word representations for semantic change modelling",
+      "abstract": "DHPLT is an open collection of diachronic corpora for semantic change modeling in 41 languages. The collection covers three time periods: 2011-2015, 2020-2021 and 2024-present (1 million documents per time period for each language). We additionally provide pre-computed word type and token embeddings and lexical substitutions for our chosen target words, while at the same time leaving it open for the other researchers to come up with their own target words using the same datasets.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11968",
+      "pdf_url": "https://arxiv.org/pdf/2602.11968",
+      "github_links": [
+        "https://github.com/ltgoslo/scdisc_hplt"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11968",
+      "scraped_at": "2026-02-18T02:24:45.045240"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Acoustivision Pro: An Open-Source Interactive Platform for Room Impulse Response Analysis and Acoustic Characterization",
+    "paper_url": "https://huggingface.co/papers/2602.12299",
+    "authors": [
+      "Mandip Goswami"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Acoustivision Pro: An Open-Source Interactive Platform for Room Impulse Response Analysis and Acoustic Characterization",
+      "abstract": "Room acoustics analysis plays a central role in architectural design, audio engineering, speech intelligibility assessment, and hearing research. Despite the availability of standardized metrics such as reverberation time, clarity, and speech transmission index, accessible tools that combine rigorous signal processing with intuitive visualization remain scarce. This paper presents AcoustiVision Pro, an open-source web-based platform for comprehensive room impulse response (RIR) analysis. The system computes twelve distinct acoustic parameters from uploaded or dataset-sourced RIRs, provides interactive 3D visualizations of early reflections, generates frequency-dependent decay characteristics through waterfall plots, and checks compliance against international standards including ANSI S12.60 and ISO 3382. We introduce the accompanying RIRMega and RIRMega Speech datasets hosted on Hugging Face, containing thousands of simulated room impulse responses with full metadata. The platform supports real-time auralization through FFT-based convolution, exports detailed PDF reports suitable for engineering documentation, and provides CSV data export for further analysis. We describe the mathematical foundations underlying each acoustic metric, detail the system architecture, and present preliminary case studies demonstrating the platform’s utility across diverse application domains including classroom acoustics, healthcare facility design, and recording studio evaluation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12299",
+      "pdf_url": "https://arxiv.org/pdf/2602.12299",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12299",
+      "scraped_at": "2026-02-18T02:24:46.898232"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Benchmarking Knowledge-Extraction Attack and Defense on Retrieval-Augmented Generation",
+    "paper_url": "https://huggingface.co/papers/2602.09319",
+    "authors": [
+      "Haoyu Han",
+      "Li Ma",
+      "Utkarsh Sahu",
+      "Zhisheng Qi",
+      "Franck-Dernoncourt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Benchmarking Knowledge-Extraction Attack and Defense on Retrieval-Augmented Generation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Subgraph Reconstruction Attacks on Graph RAG Deployments with Practical Defenses (2026) Connect the Dots: Knowledge Graph-Guided Crawler Attack on Retrieval-Augmented Generation Systems (2026) Confundo: Learning to Generate Robust Poison for Practical RAG Systems (2026) Query-Efficient Agentic Graph Extraction Attacks on GraphRAG Systems (2026) RAGPart & RAGMask: Retrieval-Stage Defenses Against Corpus Poisoning in Retrieval-Augmented Generation (2025) Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems (2026) MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.09319",
+      "pdf_url": "https://arxiv.org/pdf/2602.09319",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.09319",
+      "scraped_at": "2026-02-18T02:24:48.834891"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Blind to the Human Touch: Overlap Bias in LLM-Based Summary Evaluation",
+    "paper_url": "https://huggingface.co/papers/2602.07673",
+    "authors": [
+      "Nesreen K. Ahmed",
+      "Hanieh Deilamsalehy",
+      "Cheng-Tse Liu",
+      "Jiangnan Fang",
+      "Franck-Dernoncourt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Blind to the Human Touch: Overlap Bias in LLM-Based Summary Evaluation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Exploring the features used for summary evaluation by Human and GPT (2025) Assessing LLM Reliability on Temporally Recent Open-Domain Questions (2026) Meta-Judging with Large Language Models: Concepts, Methods, and Challenges (2026) Am I More Pointwise or Pairwise? Revealing Position Bias in Rubric-Based LLM-as-a-Judge (2026) Learning to Judge: LLMs Designing and Applying Evaluation Rubrics (2026) Left, Right, or Center? Evaluating LLM Framing in News Classification and Generation (2026) Are LLM Evaluators Really Narcissists? Sanity Checking Self-Preference Evaluations (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.07673",
+      "pdf_url": "https://arxiv.org/pdf/2602.07673",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.07673",
+      "scraped_at": "2026-02-18T02:24:50.660960"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "A Critical Look at Targeted Instruction Selection: Disentangling What Matters (and What Doesn't)",
+    "paper_url": "https://huggingface.co/papers/2602.14696",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "A Critical Look at Targeted Instruction Selection: Disentangling What Matters (and What Doesn't)",
+      "abstract": "Code: https://github.com/dcml-lab/targeted-instruction-selection Datasets: https://huggingface.co/collections/Harvard-DCML/targeted-instruction-selection",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14696",
+      "pdf_url": "https://arxiv.org/pdf/2602.14696",
+      "github_links": [
+        "https://github.com/dcml-lab/targeted-instruction-selection"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14696",
+      "scraped_at": "2026-02-18T02:24:52.531402"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Preliminary sonification of ENSO using traditional Javanese gamelan scales",
+    "paper_url": "https://huggingface.co/papers/2602.14560",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Preliminary sonification of ENSO using traditional Javanese gamelan scales",
+      "abstract": "This study presents a novel approach to climate data sonification by mapping the El Niño-Southern Oscillation (ENSO) Niño 3.4 index (1870–2024) onto traditional Javanese Gamelan scales, treating the auditory display itself as a complex dynamical system. By encoding the data into Pelog (unequal intervals) and Slendro (near-uniform intervals) tuning systems, the authors reveal that the musical framework fundamentally alters the geometric topology of the output: Pelog scales induce a strong anti-phase coupling between spectral brightness and energy, whereas Slendro scales allow these dimensions to vary independently. Using phase space trajectory analysis and recurrence quantification, this article demonstrates that these mappings preserve key dynamical signatures of the source data, such as its quasi-periodicity, with \"alternating\" composition modes exhibiting high recurrence rates analogous to periodic orbits. This work argues that cyclical, culturally grounded musical structures like Gamelan offer a rigorous, structure-preserving alternative to Western equal temperament for representing the non-linear dynamics of climate chaos.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14560",
+      "pdf_url": "https://arxiv.org/pdf/2602.14560",
+      "github_links": [
+        "https://github.com/sandyherho/suppl-enso-javanese-sonification"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14560",
+      "scraped_at": "2026-02-18T02:24:54.401664"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "SPILLage: Agentic Oversharing on the Web",
+    "paper_url": "https://huggingface.co/papers/2602.13516",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SPILLage: Agentic Oversharing on the Web",
+      "abstract": "Paper link: https://www.arxiv.org/abs/2602.13516 Github Repo: https://github.com/jrohsc/SPILLage",
+      "arxiv_page_url": "https://www.arxiv.org/abs/2602.13516",
+      "pdf_url": "https://arxiv.org/pdf/2602.13516",
+      "github_links": [
+        "https://github.com/jrohsc/SPILLage"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13516",
+      "scraped_at": "2026-02-18T02:24:56.346657"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Found-RL: foundation model-enhanced reinforcement learning for autonomous driving",
+    "paper_url": "https://huggingface.co/papers/2602.10458",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Found-RL: foundation model-enhanced reinforcement learning for autonomous driving",
+      "abstract": "We present Found-RL, a unified framework that integrates foundation models into reinforcement learning for autonomous driving. The method combines asynchronous batch inference of VLMs with action guidance and semantic reward shaping, enabling safer and more robust policy learning in closed-loop driving. This work is designed for practical use: strong driving behavior with real-time inference speed. Project: https://ys-qu.github.io/found-rl-website/ Code: https://github.com/ys-qu/found-rl",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10458",
+      "pdf_url": "https://arxiv.org/pdf/2602.10458",
+      "github_links": [
+        "https://github.com/ys-qu/found-rl"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10458",
+      "scraped_at": "2026-02-18T02:24:58.192737"
+    },
+    "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "VisPhyWorld: Probing Physical Reasoning via Code-Driven Video Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2602.13294",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VisPhyWorld: Probing Physical Reasoning via Code-Driven Video Reconstruction",
+      "abstract": "Evaluating whether Multimodal Large Language Models (MLLMs) genuinely reason about physical dynamics remains challenging. Most existing benchmarks rely on recognition-style protocols such as Visual Question Answering (VQA) and Violation of Expectation (VoE), which can often be answered without committing to an explicit, testable physical hypothesis. We propose VisPhyWorld , an execution-based framework that evaluates physical reasoning by requiring models to generate executable simulator code from visual observations. By producing runnable code, the inferred world representation is directly inspectable, editable, and falsifiable. This separates physical reasoning from rendering. Building on this framework, we introduce VisPhyBench , comprising 209 evaluation scenes derived from 108 physical templates and a systematic protocol that evaluates how well models reconstruct appearance and reproduce physically plausible motion. Our pipeline produces valid reconstructed videos in 97.7% on the benchmark. Experiments show that while state-of-the-art MLLMs achieve strong semantic scene understanding, they struggle to accurately infer physical parameters and to simulate consistent physical dynamics. https://github.com/TIGER-AI-Lab/VisPhyWorld",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13294",
+      "pdf_url": "https://arxiv.org/pdf/2602.13294",
+      "github_links": [
+        "https://github.com/TIGER-AI-Lab/VisPhyWorld"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13294",
+      "scraped_at": "2026-02-18T02:25:00.035481"
+    },
+    "scraped_date": "2026-02-18"
   }
 ]
