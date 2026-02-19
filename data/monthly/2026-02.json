@@ -16156,5 +16156,534 @@
       "scraped_at": "2026-02-18T02:25:00.035481"
     },
     "scraped_date": "2026-02-18"
+  },
+  {
+    "title": "Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?",
+    "paper_url": "https://huggingface.co/papers/2602.14111",
+    "authors": [
+      "tlenusik",
+      "Olegario228",
+      "therem",
+      "andreuka18",
+      "AntonKorznikov"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?",
+      "abstract": "TL;DR: SAEs might not actually be learning meaningful features - they're barely better than random baselines. We run two experiments: (1) On synthetic data with known ground-truth features, SAEs achieve 71% explained variance but recover only ~9% of true features. (2) On real LLM activations, three \"frozen\" baselines - where key SAE components (encoder or decoder) are randomly initialized and never trained - match fully-trained SAEs on all standard evaluation metrics: interpretability (0.87 vs 0.90), sparse probing (0.69 vs 0.72), and causal editing (0.73 vs 0.72). The core takeaway: current SAE evaluation metrics (reconstruction, interpretability scores, sparse probing, causal editing) are too weak to distinguish \"learning real features\" from \"exploiting random structure at scale.\" We propose these frozen baselines as simple sanity checks that future SAE work should beat.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14111",
+      "pdf_url": "https://arxiv.org/pdf/2602.14111",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14111",
+      "scraped_at": "2026-02-19T02:23:04.127556"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks",
+    "paper_url": "https://huggingface.co/papers/2602.12670",
+    "authors": [],
+    "stars": "413",
+    "details": {
+      "title": "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks",
+      "abstract": "GitHub: https://github.com/benchflow-ai/skillsbench Website: https://skillsbench.ai/",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12670",
+      "pdf_url": "https://arxiv.org/pdf/2602.12670",
+      "github_links": [
+        "https://github.com/benchflow-ai/skillsbench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12670",
+      "scraped_at": "2026-02-19T02:23:06.013365"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "GLM-5: from Vibe Coding to Agentic Engineering",
+    "paper_url": "https://huggingface.co/papers/2602.15763",
+    "authors": [
+      "wangcunxiang",
+      "yitianlian",
+      "Stanislas",
+      "zxdu20",
+      "think2try"
+    ],
+    "stars": "1.1k",
+    "details": {
+      "title": "GLM-5: from Vibe Coding to Agentic Engineering",
+      "abstract": "So excited to see new SOTA llm! Qwen3.5 is not alone!",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15763",
+      "pdf_url": "https://arxiv.org/pdf/2602.15763",
+      "github_links": [
+        "https://github.com/zai-org/GLM-5"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15763",
+      "scraped_at": "2026-02-19T02:23:07.891335"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "Does Socialization Emerge in AI Agent Society? A Case Study of Moltbook",
+    "paper_url": "https://huggingface.co/papers/2602.14299",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "Does Socialization Emerge in AI Agent Society? A Case Study of Moltbook",
+      "abstract": "Does Socialization Emerge in AI Agent Society? A Case Study of Moltbook",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14299",
+      "pdf_url": "https://arxiv.org/pdf/2602.14299",
+      "github_links": [
+        "https://github.com/MingLiiii/Moltbook_Socialization"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14299",
+      "scraped_at": "2026-02-19T02:23:09.861344"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "UniT: Unified Multimodal Chain-of-Thought Test-time Scaling",
+    "paper_url": "https://huggingface.co/papers/2602.12279",
+    "authors": [
+      "daixl1992",
+      "Ziqi",
+      "Jetp",
+      "haoyum1997",
+      "liangyuch"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "UniT: Unified Multimodal Chain-of-Thought Test-time Scaling",
+      "abstract": "UniT framework enables unified multimodal models to perform iterative reasoning and refinement through chain-of-thought test-time scaling, improving both generation and understanding capabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12279",
+      "pdf_url": "https://arxiv.org/pdf/2602.12279",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12279",
+      "scraped_at": "2026-02-19T02:23:11.719126"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "ResearchGym: Evaluating Language Model Agents on Real-World AI Research",
+    "paper_url": "https://huggingface.co/papers/2602.15112",
+    "authors": [
+      "Arman Cohan",
+      "Manasi Patwardhan",
+      "anikethh"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "ResearchGym: Evaluating Language Model Agents on Real-World AI Research",
+      "abstract": "A benchmark and execution environment for evaluating LLM agents on the full arc for closed-loop research, through ideation, implementation and autonomous improvement . We find that LLMs can rarely beat strong human baselines and struggle to reliably conduct end-to-end AI research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15112",
+      "pdf_url": "https://arxiv.org/pdf/2602.15112",
+      "github_links": [
+        "https://github.com/Anikethh/ResearchGym"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15112",
+      "scraped_at": "2026-02-19T02:23:13.596987"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "jina-embeddings-v5-text: Task-Targeted Embedding Distillation",
+    "paper_url": "https://huggingface.co/papers/2602.15547",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "jina-embeddings-v5-text: Task-Targeted Embedding Distillation",
+      "abstract": "our 5th gen of jina embeddings",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15547",
+      "pdf_url": "https://arxiv.org/pdf/2602.15547",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15547",
+      "scraped_at": "2026-02-19T02:23:15.440621"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "Revisiting the Platonic Representation Hypothesis: An Aristotelian View",
+    "paper_url": "https://huggingface.co/papers/2602.14486",
+    "authors": [
+      "Maria Brbić",
+      "Shuo Wen",
+      "FabianGroeger"
+    ],
+    "stars": "10",
+    "details": {
+      "title": "Revisiting the Platonic Representation Hypothesis: An Aristotelian View",
+      "abstract": "Are neural nets across modalities really converging to the same representation as they scale, as the Platonic Representation Hypothesis suggests? We show that  common representational similarity metrics are confounded by network width & depth. We propose a  permutation-based null calibration that fixes this. Result❓ • Global convergence largely disappears. • Local neighborhoods persist. We propose the alternative Aristotelian Representation Hypothesis: Neural networks, trained with different objectives on different data and modalities, are converging to shared local neighborhood relationships",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14486",
+      "pdf_url": "https://arxiv.org/pdf/2602.14486",
+      "github_links": [
+        "https://github.com/mlbio-epfl/aristotelian"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14486",
+      "scraped_at": "2026-02-19T02:23:17.306256"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "Understanding vs. Generation: Navigating Optimization Dilemma in Multimodal Models",
+    "paper_url": "https://huggingface.co/papers/2602.15772",
+    "authors": [
+      "Liwei Wang",
+      "Di He",
+      "Shuyang Gu",
+      "Mendel192",
+      "sen-ye"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Understanding vs. Generation: Navigating Optimization Dilemma in Multimodal Models",
+      "abstract": "Current research in multimodal models faces a key challenge where enhancing generative capabilities often comes at the expense of understanding, and vice versa. We analyzed this trade-off and identify the primary cause might be the potential conflict between generation and understanding, which creates a competitive dynamic within the model. To address this, we propose the Reason-Reflect-Refine (R3) framework. This innovative algorithm re-frames the single-step generation task into a multi-step process of \"generate-understand-regenerate\". By explicitly leveraging the model's understanding capability during generation, we successfully mitigate the optimization dilemma, achieved stronger generation results and improved understanding ability which are related to the generation process. This offers valuable insights for designing next-generation unified multimodal models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15772",
+      "pdf_url": "https://arxiv.org/pdf/2602.15772",
+      "github_links": [
+        "https://github.com/sen-ye/R3"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15772",
+      "scraped_at": "2026-02-19T02:23:19.143254"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "On Surprising Effectiveness of Masking Updates in Adaptive Optimizers",
+    "paper_url": "https://huggingface.co/papers/2602.15322",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "On Surprising Effectiveness of Masking Updates in Adaptive Optimizers",
+      "abstract": "Randomly masking parameter updates in adaptive optimizers yields curvature-regularization; Magma, momentum-aligned masking, is a drop-in that improves LLM perplexity (about 19% vs Adam, 9% vs Muon) with minimal overhead.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15322",
+      "pdf_url": "https://arxiv.org/pdf/2602.15322",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15322",
+      "scraped_at": "2026-02-19T02:23:20.980799"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "COMPOT: Calibration-Optimized Matrix Procrustes Orthogonalization for Transformers Compression",
+    "paper_url": "https://huggingface.co/papers/2602.15200",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "COMPOT: Calibration-Optimized Matrix Procrustes Orthogonalization for Transformers Compression",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15200",
+      "pdf_url": "https://arxiv.org/pdf/2602.15200",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15200",
+      "scraped_at": "2026-02-19T02:23:22.815623"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "Panini: Continual Learning in Token Space via Structured Memory",
+    "paper_url": "https://huggingface.co/papers/2602.15156",
+    "authors": [
+      "Vwani Roychowdhury",
+      "Chenda Duan",
+      "Mehmet Yigit Turali",
+      "Pavan Holur",
+      "Shreyas Rajesh"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Panini: Continual Learning in Token Space via Structured Memory",
+      "abstract": "Panini introduces a non-parametric continual learning framework where an LLM's knowledge grows not by updating weights, but by structuring each new document into a Generative Semantic Workspace (GSW) — an entity- and event-aware network of QA pairs that captures both explicit facts and latent knowledge. At read time, instead of retrieving raw document chunks like standard RAG, Panini traverses the continually-updated GSW to find reasoning-grounded inference chains relevant to a query. Across six QA benchmarks (including multi-hop tasks like MuSiQue, 2WikiMultiHop, and HotpotQA), Panini achieves 5-7% higher accuracy than competitive baselines while using 2-30x fewer context tokens, and reduces unsupported answers on unanswerable queries. These gains hold across both closed-source (GPT-4o) and fully open-source (Qwen3-8B/14B) pipelines, demonstrating that the framework is not dependent on any single model family. Our key insight: investing compute at write time to structure experiences into rich semantic memory pays off at read time with both efficiency and reliability gains. Our code is available at: https://github.com/roychowdhuryresearch/gsw-memory",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15156",
+      "pdf_url": "https://arxiv.org/pdf/2602.15156",
+      "github_links": [
+        "https://github.com/roychowdhuryresearch/gsw-memory"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15156",
+      "scraped_at": "2026-02-19T02:23:24.638468"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "TAROT: Test-driven and Capability-adaptive Curriculum Reinforcement Fine-tuning for Code Generation with Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.15449",
+    "authors": [
+      "Jiasi Shen",
+      "Sayak Paul",
+      "Fan Wang",
+      "Juyong Jiang",
+      "chansung"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "TAROT: Test-driven and Capability-adaptive Curriculum Reinforcement Fine-tuning for Code Generation with Large Language Models",
+      "abstract": "https://github.com/deep-diver/TAROT",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15449",
+      "pdf_url": "https://arxiv.org/pdf/2602.15449",
+      "github_links": [
+        "https://github.com/deep-diver/TAROT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15449",
+      "scraped_at": "2026-02-19T02:23:26.573243"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "STAPO: Stabilizing Reinforcement Learning for LLMs by Silencing Rare Spurious Tokens",
+    "paper_url": "https://huggingface.co/papers/2602.15620",
+    "authors": [
+      "Zeyu He",
+      "UestcJay",
+      "KehuaSheng",
+      "zzzzl-h",
+      "ShiqiLiu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "STAPO: Stabilizing Reinforcement Learning for LLMs by Silencing Rare Spurious Tokens",
+      "abstract": "STAPO stabilizes RL for LLMs by masking spurious token updates that dominate gradients, improving entropy stability and reasoning performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15620",
+      "pdf_url": "https://arxiv.org/pdf/2602.15620",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15620",
+      "scraped_at": "2026-02-19T02:23:28.381368"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "Visual Persuasion: What Influences Decisions of Vision-Language Models?",
+    "paper_url": "https://huggingface.co/papers/2602.15278",
+    "authors": [
+      "Pattie Maes",
+      "nikhilsingh",
+      "pranavmr",
+      "mcherep"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Visual Persuasion: What Influences Decisions of Vision-Language Models?",
+      "abstract": "Treats VLM visual choices as latent utility and reveals preferences via edited images to map visual factors shaping decisions, enabling interpretability, auditing, and governance of image-based AI agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15278",
+      "pdf_url": "https://arxiv.org/pdf/2602.15278",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15278",
+      "scraped_at": "2026-02-19T02:23:30.161240"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "The Vision Wormhole: Latent-Space Communication in Heterogeneous Multi-Agent Systems",
+    "paper_url": "https://huggingface.co/papers/2602.15382",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "The Vision Wormhole: Latent-Space Communication in Heterogeneous Multi-Agent Systems",
+      "abstract": "This is an ongoing project. We are actively working on improving the performance, and will include more experiments, baselines, and analyses in the near future. Also, the artifacts used in the preprint (trained codec checkpoints) will be released soon.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15382",
+      "pdf_url": "https://arxiv.org/pdf/2602.15382",
+      "github_links": [
+        "https://github.com/xz-liu/heterogeneous-latent-mas"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15382",
+      "scraped_at": "2026-02-19T02:23:32.001236"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "Prescriptive Scaling Reveals the Evolution of Language Model Capabilities",
+    "paper_url": "https://huggingface.co/papers/2602.15327",
+    "authors": [
+      "Sham Kakade",
+      "Jikai Jin",
+      "vsyrgk",
+      "hlzhang109"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Prescriptive Scaling Reveals the Evolution of Language Model Capabilities",
+      "abstract": "We introduce prescriptive scaling, a framework for predicting the attainable downstream performance of language models given a fixed pre-training compute budget. Rather than modeling average trends, we estimate high-quantile capability boundaries using monotone sigmoid quantile regression and show that post-training performance is largely predictable and stable over time for most tasks. We find that math reasoning is a notable exception, with a boundary that continues to advance across model generations. We also release the PROTEUS-2K dataset and propose an efficient sampling method that recovers near-full performance frontiers with a fraction of the evaluation cost.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15327",
+      "pdf_url": "https://arxiv.org/pdf/2602.15327",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15327",
+      "scraped_at": "2026-02-19T02:23:33.946922"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "A Trajectory-Based Safety Audit of Clawdbot (OpenClaw)",
+    "paper_url": "https://huggingface.co/papers/2602.14364",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "A Trajectory-Based Safety Audit of Clawdbot (OpenClaw)",
+      "abstract": "We present a trajectory-based safety audit of Clawdbot (OpenClaw), a self-hosted tool-using AI agent. We evaluate 34 test cases across 6 risk dimensions and find a non-uniform safety profile (58.9% overall pass rate): the agent handles well-scoped tasks reliably but struggles with ambiguity, open-ended goals, and adversarial prompts. Notably, it scores 0% on intent misunderstanding cases. We release our test suite and use AgentDoG-Qwen3-4B as an automated trajectory judge. 📊 Dataset: https://huggingface.co/datasets/tianyyuu/clawdbot_safety_testing 🤖 Trajectory Judge: https://huggingface.co/AI45Research/AgentDoG-Qwen3-4B",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14364",
+      "pdf_url": "https://arxiv.org/pdf/2602.14364",
+      "github_links": [
+        "https://github.com/tychenn/clawdbot_report"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14364",
+      "scraped_at": "2026-02-19T02:23:35.787303"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "HLE-Verified: A Systematic Verification and Structured Revision of Humanity's Last Exam",
+    "paper_url": "https://huggingface.co/papers/2602.13964",
+    "authors": [
+      "Xiaogang Li",
+      "Boyu Yang",
+      "Jinghang Wang",
+      "Zhihai Wang",
+      "skylenage"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "HLE-Verified: A Systematic Verification and Structured Revision of Humanity's Last Exam",
+      "abstract": "Humanity's Last Exam (HLE) has become a widely used benchmark for evaluating frontier large language models on challenging, multi-domain questions. However, community-led analyses have raised concerns that HLE contains a non-trivial number of noisy items, which can bias evaluation results and distort cross-model comparisons. To address this challenge, we introduce HLE-Verified, a verified and revised version of HLE with a transparent verification protocol and fine-grained error taxonomy. Our construction follows a two-stage validation-and-repair workflow resulting in a certified benchmark. In Stage I, each item undergoes binary validation of the problem and final answer through domain-expert review and model-based cross-checks, yielding 641 verified items. In Stage II, flawed but fixable items are revised under strict constraints preserving the original evaluation intent, through dual independent expert repairs, model-assisted auditing, and final adjudication, resulting in 1,170 revised-and-certified items. The remaining 689 items are released as a documented uncertain set with explicit uncertainty sources and expertise tags for future refinement. We evaluate seven state-of-the-art language models on HLE and HLE-Verified, observing an average absolute accuracy gain of 7--10 percentage points on HLE-Verified. The improvement is particularly pronounced on items where the original problem statement and/or reference answer is erroneous, with gains of 30--40 percentage points. Our analyses further reveal a strong association between model confidence and the presence of errors in the problem statement or reference answer, supporting the effectiveness of our revisions. Overall, HLE-Verified improves HLE-style evaluations by reducing annotation noise and enabling more faithful measurement of model capabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13964",
+      "pdf_url": "https://arxiv.org/pdf/2602.13964",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13964",
+      "scraped_at": "2026-02-19T02:23:37.596600"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "Learning Native Continuation for Action Chunking Flow Policies",
+    "paper_url": "https://huggingface.co/papers/2602.12978",
+    "authors": [
+      "leo-guo",
+      "piiswrong",
+      "Yingdong-Hu",
+      "psdem",
+      "lyfeng001"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Learning Native Continuation for Action Chunking Flow Policies",
+      "abstract": "Action chunking enables Vision Language Action (VLA) models to run in real time, but naive chunked execution often exhibits discontinuities at chunk boundaries. Real-Time Chunking (RTC) alleviates this issue but is external to the policy, leading to spurious multimodal switching and trajectories that are not intrinsically smooth. We propose Legato, a training-time continuation method for action-chunked flow-based VLA policies. Specifically, Legato initializes denoising from a schedule-shaped mixture of known actions and noise, exposing the model to partial action information. Moreover, Legato reshapes the learned flow dynamics to ensure that the denoising process remains consistent between training and inference under per-step guidance. Legato further uses randomized schedule condition during training to support varying inference delays and achieve controllable smoothness. Empirically, Legato produces smoother trajectories and reduces spurious multimodal switching during execution, leading to less hesitation and shorter task completion time. Extensive real-world experiments show that Legato consistently outperforms RTC across five manipulation tasks, achieving approximately 10% improvements in both trajectory smoothness and task completion time.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12978",
+      "pdf_url": "https://arxiv.org/pdf/2602.12978",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12978",
+      "scraped_at": "2026-02-19T02:23:39.428605"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+    "paper_url": "https://huggingface.co/papers/2602.11389",
+    "authors": [],
+    "stars": "28",
+    "details": {
+      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+      "abstract": "Code: https://github.com/galilai-group/cjepa",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11389",
+      "pdf_url": "https://arxiv.org/pdf/2602.11389",
+      "github_links": [
+        "https://github.com/galilai-group/cjepa"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11389",
+      "scraped_at": "2026-02-19T02:23:41.251423"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "ClinAlign: Scaling Healthcare Alignment from Clinician Preference",
+    "paper_url": "https://huggingface.co/papers/2602.09653",
+    "authors": [
+      "Lei Liu",
+      "Benyou",
+      "dannygjj",
+      "Xidong",
+      "ShiweiLyu"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "ClinAlign: Scaling Healthcare Alignment from Clinician Preference",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Automated Rubrics for Reliable Evaluation of Medical Dialogue Systems (2026) MLB: A Scenario-Driven Benchmark for Evaluating Large Language Models in Clinical Applications (2026) A Human-Centric Pipeline for Aligning Large Language Models with Chinese Medical Ethics (2026) Health-SCORE: Towards Scalable Rubrics for Improving Health-LLMs (2026) Patient-Similarity Cohort Reasoning in Clinical Text-to-SQL (2026) LiveMedBench: A Contamination-Free Medical Benchmark for LLMs with Automated Rubric Evaluation (2026) From Knowledge to Inference: Scaling Laws of Specialized Reasoning on GlobalHealthAtlas (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.09653",
+      "pdf_url": "https://arxiv.org/pdf/2602.09653",
+      "github_links": [
+        "https://github.com/AQ-MedAI/ClinAlign"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.09653",
+      "scraped_at": "2026-02-19T02:23:43.072188"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "Geometry-Aware Rotary Position Embedding for Consistent Video World Model",
+    "paper_url": "https://huggingface.co/papers/2602.07854",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Geometry-Aware Rotary Position Embedding for Consistent Video World Model",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.07854",
+      "pdf_url": "https://arxiv.org/pdf/2602.07854",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.07854",
+      "scraped_at": "2026-02-19T02:23:44.910940"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "Detecting Overflow in Compressed Token Representations for Retrieval-Augmented Generation",
+    "paper_url": "https://huggingface.co/papers/2602.12235",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Detecting Overflow in Compressed Token Representations for Retrieval-Augmented Generation",
+      "abstract": "We address  an important yet underexplored problem in soft compression for retrieval-augmented generation: detecting when compressed token representations lose task-relevant information. We introduce the concept of token overflow to describe the regime where compression erases content necessary for answering queries. This research  provides initial steps toward pre-LLM gating mechanisms that could mitigate compression-induced errors.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12235",
+      "pdf_url": "https://arxiv.org/pdf/2602.12235",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12235",
+      "scraped_at": "2026-02-19T02:23:46.728917"
+    },
+    "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "How Much Reasoning Do Retrieval-Augmented Models Add beyond LLMs? A Benchmarking Framework for Multi-Hop Inference over Hybrid Knowledge",
+    "paper_url": "https://huggingface.co/papers/2602.10210",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "How Much Reasoning Do Retrieval-Augmented Models Add beyond LLMs? A Benchmarking Framework for Multi-Hop Inference over Hybrid Knowledge",
+      "abstract": "Modern LLM systems increasingly rely on retrieval-augmented generation (RAG) and knowledge-graph-augmented reasoning (KG-RAG) to handle knowledge-intensive tasks. But how much reasoning do these systems truly add beyond the base LLM’s parametric knowledge? We introduce HybridRAG-Bench, a contamination-aware benchmarking framework for evaluating retrieval-intensive, multi-hop reasoning over hybrid knowledge (text + structured graphs). Rather than releasing a static dataset, we provide a reusable benchmark construction pipeline that generates challenging, reasoning-grounded QA pairs from time-scoped scientific corpora. 😆 Takeaways: 1️⃣ Benchmark contamination hides true reasoning gaps. Many widely used QA benchmarks overlap heavily with LLM pretraining data, making it difficult to distinguish retrieval-based reasoning from parametric recall. When evaluated on temporally controlled, contamination-aware data, LLM-only performance drops substantially. 2️⃣ Retrieval alone is not enough. Text-based RAG improves over LLM-only prompting, but struggles on structured multi-hop and relational questions. Naïve KG injection can even hurt performance due to noise. 3️⃣ Structured knowledge adds measurable reasoning benefits. Hybrid methods that combine graph traversal with textual retrieval consistently outperform text-only RAG—especially on difficult multi-hop and compositional reasoning tasks. 4️⃣ Fine-grained question types reveal failure modes. By breaking evaluation into single-hop, multi-hop, difficult multi-hop, counterfactual, and open-ended questions, HybridRAG-Bench surfaces distinct weaknesses in retrieval, evidence integration, and reasoning strategies that aggregate accuracy hides. 5️⃣ Reasoning gains are method-dependent—not just scale-dependent. The performance gap between different retrieval/reasoning strategies is often larger than the gap from scaling model size alone, suggesting that system design matters as much as model scale.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10210",
+      "pdf_url": "https://arxiv.org/pdf/2602.10210",
+      "github_links": [
+        "https://github.com/junhongmit/HybridRAG-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10210",
+      "scraped_at": "2026-02-19T02:23:48.555563"
+    },
+    "scraped_date": "2026-02-19"
   }
 ]
