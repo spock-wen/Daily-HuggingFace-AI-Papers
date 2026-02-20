@@ -16685,5 +16685,361 @@
       "scraped_at": "2026-02-19T02:23:48.555563"
     },
     "scraped_date": "2026-02-19"
+  },
+  {
+    "title": "SLA2: Sparse-Linear Attention with Learnable Routing and QAT",
+    "paper_url": "https://huggingface.co/papers/2602.12675",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SLA2: Sparse-Linear Attention with Learnable Routing and QAT",
+      "abstract": "Sparse-Linear Attention2 (SLA2) can achieve 97% attention sparsity and deliver an 18.6x attention speedup while preserving generation quality.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12675",
+      "pdf_url": "https://arxiv.org/pdf/2602.12675",
+      "github_links": [
+        "https://github.com/thu-ml/SLA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12675",
+      "scraped_at": "2026-02-20T02:11:07.384973"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "RynnBrain: Open Embodied Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2602.14979",
+    "authors": [],
+    "stars": "402",
+    "details": {
+      "title": "RynnBrain: Open Embodied Foundation Models",
+      "abstract": "🚀 We’re excited to release our paper and fully open-source RynnBrain — an embodied foundation model designed as a unified cognitive brain for real-world agents. Unlike conventional VLMs that reason purely in text or static images, RynnBrain is explicitly grounded in physical space and time, integrating egocentric perception, spatiotemporal memory, physically grounded reasoning, and physics-aware planning in a single model. 🧠 What’s fundamentally new? RynnBrain introduces a spatio-temporal foundation model for embodied intelligence, where reasoning is no longer detached from the physical world: • Agents can remember object locations across time, not just within a single frame • Reasoning is interleaved with spatial grounding (text ⇄ coordinates), reducing hallucination • Planning outputs are directly executable, with objects, areas, affordances, and trajectories grounded in space 📈 Scale & training We pretrain RynnBrain on ~20M high-quality embodied training pairs, spanning object cognition, spatial reasoning, grounding, trajectory prediction, and manipulation planning. To make this feasible, we introduce RynnScale, a load-balanced spatiotemporal training framework that improves training efficiency by ~2× under the same compute budget, while preserving stability across dense and MoE models. 🏆 Strong empirical results Across 20 embodied benchmarks + 8 general vision benchmarks, RynnBrain consistently outperforms existing embodied foundation models: • Large gains in spatial reasoning, egocentric cognition, and fine-grained localization • Competitive or superior performance to strong proprietary systems (e.g., Gemini Robotics ER-style models) under comparable settings Post-trained variants further validate its versatility: • RynnBrain-CoP: physically grounded chain-of-point reasoning • RynnBrain-Nav: SOTA results on VLN benchmarks (R2R, RxR) • RynnBrain-Plan: spatially explicit manipulation planning • RynnBrain-VLA: stronger downstream vision-language-action execution 📊 We also introduce RynnBrain-Bench Existing benchmarks fail to evaluate long-horizon spatiotemporal grounding. RynnBrain-Bench fills this gap with 21 fine-grained embodied capabilities, covering object cognition, spatial cognition, grounding, and pointing across full episodic memory. 📦 Fully open-source release • Model code & checkpoints (2B, 8B, MoE 30B-A3B) • Complete training & fine-tuning framework • RynnBrain-Bench benchmark suite • Recipes for navigation, planning, and action workflows 🔮 Why this matters Embodied intelligence needs more than language fluency — it needs memory, spatial grounding, and physical consistency. RynnBrain is a step toward physically grounded general intelligence, offering a reproducible, extensible foundation for agents that perceive, remember, reason, and act in the real world.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14979",
+      "pdf_url": "https://arxiv.org/pdf/2602.14979",
+      "github_links": [
+        "https://github.com/alibaba-damo-academy/RynnBrain"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14979",
+      "scraped_at": "2026-02-20T02:11:09.443124"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "Learning Humanoid End-Effector Control for Open-Vocabulary Visual Loco-Manipulation",
+    "paper_url": "https://huggingface.co/papers/2602.16705",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Learning Humanoid End-Effector Control for Open-Vocabulary Visual Loco-Manipulation",
+      "abstract": "\"HERO: Learning Humanoid End-Effector ContROl for Open-Vocabulary Visual Loco-Manipulation\" Project page: https://hero-humanoid.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16705",
+      "pdf_url": "https://arxiv.org/pdf/2602.16705",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16705",
+      "scraped_at": "2026-02-20T02:11:11.420849"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "CADEvolve: Creating Realistic CAD via Program Evolution",
+    "paper_url": "https://huggingface.co/papers/2602.16317",
+    "authors": [
+      "Valentin Khrulkov",
+      "Gregory Ivanov",
+      "Marina Barannikov",
+      "Maksim Elistratov",
+      "zhemchuzhnikov"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "CADEvolve: Creating Realistic CAD via Program Evolution",
+      "abstract": "Title: CADEvolve: Creating Realistic CAD via Program Evolution Paper: https://arxiv.org/abs/2602.16317 Code: https://github.com/zhemdi/CADEvolve Dataset: https://huggingface.co/datasets/kulibinai/cadevolve Models: https://huggingface.co/kulibinai/cadevolve-rl1 TL;DR: We generate realistic and complex  CAD dataset that spans all the operation  by evolving from simplest shapes, then expand to a large-scale corpus for various CAD tasks. We prove the advantages of the dataset by training an Image2CAD model on this dataset Gallery of the dataset: Highlights: Evolutionary pipeline. Dataset of  ~1.3M executable CAD programs SOTA Image2CAD model. Authors: Maksim Elistratov, Marina Barannikov, Gregory Ivanov, Valentin Khrulkov, Anton Konushin, Andrey Kuznetsov, Dmitrii Zhemchuzhnikov",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16317",
+      "pdf_url": "https://arxiv.org/pdf/2602.16317",
+      "github_links": [
+        "https://github.com/zhemdi/CADEvolve"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16317",
+      "scraped_at": "2026-02-20T02:11:13.418416"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "Empty Shelves or Lost Keys? Recall Is the Bottleneck for Parametric Factuality",
+    "paper_url": "https://huggingface.co/papers/2602.14080",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Empty Shelves or Lost Keys? Recall Is the Bottleneck for Parametric Factuality",
+      "abstract": "Why do frontier LLMs make factual errors? Is it because they never learned the fact… or because they can’t access knowledge they already encoded? This paper shows: The bottleneck is not encoding; it is recall.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14080",
+      "pdf_url": "https://arxiv.org/pdf/2602.14080",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14080",
+      "scraped_at": "2026-02-20T02:11:15.383531"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "MAEB: Massive Audio Embedding Benchmark",
+    "paper_url": "https://huggingface.co/papers/2602.16008",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MAEB: Massive Audio Embedding Benchmark",
+      "abstract": "We extended MTEB with Audio support!",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16008",
+      "pdf_url": "https://arxiv.org/pdf/2602.16008",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16008",
+      "scraped_at": "2026-02-20T02:11:17.334791"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "Towards a Science of AI Agent Reliability",
+    "paper_url": "https://huggingface.co/papers/2602.16666",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Towards a Science of AI Agent Reliability",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces (2026) A Benchmark for Evaluating Outcome-Driven Constraint Violations in Autonomous AI Agents (2025) The Necessity of a Unified Framework for LLM-Based Agent Evaluation (2026) ResearchGym: Evaluating Language Model Agents on Real-World AI Research (2026) The Rise of Agentic Testing: Multi-Agent Systems for Robust Software Quality Assurance (2026) Why Do AI Agents Systematically Fail at Cloud Root Cause Analysis? (2026) TruthTensor: Evaluating LLMs through Human Imitation on Prediction Market under Drift and Holistic Reasoning (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16666",
+      "pdf_url": "https://arxiv.org/pdf/2602.16666",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16666",
+      "scraped_at": "2026-02-20T02:11:19.284171"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "Multi-agent cooperation through in-context co-player inference",
+    "paper_url": "https://huggingface.co/papers/2602.16301",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Multi-agent cooperation through in-context co-player inference",
+      "abstract": "Demonstrates that in-context learning in sequence-model agents enables learning-aware co-player adaptation and emergent cooperative behavior without explicit timescale separation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16301",
+      "pdf_url": "https://arxiv.org/pdf/2602.16301",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16301",
+      "scraped_at": "2026-02-20T02:11:21.233686"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "World Action Models are Zero-shot Policies",
+    "paper_url": "https://huggingface.co/papers/2602.15922",
+    "authors": [],
+    "stars": "742",
+    "details": {
+      "title": "World Action Models are Zero-shot Policies",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Causal World Modeling for Robot Control (2026) BagelVLA: Enhancing Long-Horizon Manipulation via Interleaved Vision-Language-Action Generation (2026) Scaling World Model for Hierarchical Manipulation Policies (2026) MOTIF: Learning Action Motifs for Few-shot Cross-Embodiment Transfer (2026) WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL (2026) Say, Dream, and Act: Learning Video World Models for Instruction-Driven Robot Manipulation (2026) World-VLA-Loop: Closed-Loop Learning of Video World Model and VLA Policy (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15922",
+      "pdf_url": "https://arxiv.org/pdf/2602.15922",
+      "github_links": [
+        "https://github.com/dreamzero0/dreamzero"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15922",
+      "scraped_at": "2026-02-20T02:11:23.210347"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "Reinforced Fast Weights with Next-Sequence Prediction",
+    "paper_url": "https://huggingface.co/papers/2602.16704",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Reinforced Fast Weights with Next-Sequence Prediction",
+      "abstract": "https://github.com/princetonvisualai/ReFINE/",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16704",
+      "pdf_url": "https://arxiv.org/pdf/2602.16704",
+      "github_links": [
+        "https://github.com/princetonvisualai/ReFINE",
+        "https://github.com/princetonvisualai/ReFINE/"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16704",
+      "scraped_at": "2026-02-20T02:11:25.187229"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "SAM 3D Body: Robust Full-Body Human Mesh Recovery",
+    "paper_url": "https://huggingface.co/papers/2602.15989",
+    "authors": [
+      "Taosha Fan",
+      "Anushka Sagar",
+      "Don Pinkus",
+      "Devansh Kukreja",
+      "Xitong Yang"
+    ],
+    "stars": "2.63k",
+    "details": {
+      "title": "SAM 3D Body: Robust Full-Body Human Mesh Recovery",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API PEAR: Pixel-aligned Expressive humAn mesh Recovery (2026) DiffProxy: Multi-View Human Mesh Recovery via Diffusion-Generated Dense Proxies (2026) UniSH: Unifying Scene and Human Reconstruction in a Feed-Forward Pass (2026) Towards Geometry-Aware and Motion-Guided Video Human Mesh Recovery (2026) A Multi-View Pipeline and Benchmark Dataset for 3D Hand Pose Estimation in Surgery (2026) Hand3R: Online 4D Hand-Scene Reconstruction in the Wild (2026) Masked Modeling for Human Motion Recovery Under Occlusions (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15989",
+      "pdf_url": "https://arxiv.org/pdf/2602.15989",
+      "github_links": [
+        "https://github.com/facebookresearch/sam-3d-body"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15989",
+      "scraped_at": "2026-02-20T02:11:27.130564"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "Learning Situated Awareness in the Real World",
+    "paper_url": "https://huggingface.co/papers/2602.16682",
+    "authors": [
+      "Rajiv Dhawan",
+      "Yongyuan Liang",
+      "Joy Hsu",
+      "Ruilin Han",
+      "Chuhan Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Learning Situated Awareness in the Real World",
+      "abstract": "SAW-Bench introduces egocentric situated awareness in real-world video, challenging models with observer-centric reasoning and six tasks, revealing a substantial human-model gap.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16682",
+      "pdf_url": "https://arxiv.org/pdf/2602.16682",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16682",
+      "scraped_at": "2026-02-20T02:11:29.037090"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "MMA: Multimodal Memory Agent",
+    "paper_url": "https://huggingface.co/papers/2602.16493",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "MMA: Multimodal Memory Agent",
+      "abstract": "https://github.com/AIGeeksGroup/MMA",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16493",
+      "pdf_url": "https://arxiv.org/pdf/2602.16493",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/MMA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16493",
+      "scraped_at": "2026-02-20T02:11:31.016686"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "Learning Personalized Agents from Human Feedback",
+    "paper_url": "https://huggingface.co/papers/2602.16173",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Learning Personalized Agents from Human Feedback",
+      "abstract": "AI agents are powerful, but don’t stay aligned with you over time. When preferences shift, they don’t adapt. You correct them once…they repeat the mistake. 🤦 Introducing PAHF: continual personalization where agents learn from feedback to stay in sync.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16173",
+      "pdf_url": "https://arxiv.org/pdf/2602.16173",
+      "github_links": [
+        "https://github.com/facebookresearch/PAHF"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16173",
+      "scraped_at": "2026-02-20T02:11:33.074431"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "Optimizing Few-Step Generation with Adaptive Matching Distillation",
+    "paper_url": "https://huggingface.co/papers/2602.07345",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Optimizing Few-Step Generation with Adaptive Matching Distillation",
+      "abstract": "This paper proposes Adaptive Matching Distillation (AMD) , a unified optimization framework that significantly stabilizes and improves few-step diffusion distillation (e.g., SDXL, Wan2.1). 💡 Key Insight: The \"Forbidden Zone\" The authors identify a critical failure mode in DMD called the \"Forbidden Zone\"—regions where the real teacher provides unreliable guidance (hallucinated gradients) while the fake teacher exerts insufficient repulsive force, leading to training collapse. ✨ What's New in AMD? Instead of static distillation, AMD acts as a self-correcting system : Reward-Aware Diagnosis: Uses reward models as a proxy to detect samples trapped in Forbidden Zones. Dynamic Score Adaptation: Decomposes gradients into Distribution Matching and Conditional Alignment terms. It dynamically prioritizes repulsive forces to \"kick\" the student out of failure modes when samples are poor, and focuses on refinement when samples are good. Repulsive Landscape Sharpening: Forces the fake teacher to learn a steeper energy landscape around low-quality samples, amplifying the escape signal. 📈 Results Image Generation: AMD outperforms DMD2, PCM, and DMDR on SDXL (HPSv2 score improved from 30.64 → 31.25 ). Video Generation: Validated on Wan2.1 , achieving superior motion smoothness and visual fidelity compared to standard baselines.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.07345",
+      "pdf_url": "https://arxiv.org/pdf/2602.07345",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.07345",
+      "scraped_at": "2026-02-20T02:11:35.033678"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "Visual Memory Injection Attacks for Multi-Turn Conversations",
+    "paper_url": "https://huggingface.co/papers/2602.15927",
+    "authors": [
+      "Matthias Hein",
+      "chs20"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Visual Memory Injection Attacks for Multi-Turn Conversations",
+      "abstract": "We propose “visual memory injection” attacks: small image perturbations that make generative large vision-language models behave normally at first but later trigger targeted harmful responses, even after several conversation turns.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15927",
+      "pdf_url": "https://arxiv.org/pdf/2602.15927",
+      "github_links": [
+        "https://github.com/chs20/visual-memory-injection"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15927",
+      "scraped_at": "2026-02-20T02:11:36.980327"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "BiManiBench: A Hierarchical Benchmark for Evaluating Bimanual Coordination of Multimodal Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.08392",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "BiManiBench: A Hierarchical Benchmark for Evaluating Bimanual Coordination of Multimodal Large Language Models",
+      "abstract": "Come and see our efforts in investigating how MLLMs perform for bimanual manipulation!",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.08392",
+      "pdf_url": "https://arxiv.org/pdf/2602.08392",
+      "github_links": [
+        "https://github.com/bimanibench/BiManiBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.08392",
+      "scraped_at": "2026-02-20T02:11:38.945968"
+    },
+    "scraped_date": "2026-02-20"
+  },
+  {
+    "title": "OPBench: A Graph Benchmark to Combat the Opioid Crisis",
+    "paper_url": "https://huggingface.co/papers/2602.14602",
+    "authors": [
+      "Zehong Wang",
+      "Zheyuan Zhang",
+      "Yiyue Qian",
+      "Yiyang Li",
+      "Tianyi Ma"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OPBench: A Graph Benchmark to Combat the Opioid Crisis",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Policy4OOD: A Knowledge-Guided World Model for Policy Intervention Simulation against the Opioid Overdose Crisis (2026) ViHERMES: A Graph-Grounded Multihop Question Answering Benchmark and System for Vietnamese Healthcare Regulations (2026) Med-MMFL: A Multimodal Federated Learning Benchmark in Healthcare (2026) Learning Collective Medication Effects via Multi-level Abstraction for Medication Recommendation (2026) Graph Inference Towards ICD Coding (2025) MMCTOP: A Multimodal Textualization and Mixture-of-Experts Framework for Clinical Trial Outcome Prediction (2025) Causal Heterogeneous Graph Learning Method for Chronic Obstructive Pulmonary Disease Prediction (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14602",
+      "pdf_url": "https://arxiv.org/pdf/2602.14602",
+      "github_links": [
+        "https://github.com/Tianyi-Billy-Ma/OPBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14602",
+      "scraped_at": "2026-02-20T02:11:40.860581"
+    },
+    "scraped_date": "2026-02-20"
   }
 ]
