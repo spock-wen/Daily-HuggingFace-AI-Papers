@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-23-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-2411+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-2434+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">23</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">197</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">892</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2411+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">23</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">915</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2434+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** February 22, 2026
+**Last Updated:** February 23, 2026
 
 ---
 
@@ -138,7 +138,7 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.16855) • [📄 arXiv](https://arxiv.org/abs/2602.16855) • [📥 PDF](https://arxiv.org/pdf/2602.16855)
 
-**💻 Code:** [⭐ Code](https://github.com/X-PLUG/MobileAgent) • [⭐ Code](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3.5)
+**💻 Code:** [⭐ Code](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3.5) • [⭐ Code](https://github.com/X-PLUG/MobileAgent)
 
 > The paper introduces GUI-Owl-1.5, the latest native GUI agent model that features instruct/thinking variants in multiple sizes (2B/4B/8B/32B/235B) and supports a range of platforms (desktop, mobile, browser, and more) to enable cloud-edge collabor...
 
@@ -178,7 +178,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>6. Calibrate-Then-Act: Cost-Aware Exploration in LLM Agents</b> ⭐ 5</summary>
+<summary><b>6. Calibrate-Then-Act: Cost-Aware Exploration in LLM Agents</b> ⭐ 7</summary>
 
 <br/>
 
@@ -206,29 +206,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. DDiT: Dynamic Patch Scheduling for Efficient Diffusion Transformers</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.16968) • [📄 arXiv](https://arxiv.org/abs/2602.16968) • [📥 PDF](https://arxiv.org/pdf/2602.16968)
-
-> Dynamic tokenization adapts patch sizes across diffusion denoising steps to accelerate DiTs for image and video generation while preserving quality.
-
-</details>
-
-<details>
-<summary><b>9. TactAlign: Human-to-Robot Policy Transfer via Tactile Alignment</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.13579) • [📄 arXiv](https://arxiv.org/abs/2602.13579) • [📥 PDF](https://arxiv.org/pdf/2602.13579)
-
-> Human demonstrations collected by wearable devices (e.g., tactile gloves) provide fast and dexterous supervision for policy learning, and are guided by rich, natural tactile feedback. However, a key challenge is how to transfer human-collected tac...
-
-</details>
-
-<details>
-<summary><b>10. Computer-Using World Model</b> ⭐ 0</summary>
+<summary><b>8. Computer-Using World Model</b> ⭐ 0</summary>
 
 <br/>
 
@@ -241,20 +219,29 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>11. On the Mechanism and Dynamics of Modular Addition: Fourier Features, Lottery Ticket, and Grokking</b> ⭐ 4</summary>
+<summary><b>9. DDiT: Dynamic Patch Scheduling for Efficient Diffusion Transformers</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.16849) • [📄 arXiv](https://arxiv.org/abs/2602.16849) • [📥 PDF](https://arxiv.org/pdf/2602.16849)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.16968) • [📄 arXiv](https://arxiv.org/abs/2602.16968) • [📥 PDF](https://arxiv.org/pdf/2602.16968)
 
-**💻 Code:** [⭐ Code](https://github.com/Y-Agent/modular-addition-feature-learning)
-
-> A mechanistic interpretation and dynamical analysis of modular addition in two-layer networks, supported by empirical and theoretical evidence.
+> Dynamic tokenization adapts patch sizes across diffusion denoising steps to accelerate DiTs for image and video generation while preserving quality.
 
 </details>
 
 <details>
-<summary><b>12. 2Mamba2Furious: Linear in Complexity, Competitive in Accuracy</b> ⭐ 1</summary>
+<summary><b>10. TactAlign: Human-to-Robot Policy Transfer via Tactile Alignment</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.13579) • [📄 arXiv](https://arxiv.org/abs/2602.13579) • [📥 PDF](https://arxiv.org/pdf/2602.13579)
+
+> Human demonstrations collected by wearable devices (e.g., tactile gloves) provide fast and dexterous supervision for policy learning, and are guided by rich, natural tactile feedback. However, a key challenge is how to transfer human-collected tac...
+
+</details>
+
+<details>
+<summary><b>11. 2Mamba2Furious: Linear in Complexity, Competitive in Accuracy</b> ⭐ 1</summary>
 
 <br/>
 
@@ -267,7 +254,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>13. ArXiv-to-Model: A Practical Study of Scientific LM Training</b> ⭐ 2</summary>
+<summary><b>12. ArXiv-to-Model: A Practical Study of Scientific LM Training</b> ⭐ 2</summary>
 
 <br/>
 
@@ -280,7 +267,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. Discovering Multiagent Learning Algorithms with Large Language Models</b> ⭐ 0</summary>
+<summary><b>13. Discovering Multiagent Learning Algorithms with Large Language Models</b> ⭐ 0</summary>
 
 <br/>
 
@@ -291,7 +278,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment</b> ⭐ 14</summary>
+<summary><b>14. On the Mechanism and Dynamics of Modular Addition: Fourier Features, Lottery Ticket, and Grokking</b> ⭐ 4</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.16849) • [📄 arXiv](https://arxiv.org/abs/2602.16849) • [📥 PDF](https://arxiv.org/pdf/2602.16849)
+
+**💻 Code:** [⭐ Code](https://github.com/Y-Agent/modular-addition-feature-learning)
+
+> A mechanistic interpretation and dynamical analysis of modular addition in two-layer networks, supported by empirical and theoretical evidence.
+
+</details>
+
+<details>
+<summary><b>15. FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment</b> ⭐ 15</summary>
 
 <br/>
 
@@ -306,7 +306,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>16. NESSiE: The Necessary Safety Benchmark -- Identifying Errors that should not Exist</b> ⭐ 3</summary>
+<summary><b>16. World Models for Policy Refinement in StarCraft II</b> ⭐ 2</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.14857) • [📄 arXiv](https://arxiv.org/abs/2602.14857) • [📥 PDF](https://arxiv.org/pdf/2602.14857)
+
+**💻 Code:** [⭐ Code](https://github.com/yxzzhang/StarWM)
+
+> TLDR: This work proposes StarWM, the first world model for SC2 that predicts future observations under partial observability, and proposes StarWM-Agent, a world-model-augmented decision system that integrates StarWM into a Generate--Simulate--Refi...
+
+</details>
+
+<details>
+<summary><b>17. NESSiE: The Necessary Safety Benchmark -- Identifying Errors that should not Exist</b> ⭐ 3</summary>
 
 <br/>
 
@@ -321,33 +334,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>17. CrispEdit: Low-Curvature Projections for Scalable Non-Destructive LLM Editing</b> ⭐ 2</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.15823) • [📄 arXiv](https://arxiv.org/abs/2602.15823) • [📥 PDF](https://arxiv.org/pdf/2602.15823)
-
-**💻 Code:** [⭐ Code](https://github.com/zarifikram/CrispEdit)
-
-> CrispEdit enables continual LLM updates by projecting edits into low-curvature directions of capability loss, so you can apply thousands of knowledge edits without catastrophic forgetting. It achieves strong performance on targeted edits in autore...
-
-</details>
-
-<details>
-<summary><b>18. World Models for Policy Refinement in StarCraft II</b> ⭐ 2</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.14857) • [📄 arXiv](https://arxiv.org/abs/2602.14857) • [📥 PDF](https://arxiv.org/pdf/2602.14857)
-
-**💻 Code:** [⭐ Code](https://github.com/yxzzhang/StarWM)
-
-> TLDR: This work proposes StarWM, the first world model for SC2 that predicts future observations under partial observability, and proposes StarWM-Agent, a world-model-augmented decision system that integrates StarWM into a Generate--Simulate--Refi...
-
-</details>
-
-<details>
-<summary><b>19. Modeling Distinct Human Interaction in Web Agents</b> ⭐ 0</summary>
+<summary><b>18. Modeling Distinct Human Interaction in Web Agents</b> ⭐ 1</summary>
 
 <br/>
 
@@ -360,20 +347,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. References Improve LLM Alignment in Non-Verifiable Domains</b> ⭐ 1</summary>
+<summary><b>19. CrispEdit: Low-Curvature Projections for Scalable Non-Destructive LLM Editing</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.16802) • [📄 arXiv](https://arxiv.org/abs/2602.16802) • [📥 PDF](https://arxiv.org/pdf/2602.16802)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.15823) • [📄 arXiv](https://arxiv.org/abs/2602.15823) • [📥 PDF](https://arxiv.org/pdf/2602.15823)
 
-**💻 Code:** [⭐ Code](https://github.com/yale-nlp/RLRR)
+**💻 Code:** [⭐ Code](https://github.com/zarifikram/CrispEdit)
 
-> While Reinforcement Learning with Verifiable Rewards (RLVR) has shown strong effectiveness in reasoning tasks, it cannot be directly applied to non-verifiable domains lacking ground-truth verifiers, such as LLM alignment. In this work, we investig...
+> CrispEdit enables continual LLM updates by projecting edits into low-curvature directions of capability loss, so you can apply thousands of knowledge edits without catastrophic forgetting. It achieves strong performance on targeted edits in autore...
 
 </details>
 
 <details>
-<summary><b>21. Hardware Co-Design Scaling Laws via Roofline Modelling for On-Device LLMs</b> ⭐ 0</summary>
+<summary><b>20. Hardware Co-Design Scaling Laws via Roofline Modelling for On-Device LLMs</b> ⭐ 0</summary>
 
 <br/>
 
@@ -386,7 +373,31 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>22. StereoAdapter-2: Globally Structure-Consistent Underwater Stereo Depth Estimation</b> ⭐ 3</summary>
+<summary><b>21. NeST: Neuron Selective Tuning for LLM Safety</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.16835) • [📄 arXiv](https://arxiv.org/abs/2602.16835) • [📥 PDF](https://arxiv.org/pdf/2602.16835)
+
+> We introduce NeST, a lightweight and structure-aware safety alignment framework that selectively adapts clustered safety-relevant neurons to deliver stable, efficient, and model-agnostic refusal strengthening—achieving a 90.2% reduction in unsafe ...
+
+</details>
+
+<details>
+<summary><b>22. References Improve LLM Alignment in Non-Verifiable Domains</b> ⭐ 2</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.16802) • [📄 arXiv](https://arxiv.org/abs/2602.16802) • [📥 PDF](https://arxiv.org/pdf/2602.16802)
+
+**💻 Code:** [⭐ Code](https://github.com/yale-nlp/RLRR)
+
+> While Reinforcement Learning with Verifiable Rewards (RLVR) has shown strong effectiveness in reasoning tasks, it cannot be directly applied to non-verifiable domains lacking ground-truth verifiers, such as LLM alignment. In this work, we investig...
+
+</details>
+
+<details>
+<summary><b>23. StereoAdapter-2: Globally Structure-Consistent Underwater Stereo Depth Estimation</b> ⭐ 4</summary>
 
 <br/>
 
@@ -395,17 +406,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/AIGeeksGroup/StereoAdapter-2)
 
 > https://aigeeksgroup.github.io/StereoAdapter-2
-
-</details>
-
-<details>
-<summary><b>23. NeST: Neuron Selective Tuning for LLM Safety</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.16835) • [📄 arXiv](https://arxiv.org/abs/2602.16835) • [📥 PDF](https://arxiv.org/pdf/2602.16835)
-
-> We introduce NeST, a lightweight and structure-aware safety alignment framework that selectively adapts clustered safety-relevant neurons to deliver stable, efficient, and model-agnostic refusal strengthening—achieving a 90.2% reduction in unsafe ...
 
 </details>
 
@@ -418,36 +418,36 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 23 |
-| 📅 Today | [`2026-02-22.json`](data/daily/2026-02-22.json) | 23 |
-| 📆 This Week | [`2026-W07.json`](data/weekly/2026-W07.json) | 197 |
-| 🗓️ This Month | [`2026-02.json`](data/monthly/2026-02.json) | 892 |
+| 📅 Today | [`2026-02-23.json`](data/daily/2026-02-23.json) | 23 |
+| 📆 This Week | [`2026-W08.json`](data/weekly/2026-W08.json) | 23 |
+| 🗓️ This Month | [`2026-02.json`](data/monthly/2026-02.json) | 915 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-02-22 | 23 | [View JSON](data/daily/2026-02-22.json) |
+| 📌 2026-02-23 | 23 | [View JSON](data/daily/2026-02-23.json) |
+| 📄 2026-02-22 | 23 | [View JSON](data/daily/2026-02-22.json) |
 | 📄 2026-02-21 | 23 | [View JSON](data/daily/2026-02-21.json) |
 | 📄 2026-02-20 | 18 | [View JSON](data/daily/2026-02-20.json) |
 | 📄 2026-02-19 | 25 | [View JSON](data/daily/2026-02-19.json) |
 | 📄 2026-02-18 | 35 | [View JSON](data/daily/2026-02-18.json) |
 | 📄 2026-02-17 | 32 | [View JSON](data/daily/2026-02-17.json) |
-| 📄 2026-02-16 | 41 | [View JSON](data/daily/2026-02-16.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
+| 📅 2026-W08 | 23 | [View JSON](data/weekly/2026-W08.json) |
 | 📅 2026-W07 | 197 | [View JSON](data/weekly/2026-W07.json) |
 | 📅 2026-W06 | 293 | [View JSON](data/weekly/2026-W06.json) |
 | 📅 2026-W05 | 357 | [View JSON](data/weekly/2026-W05.json) |
-| 📅 2026-W04 | 214 | [View JSON](data/weekly/2026-W04.json) |
 
 ### 🗂️ Monthly Archives
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-02 | 892 | [View JSON](data/monthly/2026-02.json) |
+| 🗓️ 2026-02 | 915 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
 
