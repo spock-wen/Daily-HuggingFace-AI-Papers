@@ -18737,5 +18737,511 @@
       "scraped_at": "2026-02-24T02:13:53.399104"
     },
     "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "A Very Big Video Reasoning Suite",
+    "paper_url": "https://huggingface.co/papers/2602.20159",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "A Very Big Video Reasoning Suite",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API UReason: Benchmarking the Reasoning Paradox in Unified Multimodal Models (2026) RISE-Video: Can Video Generators Decode Implicit World Rules? (2026) TwiFF (Think With Future Frames): A Large-Scale Dataset for Dynamic Visual Reasoning (2026) Beyond the Last Frame: Process-aware Evaluation for Generative Video Reasoning (2025) Video-MSR: Benchmarking Multi-hop Spatial Reasoning Capabilities of MLLMs (2026) Thinking in Frames: How Visual Context and Test-Time Scaling Empower Video Reasoning (2026) Can LLMs See Without Pixels? Benchmarking Spatial Intelligence from Textual Descriptions (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20159",
+      "pdf_url": "https://arxiv.org/pdf/2602.20159",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20159",
+      "scraped_at": "2026-02-25T02:21:52.984234"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "VLANeXt: Recipes for Building Strong VLA Models",
+    "paper_url": "https://huggingface.co/papers/2602.18532",
+    "authors": [],
+    "stars": "43",
+    "details": {
+      "title": "VLANeXt: Recipes for Building Strong VLA Models",
+      "abstract": "Project Page: https://dravenalg.github.io/VLANeXt/ Github: https://github.com/DravenALG/VLANeXt Model: https://huggingface.co/DravenALG/VLANeXt Awesome-VLA: https://github.com/DravenALG/awesome-vla",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18532",
+      "pdf_url": "https://arxiv.org/pdf/2602.18532",
+      "github_links": [
+        "https://github.com/DravenALG/awesome-vla",
+        "https://github.com/DravenALG/VLANeXt"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18532",
+      "scraped_at": "2026-02-25T02:21:54.900759"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "SkillOrchestra: Learning to Route Agents via Skill Transfer",
+    "paper_url": "https://huggingface.co/papers/2602.19672",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SkillOrchestra: Learning to Route Agents via Skill Transfer",
+      "abstract": "Compound AI systems promise capabilities beyond those of individual models, yet their success depends critically on effective orchestration. Existing routing approaches face two limitations: (1) input-level routers make coarse query-level decisions that ignore evolving task requirements; (2) RL-trained orchestrators are expensive to adapt and often suffer from routing collapse, repeatedly invoking one strong but costly option in multi-turn scenarios. We introduce SkillOrchestra, a framework for skill-aware orchestration. Instead of directly learning a routing policy end-to-end, SkillOrchestra learns fine-grained skills from execution experience and models agent-specific competence and cost under those skills. At deployment, the orchestrator infers the skill demands of the current interaction and selects agents that best satisfy them under an explicit performance-cost trade-off. Extensive experiments across ten benchmarks demonstrate that SkillOrchestra outperforms SoTA RL-based orchestrators by up to 22.5% with 700x and 300x learning cost reduction compared to Router-R1 and ToolOrchestra, respectively. These results show that explicit skill modeling enables scalable, interpretable, and sample-efficient orchestration, offering a principled alternative to data-intensive RL-based approaches.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19672",
+      "pdf_url": "https://arxiv.org/pdf/2602.19672",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19672",
+      "scraped_at": "2026-02-25T02:21:56.772647"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation",
+    "paper_url": "https://huggingface.co/papers/2602.20093",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation",
+      "abstract": "Sequential recommendation increasingly employs latent multi-step reasoning to enhance test-time computation. Despite empirical gains, existing approaches largely drive intermediate reasoning states via target-dominant objectives without imposing explicit feasibility constraints. This results in latent drift, where reasoning trajectories deviate into implausible regions. We argue that effective recommendation reasoning should instead be viewed as navigation on a collaborative manifold rather than free-form latent refinement. To this end, we propose ManCAR (Manifold-Constrained Adaptive Reasoning), a principled framework that grounds reasoning within the topology of a global interaction graph. ManCAR constructs a local intent prior from the collaborative neighborhood of a user's recent actions, represented as a distribution over the item simplex. During training, the model progressively aligns its latent predictive distribution with this prior, forcing the reasoning trajectory to remain within the valid manifold. At test time, reasoning proceeds adaptively until the predictive distribution stabilizes, avoiding over-refinement. We provide a variational interpretation of ManCAR to theoretically validate its drift-prevention and adaptive test-time stopping mechanisms. Experiments on seven benchmarks demonstrate that ManCAR consistently outperforms state-of-the-art baselines, achieving up to a 46.88% relative improvement w.r.t. NDCG@10. Our code is available at https://github.com/FuCongResearchSquad/ManCAR",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20093",
+      "pdf_url": "https://arxiv.org/pdf/2602.20093",
+      "github_links": [
+        "https://github.com/FuCongResearchSquad/ManCAR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20093",
+      "scraped_at": "2026-02-25T02:21:58.658361"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics",
+    "paper_url": "https://huggingface.co/papers/2602.19313",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics",
+      "abstract": "While Vision-Language-Action (VLA) models have seen rapid progress in pretraining, their advancement in Reinforcement Learning (RL) remains hampered by low sample efficiency and sparse rewards in real-world settings. Developing generalizable process reward models is essential for providing the fine-grained feedback necessary to bridge this gap, yet existing temporal value functions often fail to generalize beyond their training domains. We introduce TOPReward, a novel, probabilistically grounded temporal value function that leverages the latent world knowledge of pretrained video Vision-Language Models (VLMs) to estimate robotic task progress. Unlike prior methods that prompt VLMs to directly output progress values, which are prone to numerical misrepresentation, TOPReward extracts task progress directly from the VLM's internal token logits. In zero-shot evaluations across 130+ distinct real-world tasks and multiple robot platforms (e.g., Franka, YAM, SO-100/101), TOPReward achieves 0.947 mean Value-Order Correlation (VOC) on Qwen3-VL, dramatically outperforming the state-of-the-art GVL baseline which achieves near-zero correlation on the same open-source model. We further demonstrate that TOPReward serves as a versatile tool for downstream applications, including success detection and reward-aligned behavior cloning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19313",
+      "pdf_url": "https://arxiv.org/pdf/2602.19313",
+      "github_links": [
+        "https://github.com/TOPReward/TOPReward"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19313",
+      "scraped_at": "2026-02-25T02:22:00.666632"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "Mobile-O: Unified Multimodal Understanding and Generation on Mobile Device",
+    "paper_url": "https://huggingface.co/papers/2602.20161",
+    "authors": [],
+    "stars": "35",
+    "details": {
+      "title": "Mobile-O: Unified Multimodal Understanding and Generation on Mobile Device",
+      "abstract": "TL;DR: Introducing Mobile-O What it is: A compact, unified multimodal model that brings both visual understanding and image generation directly to mobile devices. The Breakthrough: It eliminates cloud dependency for multimodal AI. Using a novel \"Mobile Conditioning Projector,\" it achieves high efficiency with minimal compute. Real-World Speed: It can generate a 512x512 image in about 3 seconds natively on an iPhone. The Benchmarks: Despite its small size, it outperforms existing unified models like Show-O and JanusFlow in both visual understanding and generation (scoring 74% on GenEval), while running 6x to 11x faster. iOS App : https://apps.apple.com/us/app/mobile-o/id6759238106 Main Results Architecture Training Recipe",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20161",
+      "pdf_url": "https://arxiv.org/pdf/2602.20161",
+      "github_links": [
+        "https://github.com/Amshaker/Mobile-O"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20161",
+      "scraped_at": "2026-02-25T02:22:02.698330"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "Agents of Chaos",
+    "paper_url": "https://huggingface.co/papers/2602.20021",
+    "authors": [
+      "Koyena Pal",
+      "Gabriele Sarti",
+      "Avery Yen",
+      "Chris Wendler",
+      "Natalie Shapira"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Agents of Chaos",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API A Survey of Agentic AI and Cybersecurity: Challenges, Opportunities and Use-case Prototypes (2026) Agent-Fence: Mapping Security Vulnerabilities Across Deep Research Agents (2026) From Assistant to Double Agent: Formalizing and Benchmarking Attacks on OpenClaw for Personalized Local AI Agent (2026) Autonomous Agents on Blockchains: Standards, Execution Models, and Trust Boundaries (2026) MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks (2026) Human Society-Inspired Approaches to Agentic AI Security: The 4C Framework (2026) When Bots Take the Bait: Exposing and Mitigating the Emerging Social Engineering Attack in Web Automation Agent (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20021",
+      "pdf_url": "https://arxiv.org/pdf/2602.20021",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20021",
+      "scraped_at": "2026-02-25T02:22:06.603898"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "Learning Cross-View Object Correspondence via Cycle-Consistent Mask Prediction",
+    "paper_url": "https://huggingface.co/papers/2602.18996",
+    "authors": [
+      "Hongyang Wei",
+      "Jingchen Ni",
+      "Keyu Lv",
+      "Leqi Zheng",
+      "ysner"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Learning Cross-View Object Correspondence via Cycle-Consistent Mask Prediction",
+      "abstract": "The paper has been accepted to CVPR 2026 with a high review score of 554. Our approach is intentionally simple and effective. We use a straightforward pipeline, and show that such a simple design can already achieve strong performance and generalization across benchmarks. We believe that presenting a simple and effective solution to a difficult problem is valuable and useful for the community.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18996",
+      "pdf_url": "https://arxiv.org/pdf/2602.18996",
+      "github_links": [
+        "https://github.com/shannany0606/CCMP"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18996",
+      "scraped_at": "2026-02-25T02:22:08.471116"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "SimToolReal: An Object-Centric Policy for Zero-Shot Dexterous Tool Manipulation",
+    "paper_url": "https://huggingface.co/papers/2602.16863",
+    "authors": [],
+    "stars": "16",
+    "details": {
+      "title": "SimToolReal: An Object-Centric Policy for Zero-Shot Dexterous Tool Manipulation",
+      "abstract": "🤖 Can a single robot policy manipulate diverse tools without ever seeing them before? Introducing SimToolReal 🔨: a generalist dexterous manipulation policy that transfers zero-shot sim→real to unseen tools + unseen tasks. All videos are 1× speed (60 Hz control). Sound on!",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16863",
+      "pdf_url": "https://arxiv.org/pdf/2602.16863",
+      "github_links": [
+        "https://github.com/tylerlum/simtoolreal"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16863",
+      "scraped_at": "2026-02-25T02:22:10.415066"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "DSDR: Dual-Scale Diversity Regularization for Exploration in LLM Reasoning",
+    "paper_url": "https://huggingface.co/papers/2602.19895",
+    "authors": [
+      "Donghao Zhou",
+      "Zhihao Dou",
+      "Yun Shen",
+      "Zhongwei Wan",
+      "Zixuan8642"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DSDR: Dual-Scale Diversity Regularization for Exploration in LLM Reasoning",
+      "abstract": "Reinforcement learning with verifiers (RLVR) is a central paradigm for improving large language model (LLM) reasoning, yet existing methods often suffer from limited exploration. Policies tend to collapse onto a few reasoning patterns and prematurely stop deep exploration, while conventional entropy regularization introduces only local stochasticity and fails to induce meaningful path-level diversity, leading to weak and unstable learning signals in group-based policy optimization. We propose DSDR, a Dual-Scale Diversity Regularization reinforcement learning framework that decomposes diversity in LLM reasoning into global and coupling components. Globally, DSDR promotes diversity among correct reasoning trajectories to explore distinct solution modes. Locally, it applies a length-invariant, token-level entropy regularization restricted to correct trajectories, preventing entropy collapse within each mode while preserving correctness. The two scales are coupled through a global-to-local allocation mechanism that emphasizes local regularization for more distinctive correct trajectories. We provide theoretical support showing that DSDR preserves optimal correctness under bounded regularization, sustains informative learning signals in group-based optimization, and yields a principled global-to-local coupling rule. Experiments on multiple reasoning benchmarks demonstrate consistent improvements in accuracy and pass@k, highlighting the importance of dual-scale diversity for deep exploration in RLVR.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19895",
+      "pdf_url": "https://arxiv.org/pdf/2602.19895",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19895",
+      "scraped_at": "2026-02-25T02:22:12.349338"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "RoboCurate: Harnessing Diversity with Action-Verified Neural Trajectory for Robot Learning",
+    "paper_url": "https://huggingface.co/papers/2602.18742",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RoboCurate: Harnessing Diversity with Action-Verified Neural Trajectory for Robot Learning",
+      "abstract": "🚀 RoboCurate — Harnessing Diversity with Action-Verified Neural Trajectory for Robot Learning 📄 Paper: https://arxiv.org/abs/2602.18742 ￼ 🔎 What we do: Propose RoboCurate, a synthetic robot data generation framework that improves neural trajectory quality through action-level verification and controlled diversity augmentation. Introduce simulator-replay consistency filtering, which replays IDM-predicted actions in a simulator and evaluates motion alignment between generated videos and simulator rollouts using an attentive probe built on a frozen video encoder. Expand observation diversity via a structured I2I (image-to-image) + V2V (video-to-video) pipeline, increasing scene and appearance variation while preserving action dynamics. Apply a Best-of-N sampling strategy, where the learned action-consistency score serves as a critic to select the most reliable synthetic trajectory during generation. Validate across large-scale simulation and real-world benchmarks (GR-1 Tabletop, DexMimicGen, and real ALLEX humanoid), achieving: •\t+70.1% relative improvement on GR-1 Tabletop (300 demos) •\t+16.1% on DexMimicGen (pre-training setup) •\t+179.9% on real-world ALLEX humanoid •\tStrong OOD gains (+162.3% on novel object tasks; emergent 0% → 25% on novel behaviors) 💡 Why it matters: RoboCurate establishes an action-verified neural trajectory paradigm for synthetic robot data. Rather than relying solely on video-level plausibility judgments from VLMs, RoboCurate directly evaluates whether predicted actions are physically consistent with observed motion through simulator grounding. By jointly increasing visual diversity and enforcing action-level correctness, RoboCurate significantly enhances robustness, generalization, and real-world transfer of Vision-Language-Action models — enabling more reliable policy learning from curated synthetic experience.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18742",
+      "pdf_url": "https://arxiv.org/pdf/2602.18742",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18742",
+      "scraped_at": "2026-02-25T02:22:14.412829"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "DODO: Discrete OCR Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2602.16872",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DODO: Discrete OCR Diffusion Models",
+      "abstract": "TL;DR – OCR is an almost deterministic task, which enables, in theory, parallel decoding. We realize this potential by training a Block Masked Diffusion Model. We achieve competitive results with SOTA autoregressive OCR VLMs, while decoding more than 10 tokens per step on average.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16872",
+      "pdf_url": "https://arxiv.org/pdf/2602.16872",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16872",
+      "scraped_at": "2026-02-25T02:22:16.304163"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "Anatomy of Agentic Memory: Taxonomy and Empirical Analysis of Evaluation and System Limitations",
+    "paper_url": "https://huggingface.co/papers/2602.19320",
+    "authors": [
+      "Ayushi Kishore",
+      "Jinxin Yang",
+      "Songtao Wei",
+      "Yi Li",
+      "Dongming Jiang"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Anatomy of Agentic Memory: Taxonomy and Empirical Analysis of Evaluation and System Limitations",
+      "abstract": "We present a comprehensive survey on agentic memory for LLMs, including a unified taxonomy and empirical analysis of current systems and evaluation limitations. We release the paper along with an open-source repository to support future research. Repo～ https://github.com/FredJiang0324/Anatomy-of-Agentic-Memory",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19320",
+      "pdf_url": "https://arxiv.org/pdf/2602.19320",
+      "github_links": [
+        "https://github.com/FredJiang0324/Anatomy-of-Agentic-Memory"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19320",
+      "scraped_at": "2026-02-25T02:22:18.171953"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model",
+    "paper_url": "https://huggingface.co/papers/2602.19128",
+    "authors": [
+      "Ion Stoica",
+      "Joseph E. Gonzalez",
+      "Ziming Mao",
+      "Shiyi Cao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API KernelBlaster: Continual Cross-Task CUDA Optimization via Memory-Augmented In-Context Reinforcement Learning (2026) Towards Automated Kernel Generation in the Era of LLMs (2026) FlashInfer-Bench: Building the Virtuous Cycle for AI-driven LLM Systems (2026) OptiML: An End-to-End Framework for Program Synthesis and CUDA Kernel Optimization (2026) AscendCraft: Automatic Ascend NPU Kernel Generation via DSL-Guided Transcompilation (2026) A Two-Stage GPU Kernel Tuner Combining Semantic Refactoring and Search-Based Optimization (2026) PackInfer: Compute- and I/O-Efficient Attention for Batched LLM Inference (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19128",
+      "pdf_url": "https://arxiv.org/pdf/2602.19128",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19128",
+      "scraped_at": "2026-02-25T02:22:20.011452"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2602.20160",
+    "authors": [
+      "Zhiqin Chen",
+      "Wang Yifan",
+      "Hao Tan",
+      "Yuheng02",
+      "chenwang"
+    ],
+    "stars": "62",
+    "details": {
+      "title": "tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction",
+      "abstract": "Project Page: https://cwchenwang.github.io/tttLRM/ . Code has been opensourced.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20160",
+      "pdf_url": "https://arxiv.org/pdf/2602.20160",
+      "github_links": [
+        "https://github.com/cwchenwang/tttLRM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20160",
+      "scraped_at": "2026-02-25T02:22:22.039739"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "Nacrith: Neural Lossless Compression via Ensemble Context Modeling and High-Precision CDF Coding",
+    "paper_url": "https://huggingface.co/papers/2602.19626",
+    "authors": [
+      "robtacconelli"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "Nacrith: Neural Lossless Compression via Ensemble Context Modeling and High-Precision CDF Coding",
+      "abstract": "Github repository https://github.com/robtacconelli/Nacrith-GPU Try on Huggingface https://huggingface.co/spaces/robtacconelli/Nacrith-GPU",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19626",
+      "pdf_url": "https://arxiv.org/pdf/2602.19626",
+      "github_links": [
+        "https://github.com/robtacconelli/Nacrith-GPU"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19626",
+      "scraped_at": "2026-02-25T02:22:23.934168"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "SimVLA: A Simple VLA Baseline for Robotic Manipulation",
+    "paper_url": "https://huggingface.co/papers/2602.18224",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "SimVLA: A Simple VLA Baseline for Robotic Manipulation",
+      "abstract": "A streamlined Vision-Language-Action (VLA) baseline for robotic manipulation, designed for transparency and reproducibility.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18224",
+      "pdf_url": "https://arxiv.org/pdf/2602.18224",
+      "github_links": [
+        "https://github.com/LUOyk1999/SimVLA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18224",
+      "scraped_at": "2026-02-25T02:22:25.814243"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "AAVGen: Precision Engineering of Adeno-associated Viral Capsids for Renal Selective Targeting",
+    "paper_url": "https://huggingface.co/papers/2602.18915",
+    "authors": [
+      "Yousof Gheisari",
+      "Mohammadreza Ghaffarzadeh-Esfahani"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "AAVGen: Precision Engineering of Adeno-associated Viral Capsids for Renal Selective Targeting",
+      "abstract": "AAVGen is a generative AI framework for designing adeno-associated virus (AAV) capsids with enhanced multi-trait profiles. By integrating a protein language model (ProtGPT2) with supervised fine-tuning and group sequence policy optimization (GSPO), the authors successfully generate diverse VP1 variants that simultaneously optimize for production fitness, kidney tropism, and thermostability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18915",
+      "pdf_url": "https://arxiv.org/pdf/2602.18915",
+      "github_links": [
+        "https://github.com/mohammad-gh009/AAVGen"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18915",
+      "scraped_at": "2026-02-25T02:22:27.699746"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "Decoding ML Decision: An Agentic Reasoning Framework for Large-Scale Ranking System",
+    "paper_url": "https://huggingface.co/papers/2602.18640",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Decoding ML Decision: An Agentic Reasoning Framework for Large-Scale Ranking System",
+      "abstract": "Modern large-scale ranking systems operate within a sophisticated landscape of competing objectives, operational constraints, and evolving product requirements. Progress in this domain is increasingly bottlenecked by the engineering context constraint: the arduous process of translating ambiguous product intent into reasonable, executable, verifiable hypotheses, rather than by modeling techniques alone. We present GEARS ( Generative Engine for Agentic Ranking Systems), a framework that reframes ranking optimization as an autonomous discovery process within a programmable experimentation environment. Rather than treating optimization as static model selection, GEARS leverages Specialized Agent Skills to encapsulate ranking expert knowledge into reusable reasoning capabilities, enabling operators to steer systems via high-level intent vibe personalization. Furthermore, to ensure production reliability, the framework incorporates validation hooks to enforce statistical robustness and filter out brittle policies that overfit short-term signals. Experimental validation across diverse product surfaces demonstrates that GEARS consistently identifies superior, near-Pareto-efficient policies by synergizing algorithmic signals with deep ranking context while maintaining rigorous deployment stability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18640",
+      "pdf_url": "https://arxiv.org/pdf/2602.18640",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18640",
+      "scraped_at": "2026-02-25T02:22:29.535642"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "Contact-Anchored Proprioceptive Odometry for Quadruped Robots",
+    "paper_url": "https://huggingface.co/papers/2602.17393",
+    "authors": [],
+    "stars": "132",
+    "details": {
+      "title": "Contact-Anchored Proprioceptive Odometry for Quadruped Robots",
+      "abstract": "Astrall exp(3D loop): traverse 200 m horizontally + 15 m vertical change; return-to-origin errors = 0.1638 m (XY), 0.219 m (Z) for point-foot, and 0.2264 m (XY), 0.199 m (Z) for wheel-legged. Astrall raw logs not released due to data restrictions. Release Unitree Go2 EDU ROS bags (3D loop): 120 m horizontal with 2.2138 m loop-closure error; stair up/down (8 m vertical) with <0.1 m vertical return error. Note: Go2 EDU is a lower-cost platform with noticeable IMU yaw drift, which dominates the accumulated horizontal error.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17393",
+      "pdf_url": "https://arxiv.org/pdf/2602.17393",
+      "github_links": [
+        "https://github.com/ShineMinxing/Ros2Go2Estimator"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17393",
+      "scraped_at": "2026-02-25T02:22:31.420982"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "AssetFormer: Modular 3D Assets Generation with Autoregressive Transformer",
+    "paper_url": "https://huggingface.co/papers/2602.12100",
+    "authors": [],
+    "stars": "26",
+    "details": {
+      "title": "AssetFormer: Modular 3D Assets Generation with Autoregressive Transformer",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API CG-MLLM: Captioning and Generating 3D content via Multi-modal Large Language Models (2026) HY3D-Bench: Generation of 3D Assets (2026) PnP-U3D: Plug-and-Play 3D Framework Bridging Autoregression and Diffusion for Unified Understanding and Generation (2026) HiFi-Mesh: High-Fidelity Efficient 3D Mesh Generation via Compact Autoregressive Dependence (2026) Imagine a City: CityGenAgent for Procedural 3D City Generation (2026) Skin Tokens: A Learned Compact Representation for Unified Autoregressive Rigging (2026) Knowledge-Embedded and Hypernetwork-Guided Few-Shot Substation Meter Defect Image Generation Method (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12100",
+      "pdf_url": "https://arxiv.org/pdf/2602.12100",
+      "github_links": [
+        "https://github.com/Advocate99/AssetFormer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12100",
+      "scraped_at": "2026-02-25T02:22:33.238337"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "SenTSR-Bench: Thinking with Injected Knowledge for Time-Series Reasoning",
+    "paper_url": "https://huggingface.co/papers/2602.19455",
+    "authors": [
+      "Haotian Lin",
+      "Shuai Zhang",
+      "Xiyuan Zhang",
+      "Boran Han",
+      "Zelin He"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SenTSR-Bench: Thinking with Injected Knowledge for Time-Series Reasoning",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Time Series Reasoning via Process-Verifiable Thinking Data Synthesis and Scheduling for Tailored LLM Reasoning (2026) AnomSeer: Reinforcing Multimodal LLMs to Reason for Time-Series Anomaly Detection (2026) STReasoner: Empowering LLMs for Spatio-Temporal Reasoning in Time Series via Spatial-Aware Reinforcement Learning (2026) TKG-Thinker: Towards Dynamic Reasoning over Temporal Knowledge Graphs via Agentic Reinforcement Learning (2026) P2S: Probabilistic Process Supervision for General-Domain Reasoning Question Answering (2026) KEPO: Knowledge-Enhanced Preference Optimization for Reinforcement Learning with Reasoning (2026) Structured Reasoning for Large Language Models (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19455",
+      "pdf_url": "https://arxiv.org/pdf/2602.19455",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19455",
+      "scraped_at": "2026-02-25T02:22:35.073064"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "Ani3DHuman: Photorealistic 3D Human Animation with Self-guided Stochastic Sampling",
+    "paper_url": "https://huggingface.co/papers/2602.19089",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Ani3DHuman: Photorealistic 3D Human Animation with Self-guided Stochastic Sampling",
+      "abstract": "Github: https://github.com/qiisun/ani3dhuman",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19089",
+      "pdf_url": "https://arxiv.org/pdf/2602.19089",
+      "github_links": [
+        "https://github.com/qiisun/ani3dhuman"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19089",
+      "scraped_at": "2026-02-25T02:22:36.949557"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "Large Causal Models for Temporal Causal Discovery",
+    "paper_url": "https://huggingface.co/papers/2602.18662",
+    "authors": [
+      "Dario Simionato",
+      "Bora Caglayan",
+      "MingXue Wang",
+      "Nikolaos Gkorgkolis",
+      "Nikolaos Kougioulis"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Large Causal Models for Temporal Causal Discovery",
+      "abstract": "This paper introduces Large Causal Models, foundation models for Causal Discovery (CD) on time-series data following a supervised learning scheme. It expands prior proof-of-concept approaches by combining hundends of thousands of synthetic and real training data to enable scalable performance (deeper models and higher input dimensions) with improved generalization and faster inference compared to classical CD approaches.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18662",
+      "pdf_url": "https://arxiv.org/pdf/2602.18662",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18662",
+      "scraped_at": "2026-02-25T02:22:38.776315"
+    },
+    "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "On the \"Induction Bias\" in Sequence Models",
+    "paper_url": "https://huggingface.co/papers/2602.18333",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "On the \"Induction Bias\" in Sequence Models",
+      "abstract": "Transformers are data‑hungry in sequential tasks because they lack the right inductive bias. It’s well known that for many sequential problems (from adding numbers to step‑by‑step agentic execution and multi‑hop reasoning), transformers fail to generalize to longer sequences than they were trained on. “Train short, test long” often fails. The usual workaround is to \"just train on whatever length you’ll need at test time\". 📉 But we show the consequence of this is data inefficiency: Transformers can learn tasks for a single fixed sequence length fairly efficiently, but learning across multiple lengths requires much more data. More importantly, transformers tend not to share  mechanisms across tasks of different lengths; instead, they often learn isolated, length‑specific solutions. 🧪 A simple way to test this: Consider modular addition (with and without CoT). Train a model to add 2, 3, …, L numbers at once and measure the data needed. Then train separate models for each length (2, 3, …, L) and sum their data requirements. 💡The intuition: If a model truly shares mechanisms across lengths, learning a distribution of lengths should require far fewer samples than learning each length separately. This comes from amortizing the learning cost: data for length n also helps the model learn length n+k. 📊 Results: Sharing Factor κ = (sum of samples to learn each length separately) ÷ (samples to learn all lengths jointly) κ > 1: mechanism sharing and amortized learning. κ ≈ 1: learning length-specific solutions in isolation. κ < 1: destructive interference; length-specific solutions compete for model capacity. Transformers showed low sharing factors, and even destructive interference with CoT. ✨ Implications: This suggests that end-to-end learning in applied agentic settings, like robotics or GUI control, could be even more challenging. If data requirements grow unfavorably with sequence length, that might also help explain the persistent issues we see at large context lengths (e.g., context rot). Standard attention mechanism appears inefficient for step-by-step tasks, and we may ultimately be better off with recurrent agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18333",
+      "pdf_url": "https://arxiv.org/pdf/2602.18333",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18333",
+      "scraped_at": "2026-02-25T02:22:40.658753"
+    },
+    "scraped_date": "2026-02-25"
   }
 ]
