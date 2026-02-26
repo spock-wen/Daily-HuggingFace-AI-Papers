@@ -19243,5 +19243,654 @@
       "scraped_at": "2026-02-25T02:22:40.658753"
     },
     "scraped_date": "2026-02-25"
+  },
+  {
+    "title": "On Data Engineering for Scaling LLM Terminal Capabilities",
+    "paper_url": "https://huggingface.co/papers/2602.21193",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "On Data Engineering for Scaling LLM Terminal Capabilities",
+      "abstract": "Despite rapid recent progress in the terminal capabilities of large language models, the training data strategies behind state-of-the-art terminal agents remain largely undisclosed. We address this gap through a systematic study of data engineering practices for terminal agents, making two key contributions: (1) Terminal-Task-Gen, a lightweight synthetic task generation pipeline that supports seed-based and skill-based task construction, and (2) a comprehensive analysis of data and training strategies, including filtering, curriculum learning, long context training, and scaling behavior. Our pipeline yields Terminal-Corpus, a large-scale open-source dataset for terminal tasks. Using this dataset, we train Nemotron-Terminal, a family of models initialized from Qwen3(8B, 14B, 32B) that achieve substantial gains on Terminal-Bench 2.0: Nemotron-Terminal-8B improves from 2.5% to 13.0% Nemotron-Terminal-14B improves from 4.0% to 20.2%, and Nemotron-Terminal-32B improves from 3.4% to 27.4%, matching the performance of significantly larger models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21193",
+      "pdf_url": "https://arxiv.org/pdf/2602.21193",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21193",
+      "scraped_at": "2026-02-26T02:10:18.895596"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "Query-focused and Memory-aware Reranker for Long Context Processing",
+    "paper_url": "https://huggingface.co/papers/2602.12192",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Query-focused and Memory-aware Reranker for Long Context Processing",
+      "abstract": "Our trained models can be downloaded from: https://huggingface.co/MindscapeRAG/QRRanker",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12192",
+      "pdf_url": "https://arxiv.org/pdf/2602.12192",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12192",
+      "scraped_at": "2026-02-26T02:10:20.934107"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "PyVision-RL: Forging Open Agentic Vision Models via RL",
+    "paper_url": "https://huggingface.co/papers/2602.20739",
+    "authors": [
+      "Wenshuo Peng",
+      "Ming Li",
+      "Shaoheng Lin",
+      "haoquan03",
+      "stzhao"
+    ],
+    "stars": "43",
+    "details": {
+      "title": "PyVision-RL: Forging Open Agentic Vision Models via RL",
+      "abstract": "We introduce PyVision-RL, a reinforcement learning framework for open-weight multimodal models that stabilizes training and sustains interaction. Our approach combines an over sampling–filtering–ranking rollout strategy with an accumulative tool reward to prevent collapse and encourage multi-turn tool use. Using a unified training pipeline, we develop PyVision-Image and PyVision-Video for image and video understanding.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20739",
+      "pdf_url": "https://arxiv.org/pdf/2602.20739",
+      "github_links": [
+        "https://github.com/agents-x-project/PyVision-RL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20739",
+      "scraped_at": "2026-02-26T02:10:22.931588"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "Test-Time Training with KV Binding Is Secretly Linear Attention",
+    "paper_url": "https://huggingface.co/papers/2602.21204",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Test-Time Training with KV Binding Is Secretly Linear Attention",
+      "abstract": "Test-time training (TTT) with KV binding as sequence modeling layer is commonly interpreted as a form of online meta-learning that memorizes a key-value mapping at test time. However, our analysis reveals multiple phenomena that contradict this memorization-based interpretation. Motivated by these findings, we revisit the formulation of TTT and show that a broad class of TTT architectures can be expressed as a form of learned linear attention operator. Beyond explaining previously puzzling model behaviors, this perspective yields multiple practical benefits: it enables principled architectural simplifications, admits fully parallel formulations that preserve performance while improving efficiency, and provides a systematic reduction of diverse TTT variants to a standard linear attention form. Overall, our results reframe TTT not as test-time memorization, but as learned linear attention with enhanced representational capacity.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21204",
+      "pdf_url": "https://arxiv.org/pdf/2602.21204",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21204",
+      "scraped_at": "2026-02-26T02:10:24.892487"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "From Perception to Action: An Interactive Benchmark for Vision Reasoning",
+    "paper_url": "https://huggingface.co/papers/2602.21015",
+    "authors": [
+      "Yihuai Lan",
+      "Maojia Song",
+      "henggg",
+      "Zhiqiang007",
+      "mozhu"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "From Perception to Action: An Interactive Benchmark for Vision Reasoning",
+      "abstract": "Introducing CHAIN, a new interactive benchmark that moves beyond static visual QA. It evaluates  Vision-Language Models (VLMs) on their ability to close the loop between perception, multi-step reasoning, and actionable execution in dynamic environments. Code： https://github.com/Social-AI-Studio/CHAIN Website： https://social-ai-studio.github.io/CHAIN/",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21015",
+      "pdf_url": "https://arxiv.org/pdf/2602.21015",
+      "github_links": [
+        "https://github.com/Social-AI-Studio/CHAIN"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21015",
+      "scraped_at": "2026-02-26T02:10:26.813494"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "Multi-Vector Index Compression in Any Modality",
+    "paper_url": "https://huggingface.co/papers/2602.21202",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Multi-Vector Index Compression in Any Modality",
+      "abstract": "Multimodal compression",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21202",
+      "pdf_url": "https://arxiv.org/pdf/2602.21202",
+      "github_links": [
+        "https://github.com/hanxiangqin/omni-col-press"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21202",
+      "scraped_at": "2026-02-26T02:10:28.689337"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "See and Fix the Flaws: Enabling VLMs and Diffusion Models to Comprehend Visual Artifacts via Agentic Data Synthesis",
+    "paper_url": "https://huggingface.co/papers/2602.20951",
+    "authors": [
+      "Jae-Gil Lee",
+      "Minkyu Kim",
+      "Minyoung Ahn",
+      "Jhyun17",
+      "Cabbalett"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "See and Fix the Flaws: Enabling VLMs and Diffusion Models to Comprehend Visual Artifacts via Agentic Data Synthesis",
+      "abstract": "Accepted to CVPR’26.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20951",
+      "pdf_url": "https://arxiv.org/pdf/2602.20951",
+      "github_links": [
+        "https://github.com/krafton-ai/ArtiAgent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20951",
+      "scraped_at": "2026-02-26T02:10:30.672391"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "DREAM: Deep Research Evaluation with Agentic Metrics",
+    "paper_url": "https://huggingface.co/papers/2602.18940",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DREAM: Deep Research Evaluation with Agentic Metrics",
+      "abstract": "Evaluating Deep Research Agents (DRAs) with static LLM judges often leads to the \"Mirage of Synthesis,\" where fluent writing and accurate-looking citations mask underlying factual errors and flawed logic. The authors attribute this to a capability mismatch: static evaluators lack the active retrieval tools and temporal awareness needed to independently verify the claims they assess. To solve this, the paper introduces DREAM (Deep Research Evaluation with Agentic Metrics), a framework that establishes \"capability parity\" by making the evaluation process itself agentic. DREAM operates in two phases: first, a tool-equipped agent creates a custom evaluation protocol combining static standards with query-specific adaptive metrics (like Key-Information Coverage and Reasoning Quality), and second, it routes these metrics to the appropriate LLM, workflow, or agent evaluators for execution. Controlled experiments demonstrate that by actively cross-referencing external evidence, DREAM is significantly more sensitive to temporal degradation and well-cited falsehoods than existing benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18940",
+      "pdf_url": "https://arxiv.org/pdf/2602.18940",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18940",
+      "scraped_at": "2026-02-26T02:10:32.576882"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line Interfaces",
+    "paper_url": "https://huggingface.co/papers/2602.14337",
+    "authors": [
+      "Chuanhao Li",
+      "Jiaxin Ai",
+      "Zelai Yang",
+      "Jianwen Sun",
+      "Yukang Feng"
+    ],
+    "stars": "22",
+    "details": {
+      "title": "LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line Interfaces",
+      "abstract": "Recent advances in AI-assisted programming have empowered agents to execute complex workflows via command-line interfaces, however, existing benchmarks are limited by short task horizons, data contamination from GitHub scraping, and a lack of fine-grained evaluation metrics, fail to rigorously evaluate the long-horizon planning and execution capabilities essential for realistic software engineering. To address these gaps, we introduce LongCLI-Bench, a comprehensive benchmark designed to evaluate agentic capabilities across long-horizon, realistic tasks. We curated 20 high-quality, long-horizon tasks from over 1,000 computer science assignments and real-world workflows, covering four engineering categories: from scratch, feature addition, bug fixing, and refactoring. We propose a dual-set testing protocol for LongCLI-Bench, which measures requirement fulfillment (fail-to-pass) and regression avoidance (pass-to-pass), and incorporates step-level scoring to pinpoint execution failures. Extensive experiments reveal that even state-of-the-art agents achieve pass rates below 20% in LongCLI-Bench. Step-level analysis further indicates that the majority of tasks stall at less than 30% completion, highlighting that critical failures often occur in the early stages. Although self-correction offers marginal gains, human-agent collaboration through plan injection and interactive guidance yields significantly higher improvements. These results highlight that future research must emphasize the development of synergistic human-agent workflows alongside advances in agents' planning and execution capabilities to overcome key challenges in long-horizon task performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14337",
+      "pdf_url": "https://arxiv.org/pdf/2602.14337",
+      "github_links": [
+        "https://github.com/finyorko/longcli-bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14337",
+      "scraped_at": "2026-02-26T02:10:34.548466"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models",
+    "paper_url": "https://huggingface.co/papers/2602.20309",
+    "authors": [
+      "Xin Wang",
+      "Haokun Lin",
+      "Zhongwei Wang",
+      "Yunta Hsieh",
+      "Jingxuan Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models",
+      "abstract": "Published in CVPR2026.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20309",
+      "pdf_url": "https://arxiv.org/pdf/2602.20309",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20309",
+      "scraped_at": "2026-02-26T02:10:36.403518"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "Conv-FinRe: A Conversational and Longitudinal Benchmark for Utility-Grounded Financial Recommendation",
+    "paper_url": "https://huggingface.co/papers/2602.16990",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Conv-FinRe: A Conversational and Longitudinal Benchmark for Utility-Grounded Financial Recommendation",
+      "abstract": "Most recommendation benchmarks evaluate how well a model imitates user behavior. In financial advisory, however, observed actions can be noisy or short-sighted under market volatility and may conflict with a user's long-term goals. Treating what users chose as the sole ground truth, therefore, conflates behavioral imitation with decision quality. We introduce Conv-FinRe, a conversational and longitudinal benchmark for stock recommendation that evaluates LLMs beyond behavior matching. Given an onboarding interview, step-wise market context, and advisory dialogues, models must generate rankings over a fixed investment horizon. Crucially, Conv-FinRe provides multi-view references that distinguish descriptive behavior from normative utility grounded in investor-specific risk preferences, enabling diagnosis of whether an LLM follows rational analysis, mimics user noise, or is driven by market momentum. We build the benchmark from real market data and human decision trajectories, instantiate controlled advisory conversations, and evaluate a suite of state-of-the-art LLMs. Results reveal a persistent tension between rational decision quality and behavioral alignment: models that perform well on utility-based ranking often fail to match user choices, whereas behaviorally aligned models can overfit short-term noise.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16990",
+      "pdf_url": "https://arxiv.org/pdf/2602.16990",
+      "github_links": [
+        "https://github.com/The-FinAI/Conv-FinRe"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16990",
+      "scraped_at": "2026-02-26T02:10:38.344451"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "PETS: A Principled Framework Towards Optimal Trajectory Allocation for Efficient Test-Time Self-Consistency",
+    "paper_url": "https://huggingface.co/papers/2602.16745",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "PETS: A Principled Framework Towards Optimal Trajectory Allocation for Efficient Test-Time Self-Consistency",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Agentic Test-Time Scaling for WebAgents (2026) HyPER: Bridging Exploration and Exploitation for Scalable LLM Reasoning with Hypothesis Path Expansion and Reduction (2026) Predicting and improving test-time scaling laws via reward tail-guided search (2026) GTS: Inference-Time Scaling of Latent Reasoning with a Learnable Gaussian Thought Sampler (2026) Adaptive Test-Time Compute Allocation via Learned Heuristics over Categorical Structure (2026) Optimal Bayesian Stopping for Efficient Inference of Consistent LLM Answers (2026) MarkovScale: Towards Optimal Sequential Scaling at Inference Time (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16745",
+      "pdf_url": "https://arxiv.org/pdf/2602.16745",
+      "github_links": [
+        "https://github.com/ZDCSlab/PETS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16745",
+      "scraped_at": "2026-02-26T02:10:40.307280"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "Learning from Trials and Errors: Reflective Test-Time Planning for Embodied LLMs",
+    "paper_url": "https://huggingface.co/papers/2602.21198",
+    "authors": [
+      "Jiajun Wu",
+      "Li Fei-Fei",
+      "Manling Li",
+      "Huang Huang",
+      "Yining Hong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Learning from Trials and Errors: Reflective Test-Time Planning for Embodied LLMs",
+      "abstract": "Embodied LLMs endow robots with high-level task reasoning, but they cannot reflect on what went wrong or why, turning deployment into a sequence of independent trials where mistakes repeat rather than accumulate into experience. Drawing upon human reflective practitioners, we introduce Reflective Test-Time Planning, which integrates two modes of reflection: reflection-in-action, where the agent uses test-time scaling to generate and score multiple candidate actions using internal reflections before execution; and reflection-on-action, which uses test-time training to update both its internal reflection model and its action policy based on external reflections after execution. We also include retrospective reflection, allowing the agent to re-evaluate earlier decisions and perform model updates with hindsight for proper long-horizon credit assignment. Experiments on our newly-designed Long-Horizon Household benchmark and MuJoCo Cupboard Fitting benchmark show significant gains over baseline models, with ablative studies validating the complementary roles of reflection-in-action and reflection-on-action. Qualitative analyses, including real-robot trials, highlight behavioral correction through reflection.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21198",
+      "pdf_url": "https://arxiv.org/pdf/2602.21198",
+      "github_links": [
+        "https://github.com/Reflective-Test-Time-Planning/Reflective-Test-Time-Planning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21198",
+      "scraped_at": "2026-02-26T02:10:42.231394"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "The Art of Efficient Reasoning: Data, Reward, and Optimization",
+    "paper_url": "https://huggingface.co/papers/2602.20945",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Art of Efficient Reasoning: Data, Reward, and Optimization",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Thickening-to-Thinning: Reward Shaping via Human-Inspired Learning Dynamics for LLM Reasoning (2026) Think Dense, Not Long: Dynamic Decoupled Conditional Advantage for Efficient Reasoning (2026) Correct, Concise and Complete: Multi-stage Training For Adaptive Reasoning (2026) Anti-Length Shift: Dynamic Outlier Truncation for Training Efficient Reasoning Models (2026) On-Policy Supervised Fine-Tuning for Efficient Reasoning (2026) ConMax: Confidence-Maximizing Compression for Efficient Chain-of-Thought Reasoning (2026) Training Large Reasoning Models Efficiently via Progressive Thought Encoding (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20945",
+      "pdf_url": "https://arxiv.org/pdf/2602.20945",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20945",
+      "scraped_at": "2026-02-26T02:10:44.189401"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "Communication-Inspired Tokenization for Structured Image Representations",
+    "paper_url": "https://huggingface.co/papers/2602.20731",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Communication-Inspired Tokenization for Structured Image Representations",
+      "abstract": "A new way to represent images as discrete sequences of tokens by sequentially integrating information from image crops, yielding semantically meaningful structured representations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20731",
+      "pdf_url": "https://arxiv.org/pdf/2602.20731",
+      "github_links": [
+        "https://github.com/araachie/comit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20731",
+      "scraped_at": "2026-02-26T02:10:46.065077"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "TAPE: Tool-Guided Adaptive Planning and Constrained Execution in Language Model Agents",
+    "paper_url": "https://huggingface.co/papers/2602.19633",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TAPE: Tool-Guided Adaptive Planning and Constrained Execution in Language Model Agents",
+      "abstract": "arxiv: https://arxiv.org/abs/2602.19633 code: https://github.com/UW-Madison-Lee-Lab/TAPE",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19633",
+      "pdf_url": "https://arxiv.org/pdf/2602.19633",
+      "github_links": [
+        "https://github.com/UW-Madison-Lee-Lab/TAPE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19633",
+      "scraped_at": "2026-02-26T02:10:48.021197"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "Untied Ulysses: Memory-Efficient Context Parallelism via Headwise Chunking",
+    "paper_url": "https://huggingface.co/papers/2602.21196",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Untied Ulysses: Memory-Efficient Context Parallelism via Headwise Chunking",
+      "abstract": "We present UPipe, a memory-efficient context parallelism technique that processes attention heads in chunks. Our approach reduces intermediate tensor memory usage in the attention layer by as much as 87.5% for 32B Transformers, while matching previous context parallelism techniques in terms of training speed. UPipe can support the context length of 5M tokens when training Llama3-8B on a single 8×H100 node, improving upon prior methods by over 25%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21196",
+      "pdf_url": "https://arxiv.org/pdf/2602.21196",
+      "github_links": [
+        "https://github.com/togethercomputer/Untied-Ulysses"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21196",
+      "scraped_at": "2026-02-26T02:10:49.861279"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "The Diffusion Duality, Chapter II: Ψ-Samplers and Efficient Curriculum",
+    "paper_url": "https://huggingface.co/papers/2602.21185",
+    "authors": [
+      "Caglar Gulcehre",
+      "Justin Deschenaux",
+      "s-sahoo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Diffusion Duality, Chapter II: Ψ-Samplers and Efficient Curriculum",
+      "abstract": "Introduces Predictor-Corrector samplers for discrete diffusion that beat ancestral sampling and enable efficient, improving sampling with more steps, plus a memory-efficient Gaussian-relaxation curriculum.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21185",
+      "pdf_url": "https://arxiv.org/pdf/2602.21185",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21185",
+      "scraped_at": "2026-02-26T02:10:51.785612"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "Implicit Intelligence -- Evaluating Agents on What Users Don't Say",
+    "paper_url": "https://huggingface.co/papers/2602.20424",
+    "authors": [
+      "Marc Wetter",
+      "Ved Sirdeshmukh"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Implicit Intelligence -- Evaluating Agents on What Users Don't Say",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API CAR-bench: Evaluating the Consistency and Limit-Awareness of LLM Agents under Real-World Uncertainty (2026) LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios (2026) AgentIF-OneDay: A Task-level Instruction-Following Benchmark for General AI Agents in Daily Scenarios (2026) FormalJudge: A Neuro-Symbolic Paradigm for Agentic Oversight (2026) AgencyBench: Benchmarking the Frontiers of Autonomous Agents in 1M-Token Real-World Contexts (2026) PrefIx: Understand and Adapt to User Preference in Human-Agent Interaction (2026) The Hierarchy of Agentic Capabilities: Evaluating Frontier Models on Realistic RL Environments (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20424",
+      "pdf_url": "https://arxiv.org/pdf/2602.20424",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20424",
+      "scraped_at": "2026-02-26T02:10:53.609605"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "Benchmark Test-Time Scaling of General LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2602.18998",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Benchmark Test-Time Scaling of General LLM Agents",
+      "abstract": "LLM agents are increasingly expected to function as general-purpose systems capable of resolving open-ended user requests. While existing benchmarks focus on domain-aware environments for developing specialized agents, evaluating general-purpose agents requires more realistic settings that challenge them to operate across multiple skills and tools within a unified environment. We introduce General AgentBench, a benchmark that provides such a unified framework for evaluating general LLM agents across search, coding, reasoning, and tool-use domains. Using General AgentBench, we systematically study test-time scaling behaviors under sequential scaling (iterative interaction) and parallel scaling (sampling multiple trajectories). Evaluation of ten leading LLM agents reveals a substantial performance degradation when moving from domain-specific evaluations to this general-agent setting. Moreover, we find that neither scaling methodology yields effective performance improvements in practice, due to two fundamental limitations: context ceiling in sequential scaling and verification gap in parallel scaling.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18998",
+      "pdf_url": "https://arxiv.org/pdf/2602.18998",
+      "github_links": [
+        "https://github.com/cxcscmu/General-AgentBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18998",
+      "scraped_at": "2026-02-26T02:10:55.558466"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "RankEvolve: Automating the Discovery of Retrieval Algorithms via LLM-Driven Evolution",
+    "paper_url": "https://huggingface.co/papers/2602.16932",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "RankEvolve: Automating the Discovery of Retrieval Algorithms via LLM-Driven Evolution",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16932",
+      "pdf_url": "https://arxiv.org/pdf/2602.16932",
+      "github_links": [
+        "https://github.com/fangchenli/ranking-evolved"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16932",
+      "scraped_at": "2026-02-26T02:10:57.395530"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "One-step Language Modeling via Continuous Denoising",
+    "paper_url": "https://huggingface.co/papers/2602.16813",
+    "authors": [
+      "Jerry Huang",
+      "Sheel Shah",
+      "Manan Agarwal",
+      "Jaehoon Yoo",
+      "Chanhyuk Lee"
+    ],
+    "stars": "43",
+    "details": {
+      "title": "One-step Language Modeling via Continuous Denoising",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API T3D: Few-Step Diffusion Language Models via Trajectory Self-Distillation with Direct Discriminative Optimization (2026) IDLM: Inverse-distilled Diffusion Language Models (2026) Latent Shadows: The Gaussian-Discrete Duality in Masked Diffusion (2026) Balancing Understanding and Generation in Discrete Diffusion Models (2026) Unifying Masked Diffusion Models with Various Generation Orders and Beyond (2026) CD4LM: Consistency Distillation and aDaptive Decoding for Diffusion Language Models (2026) Scaling Beyond Masked Diffusion Language Models (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16813",
+      "pdf_url": "https://arxiv.org/pdf/2602.16813",
+      "github_links": [
+        "https://github.com/david3684/flm"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16813",
+      "scraped_at": "2026-02-26T02:10:59.239108"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "Aletheia tackles FirstProof autonomously",
+    "paper_url": "https://huggingface.co/papers/2602.21201",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Aletheia tackles FirstProof autonomously",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Towards Autonomous Mathematics Research (2026) Semi-Autonomous Mathematics Discovery with Gemini: A Case Study on the Erd\\H{o}s Problems (2026) Overseeing Agents Without Constant Oversight: Challenges and Opportunities (2026) Judging What We Cannot Solve: A Consequence-Based Approach for Oracle-Free Evaluation of Research-Level Math (2026) Milestones over Outcome: Unlocking Geometric Reasoning with Sub-Goal Verifiable Reward (2026) RocqSmith: Can Automatic Optimization Forge Better Proof Agents? (2026) PRIME: A Process-Outcome Alignment Benchmark for Verifiable Reasoning in Mathematics and Engineering (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21201",
+      "pdf_url": "https://arxiv.org/pdf/2602.21201",
+      "github_links": [
+        "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21201",
+      "scraped_at": "2026-02-26T02:11:01.092866"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "SIMSPINE: A Biomechanics-Aware Simulation Framework for 3D Spine Motion Annotation and Benchmarking",
+    "paper_url": "https://huggingface.co/papers/2602.20792",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SIMSPINE: A Biomechanics-Aware Simulation Framework for 3D Spine Motion Annotation and Benchmarking",
+      "abstract": "This paper was accepted for publication at CVPR 2026! In the following image, you can see the improvement over previous SOTA in spine keypoint regression task:",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20792",
+      "pdf_url": "https://arxiv.org/pdf/2602.20792",
+      "github_links": [
+        "https://github.com/dfki-av/simspine"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20792",
+      "scraped_at": "2026-02-26T02:11:03.057080"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "OCR-Agent: Agentic OCR with Capability and Memory Reflection",
+    "paper_url": "https://huggingface.co/papers/2602.21053",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "OCR-Agent: Agentic OCR with Capability and Memory Reflection",
+      "abstract": "Code: https://github.com/AIGeeksGroup/OCR-Agent",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21053",
+      "pdf_url": "https://arxiv.org/pdf/2602.21053",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/OCR-Agent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21053",
+      "scraped_at": "2026-02-26T02:11:04.971231"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "OmniOCR: Generalist OCR for Ethnic Minority Languages",
+    "paper_url": "https://huggingface.co/papers/2602.21042",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "OmniOCR: Generalist OCR for Ethnic Minority Languages",
+      "abstract": "Code: https://github.com/AIGeeksGroup/OmniOCR",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21042",
+      "pdf_url": "https://arxiv.org/pdf/2602.21042",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/OmniOCR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21042",
+      "scraped_at": "2026-02-26T02:11:06.889907"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "Adaptive Text Anonymization: Learning Privacy-Utility Trade-offs via Prompt Optimization",
+    "paper_url": "https://huggingface.co/papers/2602.20743",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Adaptive Text Anonymization: Learning Privacy-Utility Trade-offs via Prompt Optimization",
+      "abstract": "We introduce adaptive text anonymization, a new approach that automatically tailors anonymization strategies to specific privacy and utility requirements instead of relying on fixed, manually designed methods. It uses prompt optimization to generate instructions for language models so they can balance protecting sensitive information with preserving useful content. Evaluated on a benchmark spanning diverse datasets and goals, this approach consistently achieves better privacy-utility trade-offs than existing baselines, works efficiently with open-source models, and uncovers novel anonymization strategies along the trade-off frontier.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20743",
+      "pdf_url": "https://arxiv.org/pdf/2602.20743",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20743",
+      "scraped_at": "2026-02-26T02:11:08.749824"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "Learning to Detect Language Model Training Data via Active Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2602.19020",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Learning to Detect Language Model Training Data via Active Reconstruction",
+      "abstract": "Many people are using RL to make models smarter. We used RL to pull training data out of the models themselves. Our results show that models know a lot more about their training data than most people think. We develop Active Data Reconstruction Attack (ADRA) — a data detection method that uses RL to induce models to reconstruct data seen during training. ADRA beats existing methods by an average of >10% across pre-training, post-training, and distillation Release of our work, with @uwnlp, @Cornell, and @Berkeley_ai, is now available. Arxiv: https://arxiv.org/pdf/2602.19020 Joint work with @jxmnop @shmatikov @sewon__min @HannaHajishirzi",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19020",
+      "pdf_url": "https://arxiv.org/pdf/2602.19020",
+      "github_links": [
+        "https://github.com/oseyosey/MIA-RL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19020",
+      "scraped_at": "2026-02-26T02:11:10.612161"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "LaS-Comp: Zero-shot 3D Completion with Latent-Spatial Consistency",
+    "paper_url": "https://huggingface.co/papers/2602.18735",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "LaS-Comp: Zero-shot 3D Completion with Latent-Spatial Consistency",
+      "abstract": "null",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18735",
+      "pdf_url": "https://arxiv.org/pdf/2602.18735",
+      "github_links": [
+        "https://github.com/DavidYan2001/LaS-Comp"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18735",
+      "scraped_at": "2026-02-26T02:11:12.490710"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "FlowPrefill: Decoupling Preemption from Prefill Scheduling Granularity to Mitigate Head-of-Line Blocking in LLM Serving",
+    "paper_url": "https://huggingface.co/papers/2602.16603",
+    "authors": [
+      "Jidong Zhai",
+      "Jianjiang Li",
+      "Xinyang Chen",
+      "Zan Zong",
+      "hsiehchiachi"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "FlowPrefill: Decoupling Preemption from Prefill Scheduling Granularity to Mitigate Head-of-Line Blocking in LLM Serving",
+      "abstract": "Say goodbye to LLM prefill delays! 🚀 Excited to share our new paper FlowPrefill. We tackle head-of-line blocking in LLM serving with operator-level preemption & event-driven scheduling, boosting goodput by up to 5.6×. Paper: https://arxiv.org/abs/2602.16603 Code: https://github.com/HSIEHCHIACHI/FlowPrefill",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16603",
+      "pdf_url": "https://arxiv.org/pdf/2602.16603",
+      "github_links": [
+        "https://github.com/HSIEHCHIACHI/FlowPrefill"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16603",
+      "scraped_at": "2026-02-26T02:11:14.359371"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "TextPecker: Rewarding Structural Anomaly Quantification for Enhancing Visual Text Rendering",
+    "paper_url": "https://huggingface.co/papers/2602.20903",
+    "authors": [
+      "Hao Feng",
+      "An-Lan Wang",
+      "Xuecheng Wu",
+      "Yuliang Liu",
+      "CIawevy"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "TextPecker: Rewarding Structural Anomaly Quantification for Enhancing Visual Text Rendering",
+      "abstract": "[CVPR2026] TextPecker: Rewarding Structural Anomaly Quantification for Enhancing Visual Text Rendering",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20903",
+      "pdf_url": "https://arxiv.org/pdf/2602.20903",
+      "github_links": [
+        "https://github.com/CIawevy/TextPecker"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20903",
+      "scraped_at": "2026-02-26T02:11:16.326915"
+    },
+    "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "Generative AI and Machine Learning Collaboration for Container Dwell Time Prediction via Data Standardization",
+    "paper_url": "https://huggingface.co/papers/2602.20540",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Generative AI and Machine Learning Collaboration for Container Dwell Time Prediction via Data Standardization",
+      "abstract": "The proposed framework employs Gen AI to standardize unstructured information into standard international codes, with dynamic re-prediction triggered by electronic data interchange state updates, enabling the machine learning model to predict ICDT accurately. Extensive experiments conducted on real container terminal data demonstrate that the proposed methodology achieves a 13.88% improvement in mean absolute error compared to conventional models that do not utilize standardized information. Furthermore, applying the improved predictions to container stacking strategies achieves up to 14.68% reduction in the number of relocations, thereby empirically validating the potential of Gen AI to enhance productivity in container terminal operations. Overall, this study provides both technical and methodological insights into the adoption of Gen AI in port logistics and its effectiveness.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20540",
+      "pdf_url": "https://arxiv.org/pdf/2602.20540",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20540",
+      "scraped_at": "2026-02-26T02:11:18.240877"
+    },
+    "scraped_date": "2026-02-26"
   }
 ]
