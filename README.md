@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-28-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-2567+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-2595+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">28</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">156</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">1048</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2567+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">184</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">28</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2595+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** February 28, 2026
+**Last Updated:** March 01, 2026
 
 ---
 
@@ -119,7 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. The Trinity of Consistency as a Defining Principle for General World Models</b> ⭐ 15</summary>
+<summary><b>1. The Trinity of Consistency as a Defining Principle for General World Models</b> ⭐ 20</summary>
 
 <br/>
 
@@ -132,7 +132,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>2. From Blind Spots to Gains: Diagnostic-Driven Iterative Training for Large Multimodal Models</b> ⭐ 27</summary>
+<summary><b>2. From Blind Spots to Gains: Diagnostic-Driven Iterative Training for Large Multimodal Models</b> ⭐ 39</summary>
 
 <br/>
 
@@ -147,7 +147,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>3. MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios</b> ⭐ 94</summary>
+<summary><b>3. MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios</b> ⭐ 105</summary>
 
 <br/>
 
@@ -160,7 +160,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. OmniGAIA: Towards Native Omni-Modal AI Agents</b> ⭐ 34</summary>
+<summary><b>4. OmniGAIA: Towards Native Omni-Modal AI Agents</b> ⭐ 42</summary>
 
 <br/>
 
@@ -175,7 +175,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. Imagination Helps Visual Reasoning, But Not Yet in Latent Space</b> ⭐ 10</summary>
+<summary><b>5. Imagination Helps Visual Reasoning, But Not Yet in Latent Space</b> ⭐ 13</summary>
 
 <br/>
 
@@ -199,7 +199,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. AgentDropoutV2: Optimizing Information Flow in Multi-Agent Systems via Test-Time Rectify-or-Reject Pruning</b> ⭐ 14</summary>
+<summary><b>7. AgentDropoutV2: Optimizing Information Flow in Multi-Agent Systems via Test-Time Rectify-or-Reject Pruning</b> ⭐ 17</summary>
 
 <br/>
 
@@ -212,20 +212,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. MediX-R1: Open Ended Medical Reinforcement Learning</b> ⭐ 13</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23363) • [📄 arXiv](https://arxiv.org/abs/2602.23363) • [📥 PDF](https://arxiv.org/pdf/2602.23363)
-
-**💻 Code:** [⭐ Code](https://github.com/mbzuai-oryx/MediX-R1)
-
-> MediX-R1 is an open-ended Reinforcement Learning (RL) framework for medical multimodal large language models (MLLMs) that enables clinically grounded, free-form answers beyond multiple-choice formats. MediX-R1 fine-tunes vision-language backbones ...
-
-</details>
-
-<details>
-<summary><b>9. Search More, Think Less: Rethinking Long-Horizon Agentic Search for Efficiency and Generalization</b> ⭐ 0</summary>
+<summary><b>8. Search More, Think Less: Rethinking Long-Horizon Agentic Search for Efficiency and Generalization</b> ⭐ 0</summary>
 
 <br/>
 
@@ -238,18 +225,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. VGG-T^3: Offline Feed-Forward 3D Reconstruction at Scale</b> ⭐ 0</summary>
+<summary><b>9. MediX-R1: Open Ended Medical Reinforcement Learning</b> ⭐ 17</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23361) • [📄 arXiv](https://arxiv.org/abs/2602.23361) • [📥 PDF](https://arxiv.org/pdf/2602.23361)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23363) • [📄 arXiv](https://arxiv.org/abs/2602.23363) • [📥 PDF](https://arxiv.org/pdf/2602.23363)
 
-> Traditional offline 3D reconstruction methods scale quadratically, making large scenes a massive computational burden. VGG-T³ (Visual Geometry Grounded Test-Time Training) achieves linear scaling by replacing standard global attention with a TTT-b...
+**💻 Code:** [⭐ Code](https://github.com/mbzuai-oryx/MediX-R1)
+
+> MediX-R1 is an open-ended Reinforcement Learning (RL) framework for medical multimodal large language models (MLLMs) that enables clinically grounded, free-form answers beyond multiple-choice formats. MediX-R1 fine-tunes vision-language backbones ...
 
 </details>
 
 <details>
-<summary><b>11. Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling</b> ⭐ 4</summary>
+<summary><b>10. Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling</b> ⭐ 5</summary>
 
 <br/>
 
@@ -264,7 +253,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>12. EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents</b> ⭐ 45</summary>
+<summary><b>11. VGG-T^3: Offline Feed-Forward 3D Reconstruction at Scale</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23361) • [📄 arXiv](https://arxiv.org/abs/2602.23361) • [📥 PDF](https://arxiv.org/pdf/2602.23361)
+
+> Traditional offline 3D reconstruction methods scale quadratically, making large scenes a massive computational burden. VGG-T³ (Visual Geometry Grounded Test-Time Training) achieves linear scaling by replacing standard global attention with a TTT-b...
+
+</details>
+
+<details>
+<summary><b>12. EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents</b> ⭐ 54</summary>
 
 <br/>
 
@@ -290,7 +290,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. Causal Motion Diffusion Models for Autoregressive Motion Generation</b> ⭐ 0</summary>
+<summary><b>14. General Agent Evaluation</b> ⭐ 6</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.22953) • [📄 arXiv](https://arxiv.org/abs/2602.22953) • [📥 PDF](https://arxiv.org/pdf/2602.22953)
+
+**💻 Code:** [⭐ Code](https://github.com/Exgentic/exgentic)
+
+> 🚀 Welcome to the Open General Agent Era! 🤖🌍 What if we could finally measure how general our “general-purpose agents” really are? This paper takes on that challenge head-first 💥 Instead of evaluating agents in carefully engineered, domain-specific...
+
+</details>
+
+<details>
+<summary><b>15. Causal Motion Diffusion Models for Autoregressive Motion Generation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -299,19 +312,6 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.22594) • [📄 arXiv](https://arxiv.org/abs/2602.22594) • [📥 PDF](https://arxiv.org/pdf/2602.22594)
 
 > Proposes Causal Motion Diffusion Models (CMDM) using a causal diffusion transformer and MAC-VAE latent space for autoregressive, streaming, long-horizon text-to-motion with improved fidelity and reduced latency.
-
-</details>
-
-<details>
-<summary><b>15. Retrieve and Segment: Are a Few Examples Enough to Bridge the Supervision Gap in Open-Vocabulary Segmentation?</b> ⭐ 2</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23339) • [📄 arXiv](https://arxiv.org/abs/2602.23339) • [📥 PDF](https://arxiv.org/pdf/2602.23339)
-
-**💻 Code:** [⭐ Code](https://github.com/TilemahosAravanis/Retrieve-and-Segment)
-
-> Open-vocabulary segmentation (OVS) extends the zero-shot recognition capabilities of vision–language models (VLMs) to pixel-level prediction, enabling segmentation of arbitrary categories specified by text prompts. Despite recent progress, OVS lag...
 
 </details>
 
@@ -329,20 +329,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>17. General Agent Evaluation</b> ⭐ 5</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.22953) • [📄 arXiv](https://arxiv.org/abs/2602.22953) • [📥 PDF](https://arxiv.org/pdf/2602.22953)
-
-**💻 Code:** [⭐ Code](https://github.com/Exgentic/exgentic)
-
-> 🚀 Welcome to the Open General Agent Era! 🤖🌍 What if we could finally measure how general our “general-purpose agents” really are? This paper takes on that challenge head-first 💥 Instead of evaluating agents in carefully engineered, domain-specific...
-
-</details>
-
-<details>
-<summary><b>18. veScale-FSDP: Flexible and High-Performance FSDP at Scale</b> ⭐ 0</summary>
+<summary><b>17. veScale-FSDP: Flexible and High-Performance FSDP at Scale</b> ⭐ 0</summary>
 
 <br/>
 
@@ -357,7 +344,44 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>19. DLT-Corpus: A Large-Scale Text Collection for the Distributed Ledger Technology Domain</b> ⭐ 0</summary>
+<summary><b>18. Retrieve and Segment: Are a Few Examples Enough to Bridge the Supervision Gap in Open-Vocabulary Segmentation?</b> ⭐ 3</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23339) • [📄 arXiv](https://arxiv.org/abs/2602.23339) • [📥 PDF](https://arxiv.org/pdf/2602.23339)
+
+**💻 Code:** [⭐ Code](https://github.com/TilemahosAravanis/Retrieve-and-Segment)
+
+> Open-vocabulary segmentation (OVS) extends the zero-shot recognition capabilities of vision–language models (VLMs) to pixel-level prediction, enabling segmentation of arbitrary categories specified by text prompts. Despite recent progress, OVS lag...
+
+</details>
+
+<details>
+<summary><b>19. Overconfident Errors Need Stronger Correction: Asymmetric Confidence Penalties for Reinforcement Learning</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.21420) • [📄 arXiv](https://arxiv.org/abs/2602.21420) • [📥 PDF](https://arxiv.org/pdf/2602.21420)
+
+> The paper identifies overconfident wrong reasoning paths as a hidden failure mode in RL training of LLMs and proposes ACE, a simple penalty that suppresses these errors while preserving exploration—improving reasoning diversity and Pass@k performa...
+
+</details>
+
+<details>
+<summary><b>20. Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Jian-Fang Hu, Chang Liu, Teng Long, Feng Xue, Jiangxin Sun
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23259) • [📄 arXiv](https://arxiv.org/abs/2602.23259) • [📥 PDF](https://arxiv.org/pdf/2602.23259)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Generative Scenario Rollouts for End-to-End Autonomous Driving (2026) Drive...
+
+</details>
+
+<details>
+<summary><b>21. DLT-Corpus: A Large-Scale Text Collection for the Distributed Ledger Technology Domain</b> ⭐ 0</summary>
 
 <br/>
 
@@ -370,7 +394,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. MedCLIPSeg: Probabilistic Vision-Language Adaptation for Data-Efficient and Generalizable Medical Image Segmentation</b> ⭐ 2</summary>
+<summary><b>22. MedCLIPSeg: Probabilistic Vision-Language Adaptation for Data-Efficient and Generalizable Medical Image Segmentation</b> ⭐ 5</summary>
 
 <br/>
 
@@ -385,7 +409,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>21. No One Size Fits All: QueryBandits for Hallucination Mitigation</b> ⭐ 0</summary>
+<summary><b>23. No One Size Fits All: QueryBandits for Hallucination Mitigation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -398,7 +422,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>22. What Makes a Good Query? Measuring the Impact of Human-Confusing Linguistic Features on LLM Performance</b> ⭐ 0</summary>
+<summary><b>24. What Makes a Good Query? Measuring the Impact of Human-Confusing Linguistic Features on LLM Performance</b> ⭐ 0</summary>
 
 <br/>
 
@@ -411,20 +435,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>23. Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Jian-Fang Hu, Chang Liu, Teng Long, Feng Xue, Jiangxin Sun
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23259) • [📄 arXiv](https://arxiv.org/abs/2602.23259) • [📥 PDF](https://arxiv.org/pdf/2602.23259)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Generative Scenario Rollouts for End-to-End Autonomous Driving (2026) Drive...
-
-</details>
-
-<details>
-<summary><b>24. DyaDiT: A Multi-Modal Diffusion Transformer for Socially Favorable Dyadic Gesture Generation</b> ⭐ 0</summary>
+<summary><b>25. DyaDiT: A Multi-Modal Diffusion Transformer for Socially Favorable Dyadic Gesture Generation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -433,17 +444,6 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23165) • [📄 arXiv](https://arxiv.org/abs/2602.23165) • [📥 PDF](https://arxiv.org/pdf/2602.23165)
 
 > This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API RSATalker: Realistic Socially-Aware Talking Head Generation for Multi-Turn ...
-
-</details>
-
-<details>
-<summary><b>25. Overconfident Errors Need Stronger Correction: Asymmetric Confidence Penalties for Reinforcement Learning</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.21420) • [📄 arXiv](https://arxiv.org/abs/2602.21420) • [📥 PDF](https://arxiv.org/pdf/2602.21420)
-
-> The paper identifies overconfident wrong reasoning paths as a hidden failure mode in RL training of LLMs and proposes ACE, a simple penalty that suppresses these errors while preserving exploration—improving reasoning diversity and Pass@k performa...
 
 </details>
 
@@ -493,27 +493,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 28 |
-| 📅 Today | [`2026-02-28.json`](data/daily/2026-02-28.json) | 28 |
-| 📆 This Week | [`2026-W08.json`](data/weekly/2026-W08.json) | 156 |
-| 🗓️ This Month | [`2026-02.json`](data/monthly/2026-02.json) | 1048 |
+| 📅 Today | [`2026-03-01.json`](data/daily/2026-03-01.json) | 28 |
+| 📆 This Week | [`2026-W08.json`](data/weekly/2026-W08.json) | 184 |
+| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 28 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-02-28 | 28 | [View JSON](data/daily/2026-02-28.json) |
+| 📌 2026-03-01 | 28 | [View JSON](data/daily/2026-03-01.json) |
+| 📄 2026-02-28 | 28 | [View JSON](data/daily/2026-02-28.json) |
 | 📄 2026-02-27 | 30 | [View JSON](data/daily/2026-02-27.json) |
 | 📄 2026-02-26 | 32 | [View JSON](data/daily/2026-02-26.json) |
 | 📄 2026-02-25 | 25 | [View JSON](data/daily/2026-02-25.json) |
 | 📄 2026-02-24 | 18 | [View JSON](data/daily/2026-02-24.json) |
 | 📄 2026-02-23 | 23 | [View JSON](data/daily/2026-02-23.json) |
-| 📄 2026-02-22 | 23 | [View JSON](data/daily/2026-02-22.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W08 | 156 | [View JSON](data/weekly/2026-W08.json) |
+| 📅 2026-W08 | 184 | [View JSON](data/weekly/2026-W08.json) |
 | 📅 2026-W07 | 197 | [View JSON](data/weekly/2026-W07.json) |
 | 📅 2026-W06 | 293 | [View JSON](data/weekly/2026-W06.json) |
 | 📅 2026-W05 | 357 | [View JSON](data/weekly/2026-W05.json) |
@@ -522,6 +522,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
+| 🗓️ 2026-03 | 28 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
