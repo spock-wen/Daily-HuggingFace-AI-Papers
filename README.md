@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-28-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-2595+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-2623+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">28</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">184</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">28</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2595+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">28</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">56</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2623+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** March 01, 2026
+**Last Updated:** March 02, 2026
 
 ---
 
@@ -119,7 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. The Trinity of Consistency as a Defining Principle for General World Models</b> ⭐ 20</summary>
+<summary><b>1. The Trinity of Consistency as a Defining Principle for General World Models</b> ⭐ 23</summary>
 
 <br/>
 
@@ -132,7 +132,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>2. From Blind Spots to Gains: Diagnostic-Driven Iterative Training for Large Multimodal Models</b> ⭐ 39</summary>
+<summary><b>2. From Blind Spots to Gains: Diagnostic-Driven Iterative Training for Large Multimodal Models</b> ⭐ 40</summary>
 
 <br/>
 
@@ -160,7 +160,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. OmniGAIA: Towards Native Omni-Modal AI Agents</b> ⭐ 42</summary>
+<summary><b>4. OmniGAIA: Towards Native Omni-Modal AI Agents</b> ⭐ 46</summary>
 
 <br/>
 
@@ -199,7 +199,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. AgentDropoutV2: Optimizing Information Flow in Multi-Agent Systems via Test-Time Rectify-or-Reject Pruning</b> ⭐ 17</summary>
+<summary><b>7. AgentDropoutV2: Optimizing Information Flow in Multi-Agent Systems via Test-Time Rectify-or-Reject Pruning</b> ⭐ 19</summary>
 
 <br/>
 
@@ -212,20 +212,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. Search More, Think Less: Rethinking Long-Horizon Agentic Search for Efficiency and Generalization</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.22675) • [📄 arXiv](https://arxiv.org/abs/2602.22675) • [📥 PDF](https://arxiv.org/pdf/2602.22675)
-
-**💻 Code:** [⭐ Code](https://github.com/OPPO-PersonalAI/SMTL)
-
-> Recent deep research agents often improve performance by scaling reasoning depth. While effective, this approach significantly increases inference cost and latency in search-intensive settings, and often struggles to generalize across heterogeneou...
-
-</details>
-
-<details>
-<summary><b>9. MediX-R1: Open Ended Medical Reinforcement Learning</b> ⭐ 17</summary>
+<summary><b>8. MediX-R1: Open Ended Medical Reinforcement Learning</b> ⭐ 20</summary>
 
 <br/>
 
@@ -238,7 +225,31 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling</b> ⭐ 5</summary>
+<summary><b>9. Search More, Think Less: Rethinking Long-Horizon Agentic Search for Efficiency and Generalization</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.22675) • [📄 arXiv](https://arxiv.org/abs/2602.22675) • [📥 PDF](https://arxiv.org/pdf/2602.22675)
+
+**💻 Code:** [⭐ Code](https://github.com/OPPO-PersonalAI/SMTL)
+
+> Recent deep research agents often improve performance by scaling reasoning depth. While effective, this approach significantly increases inference cost and latency in search-intensive settings, and often struggles to generalize across heterogeneou...
+
+</details>
+
+<details>
+<summary><b>10. VGG-T^3: Offline Feed-Forward 3D Reconstruction at Scale</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23361) • [📄 arXiv](https://arxiv.org/abs/2602.23361) • [📥 PDF](https://arxiv.org/pdf/2602.23361)
+
+> Traditional offline 3D reconstruction methods scale quadratically, making large scenes a massive computational burden. VGG-T³ (Visual Geometry Grounded Test-Time Training) achieves linear scaling by replacing standard global attention with a TTT-b...
+
+</details>
+
+<details>
+<summary><b>11. Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling</b> ⭐ 5</summary>
 
 <br/>
 
@@ -253,18 +264,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>11. VGG-T^3: Offline Feed-Forward 3D Reconstruction at Scale</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23361) • [📄 arXiv](https://arxiv.org/abs/2602.23361) • [📥 PDF](https://arxiv.org/pdf/2602.23361)
-
-> Traditional offline 3D reconstruction methods scale quadratically, making large scenes a massive computational burden. VGG-T³ (Visual Geometry Grounded Test-Time Training) achieves linear scaling by replacing standard global attention with a TTT-b...
-
-</details>
-
-<details>
-<summary><b>12. EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents</b> ⭐ 54</summary>
+<summary><b>12. EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents</b> ⭐ 60</summary>
 
 <br/>
 
@@ -279,18 +279,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>13. AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.17594) • [📄 arXiv](https://arxiv.org/abs/2602.17594) • [📥 PDF](https://arxiv.org/pdf/2602.17594)
-
-> Rigorously evaluating machine intelligence against the broad spectrum of human general intelligence has become increasingly important and challenging in this era of rapid technological advance. Conventional AI benchmarks typically assess only narr...
-
-</details>
-
-<details>
-<summary><b>14. General Agent Evaluation</b> ⭐ 6</summary>
+<summary><b>13. General Agent Evaluation</b> ⭐ 6</summary>
 
 <br/>
 
@@ -299,6 +288,17 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/Exgentic/exgentic)
 
 > 🚀 Welcome to the Open General Agent Era! 🤖🌍 What if we could finally measure how general our “general-purpose agents” really are? This paper takes on that challenge head-first 💥 Instead of evaluating agents in carefully engineered, domain-specific...
+
+</details>
+
+<details>
+<summary><b>14. AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.17594) • [📄 arXiv](https://arxiv.org/abs/2602.17594) • [📥 PDF](https://arxiv.org/pdf/2602.17594)
+
+> Rigorously evaluating machine intelligence against the broad spectrum of human general intelligence has become increasingly important and challenging in this era of rapid technological advance. Conventional AI benchmarks typically assess only narr...
 
 </details>
 
@@ -316,20 +316,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>16. GeoWorld: Geometric World Models</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Richard Hartley, Ian Reid, Danning Li, SteveZeyuZhang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23058) • [📄 arXiv](https://arxiv.org/abs/2602.23058) • [📥 PDF](https://arxiv.org/pdf/2602.23058)
-
-> Accepted to CVPR 2026.
-
-</details>
-
-<details>
-<summary><b>17. veScale-FSDP: Flexible and High-Performance FSDP at Scale</b> ⭐ 0</summary>
+<summary><b>16. veScale-FSDP: Flexible and High-Performance FSDP at Scale</b> ⭐ 0</summary>
 
 <br/>
 
@@ -344,7 +331,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>18. Retrieve and Segment: Are a Few Examples Enough to Bridge the Supervision Gap in Open-Vocabulary Segmentation?</b> ⭐ 3</summary>
+<summary><b>17. Retrieve and Segment: Are a Few Examples Enough to Bridge the Supervision Gap in Open-Vocabulary Segmentation?</b> ⭐ 3</summary>
 
 <br/>
 
@@ -353,6 +340,19 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/TilemahosAravanis/Retrieve-and-Segment)
 
 > Open-vocabulary segmentation (OVS) extends the zero-shot recognition capabilities of vision–language models (VLMs) to pixel-level prediction, enabling segmentation of arbitrary categories specified by text prompts. Despite recent progress, OVS lag...
+
+</details>
+
+<details>
+<summary><b>18. GeoWorld: Geometric World Models</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Richard Hartley, Ian Reid, Danning Li, SteveZeyuZhang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23058) • [📄 arXiv](https://arxiv.org/abs/2602.23058) • [📥 PDF](https://arxiv.org/pdf/2602.23058)
+
+> Accepted to CVPR 2026.
 
 </details>
 
@@ -368,20 +368,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Jian-Fang Hu, Chang Liu, Teng Long, Feng Xue, Jiangxin Sun
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23259) • [📄 arXiv](https://arxiv.org/abs/2602.23259) • [📥 PDF](https://arxiv.org/pdf/2602.23259)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Generative Scenario Rollouts for End-to-End Autonomous Driving (2026) Drive...
-
-</details>
-
-<details>
-<summary><b>21. DLT-Corpus: A Large-Scale Text Collection for the Distributed Ledger Technology Domain</b> ⭐ 0</summary>
+<summary><b>20. DLT-Corpus: A Large-Scale Text Collection for the Distributed Ledger Technology Domain</b> ⭐ 0</summary>
 
 <br/>
 
@@ -394,7 +381,33 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>22. MedCLIPSeg: Probabilistic Vision-Language Adaptation for Data-Efficient and Generalizable Medical Image Segmentation</b> ⭐ 5</summary>
+<summary><b>21. What Makes a Good Query? Measuring the Impact of Human-Confusing Linguistic Features on LLM Performance</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Manuela Veloso, Sumitra Ganesh, Nicole Cho, William Watson
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.20300) • [📄 arXiv](https://arxiv.org/abs/2602.20300) • [📥 PDF](https://arxiv.org/pdf/2602.20300)
+
+> Large Language Model (LLM) hallucinations are usually treated as defects of the model or its decoding strategy. Drawing on classical linguistics, we argue that a query's form can also shape a listener's (and model's) response. We operationalize th...
+
+</details>
+
+<details>
+<summary><b>22. Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Jian-Fang Hu, Chang Liu, Teng Long, Feng Xue, Jiangxin Sun
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23259) • [📄 arXiv](https://arxiv.org/abs/2602.23259) • [📥 PDF](https://arxiv.org/pdf/2602.23259)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Generative Scenario Rollouts for End-to-End Autonomous Driving (2026) Drive...
+
+</details>
+
+<details>
+<summary><b>23. MedCLIPSeg: Probabilistic Vision-Language Adaptation for Data-Efficient and Generalizable Medical Image Segmentation</b> ⭐ 5</summary>
 
 <br/>
 
@@ -409,7 +422,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>23. No One Size Fits All: QueryBandits for Hallucination Mitigation</b> ⭐ 0</summary>
+<summary><b>24. No One Size Fits All: QueryBandits for Hallucination Mitigation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -418,19 +431,6 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.20332) • [📄 arXiv](https://arxiv.org/abs/2602.20332) • [📥 PDF](https://arxiv.org/pdf/2602.20332)
 
 > Advanced reasoning capabilities in Large Language Models (LLMs) have led to more frequent hallucinations; yet most mitigation work focuses on open-source models for post-hoc detection and parameter editing. The dearth of studies focusing on halluc...
-
-</details>
-
-<details>
-<summary><b>24. What Makes a Good Query? Measuring the Impact of Human-Confusing Linguistic Features on LLM Performance</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Manuela Veloso, Sumitra Ganesh, Nicole Cho, William Watson
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.20300) • [📄 arXiv](https://arxiv.org/abs/2602.20300) • [📥 PDF](https://arxiv.org/pdf/2602.20300)
-
-> Large Language Model (LLM) hallucinations are usually treated as defects of the model or its decoding strategy. Drawing on classical linguistics, we argue that a query's form can also shape a listener's (and model's) response. We operationalize th...
 
 </details>
 
@@ -448,7 +448,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>26. MEG-to-MEG Transfer Learning and Cross-Task Speech/Silence Detection with Limited Data</b> ⭐ 4</summary>
+<summary><b>26. Echoes Over Time: Unlocking Length Generalization in Video-to-Audio Generation Models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.20981) • [📄 arXiv](https://arxiv.org/abs/2602.20981) • [📥 PDF](https://arxiv.org/pdf/2602.20981)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>27. MEG-to-MEG Transfer Learning and Cross-Task Speech/Silence Detection with Limited Data</b> ⭐ 4</summary>
 
 <br/>
 
@@ -461,7 +472,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>27. Efficient Continual Learning in Language Models via Thalamically Routed Cortical Columns</b> ⭐ 0</summary>
+<summary><b>28. Efficient Continual Learning in Language Models via Thalamically Routed Cortical Columns</b> ⭐ 0</summary>
 
 <br/>
 
@@ -470,17 +481,6 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.22479) • [📄 arXiv](https://arxiv.org/abs/2602.22479) • [📥 PDF](https://arxiv.org/pdf/2602.22479)
 
 > Continual learning is a core requirement for deployed language models, yet standard training and fine tuning pipelines remain brittle under non-stationary data. Online updates often induce catastrophic forgetting, while methods that improve stabil...
-
-</details>
-
-<details>
-<summary><b>28. Echoes Over Time: Unlocking Length Generalization in Video-to-Audio Generation Models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.20981) • [📄 arXiv](https://arxiv.org/abs/2602.20981) • [📥 PDF](https://arxiv.org/pdf/2602.20981)
-
-> No abstract available.
 
 </details>
 
@@ -493,36 +493,36 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 28 |
-| 📅 Today | [`2026-03-01.json`](data/daily/2026-03-01.json) | 28 |
-| 📆 This Week | [`2026-W08.json`](data/weekly/2026-W08.json) | 184 |
-| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 28 |
+| 📅 Today | [`2026-03-02.json`](data/daily/2026-03-02.json) | 28 |
+| 📆 This Week | [`2026-W09.json`](data/weekly/2026-W09.json) | 28 |
+| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 56 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-03-01 | 28 | [View JSON](data/daily/2026-03-01.json) |
+| 📌 2026-03-02 | 28 | [View JSON](data/daily/2026-03-02.json) |
+| 📄 2026-03-01 | 28 | [View JSON](data/daily/2026-03-01.json) |
 | 📄 2026-02-28 | 28 | [View JSON](data/daily/2026-02-28.json) |
 | 📄 2026-02-27 | 30 | [View JSON](data/daily/2026-02-27.json) |
 | 📄 2026-02-26 | 32 | [View JSON](data/daily/2026-02-26.json) |
 | 📄 2026-02-25 | 25 | [View JSON](data/daily/2026-02-25.json) |
 | 📄 2026-02-24 | 18 | [View JSON](data/daily/2026-02-24.json) |
-| 📄 2026-02-23 | 23 | [View JSON](data/daily/2026-02-23.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
+| 📅 2026-W09 | 28 | [View JSON](data/weekly/2026-W09.json) |
 | 📅 2026-W08 | 184 | [View JSON](data/weekly/2026-W08.json) |
 | 📅 2026-W07 | 197 | [View JSON](data/weekly/2026-W07.json) |
 | 📅 2026-W06 | 293 | [View JSON](data/weekly/2026-W06.json) |
-| 📅 2026-W05 | 357 | [View JSON](data/weekly/2026-W05.json) |
 
 ### 🗂️ Monthly Archives
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-03 | 28 | [View JSON](data/monthly/2026-03.json) |
+| 🗓️ 2026-03 | 56 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
