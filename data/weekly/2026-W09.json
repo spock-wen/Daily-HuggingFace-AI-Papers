@@ -1009,5 +1009,810 @@
       "scraped_at": "2026-03-03T02:22:40.386705"
     },
     "scraped_date": "2026-03-03"
+  },
+  {
+    "title": "From Scale to Speed: Adaptive Test-Time Scaling for Image Editing",
+    "paper_url": "https://huggingface.co/papers/2603.00141",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "From Scale to Speed: Adaptive Test-Time Scaling for Image Editing",
+      "abstract": "Adaptive Test-Time Scaling for Image Editing CVPR26",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.00141",
+      "pdf_url": "https://arxiv.org/pdf/2603.00141",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.00141",
+      "scraped_at": "2026-03-04T02:08:05.840387"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens",
+    "paper_url": "https://huggingface.co/papers/2603.02138",
+    "authors": [],
+    "stars": "118",
+    "details": {
+      "title": "OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens",
+      "abstract": "OmniLottie is the first family of end-to-end multimodal Lottie generators that leverage pre-trained Vision-Language Models (VLMs), capable of generating complex and detailed Lottie animations from multi-modal instructions including texts, images, and videos. We also introduce MMLottie-2M, a multimodal dataset with two million richly annotated Lottie animations, along with a standardized evaluation protocol for multi-modal vector animation generation tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.02138",
+      "pdf_url": "https://arxiv.org/pdf/2603.02138",
+      "github_links": [
+        "https://github.com/OpenVGLab/OmniLottie"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.02138",
+      "scraped_at": "2026-03-04T02:08:07.815000"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "SWE-rebench V2: Language-Agnostic SWE Task Collection at Scale",
+    "paper_url": "https://huggingface.co/papers/2602.23866",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "SWE-rebench V2: Language-Agnostic SWE Task Collection at Scale",
+      "abstract": "SWE-rebench V2: https://huggingface.co/datasets/nebius/SWE-rebench-V2 SWE-rebench V2 PRs: https://huggingface.co/datasets/nebius/SWE-rebench-V2-PRs",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23866",
+      "pdf_url": "https://arxiv.org/pdf/2602.23866",
+      "github_links": [
+        "https://github.com/SWE-rebench/SWE-rebench-V2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23866",
+      "scraped_at": "2026-03-04T02:08:09.681439"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "RubricBench: Aligning Model-Generated Rubrics with Human Standards",
+    "paper_url": "https://huggingface.co/papers/2603.01562",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "RubricBench: Aligning Model-Generated Rubrics with Human Standards",
+      "abstract": "🚀 Are LLM Judges actually evaluating what matters, or just being distracted by surface-level polish? As LLM alignment shifts from scalar Reward Models to Generative RMs (LLM-as-a-Judge), the community has increasingly relied on rubric-guided evaluation to prevent reward hacking. But this raises a critical, unanswered question: Can state-of-the-art models autonomously figure out the right rubric to evaluate in the first place? Our new paper introduces RubricBench, and the short answer is: No. They miss the point entirely. 🔥 What is RubricBench? We built a curated, highly discriminative benchmark of 1,147 preference pairs across 5 domains (Chat, Code, STEM, etc.). We aggressively filtered out \"easy\" comparisons and targeted hard samples with input complexity, output surface bias (e.g., long but wrong answers), and process failures. Crucially, every single pair is augmented with expert-annotated, atomic, instruction-derived rubrics. 💡 Key Discoveries that Challenge the Status Quo: 📉 The 27% \"Rubric Gap\": When evaluating responses, SOTA models (like DeepSeek-v3.2, GPT-4o-mini, and Gemini-3-Flash) jump by an average of ~27% in preference accuracy when you swap their self-generated rubrics for human gold-standard rubrics. The models have the reasoning power to judge correctly, but they fail to specify the right rules. 🧠 Cognitive Misalignment (\"Attention Displacement\"): We found that models generate \"checklist bloat.\" They obsess over surface-level traits (e.g., formatting, verbosity, using specific libraries) but completely fail to enforce core implicit constraints (like recognizing when a task is impossible or violating safety boundaries). This leads to Value Inversion—rewarding confident hallucinations over honest refusals. 🛑 Test-Time Compute Does NOT Fix It: Simply generating more rubric items or using iterative self-refinement hits immediate diminishing returns. More compute just accumulates noise, proving that the bottleneck is value alignment, not generation capacity. Why this matters: Future research must move beyond merely scaling synthesis to address \"rubric alignment\"—developing methods that enable models to internalize human priority hierarchies. The ultimate goal is to transition models from simply expanding outputs to autonomously identifying the specific, high-value constraints that actually drive human judgments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01562",
+      "pdf_url": "https://arxiv.org/pdf/2603.01562",
+      "github_links": [
+        "https://github.com/planepig/rubricbench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01562",
+      "scraped_at": "2026-03-04T02:08:11.737083"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "OpenAutoNLU: Open Source AutoML Library for NLU",
+    "paper_url": "https://huggingface.co/papers/2603.01824",
+    "authors": [],
+    "stars": "28",
+    "details": {
+      "title": "OpenAutoNLU: Open Source AutoML Library for NLU",
+      "abstract": "OpenAutoNLU is an open-source automated machine learning library for natural  language understanding (NLU) tasks, covering both text classification and named entity recognition (NER). Unlike existing solutions, we introduce  data-aware training regime selection that requires no manual configuration from  the user. The library also provides integrated data quality diagnostics,  configurable out-of-distribution (OOD) detection, and large language model (LLM) features, all within a minimal low-code API. OpenAutoNLU source code is available here , the demo app is accessible here at https://openautonlu.dev .",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01824",
+      "pdf_url": "https://arxiv.org/pdf/2603.01824",
+      "github_links": [
+        "https://github.com/mts-ai/OpenAutoNLU"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01824",
+      "scraped_at": "2026-03-04T02:08:13.601742"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "MMR-Life: Piecing Together Real-life Scenes for Multimodal Multi-image Reasoning",
+    "paper_url": "https://huggingface.co/papers/2603.02024",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "MMR-Life: Piecing Together Real-life Scenes for Multimodal Multi-image Reasoning",
+      "abstract": "Accepted by ICLR 2026 Homepage: https://mmr-life-bench.github.io/ Dataset: https://huggingface.co/datasets/Septzzz/MMR-Life Github: https://github.com/BugMakerzzz/MMR-Life",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.02024",
+      "pdf_url": "https://arxiv.org/pdf/2603.02024",
+      "github_links": [
+        "https://github.com/BugMakerzzz/MMR-Life"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.02024",
+      "scraped_at": "2026-03-04T02:08:19.624923"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "CHIMERA: Compact Synthetic Data for Generalizable LLM Reasoning",
+    "paper_url": "https://huggingface.co/papers/2603.00889",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CHIMERA: Compact Synthetic Data for Generalizable LLM Reasoning",
+      "abstract": "We introduce CHIMERA , a compact but high-difficulty synthetic reasoning dataset with long Chain-of-Thought trajectories and broad multi-disciplinary coverage, designed for reasoning post-training of large language models. Dataset CHIMERA contains 9,225 expert-level problems spanning 8 subjects (Mathematics, Computer Science, Chemistry, Physics, Literature, History, Biology, Linguistics) and 1,179 fine-grained topics , all synthesized by GPT-5. Each problem comes with: A concise ground-truth answer and an authoritative reference solution (both GPT-5-generated), A long-form model solution with thinking traces from Qwen3-235B-A22B-Thinking-2507 or Qwen3.5-397B-A17B , Automated correctness labels from a GPT-5 + o4-mini verification panel. Unlike existing reasoning datasets that are heavily math-focused or limited in solution length, CHIMERA provides structured domain diversity and long-horizon reasoning traces without any human annotation. Try our dataset here TianHongZXY/CHIMERA 🤗. Models We train Qwen3-4B-Thinking-2507 on CHIMERA through SFT followed by RL, yielding consistent gains across all major reasoning benchmarks: Benchmark Qwen3-4B-Thinking-2507 CHIMERA-4B-SFT CHIMERA-4B-RL GPQA-Diamond 65.8 68.8 70.1 AIME 2024 81.6 86.5 86.9 AIME 2025 81.0 79.8 80.7 AIME 2026 80.8 80.3 82.7 HMMT Feb 2025 59.2 63.1 65.7 HMMT Nov 2025 57.3 66.3 67.0 HLE 7.3 9.0 9.0 Models: CHIMERA-4B-SFT | CHIMERA-4B-RL",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.00889",
+      "pdf_url": "https://arxiv.org/pdf/2603.00889",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.00889",
+      "scraped_at": "2026-03-04T02:08:21.496363"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection",
+    "paper_url": "https://huggingface.co/papers/2603.00912",
+    "authors": [],
+    "stars": "50",
+    "details": {
+      "title": "VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection",
+      "abstract": "Accepted by CVPR 2026. Code Page: https://github.com/yangcaoai/VGGT-Det-CVPR2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.00912",
+      "pdf_url": "https://arxiv.org/pdf/2603.00912",
+      "github_links": [
+        "https://github.com/yangcaoai/VGGT-Det-CVPR2026"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.00912",
+      "scraped_at": "2026-03-04T02:08:23.393749"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "CoVe: Training Interactive Tool-Use Agents via Constraint-Guided Verification",
+    "paper_url": "https://huggingface.co/papers/2603.01940",
+    "authors": [
+      "Zichen Tian",
+      "Ziru Liu",
+      "Hanbo Li",
+      "Cheng Gong",
+      "Jinpeng Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CoVe: Training Interactive Tool-Use Agents via Constraint-Guided Verification",
+      "abstract": "Developing multi-turn interactive tool-use agents is challenging because real-world user needs are often complex and ambiguous, yet agents must execute deterministic actions to satisfy them. To address this gap, we introduce CoVe (Constraint-Verification), a post-training data synthesis framework designed for training interactive tool-use agents while ensuring both data complexity and correctness. CoVe begins by defining explicit task constraints, which serve a dual role: they guide the generation of complex trajectories and act as deterministic verifiers for assessing trajectory quality. This enables the creation of high-quality training trajectories for supervised fine-tuning (SFT) and the derivation of accurate reward signals for reinforcement learning (RL). Our evaluation on the challenging τ2-bench benchmark demonstrates the effectiveness of the framework. Notably, our compact CoVe-4B model achieves success rates of 43.0% and 59.4% in the Airline and Retail domains, respectively; its overall performance significantly outperforms strong baselines of similar scale and remains competitive with models up to 17× its size. These results indicate that CoVe provides an effective and efficient pathway for synthesizing training data for state-of-the-art interactive tool-use agents. To support future research, we open-source our code, trained model, and the full set of 12K high-quality trajectories used for training.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01940",
+      "pdf_url": "https://arxiv.org/pdf/2603.01940",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01940",
+      "scraped_at": "2026-03-04T02:08:25.356067"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "PhotoBench: Beyond Visual Matching Towards Personalized Intent-Driven Photo Retrieval",
+    "paper_url": "https://huggingface.co/papers/2603.01493",
+    "authors": [
+      "Teng Wang",
+      "Junjie Wu",
+      "Warden-H",
+      "CyberDancer",
+      "SorrowTea"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "PhotoBench: Beyond Visual Matching Towards Personalized Intent-Driven Photo Retrieval",
+      "abstract": "Paper link: https://arxiv.org/abs/2603.01493 Github Repo: https://github.com/LaVieEnRose365/PhotoBench Leaderboard: https://www.sorrowcloud.tech/leaderboard",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01493",
+      "pdf_url": "https://arxiv.org/pdf/2603.01493",
+      "github_links": [
+        "https://github.com/LaVieEnRose365/PhotoBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01493",
+      "scraped_at": "2026-03-04T02:08:27.208718"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "LLaDA-o: An Effective and Length-Adaptive Omni Diffusion Model",
+    "paper_url": "https://huggingface.co/papers/2603.01068",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "LLaDA-o: An Effective and Length-Adaptive Omni Diffusion Model",
+      "abstract": "We present LLaDA-o, a length-adaptive MoD omni-diffusion model that unifies multimodal understanding and image generation, reaching 87.04 on DPG-Bench; we will open-source the model and code in https://github.com/ML-GSAI/LLaDA-o .",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01068",
+      "pdf_url": "https://arxiv.org/pdf/2603.01068",
+      "github_links": [
+        "https://github.com/ML-GSAI/LLaDA-o"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01068",
+      "scraped_at": "2026-03-04T02:08:29.056653"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Spectral Condition for μP under Width-Depth Scaling",
+    "paper_url": "https://huggingface.co/papers/2603.00541",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Spectral Condition for μP under Width-Depth Scaling",
+      "abstract": "Spectral Condition for muP under Width–Depth Scaling. scaling, maximal update parameterization, muP, feature learning, hyperparameter transfer, optimization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.00541",
+      "pdf_url": "https://arxiv.org/pdf/2603.00541",
+      "github_links": [
+        "https://github.com/ML-GSAI/Width-Depth-muP"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.00541",
+      "scraped_at": "2026-03-04T02:08:30.940432"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "WorldStereo: Bridging Camera-Guided Video Generation and Scene Reconstruction via 3D Geometric Memories",
+    "paper_url": "https://huggingface.co/papers/2603.02049",
+    "authors": [],
+    "stars": "31",
+    "details": {
+      "title": "WorldStereo: Bridging Camera-Guided Video Generation and Scene Reconstruction via 3D Geometric Memories",
+      "abstract": "Recent advances in foundational Video Diffusion Models (VDMs) have yielded significant progress. Yet, despite the remarkable visual quality of generated videos, reconstructing consistent 3D scenes from these outputs remains challenging, due to limited camera controllability and inconsistent generated content when viewed from distinct camera trajectories. In this paper, we propose WorldStereo, a novel framework that bridges camera-guided video generation and 3D reconstruction via two dedicated geometric memory modules. Formally, the global-geometric memory enables precise camera control while injecting coarse structural priors through incrementally updated point clouds. Moreover, the spatial-stereo memory constrains the model's attention receptive fields with 3D correspondence to focus on fine-grained details from the memory bank. These components enable WorldStereo to generate multi-view-consistent videos under precise camera control, facilitating high-quality 3D reconstruction. Furthermore, the flexible control branch-based WorldStereo shows impressive efficiency, benefiting from the distribution matching distilled VDM backbone without joint training. Extensive experiments across both camera-guided video generation and 3D reconstruction benchmarks demonstrate the effectiveness of our approach. Notably, we show that WorldStereo acts as a powerful world model, tackling diverse scene generation tasks (whether starting from perspective or panoramic images) with high-fidelity 3D results.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.02049",
+      "pdf_url": "https://arxiv.org/pdf/2603.02049",
+      "github_links": [
+        "https://github.com/FuchengSu/WorldStereo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.02049",
+      "scraped_at": "2026-03-04T02:08:32.796505"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Efficient RLVR Training via Weighted Mutual Information Data Selection",
+    "paper_url": "https://huggingface.co/papers/2603.01907",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Efficient RLVR Training via Weighted Mutual Information Data Selection",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01907",
+      "pdf_url": "https://arxiv.org/pdf/2603.01907",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01907",
+      "scraped_at": "2026-03-04T02:08:34.653769"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Learn Hard Problems During RL with Reference Guided Fine-tuning",
+    "paper_url": "https://huggingface.co/papers/2603.01223",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Learn Hard Problems During RL with Reference Guided Fine-tuning",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API POPE: Learning to Reason on Hard Problems via Privileged On-Policy Exploration (2026) InT: Self-Proposed Interventions Enable Credit Assignment in LLM Reasoning (2026) Recycling Failures: Salvaging Exploration in RLVR via Fine-Grained Off-Policy Guidance (2026) KEPO: Knowledge-Enhanced Preference Optimization for Reinforcement Learning with Reasoning (2026) Thickening-to-Thinning: Reward Shaping via Human-Inspired Learning Dynamics for LLM Reasoning (2026) Reinforcement-aware Knowledge Distillation for LLM Reasoning (2026) Beyond Correctness: Learning Robust Reasoning via Transfer (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01223",
+      "pdf_url": "https://arxiv.org/pdf/2603.01223",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01223",
+      "scraped_at": "2026-03-04T02:08:36.487182"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "When Does RL Help Medical VLMs? Disentangling Vision, SFT, and RL Gains",
+    "paper_url": "https://huggingface.co/papers/2603.01301",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "When Does RL Help Medical VLMs? Disentangling Vision, SFT, and RL Gains",
+      "abstract": "MedBridgeRL",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01301",
+      "pdf_url": "https://arxiv.org/pdf/2603.01301",
+      "github_links": [
+        "https://github.com/armenjeddi/medbridgerl"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01301",
+      "scraped_at": "2026-03-04T02:08:38.332857"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "CMI-RewardBench: Evaluating Music Reward Models with Compositional Multimodal Instruction",
+    "paper_url": "https://huggingface.co/papers/2603.00610",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CMI-RewardBench: Evaluating Music Reward Models with Compositional Multimodal Instruction",
+      "abstract": "Arxiv paper https://arxiv.org/abs/2603.00610 Pre-training dataset https://huggingface.co/datasets/HaiwenXia/cmi-pref-pseudo finetuning dataset https://huggingface.co/datasets/HaiwenXia/cmi-pref benchmark code https://github.com/Haiwen-Xia/CMI-RewardBench",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.00610",
+      "pdf_url": "https://arxiv.org/pdf/2603.00610",
+      "github_links": [
+        "https://github.com/Haiwen-Xia/CMI-RewardBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.00610",
+      "scraped_at": "2026-03-04T02:08:40.161774"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data",
+    "paper_url": "https://huggingface.co/papers/2602.21320",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data",
+      "abstract": "A self-play RL framework for training general-purpose tool-calling agents from scratch, without any human data.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21320",
+      "pdf_url": "https://arxiv.org/pdf/2602.21320",
+      "github_links": [
+        "https://github.com/emrecanacikgoz/Tool-R0"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21320",
+      "scraped_at": "2026-03-04T02:08:42.018885"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Unified Vision-Language Modeling via Concept Space Alignment",
+    "paper_url": "https://huggingface.co/papers/2603.01096",
+    "authors": [
+      "Holger Schwenk",
+      "Paul-Ambroise Duquenne",
+      "Yifu Qiu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Unified Vision-Language Modeling via Concept Space Alignment",
+      "abstract": "We introduce V-SONAR, a vision-language embedding space extended from the text-only embedding space SONAR (Omnilingual Embeddings Team et al., 2026), which supports 1500 text languages and 177 speech languages. To construct V-SONAR, we propose a post-hoc alignment pipeline that maps the representations of an existing vision encoder into the SONAR space. We thoroughly evaluate V-SONAR and show that its embeddings achieve competitive performance on text-to-video retrieval. Equipped with the OMNISONAR text decoder, V-SONAR further surpasses state-of-the-art vision-language models on video captioning tasks, including DREAM-1K (BLEU 23.9 vs. 19.6) and PE-VIDEO (BLEU 39.0 vs. 30.0). Leveraging V-SONAR, we first demonstrate that the Large Concept Model (LCM; LCM team et al. 2024) operating in SONAR and trained with English text only, can perform both single- and multi-visual concept understanding in a zero-shot manner. Finally, we introduce V-LCM, which extends the LCM with vision-language instruction tuning. V-LCM encodes vision and language inputs into an unified sequence of latent embeddings via V-SONAR and SONAR, and it is trained with the same latent diffusion objective for next-embedding prediction as in LCM's text-only pre-training. Experiments on a large-scale multilingual and -modal instruction-tuning data mixture highlight the potential of V-LCM: V-LCM matches state-of-the-art vision-language models on tasks covering image/video captioning and question answering, while significantly outperforming them across 61 rich- to low-resource languages out of all 62 tested languages.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01096",
+      "pdf_url": "https://arxiv.org/pdf/2603.01096",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01096",
+      "scraped_at": "2026-03-04T02:08:43.842977"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Half-Truths Break Similarity-Based Retrieval",
+    "paper_url": "https://huggingface.co/papers/2602.23906",
+    "authors": [
+      "Seong Joon Oh",
+      "Bora Kargi",
+      "Gigglingface"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "Half-Truths Break Similarity-Based Retrieval",
+      "abstract": "Code is available at https://github.com/kargibora/CS-CLIP",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23906",
+      "pdf_url": "https://arxiv.org/pdf/2602.23906",
+      "github_links": [
+        "https://github.com/kargibora/CS-CLIP"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23906",
+      "scraped_at": "2026-03-04T02:08:45.851284"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Agentic Code Reasoning",
+    "paper_url": "https://huggingface.co/papers/2603.01896",
+    "authors": [
+      "Satish Chandra",
+      "Shubham Ugare"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Agentic Code Reasoning",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Agentic Rubrics as Contextual Verifiers for SWE Agents (2026) OmniCode: A Benchmark for Evaluating Software Engineering Agents (2026) FormalJudge: A Neuro-Symbolic Paradigm for Agentic Oversight (2026) SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair (2026) TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging of LLM-Generated Code (2026) Pushing the Boundaries of Natural Reasoning: Interleaved Bonus from Formal-Logic Verification (2026) Evaluating and Enhancing the Vulnerability Reasoning Capabilities of Large Language Models (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01896",
+      "pdf_url": "https://arxiv.org/pdf/2603.01896",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01896",
+      "scraped_at": "2026-03-04T02:08:47.654684"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Recursive Think-Answer Process for LLMs and VLMs",
+    "paper_url": "https://huggingface.co/papers/2603.02099",
+    "authors": [
+      "Yong Man Ro",
+      "Youngchae Chee",
+      "BK-Lee"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Recursive Think-Answer Process for LLMs and VLMs",
+      "abstract": "🧠 Can models know when they are wrong—and try again? Think–Answer models such as DeepSeek-R1 and OpenAI o1 sometimes produce self-reflective cues like “Oops” or “Let me reconsider,” suggesting internal uncertainty. However, even when this uncertainty is evident, the model does not actually revisit its reasoning—it still outputs a final random answer after a single reasoning pass. 💡 Core Idea - R-TAP (Recursive Think-Answer Process) Instead of stopping after one Think–Answer pair, we enable models to: 1️⃣ Generate a Think–Answer 2️⃣ Estimate its own confidence via a dedicated Confidence Generator 3️⃣ Re-run reasoning if confidence is low 4️⃣ Stop early if confidence is sufficiently high 🎁 During training, we introduce two confidence-driven rewards: 1️⃣ Recursive Confidence Increase Reward → Encourages confidence to improve across iterations 2️⃣ Final Answer Confidence Reward → Encourages high-confidence termination",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.02099",
+      "pdf_url": "https://arxiv.org/pdf/2603.02099",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.02099",
+      "scraped_at": "2026-03-04T02:08:49.485839"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Legal RAG Bench: an end-to-end benchmark for legal RAG",
+    "paper_url": "https://huggingface.co/papers/2603.01710",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Legal RAG Bench: an end-to-end benchmark for legal RAG",
+      "abstract": "Hey Hugging Face, This is Legal RAG Bench, the first benchmark for legal RAG systems to simultaneously evaluate hallucinations, retrieval failures, and reasoning errors. The key takeaways of our benchmark are: Embedding models, not generative models, are the primary driver of RAG accuracy. Switching from a general-purpose embedder like OpenAI's Text Embedding 3 Large to a legal domain embedder like Kanon 2 Embedder can raise accuracy by ~19 points. Hallucinations are often triggered by retrieval failures. Fix your retrieval stack, and, in most cases, you end up fixing hallucinations. Once you have a solid legal retrieval engine, it doesn’t matter as much what generative model you use; GPT-5.2 and Gemini 3.1 Pro perform relatively similarly, with Gemini 3.1 Pro achieving slightly better accuracy than GPT-5.2 at the cost of more hallucinations. These findings confirm what we already suspected: that information retrieval sets the ceiling on the accuracy of legal RAG systems. It doesn’t matter how smart you are; you aren’t going to magically know what the penalty is for speeding in California without access to an up-to-date copy of the California Vehicle Code. Even still, to our knowledge, we’re the first to actually show this empirically. In the interests of transparency, we have not only detailed exactly how we built Legal RAG Bench in our paper , but we’ve also released all of our data openly here on Hugging Face in addition to an interactive data explorer on our blog showing the full results of all evaluated models on Legal RAG Bench.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01710",
+      "pdf_url": "https://arxiv.org/pdf/2603.01710",
+      "github_links": [
+        "https://github.com/isaacus-dev/legal-rag-bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01710",
+      "scraped_at": "2026-03-04T02:08:51.363977"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Spectral Attention Steering for Prompt Highlighting",
+    "paper_url": "https://huggingface.co/papers/2603.01281",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Spectral Attention Steering for Prompt Highlighting",
+      "abstract": "Attention steering is an important technique for controlling model focus, enabling capabilities such as prompt highlighting, where the model prioritises user-specified text. However, existing attention steering methods require explicit storage of the full attention matrix, making them incompatible with memory-efficient implementations like FlashAttention. We introduce Spectral Editing Key Amplification (SEKA), a training-free steering method that tackles this by directly editing key embeddings before attention computation. SEKA uses spectral decomposition to steer key embeddings towards latent directions that amplify attention scores for certain tokens. We extend this to Adaptive SEKA (AdaSEKA), a query-adaptive variant that uses a training-free routing mechanism to dynamically combine multiple expert subspaces based on the prompt's semantic intent. Our experiments show both methods significantly outperform strong baselines on standard steering benchmarks while adding much lower latency and memory overhead, in compatibility with optimised attention.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01281",
+      "pdf_url": "https://arxiv.org/pdf/2603.01281",
+      "github_links": [
+        "https://github.com/waylonli/SEKA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01281",
+      "scraped_at": "2026-03-04T02:08:53.269367"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Reasoning Core: A Scalable Procedural Data Generation Suite for Symbolic Pre-training and Post-Training",
+    "paper_url": "https://huggingface.co/papers/2603.02208",
+    "authors": [],
+    "stars": "34",
+    "details": {
+      "title": "Reasoning Core: A Scalable Procedural Data Generation Suite for Symbolic Pre-training and Post-Training",
+      "abstract": "Training on verifiable symbolic data is a promising way to expand the reasoning frontier of language models beyond what standard pre-training corpora provide. Yet existing procedural generators often rely on fixed puzzles or templates and do not deliver the distributional breadth needed at scale. We introduce Reasoning Core, a scalable suite that procedurally generates verifiable symbolic reasoning data across core formal domains: PDDL planning over randomized domains, first-order logic with equality, context-free grammar parsing and generation, causal reasoning over random Bayesian networks, and systems of equations. Each task is paired with an external solver for rigorous verification and admits continuous difficulty control for curriculum design. Examples can optionally include solver-derived reasoning traces, enabling supervised training from the earliest pre-training stages, and the same interface provides verifiable reward functions for reinforcement learning. Our experiments show that mixing Reasoning Core data into pre-training improves downstream reasoning while preserving, or slightly improving, language modeling quality. Zero-shot evaluations confirm these tasks challenge frontier models such as GPT-5. The code and data are publicly available under the MIT license",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.02208",
+      "pdf_url": "https://arxiv.org/pdf/2603.02208",
+      "github_links": [
+        "https://github.com/sileod/reasoning_core",
+        "https://github.com/sileod/reasoning_core/"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.02208",
+      "scraped_at": "2026-03-04T02:08:55.406766"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Tool Verification for Test-Time Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2603.02203",
+    "authors": [
+      "Yasaman Samadzadeh",
+      "Yuhui Zhang",
+      "Xiaohan Wang",
+      "Nikolai Röhrich",
+      "Ruotong Liao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Tool Verification for Test-Time Reinforcement Learning",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Distribution-Aware Reward Estimation for Test-Time Reinforcement Learning (2026) ECHO: Entropy-Confidence Hybrid Optimization for Test-Time Reinforcement Learning (2026) Scaling Medical Reasoning Verification via Tool-Integrated Reinforcement Learning (2026) TTCS: Test-Time Curriculum Synthesis for Self-Evolving (2026) Beyond Correctness: Learning Robust Reasoning via Transfer (2026) Recycling Failures: Salvaging Exploration in RLVR via Fine-Grained Off-Policy Guidance (2026) Learning to Self-Verify Makes Language Models Better Reasoners (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.02203",
+      "pdf_url": "https://arxiv.org/pdf/2603.02203",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.02203",
+      "scraped_at": "2026-03-04T02:08:57.510010"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "CharacterFlywheel: Scaling Iterative Improvement of Engaging and Steerable LLMs in Production",
+    "paper_url": "https://huggingface.co/papers/2603.01973",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CharacterFlywheel: Scaling Iterative Improvement of Engaging and Steerable LLMs in Production",
+      "abstract": "We present CharacterFlywheel — an iterative process optimizing LLMs for real human engagement and character steerability, while maintaining rigorous safety protocols. Tested across Instagram, WhatsApp & Messenger with millions of users — where they can create, share, and chat with their own AI characters.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01973",
+      "pdf_url": "https://arxiv.org/pdf/2603.01973",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01973",
+      "scraped_at": "2026-03-04T02:08:59.966144"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "LaSER: Internalizing Explicit Reasoning into Latent Space for Dense Retrieval",
+    "paper_url": "https://huggingface.co/papers/2603.01425",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LaSER: Internalizing Explicit Reasoning into Latent Space for Dense Retrieval",
+      "abstract": "Empowering dense retrievers with latent reasoning for high-performance, latency-free complex search. dense retrieval, latent reasoning, latent CoT, representation learning, efficiency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01425",
+      "pdf_url": "https://arxiv.org/pdf/2603.01425",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01425",
+      "scraped_at": "2026-03-04T02:09:01.809468"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "ArtLLM: Generating Articulated Assets via 3D LLM",
+    "paper_url": "https://huggingface.co/papers/2603.01142",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ArtLLM: Generating Articulated Assets via 3D LLM",
+      "abstract": "Accepted by CVPR 2026. Code will be released soon.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01142",
+      "pdf_url": "https://arxiv.org/pdf/2603.01142",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01142",
+      "scraped_at": "2026-03-04T02:09:03.743710"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "RAISE: Requirement-Adaptive Evolutionary Refinement for Training-Free Text-to-Image Alignment",
+    "paper_url": "https://huggingface.co/papers/2603.00483",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "RAISE: Requirement-Adaptive Evolutionary Refinement for Training-Free Text-to-Image Alignment",
+      "abstract": "“RAISE: Requirement-Adaptive Self-Improving Evolution for Training-Free Text-to-Image Alignment” has been accepted to CVPR 2026! 🎉 📌 Question we address: Without training on massive carefully curated data or model scaling, can we simply achieve precise prompt–image alignment at test time only? 🚀 Introducing RAISE — an agentic, autonomous multi-agent framework that evolves and refines text-to-image generation at test time through automated user intent discovery: ✅ Multi-agent refinement: agents collaboratively discover requirements and iteratively verify and improve generations via a checklist ✅ Requirement-adaptive compute: spend more effort only when the prompt is challenging, stop when requirements are met ✅ Plug-and-play: works as an add-on, directly plugs into existing models ✅ Training-free: no extra training or data curation ✅ Model-agnostic: compatible with different diffusion models / VLM backbones 📊 Results highlight: strong prompt-image alignment gains on standard benchmarks, while being far more efficient than fixed-budget or sequential reflection pipelines 🔗 Links 🤗 HuggingFace Papers: https://huggingface.co/papers/2603.00483 📜 Paper (arXiv): https://arxiv.org/abs/2603.00483 ⚒️ Code: https://github.com/LiyaoJiang1998/RAISE",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.00483",
+      "pdf_url": "https://arxiv.org/pdf/2603.00483",
+      "github_links": [
+        "https://github.com/LiyaoJiang1998/RAISE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.00483",
+      "scraped_at": "2026-03-04T02:09:05.586227"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Classroom Final Exam: An Instructor-Tested Reasoning Benchmark",
+    "paper_url": "https://huggingface.co/papers/2602.19517",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Classroom Final Exam: An Instructor-Tested Reasoning Benchmark",
+      "abstract": "CFE-Bench (Classroom Final Exam) is a text-only and multimodal reasoning benchmark built from authentic, repeatedly used university homework and exam problems sourced from instructor-maintained course materials and verified by professors. It contains 305 text-only and 144 multimodal samples spanning 20+ subjects across physics, mathematics, and other STEM domains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19517",
+      "pdf_url": "https://arxiv.org/pdf/2602.19517",
+      "github_links": [
+        "https://github.com/Analogy-AI/CFE_Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19517",
+      "scraped_at": "2026-03-04T02:09:07.412397"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "CC-VQA: Conflict- and Correlation-Aware Method for Mitigating Knowledge Conflict in Knowledge-Based Visual Question Answering",
+    "paper_url": "https://huggingface.co/papers/2602.23952",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "CC-VQA: Conflict- and Correlation-Aware Method for Mitigating Knowledge Conflict in Knowledge-Based Visual Question Answering",
+      "abstract": "CVPR 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23952",
+      "pdf_url": "https://arxiv.org/pdf/2602.23952",
+      "github_links": [
+        "https://github.com/cqu-student/CC-VQA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23952",
+      "scraped_at": "2026-03-04T02:09:09.251429"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Synthetic Visual Genome 2: Extracting Large-scale Spatio-Temporal Scene Graphs from Videos",
+    "paper_url": "https://huggingface.co/papers/2602.23543",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Synthetic Visual Genome 2: Extracting Large-scale Spatio-Temporal Scene Graphs from Videos",
+      "abstract": "Website: SVG2 Paper: arxiv Dataset: SVG2 Dataset Model: Traser",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23543",
+      "pdf_url": "https://arxiv.org/pdf/2602.23543",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23543",
+      "scraped_at": "2026-03-04T02:09:11.098540"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "SeeThrough3D: Occlusion Aware 3D Control in Text-to-Image Generation",
+    "paper_url": "https://huggingface.co/papers/2602.23359",
+    "authors": [
+      "R. Venkatesh Babu",
+      "Ravi Kiran Sarvadevabhatla",
+      "Pradhaan Bhat",
+      "Rishubh Parihar",
+      "Vaibhav Agrawal"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SeeThrough3D: Occlusion Aware 3D Control in Text-to-Image Generation",
+      "abstract": "Current models for 3D aware control do not generate occlusions accurately, thus lead to unrealistic generations. This work proposes as simple yet effective mechanism to generate multi object scenes with complex occlusions, with 3D control over location and pose of each object.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23359",
+      "pdf_url": "https://arxiv.org/pdf/2602.23359",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23359",
+      "scraped_at": "2026-03-04T02:09:12.904616"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "MicroVerse: A Preliminary Exploration Toward a Micro-World Simulation",
+    "paper_url": "https://huggingface.co/papers/2603.00585",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MicroVerse: A Preliminary Exploration Toward a Micro-World Simulation",
+      "abstract": "In the current era of rapid advancements in video generation, while macroscopic simulation has reached unprecedented heights, the microscopic realm — the fundamental engine of life and science — remained a largely uncharted \"black box\" for AI. MicroVerse marks a seminal exploration into the concept of Micro-World Simulation. We have identified a critical \"fidelity gap\" in existing state-of-the-art models like Sora and Veo: while they can generate visually stunning videos, they fundamentally fail to adhere to the rigid physical and biological laws of the micro-scale. MicroVerse is our answer to this challenge, redefining the boundary between generative AI and scientific reality. 🔬 Core Pillars of Our Work MicroWorldBench : The industry’s first multi-level, rubric-based benchmark. Featuring 459 unique expert-annotated criteria , it spans organ-level processes, cellular dynamics, and subcellular molecular interactions, providing the first rigorous \"scientific yardstick\" for micro-intelligence. MicroSim-10K : A world-first, expert-verified dataset containing 9,601 high-quality micro-simulation scenarios . This serves as the \"physical grounding\" that current models lack, prioritizing biological accuracy over mere pixels. The MicroVerse Model : A tailored video generation framework that explicitly incorporates physical grounding and fine-grained biological dynamics . MicroVerse doesn't just \"paint\" a picture; it reproduces complex microscale mechanisms with a +2.7 gain in scientific fidelity over leading baselines. 🌟 Our Vision By bridging the gap between simulated visual data and real experimental distributions, we are paving the way for a new generation of \"World Models\" capable of driving breakthroughs in drug discovery, disease modeling, and interactive scientific visualization. > MicroVerse is not just a model; it is the foundation for understanding and simulating the fundamental mechanisms of life.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.00585",
+      "pdf_url": "https://arxiv.org/pdf/2603.00585",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.00585",
+      "scraped_at": "2026-03-04T02:09:14.735350"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "ProtegoFed: Backdoor-Free Federated Instruction Tuning with Interspersed Poisoned Data",
+    "paper_url": "https://huggingface.co/papers/2603.00516",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "ProtegoFed: Backdoor-Free Federated Instruction Tuning with Interspersed Poisoned Data",
+      "abstract": "Federated Instruction Tuning (FIT) enables collaborative instruction tuning of large language models across multiple organizations (clients) in a cross-silo setting without requiring the sharing of private instructions. Recent findings on natural backdoors and the existing training data collection method suggest that poisoned samples may be pervasive and inadvertently embedded in real-world datasets, potentially distributed across all clients, even if the clients are benign. This work systematically examine this threat in FIT, demonstrating that existing defenses are ineffective when poisoned data is interspersed among all clients. Addressing this challenge entails two major difficulties: identifying the distinctive characteristics of poisoned samples at each client and enabling collaborative defense when some clients are heavily dominated by poisoned samples. To address these difficulties, we identify gradients in the frequency domain as a robust signal to distinguish poisoned data. We further propose a global secondary clustering mechanism that facilitates collaborative identification of poisoned samples across clients. In summary, this paper introduces ProtegoFed, the first backdoor-free FIT framework that accurately detects, removes, and even purifies interspersed poisoned data across clients during the training. Experimental results on four FL datasets show that ProtegoFed identifies 92.00%∼100.00% of poisoned samples, reduces the attack success rate to almost zero, and maintains utility on the main task. Code is available at this https URL.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.00516",
+      "pdf_url": "https://arxiv.org/pdf/2603.00516",
+      "github_links": [
+        "https://github.com/dongdongzhaoUP/ProtegoFed"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.00516",
+      "scraped_at": "2026-03-04T02:09:16.565977"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "FireRed-OCR Technical Report",
+    "paper_url": "https://huggingface.co/papers/2603.01840",
+    "authors": [
+      "Zhaojun Sun",
+      "Zuodong Zhong",
+      "Xinyue Li",
+      "Haoran Lou",
+      "Hao Wu"
+    ],
+    "stars": "90",
+    "details": {
+      "title": "FireRed-OCR Technical Report",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API PaddleOCR-VL-1.5: Towards a Multi-Task 0.9B VLM for Robust In-the-Wild Document Parsing (2026) LightOnOCR: A 1B End-to-End Multilingual Vision-Language Model for State-of-the-Art OCR (2026) Dolphin-v2: Universal Document Parsing via Scalable Anchor Prompting (2026) STEP3-VL-10B Technical Report (2026) Typhoon OCR: Open Vision-Language Model For Thai Document Extraction (2026) Global-Local Dual Perception for MLLMs in High-Resolution Text-Rich Image Translation (2026) GutenOCR: A Grounded Vision-Language Front-End for Documents (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01840",
+      "pdf_url": "https://arxiv.org/pdf/2603.01840",
+      "github_links": [
+        "https://github.com/FireRedTeam/FireRed-OCR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01840",
+      "scraped_at": "2026-03-04T02:09:18.381667"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Cryo-Bench: Benchmarking Foundation Models for Cryosphere Applications",
+    "paper_url": "https://huggingface.co/papers/2603.01576",
+    "authors": [
+      "Beth Tellman",
+      "Lalit Maurya",
+      "Saurabh Kaushik"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Cryo-Bench: Benchmarking Foundation Models for Cryosphere Applications",
+      "abstract": "Cryo‑Bench, the first comprehensive benchmark designed to evaluate how well Geospatial Foundation Models (GFMs) handle one of Earth’s most challenging and climate‑critical domains — the cryosphere. GFMs are rapidly transforming Earth observation research, but one domain remains notably underrepresented: Earth’s frozen regions. Cryosphere applications are largely absent from existing GFM pretraining datasets and rarely appear as downstream evaluation tasks. This makes them the perfect stress test for examining a model’s ability to generalize to difficult, unseen environments 🌍𝐖𝐡𝐚𝐭’𝐬 𝐈𝐧𝐬𝐢𝐝𝐞 𝐂𝐫𝐲𝐨‑𝐁𝐞𝐧𝐜𝐡? We evaluated 14 GFMs and UNet/ViT baselines across five datasets that span four essential cryospheric tasks: Supraglacial debris mapping Glacial lake detection Sea‑ice segmentation Calving‑front detection And we tested them under 3 evaluation protocols: • Frozen encoder • Learning‑rate–optimized fine‑tuning • Few‑shot learning (10% data) 🔍 𝐊𝐞𝐲 𝐅𝐢𝐧𝐝𝐢𝐧𝐠𝐬 ✔️ UNet (frozen encoder) leads with an average mIoU of 66.38, followed closely by TerraMind at 64.02. ✔️ In few-shot settings, models like DOFA and TerraMind outperform UNet, demonstrating impressive adaptability. ✔️ Full fine‑tuning shows inconsistent performance, but—importantly—learning‑rate tuning significantly boosts results, with up to 12.77% relative improvement on GLID and CaFFe datasets. ✔️ Despite minimal cryosphere data in pretraining, GFMs show surprisingly strong domain adaptation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01576",
+      "pdf_url": "https://arxiv.org/pdf/2603.01576",
+      "github_links": [
+        "https://github.com/Sk-2103/Cryo-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01576",
+      "scraped_at": "2026-03-04T02:09:20.255465"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Using Songs to Improve Kazakh Automatic Speech Recognition",
+    "paper_url": "https://huggingface.co/papers/2603.00961",
+    "authors": [
+      "yeshpanovrustem"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Using Songs to Improve Kazakh Automatic Speech Recognition",
+      "abstract": "Accepted to LREC 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.00961",
+      "pdf_url": "https://arxiv.org/pdf/2603.00961",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.00961",
+      "scraped_at": "2026-03-04T02:09:22.066999"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Planning from Observation and Interaction",
+    "paper_url": "https://huggingface.co/papers/2602.24121",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Planning from Observation and Interaction",
+      "abstract": "This work investigates real-world observational learning, or Inverse Reinforcement Learning from Observation (IRLfO), in which neither demonstration actions nor hand-designed rewards are assumed available. Previously too sample inefficient for real-world training, IRLfO is made possible for visual manipulation through MPAIL2, a planning-based algorithm which can learn a world model from only task observations and interaction.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.24121",
+      "pdf_url": "https://arxiv.org/pdf/2602.24121",
+      "github_links": [
+        "https://github.com/UWRobotLearning/mpail2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.24121",
+      "scraped_at": "2026-03-04T02:09:23.901008"
+    },
+    "scraped_date": "2026-03-04"
+  },
+  {
+    "title": "Monocular Mesh Recovery and Body Measurement of Female Saanen Goats",
+    "paper_url": "https://huggingface.co/papers/2602.19896",
+    "authors": [
+      "Tao Yu",
+      "Bin Zhang",
+      "Shichao Zhao",
+      "Bo Jin",
+      "luoxue-star"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "Monocular Mesh Recovery and Body Measurement of Female Saanen Goats",
+      "abstract": "Accepted to AAAI 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19896",
+      "pdf_url": "https://arxiv.org/pdf/2602.19896",
+      "github_links": [
+        "https://github.com/bojin-nwafu/Female-Saanen-Goats"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19896",
+      "scraped_at": "2026-03-04T02:09:25.817672"
+    },
+    "scraped_date": "2026-03-04"
   }
 ]
