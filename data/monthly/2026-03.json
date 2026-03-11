@@ -4792,5 +4792,122 @@
       "scraped_at": "2026-03-10T02:07:11.597804"
     },
     "scraped_date": "2026-03-10"
+  },
+  {
+    "title": "Omni-Diffusion: Unified Multimodal Understanding and Generation with Masked Discrete Diffusion",
+    "paper_url": "https://huggingface.co/papers/2603.06577",
+    "authors": [
+      "Haoyu Cao",
+      "Heting Gao",
+      "Yunhang Shen",
+      "Zuwei Long",
+      "Lijiang Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Omni-Diffusion: Unified Multimodal Understanding and Generation with Masked Discrete Diffusion",
+      "abstract": "Omni-Diffusion, the first any-to-any multimodal language model build on a mask-based discrete diffusion model.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.06577",
+      "pdf_url": "https://arxiv.org/pdf/2603.06577",
+      "github_links": [
+        "https://github.com/VITA-MLLM/Omni-Diffusion"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.06577",
+      "scraped_at": "2026-03-11T02:06:24.658044"
+    },
+    "scraped_date": "2026-03-11"
+  },
+  {
+    "title": "Reading, Not Thinking: Understanding and Bridging the Modality Gap When Text Becomes Pixels in Multimodal LLMs",
+    "paper_url": "https://huggingface.co/papers/2603.09095",
+    "authors": [
+      "Cheng Zhang",
+      "Chen Zhao",
+      "Hongjun Liu",
+      "Xiaochuang Yuan",
+      "Kaiser Sun"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Reading, Not Thinking: Understanding and Bridging the Modality Gap When Text Becomes Pixels in Multimodal LLMs",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.09095",
+      "pdf_url": "https://arxiv.org/pdf/2603.09095",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.09095",
+      "scraped_at": "2026-03-11T02:06:26.493625"
+    },
+    "scraped_date": "2026-03-11"
+  },
+  {
+    "title": "Fish Audio S2 Technical Report",
+    "paper_url": "https://huggingface.co/papers/2603.08823",
+    "authors": [
+      "Ruoyi Zhang",
+      "Yifan Cheng",
+      "Songting Liu",
+      "Yuxuan Wang",
+      "Shijia Liao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Fish Audio S2 Technical Report",
+      "abstract": "Github: https://github.com/fishaudio/fish-speech",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.08823",
+      "pdf_url": "https://arxiv.org/pdf/2603.08823",
+      "github_links": [
+        "https://github.com/fishaudio/fish-speech"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.08823",
+      "scraped_at": "2026-03-11T02:06:28.420190"
+    },
+    "scraped_date": "2026-03-11"
+  },
+  {
+    "title": "The Reasoning Trap -- Logical Reasoning as a Mechanistic Pathway to Situational Awareness",
+    "paper_url": "https://huggingface.co/papers/2603.09200",
+    "authors": [
+      "Divya Chaudhary",
+      "Vinija Jain",
+      "Aman Chadha",
+      "Subramanyam Sahoo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Reasoning Trap -- Logical Reasoning as a Mechanistic Pathway to Situational Awareness",
+      "abstract": "We introduce RAISE (Reasoning Advancing Into Self Examination) , a conceptual framework arguing that improvements in LLM logical reasoning (deduction, induction, abduction) mechanistically enable situational awareness , potentially leading to strategic and deceptive behavior , and proposes evaluation safeguards such as a Mirror Test and Reasoning Safety Parity Principle . ➡️ 𝐊𝐞𝐲 𝐇𝐢𝐠𝐡𝐥𝐢𝐠𝐡𝐭𝐬 𝐨𝐟 𝐭𝐡𝐞 𝐑𝐀𝐈𝐒𝐄 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤: 🧠 𝑹𝑨𝑰𝑺𝑬: 𝑹𝒆𝒂𝒔𝒐𝒏𝒊𝒏𝒈 𝑨𝒅𝒗𝒂𝒏𝒄𝒊𝒏𝒈 𝑰𝒏𝒕𝒐 𝑺𝒆𝒍𝒇 𝑬𝒙𝒂𝒎𝒊𝒏𝒂𝒕𝒊𝒐𝒏: Proposes a mechanistic framework linking three reasoning modes to three pathways toward AI situational awareness (SA) : Deductive Self-Inference → reasoning about training and constraints from known premises. Inductive Context Recognition → detecting evaluation/deployment context from interaction patterns. Abductive Self-Modeling → hypothesizing architectural properties and training objectives. Together they form a closed epistemic loop where induction provides evidence, abduction generates hypotheses, and deduction validates them—producing increasingly sophisticated self-understanding. 📈 𝑺𝑨 𝑬𝒔𝒄𝒂𝒍𝒂𝒕𝒊𝒐𝒏 𝑳𝒂𝒅𝒅𝒆𝒓 & 𝑪𝒐𝒎𝒑𝒐𝒖𝒏𝒅 𝑹𝒆𝒂𝒔𝒐𝒏𝒊𝒏𝒈 𝑬𝒇𝒇𝒆𝒄𝒕: Formalizes five levels of situational awareness (SA1–SA5) from simple self-recognition to strategic self-modeling enabling deception . The authors derive a multiplicative amplification model: Δ S A ∝ ( 1 + δ D ) ( 1 + δ I ) ( 1 + δ A ) − 1 \\Delta SA \\propto (1+\\delta_D)(1+\\delta_I)(1+\\delta_A)-1 Δ S A ∝ ( 1 + δ D ​ ) ( 1 + δ I ​ ) ( 1 + δ A ​ ) − 1 showing that balanced improvements in deduction, induction, and abduction produce nonlinear SA growth due to cross-term synergies (δDδI, δIδA, δDδA), culminating in integrated reasoning loops enabling strategic behavior. 🛡️ 𝑺𝒂𝒇𝒆𝒕𝒚 𝑭𝒓𝒂𝒎𝒆𝒘𝒐𝒓𝒌: 𝑴𝒊𝒓𝒓𝒐𝒓 𝑻𝒆𝒔𝒕 & 𝑹𝒆𝒂𝒔𝒐𝒏𝒊𝒏𝒈 𝑺𝒂𝒇𝒆𝒕𝒚 𝑷𝒂𝒓𝒊𝒕𝒚: Argues that current safety methods (RLHF, constitutional AI, red-teaming) cannot prevent unexpressed internal reasoning about self . The paper proposes: Mirror Test for LLMs: a hidden evaluation battery probing SA1–SA5 via identity probes, context discrimination tasks, training-inference scenarios, and self-prediction tasks. Reasoning Safety Parity Principle: every reasoning improvement paper should report situational-awareness impact alongside capability gains. Additional safeguards including reasoning compartmentalization, diverse monitoring systems, and faithful reasoning verification .",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.09200",
+      "pdf_url": "https://arxiv.org/pdf/2603.09200",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.09200",
+      "scraped_at": "2026-03-11T02:06:30.312001"
+    },
+    "scraped_date": "2026-03-11"
+  },
+  {
+    "title": "SAHOO: Safeguarded Alignment for High-Order Optimization Objectives in Recursive Self-Improvement",
+    "paper_url": "https://huggingface.co/papers/2603.06333",
+    "authors": [
+      "Divya Chaudhary",
+      "Vinija Jain",
+      "Aman Chadha",
+      "Subramanyam Sahoo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SAHOO: Safeguarded Alignment for High-Order Optimization Objectives in Recursive Self-Improvement",
+      "abstract": "SAHOO introduces a measurable alignment-preserving framework for recursive self-improving AI systems using multi-signal drift detection (GDI), constraint-preserving optimization, and regression-risk control to enable capability gains while bounding alignment degradation. ➡️ 𝐊𝐞𝐲 𝐇𝐢𝐠𝐡𝐥𝐢𝐠𝐡𝐭𝐬 𝐨𝐟 𝐒𝐀𝐇𝐎𝐎: 𝐒𝐚𝐟𝐞𝐠𝐮𝐚𝐫𝐝𝐞𝐝 𝐑𝐞𝐜𝐮𝐫𝐬𝐢𝐯𝐞 𝐒𝐞𝐥𝐟-𝐈𝐦𝐩𝐫𝐨𝐯𝐞𝐦𝐞𝐧𝐭 🧭 𝑮𝒐𝒂𝒍 𝑫𝒓𝒊𝒇𝒕 𝑰𝒏𝒅𝒆𝒙 (GDI): Multi-Signal Alignment Drift Detection Introduces a composite alignment drift metric combining semantic, lexical, structural, and distributional divergence signals. Semantic drift uses embedding cosine distance; lexical drift uses Jensen–Shannon divergence over token distributions; structural drift tracks formatting features; and distributional drift measures Wasserstein distance across response embeddings. Learned weights combine these signals into GDI , calibrated via logistic regression on labeled drift data to detect subtle alignment changes across recursive improvement cycles. 🛡 𝑪𝒐𝒏𝒔𝒕𝒓𝒂𝒊𝒏𝒕-𝑷𝒓𝒆𝒔𝒆𝒓𝒗𝒊𝒏𝒈 𝑨𝒍𝒊𝒈𝒏𝒎𝒆𝒏𝒕 𝑳𝒐𝒐𝒑 Proposes a recursive improvement pipeline where each iteration evaluates quality (Q), constraint preservation (CPS), and drift (GDI) . Explicit constraint predicates enforce safety invariants (e.g., syntactic correctness, factuality, ethical constraints), and violations trigger penalty-guided improvement prompts or immediate termination. This integrates alignment preservation directly into the optimization loop , preventing capability improvements that violate safety constraints. 📉 𝑹𝒆𝒈𝒓𝒆𝒔𝒔𝒊𝒐𝒏 𝑹𝒊𝒔𝒌 + 𝑪𝑨𝑹 𝑭𝒓𝒐𝒏𝒕𝒊𝒆𝒓: Stability and Trade-off Modeling Introduces probabilistic regression-risk estimation using volatility-normalized quality gaps and trend-adjusted Gaussian forecasting to detect when iterative improvements begin undoing earlier gains. Additionally defines the **Capability Alignment Ratio (CAR)**—quality improvement divided by accumulated drift—to map the Pareto frontier between capability growth and alignment degradation, revealing that early cycles provide high efficiency while later improvements incur higher alignment costs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.06333",
+      "pdf_url": "https://arxiv.org/pdf/2603.06333",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.06333",
+      "scraped_at": "2026-03-11T02:06:32.141860"
+    },
+    "scraped_date": "2026-03-11"
   }
 ]

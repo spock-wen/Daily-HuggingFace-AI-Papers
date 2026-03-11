@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-1-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-2803+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-5-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-2808+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">1</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">7</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">236</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2803+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">5</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">12</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">241</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2808+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** March 10, 2026
+**Last Updated:** March 11, 2026
 
 ---
 
@@ -119,17 +119,71 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Generalizable Knowledge Distillation from Vision Foundation Models for Semantic Segmentation</b> ⭐ 0</summary>
+<summary><b>1. Omni-Diffusion: Unified Multimodal Understanding and Generation with Masked Discrete Diffusion</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Ning Huyan, Dou Quan, Shuang Wang, Dong Zhao, yongers
+**👥 Authors:** Haoyu Cao, Heting Gao, Yunhang Shen, Zuwei Long, Lijiang Li
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.02554) • [📄 arXiv](https://arxiv.org/abs/2603.02554) • [📥 PDF](https://arxiv.org/pdf/2603.02554)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.06577) • [📄 arXiv](https://arxiv.org/abs/2603.06577) • [📥 PDF](https://arxiv.org/pdf/2603.06577)
 
-**💻 Code:** [⭐ Code](https://github.com/Younger-hua/GKD)
+**💻 Code:** [⭐ Code](https://github.com/VITA-MLLM/Omni-Diffusion)
 
-> Knowledge distillation (KD) has been widely applied in semantic segmentation to compress large models, but conventional approaches primarily preserve in-domain accuracy while neglecting out-of-domain generalization, which is essential under distri...
+> Omni-Diffusion, the first any-to-any multimodal language model build on a mask-based discrete diffusion model.
+
+</details>
+
+<details>
+<summary><b>2. Reading, Not Thinking: Understanding and Bridging the Modality Gap When Text Becomes Pixels in Multimodal LLMs</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Cheng Zhang, Chen Zhao, Hongjun Liu, Xiaochuang Yuan, Kaiser Sun
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.09095) • [📄 arXiv](https://arxiv.org/abs/2603.09095) • [📥 PDF](https://arxiv.org/pdf/2603.09095)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>3. Fish Audio S2 Technical Report</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Ruoyi Zhang, Yifan Cheng, Songting Liu, Yuxuan Wang, Shijia Liao
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.08823) • [📄 arXiv](https://arxiv.org/abs/2603.08823) • [📥 PDF](https://arxiv.org/pdf/2603.08823)
+
+**💻 Code:** [⭐ Code](https://github.com/fishaudio/fish-speech)
+
+> Github: https://github.com/fishaudio/fish-speech
+
+</details>
+
+<details>
+<summary><b>4. The Reasoning Trap -- Logical Reasoning as a Mechanistic Pathway to Situational Awareness</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Divya Chaudhary, Vinija Jain, Aman Chadha, Subramanyam Sahoo
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.09200) • [📄 arXiv](https://arxiv.org/abs/2603.09200) • [📥 PDF](https://arxiv.org/pdf/2603.09200)
+
+> We introduce RAISE (Reasoning Advancing Into Self Examination) , a conceptual framework arguing that improvements in LLM logical reasoning (deduction, induction, abduction) mechanistically enable situational awareness , potentially leading to stra...
+
+</details>
+
+<details>
+<summary><b>5. SAHOO: Safeguarded Alignment for High-Order Optimization Objectives in Recursive Self-Improvement</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Divya Chaudhary, Vinija Jain, Aman Chadha, Subramanyam Sahoo
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.06333) • [📄 arXiv](https://arxiv.org/abs/2603.06333) • [📥 PDF](https://arxiv.org/pdf/2603.06333)
+
+> SAHOO introduces a measurable alignment-preserving framework for recursive self-improving AI systems using multi-signal drift detection (GDI), constraint-preserving optimization, and regression-risk control to enable capability gains while boundin...
 
 </details>
 
@@ -141,28 +195,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 1 |
-| 📅 Today | [`2026-03-10.json`](data/daily/2026-03-10.json) | 1 |
-| 📆 This Week | [`2026-W10.json`](data/weekly/2026-W10.json) | 7 |
-| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 236 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 5 |
+| 📅 Today | [`2026-03-11.json`](data/daily/2026-03-11.json) | 5 |
+| 📆 This Week | [`2026-W10.json`](data/weekly/2026-W10.json) | 12 |
+| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 241 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-03-10 | 1 | [View JSON](data/daily/2026-03-10.json) |
+| 📌 2026-03-11 | 5 | [View JSON](data/daily/2026-03-11.json) |
+| 📄 2026-03-10 | 1 | [View JSON](data/daily/2026-03-10.json) |
 | 📄 2026-03-09 | 6 | [View JSON](data/daily/2026-03-09.json) |
 | 📄 2026-03-08 | 24 | [View JSON](data/daily/2026-03-08.json) |
 | 📄 2026-03-07 | 24 | [View JSON](data/daily/2026-03-07.json) |
 | 📄 2026-03-06 | 21 | [View JSON](data/daily/2026-03-06.json) |
 | 📄 2026-03-05 | 41 | [View JSON](data/daily/2026-03-05.json) |
-| 📄 2026-03-04 | 41 | [View JSON](data/daily/2026-03-04.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W10 | 7 | [View JSON](data/weekly/2026-W10.json) |
+| 📅 2026-W10 | 12 | [View JSON](data/weekly/2026-W10.json) |
 | 📅 2026-W09 | 201 | [View JSON](data/weekly/2026-W09.json) |
 | 📅 2026-W08 | 184 | [View JSON](data/weekly/2026-W08.json) |
 | 📅 2026-W07 | 197 | [View JSON](data/weekly/2026-W07.json) |
@@ -171,7 +225,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-03 | 236 | [View JSON](data/monthly/2026-03.json) |
+| 🗓️ 2026-03 | 241 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
