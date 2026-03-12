@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-5-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-2808+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-7-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-2815+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">5</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">12</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">241</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2808+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">7</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">19</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">248</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2815+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** March 11, 2026
+**Last Updated:** March 12, 2026
 
 ---
 
@@ -119,71 +119,89 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Omni-Diffusion: Unified Multimodal Understanding and Generation with Masked Discrete Diffusion</b> ⭐ 0</summary>
+<summary><b>1. OpenClaw-RL: Train Any Agent Simply by Talking</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Haoyu Cao, Heting Gao, Yunhang Shen, Zuwei Long, Lijiang Li
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.10165) • [📄 arXiv](https://arxiv.org/abs/2603.10165) • [📥 PDF](https://arxiv.org/pdf/2603.10165)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.06577) • [📄 arXiv](https://arxiv.org/abs/2603.06577) • [📥 PDF](https://arxiv.org/pdf/2603.06577)
+**💻 Code:** [⭐ Code](https://github.com/Gen-Verse/OpenClaw-RL)
 
-**💻 Code:** [⭐ Code](https://github.com/VITA-MLLM/Omni-Diffusion)
-
-> Omni-Diffusion, the first any-to-any multimodal language model build on a mask-based discrete diffusion model.
+> code: https://github.com/Gen-Verse/OpenClaw-RL
 
 </details>
 
 <details>
-<summary><b>2. Reading, Not Thinking: Understanding and Bridging the Modality Gap When Text Becomes Pixels in Multimodal LLMs</b> ⭐ 0</summary>
+<summary><b>2. RetroAgent: From Solving to Evolving via Retrospective Dual Intrinsic Feedback</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Cheng Zhang, Chen Zhao, Hongjun Liu, Xiaochuang Yuan, Kaiser Sun
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.08561) • [📄 arXiv](https://arxiv.org/abs/2603.08561) • [📥 PDF](https://arxiv.org/pdf/2603.08561)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.09095) • [📄 arXiv](https://arxiv.org/abs/2603.09095) • [📥 PDF](https://arxiv.org/pdf/2603.09095)
+**💻 Code:** [⭐ Code](https://github.com/zhangxy-2019/RetroAgent)
+
+> Standard RL paradigms favor static problem-solving over continuous adaptation: agents often converge to suboptimal strategies due to insufficient exploration, while learned knowledge remains implicit within parameters rather than explicitly retrie...
+
+</details>
+
+<details>
+<summary><b>3. EmboAlign: Aligning Video Generation with Compositional Constraints for Zero-Shot Manipulation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.05757) • [📄 arXiv](https://arxiv.org/abs/2603.05757) • [📥 PDF](https://arxiv.org/pdf/2603.05757)
+
+> Excited to share our new paper: EmboAlign! EmboAlign aligns video generation with compositional constraints for zero-shot robotic manipulation. Our key idea: VLMs provide structured spatial reasoning that complements VGMs. We use VLM-generated tas...
+
+</details>
+
+<details>
+<summary><b>4. V_{0.5}: Generalist Value Model as a Prior for Sparse RL Rollouts</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.10848) • [📄 arXiv](https://arxiv.org/abs/2603.10848) • [📥 PDF](https://arxiv.org/pdf/2603.10848)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>3. Fish Audio S2 Technical Report</b> ⭐ 0</summary>
+<summary><b>5. Just-in-Time: Training-Free Spatial Acceleration for Diffusion Transformers</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Ruoyi Zhang, Yifan Cheng, Songting Liu, Yuxuan Wang, Shijia Liao
+**👥 Authors:** Zhaoqiang Liu, Ji Li, Wenhao Sun
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.08823) • [📄 arXiv](https://arxiv.org/abs/2603.08823) • [📥 PDF](https://arxiv.org/pdf/2603.08823)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.10744) • [📄 arXiv](https://arxiv.org/abs/2603.10744) • [📥 PDF](https://arxiv.org/pdf/2603.10744)
 
-**💻 Code:** [⭐ Code](https://github.com/fishaudio/fish-speech)
-
-> Github: https://github.com/fishaudio/fish-speech
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>4. The Reasoning Trap -- Logical Reasoning as a Mechanistic Pathway to Situational Awareness</b> ⭐ 0</summary>
+<summary><b>6. CLIPO: Contrastive Learning in Policy Optimization Generalizes RLVR</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Divya Chaudhary, Vinija Jain, Aman Chadha, Subramanyam Sahoo
+**👥 Authors:** Guojun Zhang, Yongbo Gai, Jiajun Song, Pengyu Cheng, Sijia Cui
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.09200) • [📄 arXiv](https://arxiv.org/abs/2603.09200) • [📥 PDF](https://arxiv.org/pdf/2603.09200)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.10101) • [📄 arXiv](https://arxiv.org/abs/2603.10101) • [📥 PDF](https://arxiv.org/pdf/2603.10101)
 
-> We introduce RAISE (Reasoning Advancing Into Self Examination) , a conceptual framework arguing that improvements in LLM logical reasoning (deduction, induction, abduction) mechanistically enable situational awareness , potentially leading to stra...
+**💻 Code:** [⭐ Code](https://github.com/Qwen-Applications/CLIPO)
+
+> Github: https://github.com/Qwen-Applications/CLIPO
 
 </details>
 
 <details>
-<summary><b>5. SAHOO: Safeguarded Alignment for High-Order Optimization Objectives in Recursive Self-Improvement</b> ⭐ 0</summary>
+<summary><b>7. Code-Space Response Oracles: Generating Interpretable Multi-Agent Policies with Large Language Models</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Divya Chaudhary, Vinija Jain, Aman Chadha, Subramanyam Sahoo
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.10098) • [📄 arXiv](https://arxiv.org/abs/2603.10098) • [📥 PDF](https://arxiv.org/pdf/2603.10098)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.06333) • [📄 arXiv](https://arxiv.org/abs/2603.06333) • [📥 PDF](https://arxiv.org/pdf/2603.06333)
-
-> SAHOO introduces a measurable alignment-preserving framework for recursive self-improving AI systems using multi-signal drift detection (GDI), constraint-preserving optimization, and regression-risk control to enable capability gains while boundin...
+> No abstract available.
 
 </details>
 
@@ -195,28 +213,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 5 |
-| 📅 Today | [`2026-03-11.json`](data/daily/2026-03-11.json) | 5 |
-| 📆 This Week | [`2026-W10.json`](data/weekly/2026-W10.json) | 12 |
-| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 241 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 7 |
+| 📅 Today | [`2026-03-12.json`](data/daily/2026-03-12.json) | 7 |
+| 📆 This Week | [`2026-W10.json`](data/weekly/2026-W10.json) | 19 |
+| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 248 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-03-11 | 5 | [View JSON](data/daily/2026-03-11.json) |
+| 📌 2026-03-12 | 7 | [View JSON](data/daily/2026-03-12.json) |
+| 📄 2026-03-11 | 5 | [View JSON](data/daily/2026-03-11.json) |
 | 📄 2026-03-10 | 1 | [View JSON](data/daily/2026-03-10.json) |
 | 📄 2026-03-09 | 6 | [View JSON](data/daily/2026-03-09.json) |
 | 📄 2026-03-08 | 24 | [View JSON](data/daily/2026-03-08.json) |
 | 📄 2026-03-07 | 24 | [View JSON](data/daily/2026-03-07.json) |
 | 📄 2026-03-06 | 21 | [View JSON](data/daily/2026-03-06.json) |
-| 📄 2026-03-05 | 41 | [View JSON](data/daily/2026-03-05.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W10 | 12 | [View JSON](data/weekly/2026-W10.json) |
+| 📅 2026-W10 | 19 | [View JSON](data/weekly/2026-W10.json) |
 | 📅 2026-W09 | 201 | [View JSON](data/weekly/2026-W09.json) |
 | 📅 2026-W08 | 184 | [View JSON](data/weekly/2026-W08.json) |
 | 📅 2026-W07 | 197 | [View JSON](data/weekly/2026-W07.json) |
@@ -225,7 +243,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-03 | 241 | [View JSON](data/monthly/2026-03.json) |
+| 🗓️ 2026-03 | 248 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |

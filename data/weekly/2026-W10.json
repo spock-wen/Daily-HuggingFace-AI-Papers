@@ -266,5 +266,140 @@
       "scraped_at": "2026-03-11T02:06:32.141860"
     },
     "scraped_date": "2026-03-11"
+  },
+  {
+    "title": "OpenClaw-RL: Train Any Agent Simply by Talking",
+    "paper_url": "https://huggingface.co/papers/2603.10165",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "OpenClaw-RL: Train Any Agent Simply by Talking",
+      "abstract": "code: https://github.com/Gen-Verse/OpenClaw-RL",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10165",
+      "pdf_url": "https://arxiv.org/pdf/2603.10165",
+      "github_links": [
+        "https://github.com/Gen-Verse/OpenClaw-RL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10165",
+      "scraped_at": "2026-03-12T02:12:36.823961"
+    },
+    "scraped_date": "2026-03-12"
+  },
+  {
+    "title": "RetroAgent: From Solving to Evolving via Retrospective Dual Intrinsic Feedback",
+    "paper_url": "https://huggingface.co/papers/2603.08561",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RetroAgent: From Solving to Evolving via Retrospective Dual Intrinsic Feedback",
+      "abstract": "Standard RL paradigms favor static problem-solving over continuous adaptation: agents often converge to suboptimal strategies due to insufficient exploration, while learned knowledge remains implicit within parameters rather than explicitly retrievable, limiting effective experiential learning. To address these limitations, we introduce RETROAGENT, an online RL framework that empowers agents to master complex interactive environments not just by solving, but by evolving.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.08561",
+      "pdf_url": "https://arxiv.org/pdf/2603.08561",
+      "github_links": [
+        "https://github.com/zhangxy-2019/RetroAgent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.08561",
+      "scraped_at": "2026-03-12T02:12:38.655233"
+    },
+    "scraped_date": "2026-03-12"
+  },
+  {
+    "title": "EmboAlign: Aligning Video Generation with Compositional Constraints for Zero-Shot Manipulation",
+    "paper_url": "https://huggingface.co/papers/2603.05757",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EmboAlign: Aligning Video Generation with Compositional Constraints for Zero-Shot Manipulation",
+      "abstract": "Excited to share our new paper: EmboAlign! EmboAlign aligns video generation with compositional constraints for zero-shot robotic manipulation. Our key idea: VLMs provide structured spatial reasoning that complements VGMs. We use VLM-generated task constraints in two stages: • Constraint-guided rollout selection • Constraint-based trajectory optimization On 6 real-robot manipulation tasks, EmboAlign improves success rate by 43.3 points over the strongest baseline, with no task-specific training data. Paper: https://lnkd.in/gFvQg6He",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.05757",
+      "pdf_url": "https://arxiv.org/pdf/2603.05757",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.05757",
+      "scraped_at": "2026-03-12T02:12:40.448558"
+    },
+    "scraped_date": "2026-03-12"
+  },
+  {
+    "title": "V_{0.5}: Generalist Value Model as a Prior for Sparse RL Rollouts",
+    "paper_url": "https://huggingface.co/papers/2603.10848",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "V_{0.5}: Generalist Value Model as a Prior for Sparse RL Rollouts",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10848",
+      "pdf_url": "https://arxiv.org/pdf/2603.10848",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10848",
+      "scraped_at": "2026-03-12T02:12:42.205515"
+    },
+    "scraped_date": "2026-03-12"
+  },
+  {
+    "title": "Just-in-Time: Training-Free Spatial Acceleration for Diffusion Transformers",
+    "paper_url": "https://huggingface.co/papers/2603.10744",
+    "authors": [
+      "Zhaoqiang Liu",
+      "Ji Li",
+      "Wenhao Sun"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Just-in-Time: Training-Free Spatial Acceleration for Diffusion Transformers",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10744",
+      "pdf_url": "https://arxiv.org/pdf/2603.10744",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10744",
+      "scraped_at": "2026-03-12T02:12:43.922283"
+    },
+    "scraped_date": "2026-03-12"
+  },
+  {
+    "title": "CLIPO: Contrastive Learning in Policy Optimization Generalizes RLVR",
+    "paper_url": "https://huggingface.co/papers/2603.10101",
+    "authors": [
+      "Guojun Zhang",
+      "Yongbo Gai",
+      "Jiajun Song",
+      "Pengyu Cheng",
+      "Sijia Cui"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CLIPO: Contrastive Learning in Policy Optimization Generalizes RLVR",
+      "abstract": "Github: https://github.com/Qwen-Applications/CLIPO",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10101",
+      "pdf_url": "https://arxiv.org/pdf/2603.10101",
+      "github_links": [
+        "https://github.com/Qwen-Applications/CLIPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10101",
+      "scraped_at": "2026-03-12T02:12:45.675089"
+    },
+    "scraped_date": "2026-03-12"
+  },
+  {
+    "title": "Code-Space Response Oracles: Generating Interpretable Multi-Agent Policies with Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2603.10098",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Code-Space Response Oracles: Generating Interpretable Multi-Agent Policies with Large Language Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10098",
+      "pdf_url": "https://arxiv.org/pdf/2603.10098",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10098",
+      "scraped_at": "2026-03-12T02:12:47.408131"
+    },
+    "scraped_date": "2026-03-12"
   }
 ]
