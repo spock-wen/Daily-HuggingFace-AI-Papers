@@ -401,5 +401,77 @@
       "scraped_at": "2026-03-12T02:12:47.408131"
     },
     "scraped_date": "2026-03-12"
+  },
+  {
+    "title": "Coarse-Guided Visual Generation via Weighted h-Transform Sampling",
+    "paper_url": "https://huggingface.co/papers/2603.12057",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Coarse-Guided Visual Generation via Weighted h-Transform Sampling",
+      "abstract": "Achieve various conditional visual generation guided by a coarse sample with 1 line of code.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12057",
+      "pdf_url": "https://arxiv.org/pdf/2603.12057",
+      "github_links": [
+        "https://github.com/HKUST-LongGroup/Coarse-guided-Gen"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12057",
+      "scraped_at": "2026-03-13T02:10:31.008124"
+    },
+    "scraped_date": "2026-03-13"
+  },
+  {
+    "title": "Geometric Autoencoder for Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2603.10365",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Geometric Autoencoder for Diffusion Models",
+      "abstract": "Latent diffusion models have established a new state-of-the-art in high-resolution visual generation. Integrating Vision Foundation Model priors improves generative efficiency, yet existing latent designs remain largely heuristic. These approaches often struggle to unify semantic discriminability, reconstruction fidelity, and latent compactness. In this paper, we propose Geometric Autoencoder (GAE), a principled framework that systematically addresses these challenges. By analyzing various alignment paradigms, GAE constructs an optimized low-dimensional semantic supervision target from VFMs to provide guidance for the autoencoder. Furthermore, we leverage latent normalization that replaces the restrictive KL-divergence of standard VAEs, enabling a more stable latent manifold specifically optimized for diffusion learning. To ensure robust reconstruction under high-intensity noise, GAE incorporates a dynamic noise sampling mechanism. Empirically, GAE achieves compelling performance on the ImageNet-1K $256 \\times 256$ benchmark, reaching a gFID of 1.82 at only 80 epochs and 1.31 at 800 epochs without Classifier-Free Guidance, significantly surpassing existing state-of-the-art methods. Beyond generative quality, GAE establishes a superior equilibrium between compression, semantic depth and robust reconstruction stability. These results validate our design considerations, offering a promising paradigm for latent diffusion modeling. Code and models are publicly available at https://github.com/sii-research/GAE .",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10365",
+      "pdf_url": "https://arxiv.org/pdf/2603.10365",
+      "github_links": [
+        "https://github.com/sii-research/GAE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10365",
+      "scraped_at": "2026-03-13T02:10:32.942403"
+    },
+    "scraped_date": "2026-03-13"
+  },
+  {
+    "title": "Examining Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training",
+    "paper_url": "https://huggingface.co/papers/2603.12246",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Examining Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training",
+      "abstract": "Reasoning LLMs-as-Judges, which can benefit from inference-time scaling, provide a promising path for extending the success of reasoning models to non-verifiable domains where the output correctness/quality cannot be directly checked. However, while reasoning judges have shown better performance on static evaluation benchmarks, their effectiveness in actual policy training has not been systematically examined. Therefore, we conduct a rigorous study to investigate the actual impact of non-reasoning and reasoning judges in reinforcement-learning-based LLM alignment. Our controlled synthetic setting, where a \"gold-standard\" judge (gpt-oss-120b) provides preference annotations to train smaller judges, reveals key differences between non-reasoning and reasoning judges: non-reasoning judges lead to reward hacking easily, while reasoning judges can lead to policies that achieve strong performance when evaluated by the gold-standard judge. Interestingly, we find that the reasoning-judge-trained policies achieve such strong performance by learning to generate highly effective adversarial outputs that can also score well on popular benchmarks such as Arena-Hard by deceiving other LLM-judges. Combined with our further analysis, our study highlights both important findings and room for improvements for applying (reasoning) LLM-judges in non-verifiable LLM post-training.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12246",
+      "pdf_url": "https://arxiv.org/pdf/2603.12246",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12246",
+      "scraped_at": "2026-03-13T02:10:34.843271"
+    },
+    "scraped_date": "2026-03-13"
+  },
+  {
+    "title": "NerVE: Nonlinear Eigenspectrum Dynamics in LLM Feed-Forward Networks",
+    "paper_url": "https://huggingface.co/papers/2603.06922",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NerVE: Nonlinear Eigenspectrum Dynamics in LLM Feed-Forward Networks",
+      "abstract": "Hi everyone! I am excited to share our ICLR 2026 paper, NerVE: Nonlinear Eigenspectrum Dynamics in LLM Feed-Forward Networks. These are some interesting findings about the role of FFN (nonlinearity) in transformer architecture  (we also verified them on non-transformer architecture: MLP-Mixer) : FFN nonlinearities are secretly fighting a war inside your transformer. Self-attention collapses rank doubly exponentially with depth (Dong et al., ICML 2021). We find that, FFN nonlinearities fight back by reinjecting variance into under-utilized dimensions--a process we call nonlinearity-induced rank inflation , which makes the transformer network alive. AdamW makes your nonlinearities work harder but achieve less, compared to Muon .  Under AdamW, FFN nonlinearities spend their capacity repairing spectral damage (ill-conditioned pre-activation eigenspectrum ).  Muon, on the other hand,  preserves healthy spectra (well-conditioned per-activation eigenspectrum) , so nonlinearities only need to refine. You can predict generalization with a single forward pass, no eval set needed. Our spectral metrics (spectral entropy and participation ratio) correlate with validation loss at |r| > 0.97 throughout training.  Short runs can even rank architectural configurations before training to convergence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.06922",
+      "pdf_url": "https://arxiv.org/pdf/2603.06922",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.06922",
+      "scraped_at": "2026-03-13T02:10:36.678732"
+    },
+    "scraped_date": "2026-03-13"
   }
 ]
