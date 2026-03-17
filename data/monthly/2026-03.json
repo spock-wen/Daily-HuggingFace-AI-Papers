@@ -7149,5 +7149,29 @@
       "scraped_at": "2026-03-16T02:34:35.759539"
     },
     "scraped_date": "2026-03-16"
+  },
+  {
+    "title": "FineRMoE: Dimension Expansion for Finer-Grained Expert with Its Upcycling Approach",
+    "paper_url": "https://huggingface.co/papers/2603.13364",
+    "authors": [
+      "Junchi Yan",
+      "Xiaohan Qin",
+      "Xiaoxing Wang",
+      "Ning Liao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "FineRMoE: Dimension Expansion for Finer-Grained Expert with Its Upcycling Approach",
+      "abstract": "To break the performance ceiling of fine-grained MoE designs that are solely confined to the intermediate dimension, which has been revealed by the scaling law of MoE, we introduce the FineRMoE (FineR-grained MoE) architecture. It pioneers the expansion of the fine-grained expert design in MoE models from only the intermediate dimension to the output dimension, aiming to enhance expert specialization beyond the single-dimension limit. The core contributions of this work include: Finer-grained expert design across intermediate and output dimensions; Bi-level sparse forward computation paradigm for multi-expert fusion; Unified routing mechanism with one router governing two sparse layers; Generalized upcycling compatible with FineRMoE and conventional MoEs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.13364",
+      "pdf_url": "https://arxiv.org/pdf/2603.13364",
+      "github_links": [
+        "https://github.com/liaoning97/FineRMoE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.13364",
+      "scraped_at": "2026-03-17T02:12:54.604251"
+    },
+    "scraped_date": "2026-03-17"
   }
 ]

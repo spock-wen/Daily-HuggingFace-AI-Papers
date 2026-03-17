@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-6-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-2921+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-1-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-2922+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">6</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">6</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">354</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2921+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">1</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">7</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">355</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2922+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** March 16, 2026
+**Last Updated:** March 17, 2026
 
 ---
 
@@ -119,78 +119,17 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. LMEB: Long-horizon Memory Embedding Benchmark</b> ⭐ 0</summary>
+<summary><b>1. FineRMoE: Dimension Expansion for Finer-Grained Expert with Its Upcycling Approach</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.12572) • [📄 arXiv](https://arxiv.org/abs/2603.12572) • [📥 PDF](https://arxiv.org/pdf/2603.12572)
+**👥 Authors:** Junchi Yan, Xiaohan Qin, Xiaoxing Wang, Ning Liao
 
-> Welcome to the Long-horizon Memory Embedding Benchmark (LMEB)! Unlike existing text embedding benchmarks that narrowly focus on passage retrieval, LLMEB is designed to evaluate embedding models' ability to handle complex, long-horizon memory retri...
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.13364) • [📄 arXiv](https://arxiv.org/abs/2603.13364) • [📥 PDF](https://arxiv.org/pdf/2603.13364)
 
-</details>
+**💻 Code:** [⭐ Code](https://github.com/liaoning97/FineRMoE)
 
-<details>
-<summary><b>2. VQQA: An Agentic Approach for Video Evaluation and Quality Improvement</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.12310) • [📄 arXiv](https://arxiv.org/abs/2603.12310) • [📥 PDF](https://arxiv.org/pdf/2603.12310)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>3. daVinci-Env: Open SWE Environment Synthesis at Scale</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yaxing Huang, Zerui Peng, Yunze Wu, Shenyu Wu, Dayuan Fu
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.13023) • [📄 arXiv](https://arxiv.org/abs/2603.13023) • [📥 PDF](https://arxiv.org/pdf/2603.13023)
-
-**💻 Code:** [⭐ Code](https://github.com/GAIR-NLP/OpenSWE)
-
-> Github: https://github.com/GAIR-NLP/OpenSWE
-
-</details>
-
-<details>
-<summary><b>4. From Sparse to Dense: Multi-View GRPO for Flow Models via Augmented Condition Space</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yuhang Zang, Yibin Wang, Yujie Zhou, Pengyang Ling, Jiazi Bu
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.12648) • [📄 arXiv](https://arxiv.org/abs/2603.12648) • [📥 PDF](https://arxiv.org/pdf/2603.12648)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>5. Spend Less, Reason Better: Budget-Aware Value Tree Search for LLM Agents</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Xiaoxiao Li, Jiajin Li, Wenlong Deng, Yushu Li
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.12634) • [📄 arXiv](https://arxiv.org/abs/2603.12634) • [📥 PDF](https://arxiv.org/pdf/2603.12634)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>6. LookaheadKV: Fast and Accurate KV Cache Eviction by Glimpsing into the Future without Generation</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.10899) • [📄 arXiv](https://arxiv.org/abs/2603.10899) • [📥 PDF](https://arxiv.org/pdf/2603.10899)
-
-**💻 Code:** [⭐ Code](https://github.com/SamsungLabs/LookaheadKV)
-
-> Fast and Accurate KV Cache Eviction : LookaheadKV is a novel method employing lookahead modules to predict future token importance. LookaheadKV shows a performance drop less than 0.7% with 1K cache budget (~81% compression). LookaheadKV reduces ev...
+> To break the performance ceiling of fine-grained MoE designs that are solely confined to the intermediate dimension, which has been revealed by the scaling law of MoE, we introduce the FineRMoE (FineR-grained MoE) architecture. It pioneers the exp...
 
 </details>
 
@@ -202,28 +141,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 6 |
-| 📅 Today | [`2026-03-16.json`](data/daily/2026-03-16.json) | 6 |
-| 📆 This Week | [`2026-W11.json`](data/weekly/2026-W11.json) | 6 |
-| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 354 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 1 |
+| 📅 Today | [`2026-03-17.json`](data/daily/2026-03-17.json) | 1 |
+| 📆 This Week | [`2026-W11.json`](data/weekly/2026-W11.json) | 7 |
+| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 355 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-03-16 | 6 | [View JSON](data/daily/2026-03-16.json) |
+| 📌 2026-03-17 | 1 | [View JSON](data/daily/2026-03-17.json) |
+| 📄 2026-03-16 | 6 | [View JSON](data/daily/2026-03-16.json) |
 | 📄 2026-03-15 | 48 | [View JSON](data/daily/2026-03-15.json) |
 | 📄 2026-03-14 | 48 | [View JSON](data/daily/2026-03-14.json) |
 | 📄 2026-03-13 | 4 | [View JSON](data/daily/2026-03-13.json) |
 | 📄 2026-03-12 | 7 | [View JSON](data/daily/2026-03-12.json) |
 | 📄 2026-03-11 | 5 | [View JSON](data/daily/2026-03-11.json) |
-| 📄 2026-03-10 | 1 | [View JSON](data/daily/2026-03-10.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W11 | 6 | [View JSON](data/weekly/2026-W11.json) |
+| 📅 2026-W11 | 7 | [View JSON](data/weekly/2026-W11.json) |
 | 📅 2026-W10 | 119 | [View JSON](data/weekly/2026-W10.json) |
 | 📅 2026-W09 | 201 | [View JSON](data/weekly/2026-W09.json) |
 | 📅 2026-W08 | 184 | [View JSON](data/weekly/2026-W08.json) |
@@ -232,7 +171,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-03 | 354 | [View JSON](data/monthly/2026-03.json) |
+| 🗓️ 2026-03 | 355 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
