@@ -8361,5 +8361,39 @@
       "scraped_at": "2026-03-19T02:27:23.992694"
     },
     "scraped_date": "2026-03-19"
+  },
+  {
+    "title": "OSM-based Domain Adaptation for Remote Sensing VLMs",
+    "paper_url": "https://huggingface.co/papers/2603.11804",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "OSM-based Domain Adaptation for Remote Sensing VLMs",
+      "abstract": "OSMDA-VLM offers a clever way to scale remote sensing models without the massive headache of manual labeling or the high cost of GPT-4V distillation. By using OpenStreetMap data, the model basically acts as its own annotation engine, leveraging its built-in OCR and chart-reading abilities to label aerial imagery automatically. This setup hits SOTA across ten benchmarks and proves you can get high-end performance using open-source geographic metadata instead of expensive human or teacher-model labels.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.11804",
+      "pdf_url": "https://arxiv.org/pdf/2603.11804",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.11804",
+      "scraped_at": "2026-03-20T02:11:28.893657"
+    },
+    "scraped_date": "2026-03-20"
+  },
+  {
+    "title": "MHPO: Modulated Hazard-aware Policy Optimization for Stable Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2603.16929",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MHPO: Modulated Hazard-aware Policy Optimization for Stable Reinforcement Learning",
+      "abstract": "Regulating the importance ratio is critical for the training stability of Group Relative Policy Optimization (GRPO) based frameworks. However, prevailing ratio control methods, such as hard clipping, suffer from non-differentiable boundaries and vanishing gradient regions, failing to maintain gradient fidelity. Furthermore, these methods lack a hazard-aware mechanism to adaptively suppress extreme deviations, leaving the optimization process vulnerable to abrupt policy shifts. To address these challenges, we propose \\textbf{M}odulated \\textbf{H}azard-aware \\textbf{P}olicy \\textbf{O}ptimization (MHPO), a novel framework designed for robust and stable reinforcement learning. The proposed MHPO introduces a Log-Fidelity Modulator (LFM) to map unbounded importance ratios into a bounded, differentiable domain. This mechanism effectively prevents high-variance outlier tokens from destabilizing the loss landscape while ensuring global gradient stability. Complementarily, a Decoupled Hazard Penalty (DHP) integrates cumulative hazard functions from survival analysis to independently regulate positive and negative policy shifts. By shaping the optimization landscape with hazard-aware penalties, the proposed MHPO achieves fine-grained regulation of asymmetric policy shifts—simultaneously mitigating mode collapse from over-expansion and preventing policy erosion from catastrophic contraction within a stabilized trust region. Extensive evaluations on diverse reasoning benchmarks across both text-based and vision-language tasks demonstrate that MHPO consistently outperforms existing methods, achieving superior performance while significantly enhancing training stability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.16929",
+      "pdf_url": "https://arxiv.org/pdf/2603.16929",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.16929",
+      "scraped_at": "2026-03-20T02:11:30.649068"
+    },
+    "scraped_date": "2026-03-20"
   }
 ]
