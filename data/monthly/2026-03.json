@@ -10570,5 +10570,235 @@
       "scraped_at": "2026-03-24T02:13:03.358942"
     },
     "scraped_date": "2026-03-24"
+  },
+  {
+    "title": "PEARL: Personalized Streaming Video Understanding Model",
+    "paper_url": "https://huggingface.co/papers/2603.20422",
+    "authors": [],
+    "stars": "23",
+    "details": {
+      "title": "PEARL: Personalized Streaming Video Understanding Model",
+      "abstract": "Interesting work!!🍺",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.20422",
+      "pdf_url": "https://arxiv.org/pdf/2603.20422",
+      "github_links": [
+        "https://github.com/Yuanhong-Zheng/PEARL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.20422",
+      "scraped_at": "2026-03-25T02:24:36.900023"
+    },
+    "scraped_date": "2026-03-25"
+  },
+  {
+    "title": "From Static Templates to Dynamic Runtime Graphs: A Survey of Workflow Optimization for LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2603.22386",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "From Static Templates to Dynamic Runtime Graphs: A Survey of Workflow Optimization for LLM Agents",
+      "abstract": "This survey provides a clear framework for understanding workflow optimization in LLM-based agents. The authors formalize agentic systems as agentic computation graphs (ACGs), distinguish reusable workflow templates, run-specific realized graphs, and execution traces, and organize the literature by when workflow structure is determined: static optimization, pre-execution generation or selection, and in-execution editing. I especially found the evaluation perspective valuable, since the paper argues that workflow structure should be treated as a first-class output alongside downstream task performance, execution cost, robustness, and structural variation across inputs. Overall, this is a timely and well-structured survey for researchers and practitioners working on LLM agents, multi-agent systems, and orchestration frameworks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.22386",
+      "pdf_url": "https://arxiv.org/pdf/2603.22386",
+      "github_links": [
+        "https://github.com/IBM/awesome-agentic-workflow-optimization"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.22386",
+      "scraped_at": "2026-03-25T02:24:38.662492"
+    },
+    "scraped_date": "2026-03-25"
+  },
+  {
+    "title": "Rethinking Token-Level Policy Optimization for Multimodal Chain-of-Thought",
+    "paper_url": "https://huggingface.co/papers/2603.22847",
+    "authors": [
+      "Zhaojie Liu",
+      "Jiangxia Cao",
+      "Hengrui Zhang",
+      "Hangyi Kuang",
+      "Yunheng Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Rethinking Token-Level Policy Optimization for Multimodal Chain-of-Thought",
+      "abstract": "Perception-Exploration Policy Optimization (PEPO) is a token-level reinforcement learning method for multimodal chain-of-thought reasoning in large vision-language models. It derives a perception prior from response-to-vision hidden-state similarity, combines it with token entropy through a smooth gating mechanism, and converts sequence-level advantages into token-level advantages for multimodal RL training.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.22847",
+      "pdf_url": "https://arxiv.org/pdf/2603.22847",
+      "github_links": [
+        "https://github.com/xzxxntxdy/PEPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.22847",
+      "scraped_at": "2026-03-25T02:24:40.374125"
+    },
+    "scraped_date": "2026-03-25"
+  },
+  {
+    "title": "ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model",
+    "paper_url": "https://huggingface.co/papers/2603.22281",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model",
+      "abstract": "Latent world models are effective at modeling local dynamics, but they often struggle to capture long-horizon semantics from short observation windows. In ThinkJEPA, we explore whether a large vision-language reasoning model can act as a high-level “thinker” for a JEPA-style latent predictor: densely sampled frames model fine-grained temporal dynamics, while sparsely sampled frames provide broader semantic context, and hierarchical VLM features guide future latent forecasting. We hope this work can spark discussion on how multimodal reasoning may strengthen video world models for prediction and embodied intelligence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.22281",
+      "pdf_url": "https://arxiv.org/pdf/2603.22281",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.22281",
+      "scraped_at": "2026-03-25T02:24:42.094212"
+    },
+    "scraped_date": "2026-03-25"
+  },
+  {
+    "title": "UniGRPO: Unified Policy Optimization for Reasoning-Driven Visual Generation",
+    "paper_url": "https://huggingface.co/papers/2603.23500",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UniGRPO: Unified Policy Optimization for Reasoning-Driven Visual Generation",
+      "abstract": "UniGRPO: Unified Policy Optimization for Reasoning-Driven Visual Generation",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.23500",
+      "pdf_url": "https://arxiv.org/pdf/2603.23500",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.23500",
+      "scraped_at": "2026-03-25T02:24:43.814471"
+    },
+    "scraped_date": "2026-03-25"
+  },
+  {
+    "title": "TrajLoom: Dense Future Trajectory Generation from Video",
+    "paper_url": "https://huggingface.co/papers/2603.22606",
+    "authors": [
+      "Hang Chu",
+      "Ming Liang",
+      "Kaiwen Liu",
+      "Jia Jun Cheng Xian",
+      "Zewei Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "TrajLoom: Dense Future Trajectory Generation from Video",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.22606",
+      "pdf_url": "https://arxiv.org/pdf/2603.22606",
+      "github_links": [
+        "https://github.com/zewei-Zhang/TrajLoom"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.22606",
+      "scraped_at": "2026-03-25T02:24:45.597413"
+    },
+    "scraped_date": "2026-03-25"
+  },
+  {
+    "title": "WildWorld: A Large-Scale Dataset for Dynamic World Modeling with Actions and Explicit State toward Generative ARPG",
+    "paper_url": "https://huggingface.co/papers/2603.23497",
+    "authors": [
+      "Yuwei Wu",
+      "Wenshuo Peng",
+      "Shuwei Shi",
+      "Zian Meng",
+      "Zhen Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WildWorld: A Large-Scale Dataset for Dynamic World Modeling with Actions and Explicit State toward Generative ARPG",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.23497",
+      "pdf_url": "https://arxiv.org/pdf/2603.23497",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.23497",
+      "scraped_at": "2026-03-25T02:24:47.337012"
+    },
+    "scraped_date": "2026-03-25"
+  },
+  {
+    "title": "AgentSLR: Automating Systematic Literature Reviews in Epidemiology with Agentic AI",
+    "paper_url": "https://huggingface.co/papers/2603.22327",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "AgentSLR: Automating Systematic Literature Reviews in Epidemiology with Agentic AI",
+      "abstract": "💬 Resources 💻 Code : https://github.com/OxRML/AgentSLR 🤗 Dataset : https://huggingface.co/datasets/OxRML/AgentSLR 🌐 Website : https://oxrml.com/agent-slr",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.22327",
+      "pdf_url": "https://arxiv.org/pdf/2603.22327",
+      "github_links": [
+        "https://github.com/oxrml/agentslr",
+        "https://github.com/OxRML/AgentSLR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.22327",
+      "scraped_at": "2026-03-25T02:24:49.094958"
+    },
+    "scraped_date": "2026-03-25"
+  },
+  {
+    "title": "RealMaster: Lifting Rendered Scenes into Photorealistic Video",
+    "paper_url": "https://huggingface.co/papers/2603.23462",
+    "authors": [
+      "Oran Gafni",
+      "Shelly Sheynin",
+      "Raphael Bensadoun",
+      "Ido Sobol",
+      "Dana Cohen-Bar"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "RealMaster: Lifting Rendered Scenes into Photorealistic Video",
+      "abstract": "RealMaster lifts rendered scenes into photorealistic video with full 3D geometry preservation and alignment to a controllable 3D engine.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.23462",
+      "pdf_url": "https://arxiv.org/pdf/2603.23462",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.23462",
+      "scraped_at": "2026-03-25T02:24:50.947257"
+    },
+    "scraped_date": "2026-03-25"
+  },
+  {
+    "title": "Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos",
+    "paper_url": "https://huggingface.co/papers/2603.22529",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos",
+      "abstract": "project page: https://ego2web.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.22529",
+      "pdf_url": "https://arxiv.org/pdf/2603.22529",
+      "github_links": [
+        "https://github.com/Yui010206/Ego2Web"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.22529",
+      "scraped_at": "2026-03-25T02:24:52.654023"
+    },
+    "scraped_date": "2026-03-25"
+  },
+  {
+    "title": "MultiBind: A Benchmark for Attribute Misbinding in Multi-Subject Generation",
+    "paper_url": "https://huggingface.co/papers/2603.21937",
+    "authors": [
+      "Qiang Liu",
+      "Lihua Zhang",
+      "Zhaocheng Liu",
+      "Hanyi Mao",
+      "Wenqing Tian"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MultiBind: A Benchmark for Attribute Misbinding in Multi-Subject Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.21937",
+      "pdf_url": "https://arxiv.org/pdf/2603.21937",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.21937",
+      "scraped_at": "2026-03-25T02:24:54.357919"
+    },
+    "scraped_date": "2026-03-25"
   }
 ]
