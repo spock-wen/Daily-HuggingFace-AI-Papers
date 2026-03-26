@@ -10800,5 +10800,83 @@
       "scraped_at": "2026-03-25T02:24:54.357919"
     },
     "scraped_date": "2026-03-25"
+  },
+  {
+    "title": "GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents",
+    "paper_url": "https://huggingface.co/papers/2603.24329",
+    "authors": [
+      "Jayavibhav Niranjan Kogundi",
+      "Tianyi Zhang",
+      "Kexin Zheng",
+      "Runhui Xu",
+      "Yunzhe Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents",
+      "abstract": "GameplayQA benchmarks dense, first-person multi-video understanding of 3D agents with triadic Self Other World annotations and diagnostic QA to assess perception and reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.24329",
+      "pdf_url": "https://arxiv.org/pdf/2603.24329",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.24329",
+      "scraped_at": "2026-03-26T02:30:40.409653"
+    },
+    "scraped_date": "2026-03-26"
+  },
+  {
+    "title": "Can LLM Agents Be CFOs? A Benchmark for Resource Allocation in Dynamic Enterprise Environments",
+    "paper_url": "https://huggingface.co/papers/2603.23638",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Can LLM Agents Be CFOs? A Benchmark for Resource Allocation in Dynamic Enterprise Environments",
+      "abstract": "Large language models (LLMs) have enabled agentic systems that can reason, plan, and act across complex tasks, but it remains unclear whether they can allocate resources effectively under uncertainty. Unlike short-horizon reactive decisions, allocation requires committing scarce resources over time while balancing competing objectives and preserving flexibility for future needs. We introduce EnterpriseArena, the first benchmark for evaluating agents on long-horizon enterprise resource allocation. It instantiates CFO-style decision-making in a 132-month enterprise simulator combining firm-level financial data, anonymized business documents, macroeconomic and industry signals, and expert-validated operating rules. The environment is partially observable and reveals the state only through budgeted organizational tools, forcing agents to trade off information acquisition against conserving scarce resources. Experiments on eleven advanced LLMs show that this setting remains highly challenging: only 16% of runs survive the full horizon, and larger models do not reliably outperform smaller ones. These results identify long-horizon resource allocation under uncertainty as a distinct capability gap for current LLM agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.23638",
+      "pdf_url": "https://arxiv.org/pdf/2603.23638",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.23638",
+      "scraped_at": "2026-03-26T02:30:42.287461"
+    },
+    "scraped_date": "2026-03-26"
+  },
+  {
+    "title": "When Models Judge Themselves: Unsupervised Self-Evolution for Multimodal Reasoning",
+    "paper_url": "https://huggingface.co/papers/2603.21289",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "When Models Judge Themselves: Unsupervised Self-Evolution for Multimodal Reasoning",
+      "abstract": "Recent multimodal models achieve strong reasoning performance but rely heavily on costly annotated data or teacher-based distillation, limiting scalability. We propose an unsupervised self-evolution framework that samples multiple reasoning trajectories, leverages self-consistency as a prior, and applies bounded judge-based modulation with group-level distributional modeling. By converting absolute scores into within-group relative advantages and optimizing with GRPO, our method enables stable and scalable improvements in multimodal reasoning without external supervision.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.21289",
+      "pdf_url": "https://arxiv.org/pdf/2603.21289",
+      "github_links": [
+        "https://github.com/OPPO-Mente-Lab/LLM-Self-Judge"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.21289",
+      "scraped_at": "2026-03-26T02:30:44.098522"
+    },
+    "scraped_date": "2026-03-26"
+  },
+  {
+    "title": "CarePilot: A Multi-Agent Framework for Long-Horizon Computer Task Automation in Healthcare",
+    "paper_url": "https://huggingface.co/papers/2603.24157",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "CarePilot: A Multi-Agent Framework for Long-Horizon Computer Task Automation in Healthcare",
+      "abstract": "First work on Long Horizon Computer Tasks for Healthcare based Softwares (Accepted in CVPR 2026 Findings)",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.24157",
+      "pdf_url": "https://arxiv.org/pdf/2603.24157",
+      "github_links": [
+        "https://github.com/AkashGhosh/CarePilot"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.24157",
+      "scraped_at": "2026-03-26T02:30:45.869102"
+    },
+    "scraped_date": "2026-03-26"
   }
 ]

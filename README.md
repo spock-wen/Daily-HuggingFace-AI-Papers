@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-11-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3100+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-4-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3104+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">11</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">52</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">533</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3100+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">4</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">56</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">537</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3104+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** March 25, 2026
+**Last Updated:** March 26, 2026
 
 ---
 
@@ -119,145 +119,52 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. PEARL: Personalized Streaming Video Understanding Model</b> ⭐ 23</summary>
+<summary><b>1. GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.20422) • [📄 arXiv](https://arxiv.org/abs/2603.20422) • [📥 PDF](https://arxiv.org/pdf/2603.20422)
+**👥 Authors:** Jayavibhav Niranjan Kogundi, Tianyi Zhang, Kexin Zheng, Runhui Xu, Yunzhe Wang
 
-**💻 Code:** [⭐ Code](https://github.com/Yuanhong-Zheng/PEARL)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.24329) • [📄 arXiv](https://arxiv.org/abs/2603.24329) • [📥 PDF](https://arxiv.org/pdf/2603.24329)
 
-> Interesting work!!🍺
+> GameplayQA benchmarks dense, first-person multi-video understanding of 3D agents with triadic Self Other World annotations and diagnostic QA to assess perception and reasoning.
 
 </details>
 
 <details>
-<summary><b>2. From Static Templates to Dynamic Runtime Graphs: A Survey of Workflow Optimization for LLM Agents</b> ⭐ 8</summary>
+<summary><b>2. Can LLM Agents Be CFOs? A Benchmark for Resource Allocation in Dynamic Enterprise Environments</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.22386) • [📄 arXiv](https://arxiv.org/abs/2603.22386) • [📥 PDF](https://arxiv.org/pdf/2603.22386)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.23638) • [📄 arXiv](https://arxiv.org/abs/2603.23638) • [📥 PDF](https://arxiv.org/pdf/2603.23638)
 
-**💻 Code:** [⭐ Code](https://github.com/IBM/awesome-agentic-workflow-optimization)
-
-> This survey provides a clear framework for understanding workflow optimization in LLM-based agents. The authors formalize agentic systems as agentic computation graphs (ACGs), distinguish reusable workflow templates, run-specific realized graphs, ...
+> Large language models (LLMs) have enabled agentic systems that can reason, plan, and act across complex tasks, but it remains unclear whether they can allocate resources effectively under uncertainty. Unlike short-horizon reactive decisions, alloc...
 
 </details>
 
 <details>
-<summary><b>3. Rethinking Token-Level Policy Optimization for Multimodal Chain-of-Thought</b> ⭐ 0</summary>
+<summary><b>3. When Models Judge Themselves: Unsupervised Self-Evolution for Multimodal Reasoning</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Zhaojie Liu, Jiangxia Cao, Hengrui Zhang, Hangyi Kuang, Yunheng Li
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.21289) • [📄 arXiv](https://arxiv.org/abs/2603.21289) • [📥 PDF](https://arxiv.org/pdf/2603.21289)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.22847) • [📄 arXiv](https://arxiv.org/abs/2603.22847) • [📥 PDF](https://arxiv.org/pdf/2603.22847)
+**💻 Code:** [⭐ Code](https://github.com/OPPO-Mente-Lab/LLM-Self-Judge)
 
-**💻 Code:** [⭐ Code](https://github.com/xzxxntxdy/PEPO)
-
-> Perception-Exploration Policy Optimization (PEPO) is a token-level reinforcement learning method for multimodal chain-of-thought reasoning in large vision-language models. It derives a perception prior from response-to-vision hidden-state similari...
+> Recent multimodal models achieve strong reasoning performance but rely heavily on costly annotated data or teacher-based distillation, limiting scalability. We propose an unsupervised self-evolution framework that samples multiple reasoning trajec...
 
 </details>
 
 <details>
-<summary><b>4. ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model</b> ⭐ 0</summary>
+<summary><b>4. CarePilot: A Multi-Agent Framework for Long-Horizon Computer Task Automation in Healthcare</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.22281) • [📄 arXiv](https://arxiv.org/abs/2603.22281) • [📥 PDF](https://arxiv.org/pdf/2603.22281)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.24157) • [📄 arXiv](https://arxiv.org/abs/2603.24157) • [📥 PDF](https://arxiv.org/pdf/2603.24157)
 
-> Latent world models are effective at modeling local dynamics, but they often struggle to capture long-horizon semantics from short observation windows. In ThinkJEPA, we explore whether a large vision-language reasoning model can act as a high-leve...
+**💻 Code:** [⭐ Code](https://github.com/AkashGhosh/CarePilot)
 
-</details>
-
-<details>
-<summary><b>5. UniGRPO: Unified Policy Optimization for Reasoning-Driven Visual Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.23500) • [📄 arXiv](https://arxiv.org/abs/2603.23500) • [📥 PDF](https://arxiv.org/pdf/2603.23500)
-
-> UniGRPO: Unified Policy Optimization for Reasoning-Driven Visual Generation
-
-</details>
-
-<details>
-<summary><b>6. TrajLoom: Dense Future Trajectory Generation from Video</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Hang Chu, Ming Liang, Kaiwen Liu, Jia Jun Cheng Xian, Zewei Zhang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.22606) • [📄 arXiv](https://arxiv.org/abs/2603.22606) • [📥 PDF](https://arxiv.org/pdf/2603.22606)
-
-**💻 Code:** [⭐ Code](https://github.com/zewei-Zhang/TrajLoom)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>7. WildWorld: A Large-Scale Dataset for Dynamic World Modeling with Actions and Explicit State toward Generative ARPG</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yuwei Wu, Wenshuo Peng, Shuwei Shi, Zian Meng, Zhen Li
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.23497) • [📄 arXiv](https://arxiv.org/abs/2603.23497) • [📥 PDF](https://arxiv.org/pdf/2603.23497)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>8. AgentSLR: Automating Systematic Literature Reviews in Epidemiology with Agentic AI</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.22327) • [📄 arXiv](https://arxiv.org/abs/2603.22327) • [📥 PDF](https://arxiv.org/pdf/2603.22327)
-
-**💻 Code:** [⭐ Code](https://github.com/oxrml/agentslr) • [⭐ Code](https://github.com/OxRML/AgentSLR)
-
-> 💬 Resources 💻 Code : https://github.com/OxRML/AgentSLR 🤗 Dataset : https://huggingface.co/datasets/OxRML/AgentSLR 🌐 Website : https://oxrml.com/agent-slr
-
-</details>
-
-<details>
-<summary><b>9. RealMaster: Lifting Rendered Scenes into Photorealistic Video</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Oran Gafni, Shelly Sheynin, Raphael Bensadoun, Ido Sobol, Dana Cohen-Bar
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.23462) • [📄 arXiv](https://arxiv.org/abs/2603.23462) • [📥 PDF](https://arxiv.org/pdf/2603.23462)
-
-> RealMaster lifts rendered scenes into photorealistic video with full 3D geometry preservation and alignment to a controllable 3D engine.
-
-</details>
-
-<details>
-<summary><b>10. Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.22529) • [📄 arXiv](https://arxiv.org/abs/2603.22529) • [📥 PDF](https://arxiv.org/pdf/2603.22529)
-
-**💻 Code:** [⭐ Code](https://github.com/Yui010206/Ego2Web)
-
-> project page: https://ego2web.github.io/
-
-</details>
-
-<details>
-<summary><b>11. MultiBind: A Benchmark for Attribute Misbinding in Multi-Subject Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Qiang Liu, Lihua Zhang, Zhaocheng Liu, Hanyi Mao, Wenqing Tian
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.21937) • [📄 arXiv](https://arxiv.org/abs/2603.21937) • [📥 PDF](https://arxiv.org/pdf/2603.21937)
-
-> No abstract available.
+> First work on Long Horizon Computer Tasks for Healthcare based Softwares (Accepted in CVPR 2026 Findings)
 
 </details>
 
@@ -269,28 +176,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 11 |
-| 📅 Today | [`2026-03-25.json`](data/daily/2026-03-25.json) | 11 |
-| 📆 This Week | [`2026-W12.json`](data/weekly/2026-W12.json) | 52 |
-| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 533 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 4 |
+| 📅 Today | [`2026-03-26.json`](data/daily/2026-03-26.json) | 4 |
+| 📆 This Week | [`2026-W12.json`](data/weekly/2026-W12.json) | 56 |
+| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 537 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-03-25 | 11 | [View JSON](data/daily/2026-03-25.json) |
+| 📌 2026-03-26 | 4 | [View JSON](data/daily/2026-03-26.json) |
+| 📄 2026-03-25 | 11 | [View JSON](data/daily/2026-03-25.json) |
 | 📄 2026-03-24 | 37 | [View JSON](data/daily/2026-03-24.json) |
 | 📄 2026-03-23 | 4 | [View JSON](data/daily/2026-03-23.json) |
 | 📄 2026-03-22 | 32 | [View JSON](data/daily/2026-03-22.json) |
 | 📄 2026-03-21 | 32 | [View JSON](data/daily/2026-03-21.json) |
 | 📄 2026-03-20 | 2 | [View JSON](data/daily/2026-03-20.json) |
-| 📄 2026-03-19 | 52 | [View JSON](data/daily/2026-03-19.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W12 | 52 | [View JSON](data/weekly/2026-W12.json) |
+| 📅 2026-W12 | 56 | [View JSON](data/weekly/2026-W12.json) |
 | 📅 2026-W11 | 133 | [View JSON](data/weekly/2026-W11.json) |
 | 📅 2026-W10 | 119 | [View JSON](data/weekly/2026-W10.json) |
 | 📅 2026-W09 | 201 | [View JSON](data/weekly/2026-W09.json) |
@@ -299,7 +206,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-03 | 533 | [View JSON](data/monthly/2026-03.json) |
+| 🗓️ 2026-03 | 537 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
