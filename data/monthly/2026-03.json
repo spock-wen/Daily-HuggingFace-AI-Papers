@@ -12162,5 +12162,49 @@
       "scraped_at": "2026-03-29T02:35:50.656522"
     },
     "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling",
+    "paper_url": "https://huggingface.co/papers/2603.25746",
+    "authors": [
+      "Quande Liu",
+      "Yutian Chen",
+      "Junhao Zhuang",
+      "Xiaoyu Shi",
+      "Yawen Luo"
+    ],
+    "stars": "57",
+    "details": {
+      "title": "ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling",
+      "abstract": "The dual-cache memory mechanism here maps interestingly to agentic workflows — global context for cross-turn coherence, local context for intra-turn generation. We've hit similar error accumulation issues with long-running LangGraph agents. The two-stage self-forcing distillation approach seems like it could generalize beyond video to any autoregressive pipeline. Has anyone tried adapting this for multi-modal agent contexts?",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25746",
+      "pdf_url": "https://arxiv.org/pdf/2603.25746",
+      "github_links": [
+        "https://github.com/KlingAIResearch/ShotStream"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25746",
+      "scraped_at": "2026-03-30T02:37:54.061354"
+    },
+    "scraped_date": "2026-03-30"
+  },
+  {
+    "title": "Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models",
+    "paper_url": "https://huggingface.co/papers/2603.25716",
+    "authors": [],
+    "stars": "41",
+    "details": {
+      "title": "Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models",
+      "abstract": "Video world models have shown immense potential in simulating the physical world, yet existing memory mechanisms primarily treat environments as static canvases. When dynamic subjects hide out of sight and later re-emerge, current methods often struggle, leading to frozen, distorted, or vanishing subjects. To address this, we introduce Hybrid Memory, a novel paradigm requiring models to simultaneously act as precise archivists for static backgrounds and vigilant trackers for dynamic subjects, ensuring motion continuity during out-of-view intervals. To facilitate research in this direction, we construct HM-World, the first large-scale video dataset dedicated to hybrid memory. It features 59K high-fidelity clips with decoupled camera and subject trajectories, encompassing 17 diverse scenes, 49 distinct subjects, and meticulously designed exit-entry events to rigorously evaluate hybrid coherence. Furthermore, we propose HyDRA, a specialized memory architecture that compresses memory into tokens and utilizes a spatiotemporal relevance-driven retrieval mechanism. By selectively attending to relevant motion cues, HyDRA effectively preserves the identity and motion of hidden subjects. Extensive experiments on HM-World demonstrate that our method significantly outperforms state-of-the-art approaches in both dynamic subject consistency and overall generation quality.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25716",
+      "pdf_url": "https://arxiv.org/pdf/2603.25716",
+      "github_links": [
+        "https://github.com/H-EmbodVis/HyDRA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25716",
+      "scraped_at": "2026-03-30T02:37:55.830307"
+    },
+    "scraped_date": "2026-03-30"
   }
 ]
