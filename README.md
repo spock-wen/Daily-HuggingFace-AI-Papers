@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-10-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3181+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-17-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3188+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,10 +103,10 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">10</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">13</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">10</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3181+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">17</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">30</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">27</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3188+</font><br/>papers</td>
 </tr>
 </table>
 
@@ -119,7 +119,20 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. LongCat-Next: Lexicalizing Modalities as Discrete Tokens</b> ⭐ 278</summary>
+<summary><b>1. FIPO: Eliciting Deep Reasoning with Future-KL Influenced Policy Optimization</b> ⭐ 42</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.19835) • [📄 arXiv](https://arxiv.org/abs/2603.19835) • [📥 PDF](https://arxiv.org/pdf/2603.19835)
+
+**💻 Code:** [⭐ Code](https://github.com/qwenpilot/FIPO)
+
+> FIPO replaces trajectory-end binary rewards with the Future-KL mechanism. It quantifies the real-time "causal influence" of every single token on the subsequent reasoning path, enabling precise, token-level reinforcement or suppression. It achieve...
+
+</details>
+
+<details>
+<summary><b>2. LongCat-Next: Lexicalizing Modalities as Discrete Tokens</b> ⭐ 278</summary>
 
 <br/>
 
@@ -132,7 +145,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>2. Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells</b> ⭐ 0</summary>
+<summary><b>3. Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells</b> ⭐ 0</summary>
 
 <br/>
 
@@ -143,7 +156,22 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>3. CARLA-Air: Fly Drones Inside a CARLA World -- A Unified Infrastructure for Air-Ground Embodied Intelligence</b> ⭐ 214</summary>
+<summary><b>4. GEMS: Agent-Native Multimodal Generation with Memory and Skills</b> ⭐ 3</summary>
+
+<br/>
+
+**👥 Authors:** Tong Zhu, Yafu Li, Xiaoye Qu, Siyuan Huang, yhx12
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.28088) • [📄 arXiv](https://arxiv.org/abs/2603.28088) • [📥 PDF](https://arxiv.org/pdf/2603.28088)
+
+**💻 Code:** [⭐ Code](https://github.com/lcqysl/GEMS)
+
+> Introducing GEMS: an agent-native multimodal generation framework featuring Agent Loop, Agent Memory, and Agent Skills.
+
+</details>
+
+<details>
+<summary><b>5. CARLA-Air: Fly Drones Inside a CARLA World -- A Unified Infrastructure for Air-Ground Embodied Intelligence</b> ⭐ 214</summary>
 
 <br/>
 
@@ -158,7 +186,70 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. OptiMer: Optimal Distribution Vector Merging Is Better than Data Mixing for Continual Pre-Training</b> ⭐ 0</summary>
+<summary><b>6. Unify-Agent: A Unified Multimodal Agent for World-Grounded Image Synthesis</b> ⭐ 4</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.29620) • [📄 arXiv](https://arxiv.org/abs/2603.29620) • [📥 PDF](https://arxiv.org/pdf/2603.29620)
+
+**💻 Code:** [⭐ Code](https://github.com/shawn0728/Unify-Agent)
+
+> Project Page: https://github.com/shawn0728/Unify-Agent Paper Page: https://arxiv.org/pdf/2603.29620
+
+</details>
+
+<details>
+<summary><b>7. VGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.26599) • [📄 arXiv](https://arxiv.org/abs/2603.26599) • [📥 PDF](https://arxiv.org/pdf/2603.26599)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>8. FlowPIE: Test-Time Scientific Idea Evolution with Flow-Guided Literature Exploration</b> ⭐ 6</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.29557) • [📄 arXiv](https://arxiv.org/abs/2603.29557) • [📥 PDF](https://arxiv.org/pdf/2603.29557)
+
+**💻 Code:** [⭐ Code](https://github.com/AIforIP/FlowPIE)
+
+> FlowPIE tackles scientific idea generation by combining flow-guided exploration with an evolutionary process, constructing a high-quality, diverse initial idea population and continuously improving it through selection, crossover, and cross-domain...
+
+</details>
+
+<details>
+<summary><b>9. Extend3D: Town-Scale 3D Generation</b> ⭐ 3</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.29387) • [📄 arXiv](https://arxiv.org/abs/2603.29387) • [📥 PDF](https://arxiv.org/pdf/2603.29387)
+
+**💻 Code:** [⭐ Code](https://github.com/SNU-VGILab/Extend3D)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>10. CutClaw: Agentic Hours-Long Video Editing via Music Synchronization</b> ⭐ 10</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.29664) • [📄 arXiv](https://arxiv.org/abs/2603.29664) • [📥 PDF](https://arxiv.org/pdf/2603.29664)
+
+**💻 Code:** [⭐ Code](https://github.com/GVCLab/CutClaw)
+
+> Editing the video content with audio alignment forms a digital human-made art in current social media. However, the time-consuming and repetitive nature of manual video editing has long been a challenge for filmmakers and professional content crea...
+
+</details>
+
+<details>
+<summary><b>11. OptiMer: Optimal Distribution Vector Merging Is Better than Data Mixing for Continual Pre-Training</b> ⭐ 0</summary>
 
 <br/>
 
@@ -171,31 +262,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. VGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.26599) • [📄 arXiv](https://arxiv.org/abs/2603.26599) • [📥 PDF](https://arxiv.org/pdf/2603.26599)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>6. AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.26546) • [📄 arXiv](https://arxiv.org/abs/2603.26546) • [📥 PDF](https://arxiv.org/pdf/2603.26546)
-
-**💻 Code:** [⭐ Code](https://github.com/lty2226262/AutoWeather4D)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>7. Think Anywhere in Code Generation</b> ⭐ 0</summary>
+<summary><b>12. Think Anywhere in Code Generation</b> ⭐ 3</summary>
 
 <br/>
 
@@ -210,7 +277,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. SeGPruner: Semantic-Geometric Visual Token Pruner for 3D Question Answering</b> ⭐ 0</summary>
+<summary><b>13. SeGPruner: Semantic-Geometric Visual Token Pruner for 3D Question Answering</b> ⭐ 0</summary>
 
 <br/>
 
@@ -223,26 +290,54 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>9. VectorGym: A Multitask Benchmark for SVG Code Generation, Sketching, and Editing</b> ⭐ 0</summary>
+<summary><b>14. AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Rishav Pramanik, Tianyang Zhang, Abhay Puri, Haotian Zhang, Juan Rodriguez
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.26546) • [📄 arXiv](https://arxiv.org/abs/2603.26546) • [📥 PDF](https://arxiv.org/pdf/2603.26546)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.29852) • [📄 arXiv](https://arxiv.org/abs/2603.29852) • [📥 PDF](https://arxiv.org/pdf/2603.29852)
+**💻 Code:** [⭐ Code](https://github.com/lty2226262/AutoWeather4D)
 
-> No abstract available.
+> AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing Introducing a feed-forward framework for autonomous driving video editing. By explicitly decoupling geometry from lighting and performing direct editing on t...
 
 </details>
 
 <details>
-<summary><b>10. Learn2Fold: Structured Origami Generation with World Model Planning</b> ⭐ 0</summary>
+<summary><b>15. Learn2Fold: Structured Origami Generation with World Model Planning</b> ⭐ 0</summary>
 
 <br/>
 
 **👥 Authors:** Zhengzhong Tu, Jinru Han, Ying Jiang, Yunuo Chen, Yanjia Huang
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.29585) • [📄 arXiv](https://arxiv.org/abs/2603.29585) • [📥 PDF](https://arxiv.org/pdf/2603.29585)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>16. MMFace-DiT: A Dual-Stream Diffusion Transformer for High-Fidelity Multimodal Face Generation</b> ⭐ 1</summary>
+
+<br/>
+
+**👥 Authors:** Ajita Rattani, Bharath Krishnamurthy
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.29029) • [📄 arXiv](https://arxiv.org/abs/2603.29029) • [📥 PDF](https://arxiv.org/pdf/2603.29029)
+
+**💻 Code:** [⭐ Code](https://github.com/Bharath-K3/MMFace-DiT)
+
+> MMFace-DiT: A Dual-Stream Diffusion Transformer for High-Fidelity Multimodal Face Generation Accepted to the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026. Project Page: https://vcbsl.github.io/MMFace-DiT/ GitHub Repo:...
+
+</details>
+
+<details>
+<summary><b>17. VectorGym: A Multitask Benchmark for SVG Code Generation, Sketching, and Editing</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Rishav Pramanik, Tianyang Zhang, Abhay Puri, Haotian Zhang, Juan Rodriguez
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.29852) • [📄 arXiv](https://arxiv.org/abs/2603.29852) • [📥 PDF](https://arxiv.org/pdf/2603.29852)
 
 > No abstract available.
 
@@ -256,16 +351,16 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 10 |
-| 📅 Today | [`2026-04-01.json`](data/daily/2026-04-01.json) | 10 |
-| 📆 This Week | [`2026-W13.json`](data/weekly/2026-W13.json) | 13 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 10 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 17 |
+| 📅 Today | [`2026-04-01.json`](data/daily/2026-04-01.json) | 17 |
+| 📆 This Week | [`2026-W13.json`](data/weekly/2026-W13.json) | 30 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 27 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-01 | 10 | [View JSON](data/daily/2026-04-01.json) |
+| 📌 2026-04-01 | 17 | [View JSON](data/daily/2026-04-01.json) |
 | 📄 2026-03-31 | 1 | [View JSON](data/daily/2026-03-31.json) |
 | 📄 2026-03-30 | 2 | [View JSON](data/daily/2026-03-30.json) |
 | 📄 2026-03-29 | 29 | [View JSON](data/daily/2026-03-29.json) |
@@ -277,7 +372,7 @@ getTodaysPapers();
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W13 | 13 | [View JSON](data/weekly/2026-W13.json) |
+| 📅 2026-W13 | 30 | [View JSON](data/weekly/2026-W13.json) |
 | 📅 2026-W12 | 120 | [View JSON](data/weekly/2026-W12.json) |
 | 📅 2026-W11 | 133 | [View JSON](data/weekly/2026-W11.json) |
 | 📅 2026-W10 | 119 | [View JSON](data/weekly/2026-W10.json) |
@@ -286,7 +381,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 10 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 27 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |

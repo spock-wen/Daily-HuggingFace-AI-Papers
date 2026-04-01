@@ -1,5 +1,24 @@
 [
   {
+    "title": "FIPO: Eliciting Deep Reasoning with Future-KL Influenced Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2603.19835",
+    "authors": [],
+    "stars": "42",
+    "details": {
+      "title": "FIPO: Eliciting Deep Reasoning with Future-KL Influenced Policy Optimization",
+      "abstract": "FIPO replaces trajectory-end binary rewards with the Future-KL mechanism. It quantifies the real-time \"causal influence\" of every single token on the subsequent reasoning path, enabling precise, token-level reinforcement or suppression. It achieved 58.0% on AIME 2024, outperforming DAPO, o1-mini and DeepSeek-Zero-MATH at the same scale. It also broke the standard 4k length stagnation, scaling effective reasoning to 10,000+ tokens where generation length strongly correlates with actual accuracy.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.19835",
+      "pdf_url": "https://arxiv.org/pdf/2603.19835",
+      "github_links": [
+        "https://github.com/qwenpilot/FIPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.19835",
+      "scraped_at": "2026-04-01T06:28:36.434970"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
     "title": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
     "paper_url": "https://huggingface.co/papers/2603.27538",
     "authors": [],
@@ -14,7 +33,7 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2603.27538",
-      "scraped_at": "2026-04-01T02:44:00.653761"
+      "scraped_at": "2026-04-01T06:28:38.289705"
     },
     "scraped_date": "2026-04-01"
   },
@@ -31,7 +50,32 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2603.25240",
-      "scraped_at": "2026-04-01T02:44:02.550468"
+      "scraped_at": "2026-04-01T06:28:40.076278"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "GEMS: Agent-Native Multimodal Generation with Memory and Skills",
+    "paper_url": "https://huggingface.co/papers/2603.28088",
+    "authors": [
+      "Tong Zhu",
+      "Yafu Li",
+      "Xiaoye Qu",
+      "Siyuan Huang",
+      "yhx12"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "GEMS: Agent-Native Multimodal Generation with Memory and Skills",
+      "abstract": "Introducing GEMS: an agent-native multimodal generation framework featuring Agent Loop, Agent Memory, and Agent Skills.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.28088",
+      "pdf_url": "https://arxiv.org/pdf/2603.28088",
+      "github_links": [
+        "https://github.com/lcqysl/GEMS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.28088",
+      "scraped_at": "2026-04-01T06:28:41.838155"
     },
     "scraped_date": "2026-04-01"
   },
@@ -55,7 +99,100 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2603.28032",
-      "scraped_at": "2026-04-01T02:44:04.335447"
+      "scraped_at": "2026-04-01T06:28:43.632596"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "Unify-Agent: A Unified Multimodal Agent for World-Grounded Image Synthesis",
+    "paper_url": "https://huggingface.co/papers/2603.29620",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Unify-Agent: A Unified Multimodal Agent for World-Grounded Image Synthesis",
+      "abstract": "Project Page: https://github.com/shawn0728/Unify-Agent Paper Page: https://arxiv.org/pdf/2603.29620",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.29620",
+      "pdf_url": "https://arxiv.org/pdf/2603.29620",
+      "github_links": [
+        "https://github.com/shawn0728/Unify-Agent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.29620",
+      "scraped_at": "2026-04-01T06:28:45.369261"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "VGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward",
+    "paper_url": "https://huggingface.co/papers/2603.26599",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.26599",
+      "pdf_url": "https://arxiv.org/pdf/2603.26599",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.26599",
+      "scraped_at": "2026-04-01T06:28:47.248628"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "FlowPIE: Test-Time Scientific Idea Evolution with Flow-Guided Literature Exploration",
+    "paper_url": "https://huggingface.co/papers/2603.29557",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "FlowPIE: Test-Time Scientific Idea Evolution with Flow-Guided Literature Exploration",
+      "abstract": "FlowPIE tackles scientific idea generation by combining flow-guided exploration with an evolutionary process, constructing a high-quality, diverse initial idea population and continuously improving it through selection, crossover, and cross-domain mutation. This framework overcomes reward plateaus in pure exploration and demonstrates strong test-time scaling, producing ideas with superior novelty, feasibility, and diversity compared to existing methods.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.29557",
+      "pdf_url": "https://arxiv.org/pdf/2603.29557",
+      "github_links": [
+        "https://github.com/AIforIP/FlowPIE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.29557",
+      "scraped_at": "2026-04-01T06:28:49.035254"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "Extend3D: Town-Scale 3D Generation",
+    "paper_url": "https://huggingface.co/papers/2603.29387",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Extend3D: Town-Scale 3D Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.29387",
+      "pdf_url": "https://arxiv.org/pdf/2603.29387",
+      "github_links": [
+        "https://github.com/SNU-VGILab/Extend3D"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.29387",
+      "scraped_at": "2026-04-01T06:28:50.754052"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "CutClaw: Agentic Hours-Long Video Editing via Music Synchronization",
+    "paper_url": "https://huggingface.co/papers/2603.29664",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "CutClaw: Agentic Hours-Long Video Editing via Music Synchronization",
+      "abstract": "Editing the video content with audio alignment forms a digital human-made art in current social media. However, the time-consuming and repetitive nature of manual video editing has long been a challenge for filmmakers and professional content creators alike. In this paper, we introduce CutClaw, an autonomous multi-agent framework designed to edit hours-long raw footage into meaningful short videos that leverages the capabilities of multiple Multimodal Language Models~(MLLMs) as an agent system. It produces videos with synchronized music, followed by instructions, and a visually appealing appearance. In detail, our approach begins by employing a hierarchical multimodal decomposition that captures both fine-grained details and global structures across visual and audio footage. Then, to ensure narrative consistency, a Playwriter Agent orchestrates the whole storytelling flow and structures the long-term narrative, anchoring visual scenes to musical shifts. Finally, to construct a short edited video, Editor and Reviewer Agents collaboratively optimize the final cut via selecting fine-grained visual content based on rigorous aesthetic and semantic criteria. We conduct detailed experiments to demonstrate that CutClaw significantly outperforms state-of-the-art baselines in generating high-quality, rhythm-aligned videos",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.29664",
+      "pdf_url": "https://arxiv.org/pdf/2603.29664",
+      "github_links": [
+        "https://github.com/GVCLab/CutClaw"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.29664",
+      "scraped_at": "2026-04-01T06:28:52.532051"
     },
     "scraped_date": "2026-04-01"
   },
@@ -74,43 +211,7 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2603.28858",
-      "scraped_at": "2026-04-01T02:44:06.091404"
-    },
-    "scraped_date": "2026-04-01"
-  },
-  {
-    "title": "VGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward",
-    "paper_url": "https://huggingface.co/papers/2603.26599",
-    "authors": [],
-    "stars": "0",
-    "details": {
-      "title": "VGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward",
-      "abstract": "",
-      "arxiv_page_url": "https://arxiv.org/abs/2603.26599",
-      "pdf_url": "https://arxiv.org/pdf/2603.26599",
-      "github_links": [],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2603.26599",
-      "scraped_at": "2026-04-01T02:44:07.918809"
-    },
-    "scraped_date": "2026-04-01"
-  },
-  {
-    "title": "AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing",
-    "paper_url": "https://huggingface.co/papers/2603.26546",
-    "authors": [],
-    "stars": "0",
-    "details": {
-      "title": "AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing",
-      "abstract": null,
-      "arxiv_page_url": "https://arxiv.org/abs/2603.26546",
-      "pdf_url": "https://arxiv.org/pdf/2603.26546",
-      "github_links": [
-        "https://github.com/lty2226262/AutoWeather4D"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2603.26546",
-      "scraped_at": "2026-04-01T02:44:09.715481"
+      "scraped_at": "2026-04-01T06:28:54.315150"
     },
     "scraped_date": "2026-04-01"
   },
@@ -124,7 +225,7 @@
       "Tianyu Zhang",
       "Xue Jiang"
     ],
-    "stars": "0",
+    "stars": "3",
     "details": {
       "title": "Think Anywhere in Code Generation",
       "abstract": null,
@@ -135,7 +236,7 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2603.29957",
-      "scraped_at": "2026-04-01T02:44:11.469350"
+      "scraped_at": "2026-04-01T06:28:56.017817"
     },
     "scraped_date": "2026-04-01"
   },
@@ -154,30 +255,26 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2603.29437",
-      "scraped_at": "2026-04-01T02:44:13.269357"
+      "scraped_at": "2026-04-01T06:28:57.706198"
     },
     "scraped_date": "2026-04-01"
   },
   {
-    "title": "VectorGym: A Multitask Benchmark for SVG Code Generation, Sketching, and Editing",
-    "paper_url": "https://huggingface.co/papers/2603.29852",
-    "authors": [
-      "Rishav Pramanik",
-      "Tianyang Zhang",
-      "Abhay Puri",
-      "Haotian Zhang",
-      "Juan Rodriguez"
-    ],
+    "title": "AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing",
+    "paper_url": "https://huggingface.co/papers/2603.26546",
+    "authors": [],
     "stars": "0",
     "details": {
-      "title": "VectorGym: A Multitask Benchmark for SVG Code Generation, Sketching, and Editing",
-      "abstract": null,
-      "arxiv_page_url": "https://arxiv.org/abs/2603.29852",
-      "pdf_url": "https://arxiv.org/pdf/2603.29852",
-      "github_links": [],
+      "title": "AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing",
+      "abstract": "AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing Introducing a feed-forward framework for autonomous driving video editing. By explicitly decoupling geometry from lighting and performing direct editing on the G-buffer , our method achieves efficient, physically controllable, and photorealistic transitions across multiple weather conditions and times of day. With this framework, editing real-world driving videos becomes as intuitive as using a game engine: it allows for flexible control over scene illumination while naturally rendering dynamic weather effects like rain, snow, and fog. 🔗 Project Page: https://lty2226262.github.io/autoweather4d/ 📄 arXiv: https://arxiv.org/abs/2603.26546 💻 Code: https://github.com/lty2226262/AutoWeather4D 🤗 Huggingface Paper: https://huggingface.co/papers/2603.26546",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.26546",
+      "pdf_url": "https://arxiv.org/pdf/2603.26546",
+      "github_links": [
+        "https://github.com/lty2226262/AutoWeather4D"
+      ],
       "metadata": {},
-      "page_url": "https://huggingface.co/papers/2603.29852",
-      "scraped_at": "2026-04-01T02:44:15.004799"
+      "page_url": "https://huggingface.co/papers/2603.26546",
+      "scraped_at": "2026-04-01T06:28:59.467759"
     },
     "scraped_date": "2026-04-01"
   },
@@ -200,7 +297,52 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2603.29585",
-      "scraped_at": "2026-04-01T02:44:16.712219"
+      "scraped_at": "2026-04-01T06:29:01.174821"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "MMFace-DiT: A Dual-Stream Diffusion Transformer for High-Fidelity Multimodal Face Generation",
+    "paper_url": "https://huggingface.co/papers/2603.29029",
+    "authors": [
+      "Ajita Rattani",
+      "Bharath Krishnamurthy"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "MMFace-DiT: A Dual-Stream Diffusion Transformer for High-Fidelity Multimodal Face Generation",
+      "abstract": "MMFace-DiT: A Dual-Stream Diffusion Transformer for High-Fidelity Multimodal Face Generation Accepted to the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026. Project Page: https://vcbsl.github.io/MMFace-DiT/ GitHub Repo: https://github.com/Bharath-K3/MMFace-DiT",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.29029",
+      "pdf_url": "https://arxiv.org/pdf/2603.29029",
+      "github_links": [
+        "https://github.com/Bharath-K3/MMFace-DiT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.29029",
+      "scraped_at": "2026-04-01T06:29:02.918051"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "VectorGym: A Multitask Benchmark for SVG Code Generation, Sketching, and Editing",
+    "paper_url": "https://huggingface.co/papers/2603.29852",
+    "authors": [
+      "Rishav Pramanik",
+      "Tianyang Zhang",
+      "Abhay Puri",
+      "Haotian Zhang",
+      "Juan Rodriguez"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VectorGym: A Multitask Benchmark for SVG Code Generation, Sketching, and Editing",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.29852",
+      "pdf_url": "https://arxiv.org/pdf/2603.29852",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.29852",
+      "scraped_at": "2026-04-01T06:29:04.867405"
     },
     "scraped_date": "2026-04-01"
   }
