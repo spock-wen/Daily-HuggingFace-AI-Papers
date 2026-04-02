@@ -613,5 +613,46 @@
       "scraped_at": "2026-04-01T06:29:04.867405"
     },
     "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "Terminal Agents Suffice for Enterprise Automation",
+    "paper_url": "https://huggingface.co/papers/2604.00073",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Terminal Agents Suffice for Enterprise Automation",
+      "abstract": "Terminal-based coding agents using direct API access can match or outperform GUI and tool-augmented agents for enterprise automation, suggesting strong foundation models with simple programmatic interfaces are often sufficient.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.00073",
+      "pdf_url": "https://arxiv.org/pdf/2604.00073",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.00073",
+      "scraped_at": "2026-04-02T01:51:28.016395"
+    },
+    "scraped_date": "2026-04-02"
+  },
+  {
+    "title": "Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding",
+    "paper_url": "https://huggingface.co/papers/2604.00528",
+    "authors": [
+      "Lifu Huang",
+      "Zhiyang Xu",
+      "Zihao Lin",
+      "Haibo Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding",
+      "abstract": "We introduce TAB (Think, Act, Build), a dynamic agentic framework designed for zero-shot 3D Visual Grounding (3D-VG). By operating directly on raw RGB-D streams, TAB reformulates 3D grounding from a static proposal matching task into an active semantic reasoning and geometric reconstruction process.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.00528",
+      "pdf_url": "https://arxiv.org/pdf/2604.00528",
+      "github_links": [
+        "https://github.com/WHB139426/TAB-Agent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.00528",
+      "scraped_at": "2026-04-02T01:51:29.792911"
+    },
+    "scraped_date": "2026-04-02"
   }
 ]
