@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-2-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3190+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-3-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3193+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">2</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">32</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">29</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3190+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">3</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">35</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">32</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3193+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 02, 2026
+**Last Updated:** April 03, 2026
 
 ---
 
@@ -119,28 +119,43 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Terminal Agents Suffice for Enterprise Automation</b> ⭐ 0</summary>
+<summary><b>1. The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.00073) • [📄 arXiv](https://arxiv.org/abs/2604.00073) • [📥 PDF](https://arxiv.org/pdf/2604.00073)
+**👥 Authors:** Cheng Yang, Tianyu Fu, Yongbo He, Zhangquan Chen, Xinlei Yu
 
-> Terminal-based coding agents using direct API access can match or outperform GUI and tool-augmented agents for enterprise automation, suggesting strong foundation models with simple programmatic interfaces are often sufficient.
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.02029) • [📄 arXiv](https://arxiv.org/abs/2604.02029) • [📥 PDF](https://arxiv.org/pdf/2604.02029)
+
+**💻 Code:** [⭐ Code](https://github.com/YU-deep/Awesome-Latent-Space)
+
+> The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook
 
 </details>
 
 <details>
-<summary><b>2. Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding</b> ⭐ 0</summary>
+<summary><b>2. GPA: Learning GUI Process Automation from Demonstrations</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Lifu Huang, Zhiyang Xu, Zihao Lin, Haibo Wang
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.01676) • [📄 arXiv](https://arxiv.org/abs/2604.01676) • [📥 PDF](https://arxiv.org/pdf/2604.01676)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.00528) • [📄 arXiv](https://arxiv.org/abs/2604.00528) • [📥 PDF](https://arxiv.org/pdf/2604.00528)
+> GUI Process Automation (GPA) - from Salesforce AI Research For product or enterprise use cases, please contact zirui.zhao@salesforce.com or junnan.li@salesforce.com . What is GPA? GPA is a demo-based RPA (Robotic Process Automation) framework for ...
 
-**💻 Code:** [⭐ Code](https://github.com/WHB139426/TAB-Agent)
+</details>
 
-> We introduce TAB (Think, Act, Build), a dynamic agentic framework designed for zero-shot 3D Visual Grounding (3D-VG). By operating directly on raw RGB-D streams, TAB reformulates 3D grounding from a static proposal matching task into an active sem...
+<details>
+<summary><b>3. SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Qi Gu, Chengcheng Han, Jinyang Wu, Zhiyuan Yao, Zhengxi Lu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.02268) • [📄 arXiv](https://arxiv.org/abs/2604.02268) • [📥 PDF](https://arxiv.org/pdf/2604.02268)
+
+**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/SkillZero)
+
+> We propose SKILL0, the first RL framework that formulates skill internalization as an explicit training objective, moving agents from inference-time skill dependence to fully autonomous zero-shot behavior. We introduce in-context reinforcement lea...
 
 </details>
 
@@ -152,28 +167,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 2 |
-| 📅 Today | [`2026-04-02.json`](data/daily/2026-04-02.json) | 2 |
-| 📆 This Week | [`2026-W13.json`](data/weekly/2026-W13.json) | 32 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 29 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 3 |
+| 📅 Today | [`2026-04-03.json`](data/daily/2026-04-03.json) | 3 |
+| 📆 This Week | [`2026-W13.json`](data/weekly/2026-W13.json) | 35 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 32 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-02 | 2 | [View JSON](data/daily/2026-04-02.json) |
+| 📌 2026-04-03 | 3 | [View JSON](data/daily/2026-04-03.json) |
+| 📄 2026-04-02 | 2 | [View JSON](data/daily/2026-04-02.json) |
 | 📄 2026-04-01 | 17 | [View JSON](data/daily/2026-04-01.json) |
 | 📄 2026-03-31 | 1 | [View JSON](data/daily/2026-03-31.json) |
 | 📄 2026-03-30 | 2 | [View JSON](data/daily/2026-03-30.json) |
 | 📄 2026-03-29 | 29 | [View JSON](data/daily/2026-03-29.json) |
 | 📄 2026-03-28 | 29 | [View JSON](data/daily/2026-03-28.json) |
-| 📄 2026-03-27 | 6 | [View JSON](data/daily/2026-03-27.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W13 | 32 | [View JSON](data/weekly/2026-W13.json) |
+| 📅 2026-W13 | 35 | [View JSON](data/weekly/2026-W13.json) |
 | 📅 2026-W12 | 120 | [View JSON](data/weekly/2026-W12.json) |
 | 📅 2026-W11 | 133 | [View JSON](data/weekly/2026-W11.json) |
 | 📅 2026-W10 | 119 | [View JSON](data/weekly/2026-W10.json) |
@@ -182,7 +197,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 29 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 32 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |

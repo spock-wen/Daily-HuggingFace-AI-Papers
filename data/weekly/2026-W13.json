@@ -654,5 +654,72 @@
       "scraped_at": "2026-04-02T01:51:29.792911"
     },
     "scraped_date": "2026-04-02"
+  },
+  {
+    "title": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
+    "paper_url": "https://huggingface.co/papers/2604.02029",
+    "authors": [
+      "Cheng Yang",
+      "Tianyu Fu",
+      "Yongbo He",
+      "Zhangquan Chen",
+      "Xinlei Yu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
+      "abstract": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.02029",
+      "pdf_url": "https://arxiv.org/pdf/2604.02029",
+      "github_links": [
+        "https://github.com/YU-deep/Awesome-Latent-Space"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.02029",
+      "scraped_at": "2026-04-03T01:53:07.505250"
+    },
+    "scraped_date": "2026-04-03"
+  },
+  {
+    "title": "GPA: Learning GUI Process Automation from Demonstrations",
+    "paper_url": "https://huggingface.co/papers/2604.01676",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GPA: Learning GUI Process Automation from Demonstrations",
+      "abstract": "GUI Process Automation (GPA) - from Salesforce AI Research For product or enterprise use cases, please contact zirui.zhao@salesforce.com or junnan.li@salesforce.com . What is GPA? GPA is a demo-based RPA (Robotic Process Automation) framework for automating desktop GUI tasks on macOS. The core idea: record a workflow once, replay it reliably — even when the UI changes slightly. Unlike traditional RPA tools that rely on pixel coordinates or brittle selectors, GPA uses lightweight local models to understand UI structure and locate elements robustly at replay time. Key capabilities: Record : Capture a GUI workflow as a sequence of user actions and screenshots Build : LLM-powered analysis (done once at build time) converts the recording into a parameterized workflow template with named variables Run : Action execution uses small-scale, locally-running visual detectors and feature extractors — no large vision-language model required at runtime. UI elements are matched via efficient embedding-based retrieval, keeping replay fast and privacy-preserving Variables : Workflows accept runtime variable overrides (e.g. filenames, text content, search terms) Loops : Run partial step ranges to support batched or iterative workflows",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.01676",
+      "pdf_url": "https://arxiv.org/pdf/2604.01676",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.01676",
+      "scraped_at": "2026-04-03T01:53:09.368846"
+    },
+    "scraped_date": "2026-04-03"
+  },
+  {
+    "title": "SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization",
+    "paper_url": "https://huggingface.co/papers/2604.02268",
+    "authors": [
+      "Qi Gu",
+      "Chengcheng Han",
+      "Jinyang Wu",
+      "Zhiyuan Yao",
+      "Zhengxi Lu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization",
+      "abstract": "We propose SKILL0, the first RL framework that formulates skill internalization as an explicit training objective, moving agents from inference-time skill dependence to fully autonomous zero-shot behavior. We introduce in-context reinforcement learning, which provides structured skill guidance during training rollouts and removes it entirely at inference, directly optimizing the transition from context-dependent execution to intrinsic competence. We propose Dynamic Curriculum, a helpfulness-driven annealing mechanism that withdraws each skill only when the current policy no longer benefits from it, replacing rigid schedules with adaptive internalization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.02268",
+      "pdf_url": "https://arxiv.org/pdf/2604.02268",
+      "github_links": [
+        "https://github.com/ZJU-REAL/SkillZero"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.02268",
+      "scraped_at": "2026-04-03T01:53:11.154567"
+    },
+    "scraped_date": "2026-04-03"
   }
 ]
