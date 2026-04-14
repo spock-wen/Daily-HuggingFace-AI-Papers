@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-7-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3437+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-2-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3439+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">7</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">7</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">276</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3437+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">2</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">9</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">278</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3439+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 13, 2026
+**Last Updated:** April 14, 2026
 
 ---
 
@@ -119,95 +119,26 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. RefineAnything: Multimodal Region-Specific Refinement for Perfect Local Details</b> ⭐ 0</summary>
+<summary><b>1. Strips as Tokens: Artist Mesh Generation with Native UV Segmentation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06870) • [📄 arXiv](https://arxiv.org/abs/2604.06870) • [📥 PDF](https://arxiv.org/pdf/2604.06870)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.09132) • [📄 arXiv](https://arxiv.org/abs/2604.09132) • [📥 PDF](https://arxiv.org/pdf/2604.09132)
 
-**💻 Code:** [⭐ Code](https://github.com/limuloo/RefineAnything)
+**💻 Code:** [⭐ Code](https://github.com/Xrvitd/SATO)
 
-> demo: https://huggingface.co/spaces/limuloo1999/RefineAnything checkpoint: https://huggingface.co/limuloo1999/RefineAnything
+> Today we're releasing Strips as Tokens (SATO) , a new autoregressive framework for artist mesh generation with native UV segmentation . Most existing mesh generators use token orderings that do not match how artists actually build meshes. Coordina...
 
 </details>
 
 <details>
-<summary><b>2. Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory</b> ⭐ 0</summary>
+<summary><b>2. Pseudo-Unification: Entropy Probing Reveals Divergent Information Patterns in Unified Multimodal Models</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Baixin Xu, Kaichen Huang, Jaixing Li, Zexiang Liu, Zile Wang
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.10949) • [📄 arXiv](https://arxiv.org/abs/2604.10949) • [📥 PDF](https://arxiv.org/pdf/2604.10949)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08995) • [📄 arXiv](https://arxiv.org/abs/2604.08995) • [📥 PDF](https://arxiv.org/pdf/2604.08995)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>3. EXAONE 4.5 Technical Report</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Junwon Hwang, Seokhee Hong, Sehyun Chun, Kibong Choi, Eunbi Choi
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08644) • [📄 arXiv](https://arxiv.org/abs/2604.08644) • [📥 PDF](https://arxiv.org/pdf/2604.08644)
-
-**💻 Code:** [⭐ Code](https://github.com/LG-AI-EXAONE/EXAONE-4.5)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>4. FORGE:Fine-grained Multimodal Evaluation for Manufacturing Scenarios</b> ⭐ 3</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07413) • [📄 arXiv](https://arxiv.org/abs/2604.07413) • [📥 PDF](https://arxiv.org/pdf/2604.07413)
-
-**💻 Code:** [⭐ Code](https://github.com/AI4Manufacturing/FORGE)
-
-> 🏭 Releasing FORGE — a fine-grained multimodal benchmark for manufacturing scenarios 📊 ~12,000 samples across 14 workpiece categories and 90 model numbers 🔍 Built to test whether MLLMs can handle industrial precision, not just general perception Ge...
-
-</details>
-
-<details>
-<summary><b>5. CT-1: Vision-Language-Camera Models Transfer Spatial Reasoning Knowledge to Camera-Controllable Video Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Qingping Zheng, Haoran Chen, Jiaxi Gu, Zihao Zhang, Haoyu Zhao
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.09201) • [📄 arXiv](https://arxiv.org/abs/2604.09201) • [📥 PDF](https://arxiv.org/pdf/2604.09201)
-
-**💻 Code:** [⭐ Code](https://github.com/gulucaptain/Camera-Transformer-1)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>6. ELT: Elastic Looped Transformers for Visual Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.09168) • [📄 arXiv](https://arxiv.org/abs/2604.09168) • [📥 PDF](https://arxiv.org/pdf/2604.09168)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>7. VisionFoundry: Teaching VLMs Visual Perception with Synthetic Images</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Xingyu Fu, Shengbang Tong, Wenhao Chai, Yida Yin, Guanyu Zhou
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.09531) • [📄 arXiv](https://arxiv.org/abs/2604.09531) • [📥 PDF](https://arxiv.org/pdf/2604.09531)
-
-> No abstract available.
+> Unified multimodal models (UMMs) were designed to combine the reasoning ability of large language models (LLMs) with the generation capability of vision models. In practice, however, this synergy remains elusive: UMMs fail to transfer LLM-like rea...
 
 </details>
 
@@ -219,28 +150,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 7 |
-| 📅 Today | [`2026-04-13.json`](data/daily/2026-04-13.json) | 7 |
-| 📆 This Week | [`2026-W15.json`](data/weekly/2026-W15.json) | 7 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 276 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 2 |
+| 📅 Today | [`2026-04-14.json`](data/daily/2026-04-14.json) | 2 |
+| 📆 This Week | [`2026-W15.json`](data/weekly/2026-W15.json) | 9 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 278 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-13 | 7 | [View JSON](data/daily/2026-04-13.json) |
+| 📌 2026-04-14 | 2 | [View JSON](data/daily/2026-04-14.json) |
+| 📄 2026-04-13 | 7 | [View JSON](data/daily/2026-04-13.json) |
 | 📄 2026-04-12 | 42 | [View JSON](data/daily/2026-04-12.json) |
 | 📄 2026-04-11 | 42 | [View JSON](data/daily/2026-04-11.json) |
 | 📄 2026-04-10 | 9 | [View JSON](data/daily/2026-04-10.json) |
 | 📄 2026-04-09 | 30 | [View JSON](data/daily/2026-04-09.json) |
 | 📄 2026-04-08 | 2 | [View JSON](data/daily/2026-04-08.json) |
-| 📄 2026-04-07 | 17 | [View JSON](data/daily/2026-04-07.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W15 | 7 | [View JSON](data/weekly/2026-W15.json) |
+| 📅 2026-W15 | 9 | [View JSON](data/weekly/2026-W15.json) |
 | 📅 2026-W14 | 147 | [View JSON](data/weekly/2026-W14.json) |
 | 📅 2026-W13 | 125 | [View JSON](data/weekly/2026-W13.json) |
 | 📅 2026-W12 | 120 | [View JSON](data/weekly/2026-W12.json) |
@@ -249,7 +180,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 276 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 278 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
