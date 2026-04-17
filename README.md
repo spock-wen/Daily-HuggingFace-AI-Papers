@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-7-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3493+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-4-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3497+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">7</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">63</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">332</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3493+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">4</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">67</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">336</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3497+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 16, 2026
+**Last Updated:** April 17, 2026
 
 ---
 
@@ -119,93 +119,56 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Seedance 2.0: Advancing Video Generation for World Complexity</b> ⭐ 0</summary>
+<summary><b>1. HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14148) • [📄 arXiv](https://arxiv.org/abs/2604.14148) • [📥 PDF](https://arxiv.org/pdf/2604.14148)
+**👥 Authors:** Yisu Zhang, Zhenwei Wang, Xuhui Zuo, Chenjie Cao, Team HY-World
 
-> Seedance 2.0 Model Card, Official Page: https://seed.bytedance.com/seedance2_0
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14268) • [📄 arXiv](https://arxiv.org/abs/2604.14268) • [📥 PDF](https://arxiv.org/pdf/2604.14268)
 
-</details>
-
-<details>
-<summary><b>2. TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14116) • [📄 arXiv](https://arxiv.org/abs/2604.14116) • [📥 PDF](https://arxiv.org/pdf/2604.14116)
-
-**💻 Code:** [⭐ Code](https://github.com/trex-project)
-
-> While Large Language Models (LLMs) have empowered AI research agents to perform isolated scientific tasks, automating complex, real-world workflows, such as LLM training, remains a significant challenge. In this paper, we introduce TREX, a multi-a...
-
-</details>
-
-<details>
-<summary><b>3. OccuBench: Evaluating AI Agents on Real-World Professional Tasks via Language World Models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.10866) • [📄 arXiv](https://arxiv.org/abs/2604.10866) • [📥 PDF](https://arxiv.org/pdf/2604.10866)
-
-**💻 Code:** [⭐ Code](https://github.com/GregxmHu/OccuBench)
-
-> AI agents excel at coding and web tasks, but most real-world professional scenarios lack executable environments. OccuBench uses LLM-based Language World Models to simulate 100 professional task environments (emergency triage, customs processing, ...
-
-</details>
-
-<details>
-<summary><b>4. SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Hongbo Peng, Kangheng Lin, Xinrui Cheng, Yingxiu Zhao, Dinging Li
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14144) • [📄 arXiv](https://arxiv.org/abs/2604.14144) • [📥 PDF](https://arxiv.org/pdf/2604.14144)
-
-**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/SpatialEvo)
+**💻 Code:** [⭐ Code](https://github.com/Tencent-Hunyuan/HY-World-2.0)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>5. UI-Zoomer: Uncertainty-Driven Adaptive Zoom-In for GUI Grounding</b> ⭐ 0</summary>
+<summary><b>2. KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Songqin Nong, Tongbo Chen, Zhengxi Lu, Bofan Chen, Fei Tang
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.13226) • [📄 arXiv](https://arxiv.org/abs/2604.13226) • [📥 PDF](https://arxiv.org/pdf/2604.13226)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14113) • [📄 arXiv](https://arxiv.org/abs/2604.14113) • [📥 PDF](https://arxiv.org/pdf/2604.14113)
+**💻 Code:** [⭐ Code](https://github.com/ChuangtaoChen-TUM/KVPacket)
 
-**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/UI-Zoomer)
-
-> No abstract available.
+> KV Packet is a framework for reusing precomputed KV caches across documents without recomputation. Code available at https://github.com/ChuangtaoChen-TUM/KVPacket .
 
 </details>
 
 <details>
-<summary><b>6. ROSE: Retrieval-Oriented Segmentation Enhancement</b> ⭐ 0</summary>
+<summary><b>3. Cross-Tokenizer LLM Distillation through a Byte-Level Interface</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Yu-Gang Jiang, Henghui Ding, Guangquan Jie, Song Tang
+**👥 Authors:** Davide Buffelli, Alberto Bernacchia, Alexandru Cioba, Yen-Chen Wu, Avyav Kumar Singh
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14147) • [📄 arXiv](https://arxiv.org/abs/2604.14147) • [📥 PDF](https://arxiv.org/pdf/2604.14147)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07466) • [📄 arXiv](https://arxiv.org/abs/2604.07466) • [📥 PDF](https://arxiv.org/pdf/2604.07466)
 
-> No abstract available.
+> Cross-tokenizer distillation (CTD), the transfer of knowledge from a teacher to a student language model when the two use different tokenizers, remains a largely unsolved problem. Existing approaches rely on heuristic strategies to align mismatche...
 
 </details>
 
 <details>
-<summary><b>7. InfiniteScienceGym: An Unbounded, Procedurally-Generated Benchmark for Scientific Analysis</b> ⭐ 0</summary>
+<summary><b>4. MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Vivek Srikumar, Oliver Bentham
+**👥 Authors:** Ning Liao, Yuqing Yang, Yifan Yang, Zezi Zeng, Yan Li
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.13201) • [📄 arXiv](https://arxiv.org/abs/2604.13201) • [📥 PDF](https://arxiv.org/pdf/2604.13201)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.15309) • [📄 arXiv](https://arxiv.org/abs/2604.15309) • [📥 PDF](https://arxiv.org/pdf/2604.15309)
+
+**💻 Code:** [⭐ Code](https://github.com/microsoft/MM-webagent)
 
 > No abstract available.
 
@@ -219,28 +182,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 7 |
-| 📅 Today | [`2026-04-16.json`](data/daily/2026-04-16.json) | 7 |
-| 📆 This Week | [`2026-W15.json`](data/weekly/2026-W15.json) | 63 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 332 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 4 |
+| 📅 Today | [`2026-04-17.json`](data/daily/2026-04-17.json) | 4 |
+| 📆 This Week | [`2026-W15.json`](data/weekly/2026-W15.json) | 67 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 336 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-16 | 7 | [View JSON](data/daily/2026-04-16.json) |
+| 📌 2026-04-17 | 4 | [View JSON](data/daily/2026-04-17.json) |
+| 📄 2026-04-16 | 7 | [View JSON](data/daily/2026-04-16.json) |
 | 📄 2026-04-15 | 47 | [View JSON](data/daily/2026-04-15.json) |
 | 📄 2026-04-14 | 2 | [View JSON](data/daily/2026-04-14.json) |
 | 📄 2026-04-13 | 7 | [View JSON](data/daily/2026-04-13.json) |
 | 📄 2026-04-12 | 42 | [View JSON](data/daily/2026-04-12.json) |
 | 📄 2026-04-11 | 42 | [View JSON](data/daily/2026-04-11.json) |
-| 📄 2026-04-10 | 9 | [View JSON](data/daily/2026-04-10.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W15 | 63 | [View JSON](data/weekly/2026-W15.json) |
+| 📅 2026-W15 | 67 | [View JSON](data/weekly/2026-W15.json) |
 | 📅 2026-W14 | 147 | [View JSON](data/weekly/2026-W14.json) |
 | 📅 2026-W13 | 125 | [View JSON](data/weekly/2026-W13.json) |
 | 📅 2026-W12 | 120 | [View JSON](data/weekly/2026-W12.json) |
@@ -249,7 +212,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 332 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 336 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
