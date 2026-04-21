@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-3-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3558+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3561+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">3</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">3</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">397</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3558+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">6</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">400</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3561+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 20, 2026
+**Last Updated:** April 21, 2026
 
 ---
 
@@ -119,41 +119,45 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. PersonaVLM: Long-Term Personalized Multimodal LLMs</b> ⭐ 0</summary>
+<summary><b>1. Stratagem: Learning Transferable Reasoning via Trajectory-Modulated Game Self-Play</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.13074) • [📄 arXiv](http://arxiv.org/abs/2604.13074) • [📥 PDF](https://arxiv.org/pdf/2604.13074)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.17696) • [📄 arXiv](https://arxiv.org/abs/2604.17696) • [📥 PDF](https://arxiv.org/pdf/2604.17696)
 
-**💻 Code:** [⭐ Code](https://github.com/MiG-NJU/PersonaVLM)
+**💻 Code:** [⭐ Code](https://github.com/ydyyyy/Stratagem)
 
-> CVPR 2026 Hight PersonaVLM: Long-Term Personalized Multimodal LLMs
+> Happy to share our latest paper: STRATAGEM. Our key idea is that not all successful game trajectories are equally useful for building general reasoning ability, so we explicitly reinforce those with higher transferability and stronger reasoning ev...
 
 </details>
 
 <details>
-<summary><b>2. Qwen3.5-Omni Technical Report</b> ⭐ 0</summary>
+<summary><b>2. The Geometric Canary: Predicting Steerability and Detecting Drift via Representational Stability</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Qwen Team
+**👥 Authors:** Prashant C. Raju
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.15804) • [📄 arXiv](https://arxiv.org/abs/2604.15804) • [📥 PDF](https://arxiv.org/pdf/2604.15804)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.17698) • [📄 arXiv](https://arxiv.org/abs/2604.17698) • [📥 PDF](https://arxiv.org/pdf/2604.17698)
 
-> No abstract available.
+**💻 Code:** [⭐ Code](https://github.com/prashantcraju/geometric-canary)
+
+> The Geometric Canary introduces geometric stability as a dual diagnostic for LLM deployment. Supervised Shesha predicts which embedding models will accept linear steering with near-perfect accuracy (rho = 0.89-0.96 across 35-69 models and three NL...
 
 </details>
 
 <details>
-<summary><b>3. VEFX-Bench: A Holistic Benchmark for Generic Video Editing and Visual Effects</b> ⭐ 0</summary>
+<summary><b>3. Geometric coherence of single-cell CRISPR perturbations reveals regulatory architecture and predicts cellular stress</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Minglai Yang, Xinghao Chen, Bangya Liu, Sicong Jiang, Xiangbo Gao
+**👥 Authors:** Prashant C. Raju
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.16272) • [📄 arXiv](https://arxiv.org/abs/2604.16272) • [📥 PDF](https://arxiv.org/pdf/2604.16272)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.16642) • [📄 arXiv](https://arxiv.org/abs/2604.16642) • [📥 PDF](https://arxiv.org/pdf/2604.16642)
 
-> No abstract available.
+**💻 Code:** [⭐ Code](https://github.com/prashantcraju/geometric-stability-crispr)
+
+> We introduce Shesha perturbation stability, a geometric metric that measures whether cells respond to a CRISPR perturbation by moving together or scattering across expression space. Across 5 datasets and 2,200+ perturbations, we find that pleiotro...
 
 </details>
 
@@ -166,27 +170,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 3 |
-| 📅 Today | [`2026-04-20.json`](data/daily/2026-04-20.json) | 3 |
-| 📆 This Week | [`2026-W16.json`](data/weekly/2026-W16.json) | 3 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 397 |
+| 📅 Today | [`2026-04-21.json`](data/daily/2026-04-21.json) | 3 |
+| 📆 This Week | [`2026-W16.json`](data/weekly/2026-W16.json) | 6 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 400 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-20 | 3 | [View JSON](data/daily/2026-04-20.json) |
+| 📌 2026-04-21 | 3 | [View JSON](data/daily/2026-04-21.json) |
+| 📄 2026-04-20 | 3 | [View JSON](data/daily/2026-04-20.json) |
 | 📄 2026-04-19 | 29 | [View JSON](data/daily/2026-04-19.json) |
 | 📄 2026-04-18 | 29 | [View JSON](data/daily/2026-04-18.json) |
 | 📄 2026-04-17 | 4 | [View JSON](data/daily/2026-04-17.json) |
 | 📄 2026-04-16 | 7 | [View JSON](data/daily/2026-04-16.json) |
 | 📄 2026-04-15 | 47 | [View JSON](data/daily/2026-04-15.json) |
-| 📄 2026-04-14 | 2 | [View JSON](data/daily/2026-04-14.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W16 | 3 | [View JSON](data/weekly/2026-W16.json) |
+| 📅 2026-W16 | 6 | [View JSON](data/weekly/2026-W16.json) |
 | 📅 2026-W15 | 125 | [View JSON](data/weekly/2026-W15.json) |
 | 📅 2026-W14 | 147 | [View JSON](data/weekly/2026-W14.json) |
 | 📅 2026-W13 | 125 | [View JSON](data/weekly/2026-W13.json) |
@@ -195,7 +199,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 397 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 400 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
