@@ -2,8 +2,8 @@ name: Daily AI Papers Scraper
 
 on:
   schedule:
-    # Run every day at 00:00 UTC
-    - cron: '0 0 * * *'
+    # Run every day at 04:00 UTC (delay 4 hours to ensure HuggingFace has updated papers)
+    - cron: '0 4 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
