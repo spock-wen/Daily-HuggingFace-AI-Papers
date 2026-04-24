@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-16-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3649+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-15-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3664+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">16</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">97</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">491</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3649+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">15</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">112</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">506</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3664+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 23, 2026
+**Last Updated:** April 24, 2026
 
 ---
 
@@ -119,206 +119,205 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model</b> ⭐ 3</summary>
+<summary><b>1. WorldMark: A Unified Benchmark Suite for Interactive Video World Models</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20796) • [📄 arXiv](https://arxiv.org/abs/2604.20796) • [📥 PDF](https://arxiv.org/pdf/2604.20796)
+**👥 Authors:** Xiaofeng Mao, Yukang Feng, Kang He, Zhengyuan Lin, Xiaojie Xu
 
-**💻 Code:** [⭐ Code](https://github.com/inclusionAI/LLaDA2.0-Uni)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21686) • [📄 arXiv](https://arxiv.org/abs/2604.21686) • [📥 PDF](https://arxiv.org/pdf/2604.21686)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>2. DR-Venus: Towards Frontier Edge-Scale Deep Research Agents with Only 10K Open Data</b> ⭐ 10</summary>
+<summary><b>2. UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling</b> ⭐ 19</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19859) • [📄 arXiv](https://arxiv.org/abs/2604.19859) • [📥 PDF](https://arxiv.org/pdf/2604.19859)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19734) • [📄 arXiv](https://arxiv.org/abs/2604.19734) • [📥 PDF](https://arxiv.org/pdf/2604.19734)
 
-**💻 Code:** [⭐ Code](https://github.com/inclusionAI/DR-Venus) • [⭐ Code](https://github.com/inclusionAI/DR-Venus/tree/master/RL) • [⭐ Code](https://github.com/inclusionAI/DR-Venus/tree/master/SFT)
-
-> Key insights: We explore how to build strong edge-scale deep research agents with small language models under limited open-data settings, focusing on both data quality and data utilization. We introduce DR-Venus, a 4B deep research agent trained e...
-
-</details>
-
-<details>
-<summary><b>3. Near-Future Policy Optimization</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Dingyu Yao, Naibin Gu, Qingyi Si, Chenxu Yang, Chuanyu Qin
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20733) • [📄 arXiv](https://arxiv.org/abs/2604.20733) • [📥 PDF](https://arxiv.org/pdf/2604.20733)
-
-> Work in progress. To be open-sourced soon. :)
-
-</details>
-
-<details>
-<summary><b>4. Reward Hacking in the Era of Large Models: Mechanisms, Emergent Misalignment, Challenges</b> ⭐ 9</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.13602) • [📄 arXiv](https://arxiv.org/abs/2604.13602) • [📥 PDF](https://arxiv.org/pdf/2604.13602)
-
-**💻 Code:** [⭐ Code](https://github.com/xhwang22/Awesome-Reward-Hacking)
-
-> Reinforcement Learning from Human Feedback (RLHF) and related alignment paradigms have become central to steering large language models (LLMs) and multimodal large language models (MLLMs) toward human-preferred behaviors. However, these approaches...
-
-</details>
-
-<details>
-<summary><b>5. Exploring Spatial Intelligence from a Generative Perspective</b> ⭐ 5</summary>
-
-<br/>
-
-**👥 Authors:** Hao Zhong, Zekai Luo, Huanyi Zheng, Shunyao Jiang, Muzhi Zhu
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20570) • [📄 arXiv](https://arxiv.org/abs/2604.20570) • [📥 PDF](https://arxiv.org/pdf/2604.20570)
-
-**💻 Code:** [⭐ Code](https://github.com/aim-uofa/GSI-Bench)
-
-> Spatial intelligence is essential for multimodal large language models, yet current benchmarks largely assess it only from an understanding perspective. We ask whether modern generative or unified multimodal models also possess generative spatial ...
-
-</details>
-
-<details>
-<summary><b>6. WavAlign: Enhancing Intelligence and Expressiveness in Spoken Dialogue Models via Adaptive Hybrid Post-Training</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yangzhuo Li, Qian Chen, Shengpeng Ji, leungtianle, 1f
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14932) • [📄 arXiv](https://arxiv.org/abs/2604.14932) • [📥 PDF](https://arxiv.org/pdf/2604.14932)
-
-> An effective post-train framework for SDM
-
-</details>
-
-<details>
-<summary><b>7. SWE-chat: Coding Agent Interactions From Real Users in the Wild</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Diyi Yang, John Yang, Xiang Li, Vishakh Padmakumar, Joachim Baumann
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20779) • [📄 arXiv](https://arxiv.org/abs/2604.20779) • [📥 PDF](https://arxiv.org/pdf/2604.20779)
+**💻 Code:** [⭐ Code](https://github.com/xpeng-robotics/UniT)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>8. Cortex 2.0: Grounding World Models in Real-World Industrial Deployment</b> ⭐ 0</summary>
+<summary><b>3. StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition</b> ⭐ 3</summary>
 
 <br/>
 
-**👥 Authors:** Fabian Busch, Dhruv Behl, Katarina Bankovic, Walida Amer, Adriana Aida
+**👥 Authors:** Seungmi Lee, Youngseo Kim, Ayeong Jeong, Changmin Lee, Kwan Yun
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20246) • [📄 arXiv](https://arxiv.org/abs/2604.20246) • [📥 PDF](https://arxiv.org/pdf/2604.20246)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21689) • [📄 arXiv](https://arxiv.org/abs/2604.21689) • [📥 PDF](https://arxiv.org/pdf/2604.21689)
+
+**💻 Code:** [⭐ Code](https://github.com/kwanyun/StyleID)
+
+> Stylization-Agnostic Facial Identity Recognition
+
+</details>
+
+<details>
+<summary><b>4. Seeing Fast and Slow: Learning the Flow of Time in Videos</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Ali Farhadi, Tao Tu, Jingsen Zhu, Rundong Luo, Yen-Siang Wu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21931) • [📄 arXiv](https://arxiv.org/abs/2604.21931) • [📥 PDF](https://arxiv.org/pdf/2604.21931)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>9. Convergent Evolution: How Different Language Models Learn Similar Number Representations</b> ⭐ 0</summary>
+<summary><b>5. TingIS: Real-time Risk Event Discovery from Noisy Customer Incidents at Enterprise Scale</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20817) • [📄 arXiv](https://arxiv.org/abs/2604.20817) • [📥 PDF](https://arxiv.org/pdf/2604.20817)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21889) • [📄 arXiv](https://arxiv.org/abs/2604.21889) • [📥 PDF](https://arxiv.org/pdf/2604.21889)
 
-> Convergent Evolution: How Different Language Models Learn Similar Number Representations
+> We present TingIS, an enterprise-grade end-to-end risk discovery system that processes 300,000 customer incidents every day and up to 2,000 incidents per minute. By synergizing efficient indexing techniques with Large Language Models, TingIS achie...
 
 </details>
 
 <details>
-<summary><b>10. Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks</b> ⭐ 1</summary>
+<summary><b>6. Hybrid Policy Distillation for LLMs</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.11610) • [📄 arXiv](https://arxiv.org/abs/2604.11610) • [📥 PDF](https://arxiv.org/pdf/2604.11610)
+**👥 Authors:** Pengfei Liu, Rui Wang, Ruobing Xie, Wenhong Zhu
 
-**💻 Code:** [⭐ Code](https://github.com/ayyyq/heterogeneous-memory-extraction)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20244) • [📄 arXiv](https://arxiv.org/abs/2604.20244) • [📥 PDF](https://arxiv.org/pdf/2604.20244)
 
-> We propose BEHEMOTH, an 18-dataset benchmark for heterogeneous memory extraction, and CluE, a cluster-based self-evolving method that consistently outperforms compared baselines.
+**💻 Code:** [⭐ Code](https://github.com/zwhong714/Hybrid-Policy-Distillation)
+
+> 🧭 A unified view of policy distillation methods ⚡ Efficient one-hot-style distillation 🧩 A hybrid KL objective with a masking mechanism 🪶 Lightweight sampling under an offline-prefix setting
 
 </details>
 
 <details>
-<summary><b>11. SAVOIR: Learning Social Savoir-Faire via Shapley-based Reward Attribution</b> ⭐ 0</summary>
+<summary><b>7. Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.18982) • [📄 arXiv](https://arxiv.org/abs/2604.18982) • [📥 PDF](https://arxiv.org/pdf/2604.18982)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20987) • [📄 arXiv](https://arxiv.org/abs/2604.20987) • [📥 PDF](https://arxiv.org/pdf/2604.20987)
 
-**💻 Code:** [⭐ Code](https://github.com/jyyyyy0/SAVOIR)
+**💻 Code:** [⭐ Code](https://github.com/wuxiyang1996/cos-play)
 
-> Training language agents for social intelligence faces a core challenge—credit assignment across multi-turn dialogues. Existing methods retrospectively distribute episode rewards via LLMs, lacking theoretical grounding. We propose SAVOIR, a princi...
+> Github: https://github.com/wuxiyang1996/cos-play . Paper: https://arxiv.org/abs/2604.20987 Website: https://wuxiyang1996.github.io/COSPLAY_page/ Models: https://huggingface.co/IntelligenceLab/COS-PLAY Cold-Start Data: https://huggingface.co/datase...
 
 </details>
 
 <details>
-<summary><b>12. ReImagine: Rethinking Controllable High-Quality Human Video Generation via Image-First Synthesis</b> ⭐ 5</summary>
+<summary><b>8. UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection</b> ⭐ 7</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19720) • [📄 arXiv](https://arxiv.org/abs/2604.19720) • [📥 PDF](https://arxiv.org/pdf/2604.19720)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21904) • [📄 arXiv](https://arxiv.org/abs/2604.21904) • [📥 PDF](https://arxiv.org/pdf/2604.21904)
 
-**💻 Code:** [⭐ Code](https://github.com/Taited/ReImagine)
+**💻 Code:** [⭐ Code](https://github.com/Zhangyr2022/UniGenDet)
 
-> This work introduces a method for human video generation with two main components and an additional bonus model. First, we generate high-quality images from front and back human reference inputs, controlling both viewpoint and pose using SMPL-X re...
+> Accepted to CVPR 2026. Image generation and generated-image detection have both advanced rapidly, but mostly along separate technical paths: generation is dominated by generative architectures, while detection is dominated by discriminative ones. ...
 
 </details>
 
 <details>
-<summary><b>13. Visual Reasoning through Tool-supervised Reinforcement Learning</b> ⭐ 0</summary>
+<summary><b>9. VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation</b> ⭐ 1</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19945) • [📄 arXiv](https://arxiv.org/abs/2604.19945) • [📥 PDF](https://arxiv.org/pdf/2604.19945)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21375) • [📄 arXiv](https://arxiv.org/abs/2604.21375) • [📥 PDF](https://arxiv.org/pdf/2604.21375)
 
-> Tool-use RL for MLLMs often struggles because "learn to call the tool" and "learn to answer correctly" pull the policy in different directions. ToolsRL decouples them with a simple two-stage curriculum: first learn how to call a small set of nativ...
+**💻 Code:** [⭐ Code](https://github.com/UCSC-VLAA/VLAA-GUI)
+
+> Autonomous GUI agents suffer from two chronic failure modes: early stopping (declaring success before the task is actually done) and repetitive loops (cycling through the same failing action without recovering). VLAA-GUI is a modular framework wit...
 
 </details>
 
 <details>
-<summary><b>14. MMCORE: MultiModal COnnection with Representation Aligned Latent Embeddings</b> ⭐ 0</summary>
+<summary><b>10. Context Unrolling in Omni Models</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Yixuan Huang, Ye Wang, Jingxiang Sun, Yichun Shi, Zijie Li
+**👥 Authors:** Hao He, Fei Xiao, Yang Zhao, Zhijie Lin, Ceyuan Yang
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19902) • [📄 arXiv](https://arxiv.org/abs/2604.19902) • [📥 PDF](https://arxiv.org/pdf/2604.19902)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21921) • [📄 arXiv](https://arxiv.org/abs/2604.21921) • [📥 PDF](https://arxiv.org/pdf/2604.21921)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>15. CreativeGame:Toward Mechanic-Aware Creative Game Generation</b> ⭐ 0</summary>
+<summary><b>11. WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Yiwei Shi, Tieyue Yin, Shenglin Wang, Han Wang, Hongnan Ma
+**👥 Authors:** Sunghun Kim, Jiasi Shen, Chansung Park, Chenglin Cai, Juyong Jiang
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19926) • [📄 arXiv](https://arxiv.org/abs/2604.19926) • [📥 PDF](https://arxiv.org/pdf/2604.19926)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20398) • [📄 arXiv](https://arxiv.org/abs/2604.20398) • [📥 PDF](https://arxiv.org/pdf/2604.20398)
+
+> WebGen-R1 substantially transforms a 7B base model from generating nearly nonfunctional websites into producing deployable, aesthetically aligned multi-page websites.
+
+</details>
+
+<details>
+<summary><b>12. Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Nedim Lipka, Franck Dernoncourt, Ryan Rossi, Vipula Rawte
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21193) • [📄 arXiv](https://arxiv.org/abs/2604.21193) • [📥 PDF](https://arxiv.org/pdf/2604.21193)
+
+**💻 Code:** [⭐ Code](https://github.com/vr25/davinci)
+
+> Code: https://github.com/vr25/davinci
+
+</details>
+
+<details>
+<summary><b>13. EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Hyungjin Chung, Yongjun Cho, Sumin Seo, Kunho Kim
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.10268) • [📄 arXiv](https://arxiv.org/abs/2604.10268) • [📥 PDF](https://arxiv.org/pdf/2604.10268)
+
+**💻 Code:** [⭐ Code](https://github.com/EditCrafter/EditCrafter)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>16. Scaling Test-Time Compute for Agentic Coding</b> ⭐ 0</summary>
+<summary><b>14. Explainable Disentangled Representation Learning for Generalizable Authorship Attribution in the Era of Generative AI</b> ⭐ 1</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.16529) • [📄 arXiv](https://arxiv.org/abs/2604.16529) • [📥 PDF](https://arxiv.org/pdf/2604.16529)
+**👥 Authors:** Thien Huu Nguyen, Franck Dernoncourt, Nghia Trung Ngo, Van-Cuong Pham, Hieu Man
 
-> Thread: https://x.com/danieljwkim/status/2046971253857378360
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21300) • [📄 arXiv](https://arxiv.org/abs/2604.21300) • [📥 PDF](https://arxiv.org/pdf/2604.21300)
+
+**💻 Code:** [⭐ Code](https://github.com/hieum98/avae)
+
+> Dataset: https://huggingface.co/collections/Hieuman/document-level-authorship-datasets
+
+</details>
+
+<details>
+<summary><b>15. Test-Time Adaptation for EEG Foundation Models: A Systematic Study under Real-World Distribution Shifts</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Jimeng Sun, Jathurshan Pradeepkumar, Gabriel Jason Lee
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.16926) • [📄 arXiv](https://arxiv.org/abs/2604.16926) • [📥 PDF](https://arxiv.org/pdf/2604.16926)
+
+> We present NeuroAdapt-Bench, a systematic benchmark for evaluating test-time adaptation methods on EEG foundation models under realistic distribution shifts.
 
 </details>
 
@@ -330,28 +329,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 16 |
-| 📅 Today | [`2026-04-23.json`](data/daily/2026-04-23.json) | 16 |
-| 📆 This Week | [`2026-W16.json`](data/weekly/2026-W16.json) | 97 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 491 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 15 |
+| 📅 Today | [`2026-04-24.json`](data/daily/2026-04-24.json) | 15 |
+| 📆 This Week | [`2026-W16.json`](data/weekly/2026-W16.json) | 112 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 506 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-23 | 16 | [View JSON](data/daily/2026-04-23.json) |
+| 📌 2026-04-24 | 15 | [View JSON](data/daily/2026-04-24.json) |
+| 📄 2026-04-23 | 16 | [View JSON](data/daily/2026-04-23.json) |
 | 📄 2026-04-22 | 49 | [View JSON](data/daily/2026-04-22.json) |
 | 📄 2026-04-21 | 26 | [View JSON](data/daily/2026-04-21.json) |
 | 📄 2026-04-20 | 3 | [View JSON](data/daily/2026-04-20.json) |
 | 📄 2026-04-19 | 29 | [View JSON](data/daily/2026-04-19.json) |
 | 📄 2026-04-18 | 29 | [View JSON](data/daily/2026-04-18.json) |
-| 📄 2026-04-17 | 4 | [View JSON](data/daily/2026-04-17.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W16 | 97 | [View JSON](data/weekly/2026-W16.json) |
+| 📅 2026-W16 | 112 | [View JSON](data/weekly/2026-W16.json) |
 | 📅 2026-W15 | 125 | [View JSON](data/weekly/2026-W15.json) |
 | 📅 2026-W14 | 147 | [View JSON](data/weekly/2026-W14.json) |
 | 📅 2026-W13 | 125 | [View JSON](data/weekly/2026-W13.json) |
@@ -360,7 +359,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 491 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 506 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
