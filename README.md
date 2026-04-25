@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-15-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3664+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-22-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3686+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">15</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">112</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">506</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3664+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">22</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">134</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">528</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3686+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 24, 2026
+**Last Updated:** April 25, 2026
 
 ---
 
@@ -119,20 +119,33 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. WorldMark: A Unified Benchmark Suite for Interactive Video World Models</b> ⭐ 0</summary>
+<summary><b>1. LLaTiSA: Towards Difficulty-Stratified Time Series Reasoning from Visual Perception to Semantics</b> ⭐ 71</summary>
 
 <br/>
 
-**👥 Authors:** Xiaofeng Mao, Yukang Feng, Kang He, Zhengyuan Lin, Xiaojie Xu
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.17295) • [📄 arXiv](https://arxiv.org/abs/2604.17295) • [📥 PDF](https://arxiv.org/pdf/2604.17295)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21686) • [📄 arXiv](https://arxiv.org/abs/2604.21686) • [📥 PDF](https://arxiv.org/pdf/2604.21686)
+**💻 Code:** [⭐ Code](https://github.com/RainingNovember/LLaTiSA)
 
-> No abstract available.
+> HITSR - a hierarchical time series reasoning dataset comprising 83k samples with diverse task combinations and verified Chain-of-Thought (CoT) trajectories. LLATISA - a strong Time Series Reasoning Model (TSRM) that integrates visualized patterns ...
 
 </details>
 
 <details>
-<summary><b>2. UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling</b> ⭐ 19</summary>
+<summary><b>2. WorldMark: A Unified Benchmark Suite for Interactive Video World Models</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yukang Feng, Kang He, Zhengyuan Lin, Xiaojie Xu, kpzhang996
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21686) • [📄 arXiv](https://arxiv.org/abs/2604.21686) • [📥 PDF](https://arxiv.org/pdf/2604.21686)
+
+> one burning question for me: how well does the unified WASD+L/R action layer generalize to models whose native controls are continuous, nonuniform, or otherwise non-discretizable? an ablation i'd love to see is removing the adapter and feeding eac...
+
+</details>
+
+<details>
+<summary><b>3. UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling</b> ⭐ 32</summary>
 
 <br/>
 
@@ -140,12 +153,12 @@ getTodaysPapers();
 
 **💻 Code:** [⭐ Code](https://github.com/xpeng-robotics/UniT)
 
-> No abstract available.
+> the tri-branch cross-reconstruction and the shared discrete token space are slick, but i keep wondering how they scale when human and humanoid morphologies diverge a lot. the core assumption of universal visual consequences across embodiments is a...
 
 </details>
 
 <details>
-<summary><b>3. StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition</b> ⭐ 3</summary>
+<summary><b>4. StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition</b> ⭐ 16</summary>
 
 <br/>
 
@@ -160,7 +173,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. Seeing Fast and Slow: Learning the Flow of Time in Videos</b> ⭐ 0</summary>
+<summary><b>5. Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks</b> ⭐ 6</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20987) • [📄 arXiv](https://arxiv.org/abs/2604.20987) • [📥 PDF](https://arxiv.org/pdf/2604.20987)
+
+**💻 Code:** [⭐ Code](https://github.com/wuxiyang1996/cos-play)
+
+> Github: https://github.com/wuxiyang1996/cos-play . Paper: https://arxiv.org/abs/2604.20987 Website: https://wuxiyang1996.github.io/COSPLAY_page/ Models: https://huggingface.co/IntelligenceLab/COS-PLAY Cold-Start Data: https://huggingface.co/datase...
+
+</details>
+
+<details>
+<summary><b>6. Seeing Fast and Slow: Learning the Flow of Time in Videos</b> ⭐ 0</summary>
 
 <br/>
 
@@ -168,12 +194,25 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21931) • [📄 arXiv](https://arxiv.org/abs/2604.21931) • [📥 PDF](https://arxiv.org/pdf/2604.21931)
 
-> No abstract available.
+> that audio-visual self-supervision for speed-change detection is neat, it exploits a real cross-modal cue that doesn't need labels. but i keep circling back to edge cases where audio is absent or misleading, like mute clips or mismatched soundtrac...
 
 </details>
 
 <details>
-<summary><b>5. TingIS: Real-time Risk Event Discovery from Noisy Customer Incidents at Enterprise Scale</b> ⭐ 0</summary>
+<summary><b>7. VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation</b> ⭐ 8</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21375) • [📄 arXiv](https://arxiv.org/abs/2604.21375) • [📥 PDF](https://arxiv.org/pdf/2604.21375)
+
+**💻 Code:** [⭐ Code](https://github.com/UCSC-VLAA/VLAA-GUI)
+
+> Autonomous GUI agents suffer from two chronic failure modes: early stopping (declaring success before the task is actually done) and repetitive loops (cycling through the same failing action without recovering). VLAA-GUI is a modular framework wit...
+
+</details>
+
+<details>
+<summary><b>8. TingIS: Real-time Risk Event Discovery from Noisy Customer Incidents at Enterprise Scale</b> ⭐ 0</summary>
 
 <br/>
 
@@ -184,7 +223,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>6. Hybrid Policy Distillation for LLMs</b> ⭐ 2</summary>
+<summary><b>9. Hybrid Policy Distillation for LLMs</b> ⭐ 3</summary>
 
 <br/>
 
@@ -199,45 +238,6 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks</b> ⭐ 3</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20987) • [📄 arXiv](https://arxiv.org/abs/2604.20987) • [📥 PDF](https://arxiv.org/pdf/2604.20987)
-
-**💻 Code:** [⭐ Code](https://github.com/wuxiyang1996/cos-play)
-
-> Github: https://github.com/wuxiyang1996/cos-play . Paper: https://arxiv.org/abs/2604.20987 Website: https://wuxiyang1996.github.io/COSPLAY_page/ Models: https://huggingface.co/IntelligenceLab/COS-PLAY Cold-Start Data: https://huggingface.co/datase...
-
-</details>
-
-<details>
-<summary><b>8. UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection</b> ⭐ 7</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21904) • [📄 arXiv](https://arxiv.org/abs/2604.21904) • [📥 PDF](https://arxiv.org/pdf/2604.21904)
-
-**💻 Code:** [⭐ Code](https://github.com/Zhangyr2022/UniGenDet)
-
-> Accepted to CVPR 2026. Image generation and generated-image detection have both advanced rapidly, but mostly along separate technical paths: generation is dominated by generative architectures, while detection is dominated by discriminative ones. ...
-
-</details>
-
-<details>
-<summary><b>9. VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21375) • [📄 arXiv](https://arxiv.org/abs/2604.21375) • [📥 PDF](https://arxiv.org/pdf/2604.21375)
-
-**💻 Code:** [⭐ Code](https://github.com/UCSC-VLAA/VLAA-GUI)
-
-> Autonomous GUI agents suffer from two chronic failure modes: early stopping (declaring success before the task is actually done) and repetitive loops (cycling through the same failing action without recovering). VLAA-GUI is a modular framework wit...
-
-</details>
-
-<details>
 <summary><b>10. Context Unrolling in Omni Models</b> ⭐ 0</summary>
 
 <br/>
@@ -246,40 +246,12 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21921) • [📄 arXiv](https://arxiv.org/abs/2604.21921) • [📥 PDF](https://arxiv.org/pdf/2604.21921)
 
-> No abstract available.
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API MMCORE: MultiModal COnnection with Representation Aligned Latent Embeddings...
 
 </details>
 
 <details>
-<summary><b>11. WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Sunghun Kim, Jiasi Shen, Chansung Park, Chenglin Cai, Juyong Jiang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20398) • [📄 arXiv](https://arxiv.org/abs/2604.20398) • [📥 PDF](https://arxiv.org/pdf/2604.20398)
-
-> WebGen-R1 substantially transforms a 7B base model from generating nearly nonfunctional websites into producing deployable, aesthetically aligned multi-page websites.
-
-</details>
-
-<details>
-<summary><b>12. Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Nedim Lipka, Franck Dernoncourt, Ryan Rossi, Vipula Rawte
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21193) • [📄 arXiv](https://arxiv.org/abs/2604.21193) • [📥 PDF](https://arxiv.org/pdf/2604.21193)
-
-**💻 Code:** [⭐ Code](https://github.com/vr25/davinci)
-
-> Code: https://github.com/vr25/davinci
-
-</details>
-
-<details>
-<summary><b>13. EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model</b> ⭐ 0</summary>
+<summary><b>11. EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model</b> ⭐ 7</summary>
 
 <br/>
 
@@ -294,11 +266,65 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. Explainable Disentangled Representation Learning for Generalizable Authorship Attribution in the Era of Generative AI</b> ⭐ 1</summary>
+<summary><b>12. Vista4D: Video Reshooting with 4D Point Clouds</b> ⭐ 61</summary>
 
 <br/>
 
-**👥 Authors:** Thien Huu Nguyen, Franck Dernoncourt, Nghia Trung Ngo, Van-Cuong Pham, Hieu Man
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21915) • [📄 arXiv](https://arxiv.org/abs/2604.21915) • [📥 PDF](https://arxiv.org/pdf/2604.21915)
+
+**💻 Code:** [⭐ Code](https://github.com/Eyeline-Labs/Vista4D)
+
+> I'm one of the authors on the paper! Vista4D is a model which grounds video reshooting/novel view synthesis in a 4D point cloud. Notably, we trained Vista4D to be robust to 4D reconstruction artifacts (because 4D reconstruction models, though gett...
+
+</details>
+
+<details>
+<summary><b>13. UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection</b> ⭐ 10</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21904) • [📄 arXiv](https://arxiv.org/abs/2604.21904) • [📥 PDF](https://arxiv.org/pdf/2604.21904)
+
+**💻 Code:** [⭐ Code](https://github.com/Zhangyr2022/UniGenDet)
+
+> Accepted to CVPR 2026. Image generation and generated-image detection have both advanced rapidly, but mostly along separate technical paths: generation is dominated by generative architectures, while detection is dominated by discriminative ones. ...
+
+</details>
+
+<details>
+<summary><b>14. WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Sunghun Kim, Jiasi Shen, Chansung Park, Chenglin Cai, Juyong Jiang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20398) • [📄 arXiv](https://arxiv.org/abs/2604.20398) • [📥 PDF](https://arxiv.org/pdf/2604.20398)
+
+> WebGen-R1 substantially transforms a 7B base model from generating nearly nonfunctional websites into producing deployable, aesthetically aligned multi-page websites.
+
+</details>
+
+<details>
+<summary><b>15. Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Nedim Lipka, Ryan Rossi, Vipula Rawte, Franck-Dernoncourt
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21193) • [📄 arXiv](https://arxiv.org/abs/2604.21193) • [📥 PDF](https://arxiv.org/pdf/2604.21193)
+
+**💻 Code:** [⭐ Code](https://github.com/vr25/davinci)
+
+> Code: https://github.com/vr25/davinci
+
+</details>
+
+<details>
+<summary><b>16. Explainable Disentangled Representation Learning for Generalizable Authorship Attribution in the Era of Generative AI</b> ⭐ 1</summary>
+
+<br/>
+
+**👥 Authors:** Thien Huu Nguyen, Nghia Trung Ngo, Van-Cuong Pham, Hieu Man, Franck-Dernoncourt
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21300) • [📄 arXiv](https://arxiv.org/abs/2604.21300) • [📥 PDF](https://arxiv.org/pdf/2604.21300)
 
@@ -309,7 +335,50 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. Test-Time Adaptation for EEG Foundation Models: A Systematic Study under Real-World Distribution Shifts</b> ⭐ 0</summary>
+<summary><b>17. Coevolving Representations in Joint Image-Feature Diffusion</b> ⭐ 5</summary>
+
+<br/>
+
+**👥 Authors:** Nikos Komodakis, Spyros Gidaris, Theodoros Kouzelis
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.17492) • [📄 arXiv](https://arxiv.org/abs/2604.17492) • [📥 PDF](https://arxiv.org/pdf/2604.17492)
+
+**💻 Code:** [⭐ Code](https://github.com/zelaki/CoReDi)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>18. Encoder-Free Human Motion Understanding via Structured Motion Descriptions</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yu Xiao, Thomas Ploetz, Yao Zhang, Ryenhails
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21668) • [📄 arXiv](https://arxiv.org/abs/2604.21668) • [📥 PDF](https://arxiv.org/pdf/2604.21668)
+
+**💻 Code:** [⭐ Code](https://github.com/yaozhang182/motion-smd)
+
+> Code, data, and pretrained LoRA adapters are available at https://yaozhang182.github.io/motion-smd/
+
+</details>
+
+<details>
+<summary><b>19. Temporally Extended Mixture-of-Experts Models</b> ⭐ 3</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20156) • [📄 arXiv](https://arxiv.org/abs/2604.20156) • [📥 PDF](https://arxiv.org/pdf/2604.20156)
+
+**💻 Code:** [⭐ Code](https://github.com/princeton-polaris-lab/rl_moe)
+
+> Post-trains MoE LLMs into temporally extended MoEs, where active expert sets switch less frequently.
+
+</details>
+
+<details>
+<summary><b>20. Test-Time Adaptation for EEG Foundation Models: A Systematic Study under Real-World Distribution Shifts</b> ⭐ 0</summary>
 
 <br/>
 
@@ -321,6 +390,28 @@ getTodaysPapers();
 
 </details>
 
+<details>
+<summary><b>21. PersonalAI: A Systematic Comparison of Knowledge Graph Storage and Retrieval Approaches for Personalized LLM agents</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2506.17001) • [📄 arXiv](https://arxiv.org/abs/2506.17001) • [📥 PDF](https://arxiv.org/pdf/2506.17001)
+
+> Personalizing language models by effectively incorporating user interaction history remains a central challenge in the development of adaptive AI systems. While large language models (LLMs), combined with Retrieval-Augmented Generation (RAG), have...
+
+</details>
+
+<details>
+<summary><b>22. 3D-VCD: Hallucination Mitigation in 3D-LLM Embodied Agents through Visual Contrastive Decoding</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08645) • [📄 arXiv](https://arxiv.org/abs/2604.08645) • [📥 PDF](https://arxiv.org/pdf/2604.08645)
+
+> We present 3D-VCD, a training-free inference-time framework that mitigates hallucinations in 3D embodied vision-language models through visual contrastive decoding. Our method constructs structured 3D scene graphs and introduces semantic and geome...
+
+</details>
+
 ---
 
 ## 📅 Historical Archives
@@ -329,28 +420,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 15 |
-| 📅 Today | [`2026-04-24.json`](data/daily/2026-04-24.json) | 15 |
-| 📆 This Week | [`2026-W16.json`](data/weekly/2026-W16.json) | 112 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 506 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 22 |
+| 📅 Today | [`2026-04-25.json`](data/daily/2026-04-25.json) | 22 |
+| 📆 This Week | [`2026-W16.json`](data/weekly/2026-W16.json) | 134 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 528 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-24 | 15 | [View JSON](data/daily/2026-04-24.json) |
+| 📌 2026-04-25 | 22 | [View JSON](data/daily/2026-04-25.json) |
+| 📄 2026-04-24 | 15 | [View JSON](data/daily/2026-04-24.json) |
 | 📄 2026-04-23 | 16 | [View JSON](data/daily/2026-04-23.json) |
 | 📄 2026-04-22 | 49 | [View JSON](data/daily/2026-04-22.json) |
 | 📄 2026-04-21 | 26 | [View JSON](data/daily/2026-04-21.json) |
 | 📄 2026-04-20 | 3 | [View JSON](data/daily/2026-04-20.json) |
 | 📄 2026-04-19 | 29 | [View JSON](data/daily/2026-04-19.json) |
-| 📄 2026-04-18 | 29 | [View JSON](data/daily/2026-04-18.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W16 | 112 | [View JSON](data/weekly/2026-W16.json) |
+| 📅 2026-W16 | 134 | [View JSON](data/weekly/2026-W16.json) |
 | 📅 2026-W15 | 125 | [View JSON](data/weekly/2026-W15.json) |
 | 📅 2026-W14 | 147 | [View JSON](data/weekly/2026-W14.json) |
 | 📅 2026-W13 | 125 | [View JSON](data/weekly/2026-W13.json) |
@@ -359,7 +450,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 506 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 528 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
