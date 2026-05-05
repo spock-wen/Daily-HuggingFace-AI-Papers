@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-12-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3840+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-13-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3853+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">12</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">12</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">76</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3840+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">13</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">25</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">89</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3853+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** May 04, 2026
+**Last Updated:** May 05, 2026
 
 ---
 
@@ -119,156 +119,179 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. UniVidX: A Unified Multimodal Framework for Versatile Video Generation via Diffusion Priors</b> ⭐ 1</summary>
+<summary><b>1. From Context to Skills: Can Language Models Learn from Context Skillfully?</b> ⭐ 2</summary>
 
 <br/>
 
-**👥 Authors:** Shaocong Xu, Tianrui Zhu, Xianghao Kong, Hong Li, Houyuan Chen
+**👥 Authors:** Dingwei Chen, Qingyi Wang, Yu Lei, Haozhe Zhao, Shuzheng Si
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00658) • [📄 arXiv](https://arxiv.org/abs/2605.00658) • [📥 PDF](https://arxiv.org/pdf/2605.00658)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27660) • [📄 arXiv](https://arxiv.org/abs/2604.27660) • [📥 PDF](https://arxiv.org/pdf/2604.27660)
 
-**💻 Code:** [⭐ Code](https://github.com/houyuanchen111/UniVidX)
+**💻 Code:** [⭐ Code](https://github.com/S1s-Z/Ctx2Skill)
+
+> Ctx2Skill is a self-evolving framework that autonomously discovers, refines, and selects context-specific skills from complex contexts, requiring no human annotation and no external feedback. The resulting natural-language skills can be plugged in...
+
+</details>
+
+<details>
+<summary><b>2. MolmoAct2: Action Reasoning Models for Real-world Deployment</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02881) • [📄 arXiv](https://arxiv.org/abs/2605.02881) • [📥 PDF](https://arxiv.org/pdf/2605.02881)
+
+**💻 Code:** [⭐ Code](https://github.com/allenai/molmoact2)
+
+> Vision-Language-Action (VLA) models aim to provide a single generalist controller for robots, but today's systems fall short on the criteria that matter for real-world deployment. Frontier models are closed, open-weight alternatives are tied to ex...
+
+</details>
+
+<details>
+<summary><b>3. OceanPile: A Large-Scale Multimodal Ocean Corpus for Foundation Models</b> ⭐ 2</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00877) • [📄 arXiv](https://arxiv.org/abs/2605.00877) • [📥 PDF](https://arxiv.org/pdf/2605.00877)
+
+**💻 Code:** [⭐ Code](https://github.com/OceanGPT/OceanPile)
+
+> OceanPile is a large multimodal ocean dataset that brings together sonar, images, and scientific knowledge to help AI better understand our ocean.
+
+</details>
+
+<details>
+<summary><b>4. ComboStoc: Combinatorial Stochasticity for Diffusion Generative Models</b> ⭐ 31</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2405.13729) • [📄 arXiv](https://arxiv.org/abs/2405.13729) • [📥 PDF](https://arxiv.org/pdf/2405.13729)
+
+**💻 Code:** [⭐ Code](https://github.com/Xrvitd/ComboStoc)
+
+> Today we're releasing ComboStoc , a simple new training strategy for diffusion generative models that unlocks faster training and more flexible control at test time . Diffusion models usually treat each training sample as a point moving along a si...
+
+</details>
+
+<details>
+<summary><b>5. AcademiClaw: When Students Set Challenges for AI Agents</b> ⭐ 3</summary>
+
+<br/>
+
+**👥 Authors:** Jiabao Wu, Hongliang Lu, Weiye Si, Pengrui Lu, Junjie Yu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02661) • [📄 arXiv](https://arxiv.org/abs/2605.02661) • [📥 PDF](https://arxiv.org/pdf/2605.02661)
+
+**💻 Code:** [⭐ Code](https://github.com/GAIR-NLP/AcademiClaw)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>2. Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies</b> ⭐ 0</summary>
+<summary><b>6. PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Buqing Nie, Pu Yang, Pengwei Xie, Xinchen Li, Yi Wang
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02240) • [📄 arXiv](https://arxiv.org/abs/2605.02240) • [📥 PDF](https://arxiv.org/pdf/2605.02240)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00416) • [📄 arXiv](https://arxiv.org/abs/2605.00416) • [📥 PDF](https://arxiv.org/pdf/2605.00416)
+**💻 Code:** [⭐ Code](https://github.com/HealthRex/PhysicianBench)
 
-> Generalist robot policies increasingly benefit from large-scale pretraining, but offline data alone is insufficient for robust real-world deployment. Deployed robots encounter distribution shifts, long-tail failures, task variations, and human cor...
+> PhysicianBench is a benchmark for evaluating LLM agents on physician tasks grounded in real clinical workflows. It comprises 100 long-horizon tasks (670 sub-checkpoints) adapted from real primary care-to-specialist consultations across 21 specialt...
 
 </details>
 
 <details>
-<summary><b>3. From Skill Text to Skill Structure: The Scheduling-Structural-Logical Representation for Agent Skills</b> ⭐ 0</summary>
+<summary><b>7. T^2PO: Uncertainty-Guided Exploration Control for Stable Multi-Turn Agentic Reinforcement Learning</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.24026) • [📄 arXiv](https://arxiv.org/abs/2604.24026) • [📥 PDF](https://arxiv.org/pdf/2604.24026)
+**👥 Authors:** Shuowei Jin, Xin Liu, Chenwei Zhang, Hejie Cui, Haixin Wang
 
-> It is an honor to introduce our new work, SSL, a hierarchical representation that operates on Skills, drawing on Schank's classic linguistic theory. Our experiments demonstrate that it can assist in the pre-retrieval and security assessment of Ski...
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02178) • [📄 arXiv](https://arxiv.org/abs/2605.02178) • [📥 PDF](https://arxiv.org/pdf/2605.02178)
+
+**💻 Code:** [⭐ Code](https://github.com/WillDreamer/T2PO)
+
+> We are excited to share T²PO, an uncertainty-guided exploration control method for stable multi-turn agentic reinforcement learning. T²PO improves exploration at both token and turn levels, leading to more stable and sample-efficient training for ...
 
 </details>
 
 <details>
-<summary><b>4. Map2World: Segment Map Conditioned Text to 3D World Generation</b> ⭐ 0</summary>
+<summary><b>8. Repetition over Diversity: High-Signal Data Filtering for Sample-Efficient German Language Modeling</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Kyoung Mu Lee, Jiaolong Yang, Jianfeng Xiang, Suyoung Lee, Jaeyoung Chung
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28075) • [📄 arXiv](https://arxiv.org/abs/2604.28075) • [📥 PDF](https://arxiv.org/pdf/2604.28075)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00781) • [📄 arXiv](https://arxiv.org/abs/2605.00781) • [📥 PDF](https://arxiv.org/pdf/2605.00781)
+> 🇩🇪 ❤️
+
+</details>
+
+<details>
+<summary><b>9. Generative Modeling with Orbit-Space Particle Flow Matching</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Greg Turk, Ruicheng Wang, Shenyifan Lu, Jinjin He, Sinan Wang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02222) • [📄 arXiv](https://arxiv.org/abs/2605.02222) • [📥 PDF](https://arxiv.org/pdf/2605.02222)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>5. Online Self-Calibration Against Hallucination in Vision-Language Models</b> ⭐ 0</summary>
+<summary><b>10. Perceptual Flow Network for Visually Grounded Reasoning</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Zheng Lin, Dayan Wu, Hengjie Zhu, Chenxu Yang, Minghui Chen
+**👥 Authors:** Yuanhuiyi Lyu, Teng Li, Hongjian Zhan, Yuning Gong, Yangfu Li
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00323) • [📄 arXiv](https://arxiv.org/abs/2605.00323) • [📥 PDF](https://arxiv.org/pdf/2605.00323)
-
-> ijcai 2026
-
-</details>
-
-<details>
-<summary><b>6. Learning to Act and Cooperate for Distributed Black-Box Consensus Optimization</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Wei-Neng Chen, Tai-You Chen, Feng-Feng Wei, Zi-Bo Qin
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00691) • [📄 arXiv](https://arxiv.org/abs/2605.00691) • [📥 PDF](https://arxiv.org/pdf/2605.00691)
-
-> Studied consensus based black box optimization from a learning perspective and proposed LAC MAS, an LLM assisted multi-agent framework that jointly learns how agents act and how they cooperate. By introducing adaptive regulation of agent internal ...
-
-</details>
-
-<details>
-<summary><b>7. End-to-End Autoregressive Image Generation with 1D Semantic Tokenizer</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00503) • [📄 arXiv](https://arxiv.org/abs/2605.00503) • [📥 PDF](https://arxiv.org/pdf/2605.00503)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02730) • [📄 arXiv](https://arxiv.org/abs/2605.02730) • [📥 PDF](https://arxiv.org/pdf/2605.02730)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>8. Let ViT Speak: Generative Language-Image Pre-training</b> ⭐ 1</summary>
+<summary><b>11. Motion-Aware Caching for Efficient Autoregressive Video Generation</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00809) • [📄 arXiv](https://arxiv.org/abs/2605.00809) • [📥 PDF](https://arxiv.org/pdf/2605.00809)
+**👥 Authors:** Shiwei Liu, Xuzhe Zheng, Songwei Liu, Yuexiao Ma, Jing Xu
 
-**💻 Code:** [⭐ Code](https://github.com/YanFangCS/GenLIP)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.01725) • [📄 arXiv](https://arxiv.org/abs/2605.01725) • [📥 PDF](https://arxiv.org/pdf/2605.01725)
+
+**💻 Code:** [⭐ Code](https://github.com/ywlq/MotionCache)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>9. LASE: Language-Adversarial Speaker Encoding for Indic Cross-Script Identity Preservation</b> ⭐ 0</summary>
+<summary><b>12. Hierarchical Abstract Tree for Cross-Document Retrieval-Augmented Generation</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00777) • [📄 arXiv](https://arxiv.org/abs/2605.00777) • [📥 PDF](https://arxiv.org/pdf/2605.00777)
+**👥 Authors:** Menglin Yang, Ziwen Zhao
 
-**💻 Code:** [⭐ Code](https://github.com/praxelhq/lase)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00529) • [📄 arXiv](https://arxiv.org/abs/2605.00529) • [📥 PDF](https://arxiv.org/pdf/2605.00529)
 
-> LASE is a language-adversarial speaker encoder for cross-script identity preservation in Indic TTS. The problem: when a multilingual TTS clones the same voice across scripts (English → Hindi → Telugu → Tamil), speaker identity drifts measurably (w...
+**💻 Code:** [⭐ Code](https://github.com/Newiz430/Psi-RAG)
+
+> We introduce Ψ-RAG, an efficient and powerful hierarchical tree-based RAG framework designed to tackle complex information-seeking scenarios. It features a hierarchical abstract tree index with different abstraction strategies, enabling efficient ...
 
 </details>
 
 <details>
-<summary><b>10. AnalogRetriever: Learning Cross-Modal Representations for Analog Circuit Retrieval</b> ⭐ 0</summary>
+<summary><b>13. Code World Model Preparedness Report</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Yan Lu, Jing Wang, Yao Lai, Lei Li, Yihan Wang
+**👥 Authors:** Aidan Boyd, Faizan Ahmad, Cristina Menghini, Peter Ney, Daniel Song
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.23195) • [📄 arXiv](https://arxiv.org/abs/2604.23195) • [📥 PDF](https://arxiv.org/pdf/2604.23195)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00932) • [📄 arXiv](https://arxiv.org/abs/2605.00932) • [📥 PDF](https://arxiv.org/pdf/2605.00932)
 
-> Demo: https://huggingface.co/spaces/eulermaxwell/AnalogRetriever
-
-</details>
-
-<details>
-<summary><b>11. Themis: Training Robust Multilingual Code Reward Models for Flexible Multi-Criteria Scoring</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00754) • [📄 arXiv](https://arxiv.org/abs/2605.00754) • [📥 PDF](https://arxiv.org/pdf/2605.00754)
-
-**💻 Code:** [⭐ Code](https://github.com/iNeil77/Themis)
-
-> Reward models (RMs) have become an indispensable fixture of the language model (LM) post-training playbook, enabling policy alignment and test-time scaling. Research on the application of RMs in code generation, however, has been comparatively spa...
-
-</details>
-
-<details>
-<summary><b>12. Talker-T2AV: Joint Talking Audio-Video Generation with Autoregressive Diffusion Modeling</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Guangyan Zhang, Hongzhan Lin, Aoxiong Yin, Xu Tan, Zhen Ye
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.23586) • [📄 arXiv](https://arxiv.org/abs/2604.23586) • [📥 PDF](https://arxiv.org/pdf/2604.23586)
-
-> Talker-T2AV improves talking head synthesis by decoupling high-level audio-video reasoning from low-level modality-specific generation. Instead of coupling audio and video throughout denoising, it uses a shared autoregressive backbone for semantic...
+> No abstract available.
 
 </details>
 
@@ -280,28 +303,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 12 |
-| 📅 Today | [`2026-05-04.json`](data/daily/2026-05-04.json) | 12 |
-| 📆 This Week | [`2026-W18.json`](data/weekly/2026-W18.json) | 12 |
-| 🗓️ This Month | [`2026-05.json`](data/monthly/2026-05.json) | 76 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 13 |
+| 📅 Today | [`2026-05-05.json`](data/daily/2026-05-05.json) | 13 |
+| 📆 This Week | [`2026-W18.json`](data/weekly/2026-W18.json) | 25 |
+| 🗓️ This Month | [`2026-05.json`](data/monthly/2026-05.json) | 89 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-05-04 | 12 | [View JSON](data/daily/2026-05-04.json) |
+| 📌 2026-05-05 | 13 | [View JSON](data/daily/2026-05-05.json) |
+| 📄 2026-05-04 | 12 | [View JSON](data/daily/2026-05-04.json) |
 | 📄 2026-05-03 | 24 | [View JSON](data/daily/2026-05-03.json) |
 | 📄 2026-05-02 | 24 | [View JSON](data/daily/2026-05-02.json) |
 | 📄 2026-05-01 | 16 | [View JSON](data/daily/2026-05-01.json) |
 | 📄 2026-04-30 | 8 | [View JSON](data/daily/2026-04-30.json) |
 | 📄 2026-04-29 | 19 | [View JSON](data/daily/2026-04-29.json) |
-| 📄 2026-04-28 | 19 | [View JSON](data/daily/2026-04-28.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W18 | 12 | [View JSON](data/weekly/2026-W18.json) |
+| 📅 2026-W18 | 25 | [View JSON](data/weekly/2026-W18.json) |
 | 📅 2026-W17 | 120 | [View JSON](data/weekly/2026-W17.json) |
 | 📅 2026-W16 | 156 | [View JSON](data/weekly/2026-W16.json) |
 | 📅 2026-W15 | 125 | [View JSON](data/weekly/2026-W15.json) |
@@ -310,7 +333,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-05 | 76 | [View JSON](data/monthly/2026-05.json) |
+| 🗓️ 2026-05 | 89 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 606 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
