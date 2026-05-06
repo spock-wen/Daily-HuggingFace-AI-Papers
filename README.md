@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-13-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3853+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-17-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3870+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">13</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">25</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">89</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3853+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">17</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">42</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">106</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3870+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** May 05, 2026
+**Last Updated:** May 06, 2026
 
 ---
 
@@ -119,179 +119,237 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. From Context to Skills: Can Language Models Learn from Context Skillfully?</b> ⭐ 2</summary>
+<summary><b>1. Beyond SFT-to-RL: Pre-alignment via Black-Box On-Policy Distillation for Multimodal RL</b> ⭐ 12</summary>
 
 <br/>
 
-**👥 Authors:** Dingwei Chen, Qingyi Wang, Yu Lei, Haozhe Zhao, Shuzheng Si
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28123) • [📄 arXiv](https://arxiv.org/abs/2604.28123) • [📥 PDF](https://arxiv.org/pdf/2604.28123)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27660) • [📄 arXiv](https://arxiv.org/abs/2604.27660) • [📥 PDF](https://arxiv.org/pdf/2604.27660)
+**💻 Code:** [⭐ Code](https://github.com/XIAO4579/PRISM)
 
-**💻 Code:** [⭐ Code](https://github.com/S1s-Z/Ctx2Skill)
-
-> Ctx2Skill is a self-evolving framework that autonomously discovers, refines, and selects context-specific skills from complex contexts, requiring no human annotation and no external feedback. The resulting natural-language skills can be plugged in...
+> Project Page: https://xiao4579.github.io/PRISM/ Paper： https://arxiv.org/abs/2604.28123 Code： https://github.com/XIAO4579/PRISM Data and Model： https://huggingface.co/prism-vlm
 
 </details>
 
 <details>
-<summary><b>2. MolmoAct2: Action Reasoning Models for Real-world Deployment</b> ⭐ 1</summary>
+<summary><b>2. X2SAM: Any Segmentation in Images and Videos</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02881) • [📄 arXiv](https://arxiv.org/abs/2605.02881) • [📥 PDF](https://arxiv.org/pdf/2605.02881)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00891) • [📄 arXiv](https://arxiv.org/abs/2605.00891) • [📥 PDF](https://arxiv.org/pdf/2605.00891)
 
-**💻 Code:** [⭐ Code](https://github.com/allenai/molmoact2)
+**💻 Code:** [⭐ Code](https://github.com/wanghao9610/X2SAM)
 
-> Vision-Language-Action (VLA) models aim to provide a single generalist controller for robots, but today's systems fall short on the criteria that matter for real-world deployment. Frontier models are closed, open-weight alternatives are tied to ex...
+> X2SAM introduces a unified segmentation MLLM framework that extends any-segmentation capabilities from images to videos, supporting generic, open-vocabulary, referring, reasoning, grounded conversation generation, interactive, and visual grounded ...
 
 </details>
 
 <details>
-<summary><b>3. OceanPile: A Large-Scale Multimodal Ocean Corpus for Foundation Models</b> ⭐ 2</summary>
+<summary><b>3. HeavySkill: Heavy Thinking as the Inner Skill in Agentic Harness</b> ⭐ 8</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00877) • [📄 arXiv](https://arxiv.org/abs/2605.00877) • [📥 PDF](https://arxiv.org/pdf/2605.00877)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02396) • [📄 arXiv](https://arxiv.org/abs/2605.02396) • [📥 PDF](https://arxiv.org/pdf/2605.02396)
 
-**💻 Code:** [⭐ Code](https://github.com/OceanGPT/OceanPile)
+**💻 Code:** [⭐ Code](https://github.com/wjn1996/HeavySkill)
 
-> OceanPile is a large multimodal ocean dataset that brings together sonar, images, and scientific knowledge to help AI better understand our ocean.
+> HeavySkill: Heavy Thinking as the Inner Skill in Agentic Harness HeavySkill is a test-time scaling technique that decomposes complex reasoning into two stages: Parallel Reasoning — Generate K independent reasoning trajectories concurrently Sequent...
 
 </details>
 
 <details>
-<summary><b>4. ComboStoc: Combinatorial Stochasticity for Diffusion Generative Models</b> ⭐ 31</summary>
+<summary><b>4. PatRe: A Full-Stage Office Action and Rebuttal Generation Benchmark for Patent Examination</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2405.13729) • [📄 arXiv](https://arxiv.org/abs/2405.13729) • [📥 PDF](https://arxiv.org/pdf/2405.13729)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.03571) • [📄 arXiv](https://arxiv.org/abs/2605.03571) • [📥 PDF](https://arxiv.org/pdf/2605.03571)
 
-**💻 Code:** [⭐ Code](https://github.com/Xrvitd/ComboStoc)
+**💻 Code:** [⭐ Code](https://github.com/AIforIP/PatRe)
 
-> Today we're releasing ComboStoc , a simple new training strategy for diffusion generative models that unlocks faster training and more flexible control at test time . Diffusion models usually treat each training sample as a point moving along a si...
+> PatRe is the first benchmark to model the full patent examination lifecycle as an interactive, multi-turn process between examiner and applicant. It captures real-world dynamics such as Office Action generation and rebuttal, supporting both oracle...
 
 </details>
 
 <details>
-<summary><b>5. AcademiClaw: When Students Set Challenges for AI Agents</b> ⭐ 3</summary>
+<summary><b>5. Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Jiabao Wu, Hongliang Lu, Weiye Si, Pengrui Lu, Junjie Yu
+**👥 Authors:** Weizheng Wang, Linchun Li, Yumou Liu, Xuanhe Zhou, Zirui Tang
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02661) • [📄 arXiv](https://arxiv.org/abs/2605.02661) • [📥 PDF](https://arxiv.org/pdf/2605.02661)
-
-**💻 Code:** [⭐ Code](https://github.com/GAIR-NLP/AcademiClaw)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.03596) • [📄 arXiv](https://arxiv.org/abs/2605.03596) • [📥 PDF](https://arxiv.org/pdf/2605.03596)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>6. PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments</b> ⭐ 0</summary>
+<summary><b>6. SymptomAI: Towards a Conversational AI Agent for Everyday Symptom Assessment</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02240) • [📄 arXiv](https://arxiv.org/abs/2605.02240) • [📥 PDF](https://arxiv.org/pdf/2605.02240)
+**👥 Authors:** Miao Liu, Marinela Cotoi, Beszel Hawkins, Fadi Yousif, Joseph Breda
 
-**💻 Code:** [⭐ Code](https://github.com/HealthRex/PhysicianBench)
-
-> PhysicianBench is a benchmark for evaluating LLM agents on physician tasks grounded in real clinical workflows. It comprises 100 long-horizon tasks (670 sub-checkpoints) adapted from real primary care-to-specialist consultations across 21 specialt...
-
-</details>
-
-<details>
-<summary><b>7. T^2PO: Uncertainty-Guided Exploration Control for Stable Multi-Turn Agentic Reinforcement Learning</b> ⭐ 2</summary>
-
-<br/>
-
-**👥 Authors:** Shuowei Jin, Xin Liu, Chenwei Zhang, Hejie Cui, Haixin Wang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02178) • [📄 arXiv](https://arxiv.org/abs/2605.02178) • [📥 PDF](https://arxiv.org/pdf/2605.02178)
-
-**💻 Code:** [⭐ Code](https://github.com/WillDreamer/T2PO)
-
-> We are excited to share T²PO, an uncertainty-guided exploration control method for stable multi-turn agentic reinforcement learning. T²PO improves exploration at both token and turn levels, leading to more stable and sample-efficient training for ...
-
-</details>
-
-<details>
-<summary><b>8. Repetition over Diversity: High-Signal Data Filtering for Sample-Efficient German Language Modeling</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28075) • [📄 arXiv](https://arxiv.org/abs/2604.28075) • [📥 PDF](https://arxiv.org/pdf/2604.28075)
-
-> 🇩🇪 ❤️
-
-</details>
-
-<details>
-<summary><b>9. Generative Modeling with Orbit-Space Particle Flow Matching</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Greg Turk, Ruicheng Wang, Shenyifan Lu, Jinjin He, Sinan Wang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02222) • [📄 arXiv](https://arxiv.org/abs/2605.02222) • [📥 PDF](https://arxiv.org/pdf/2605.02222)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.04012) • [📄 arXiv](https://arxiv.org/abs/2605.04012) • [📥 PDF](https://arxiv.org/pdf/2605.04012)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>10. Perceptual Flow Network for Visually Grounded Reasoning</b> ⭐ 0</summary>
+<summary><b>7. Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces</b> ⭐ 1</summary>
 
 <br/>
 
-**👥 Authors:** Yuanhuiyi Lyu, Teng Li, Hongjian Zhan, Yuning Gong, Yangfu Li
+**👥 Authors:** Chenchen Zhang
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02730) • [📄 arXiv](https://arxiv.org/abs/2605.02730) • [📥 PDF](https://arxiv.org/pdf/2605.02730)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02801) • [📄 arXiv](https://arxiv.org/abs/2605.02801) • [📥 PDF](https://arxiv.org/pdf/2605.02801)
+
+**💻 Code:** [⭐ Code](https://github.com/xxzcc/awesome-llm-mas-rl)
+
+> As large language model (LLM) agents evolve from isolated tool users into coordinated teams, reinforcement learning (RL) must optimize not only individual actions but also how work is spawned, delegated, communicated, aggregated, and stopped. This...
+
+</details>
+
+<details>
+<summary><b>8. SVGS: Enhancing Gaussian Splatting Using Primitives with Spatially Varying Colors</b> ⭐ 58</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2411.18966) • [📄 arXiv](http://arxiv.org/abs/2411.18966) • [📥 PDF](https://arxiv.org/pdf/2411.18966)
+
+**💻 Code:** [⭐ Code](https://github.com/Xrvitd/SVGS)
+
+> Today we're releasing SVGS , a new approach for Gaussian Splatting that makes each primitive far more expressive by giving it spatially varying colors and opacity . Gaussian Splatting has become a powerful paradigm for novel view synthesis, but ex...
+
+</details>
+
+<details>
+<summary><b>9. A Benchmark for Interactive World Models with a Unified Action Generation Framework</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yuchao Huang, Ziyou Wang, Qin Wan, Yingshan Lei, Jianjie Fang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.03941) • [📄 arXiv](https://arxiv.org/abs/2605.03941) • [📥 PDF](https://arxiv.org/pdf/2605.03941)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>11. Motion-Aware Caching for Efficient Autoregressive Video Generation</b> ⭐ 2</summary>
+<summary><b>10. OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories</b> ⭐ 622</summary>
 
 <br/>
 
-**👥 Authors:** Shiwei Liu, Xuzhe Zheng, Songwei Liu, Yuexiao Ma, Jing Xu
+**👥 Authors:** Xinyu Zhu, Keduan Huang, Shuo Tang, Rui Ye, Yuwen Du
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.01725) • [📄 arXiv](https://arxiv.org/abs/2605.01725) • [📥 PDF](https://arxiv.org/pdf/2605.01725)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.04036) • [📄 arXiv](https://arxiv.org/abs/2605.04036) • [📥 PDF](https://arxiv.org/pdf/2605.04036)
 
-**💻 Code:** [⭐ Code](https://github.com/ywlq/MotionCache)
+**💻 Code:** [⭐ Code](https://github.com/PolarSeeker/OpenSeeker)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>12. Hierarchical Abstract Tree for Cross-Document Retrieval-Augmented Generation</b> ⭐ 2</summary>
+<summary><b>11. The TTS-STT Flywheel: Synthetic Entity-Dense Audio Closes the Indic ASR Gap Where Commercial and Open-Source Systems Fail</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Menglin Yang, Ziwen Zhao
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.03073) • [📄 arXiv](https://arxiv.org/abs/2605.03073) • [📥 PDF](https://arxiv.org/pdf/2605.03073)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00529) • [📄 arXiv](https://arxiv.org/abs/2605.00529) • [📥 PDF](https://arxiv.org/pdf/2605.00529)
+**💻 Code:** [⭐ Code](https://github.com/praxelhq/stt-flywheel)
 
-**💻 Code:** [⭐ Code](https://github.com/Newiz430/Psi-RAG)
-
-> We introduce Ψ-RAG, an efficient and powerful hierarchical tree-based RAG framework designed to tackle complex information-seeking scenarios. It features a hierarchical abstract tree index with different abstraction strategies, enabling efficient ...
+> We benchmark open-source SOTA (vasista22/whisper-{te,ta,hi}-large-v2) and commercial Deepgram Nova-3 on a synthesised entity-dense Telugu test set — content that real Indian users actually speak: digit strings, currency amounts, addresses, brand n...
 
 </details>
 
 <details>
-<summary><b>13. Code World Model Preparedness Report</b> ⭐ 0</summary>
+<summary><b>12. TCDA: Thread-Constrained Discourse-Aware Modeling for Conversational Sentiment Quadruple Analysis</b> ⭐ 1</summary>
 
 <br/>
 
-**👥 Authors:** Aidan Boyd, Faizan Ahmad, Cristina Menghini, Peter Ney, Daniel Song
+**👥 Authors:** Xiujuan Xu, Zhiqi Huang, Yifan Lyu, Xinze Che, Xinran Li
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00932) • [📄 arXiv](https://arxiv.org/abs/2605.00932) • [📥 PDF](https://arxiv.org/pdf/2605.00932)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.01717) • [📄 arXiv](https://arxiv.org/abs/2605.01717) • [📥 PDF](https://arxiv.org/pdf/2605.01717)
 
-> No abstract available.
+**💻 Code:** [⭐ Code](https://github.com/LiXinran6/TCDA)
+
+> This paper has been officially accepted by IJCAI 2026 (Main Track).
+
+</details>
+
+<details>
+<summary><b>13. SplAttN: Bridging 2D and 3D with Gaussian Soft Splatting and Attention for Point Cloud Completion</b> ⭐ 3</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.01466) • [📄 arXiv](https://arxiv.org/abs/2605.01466) • [📥 PDF](https://arxiv.org/pdf/2605.01466)
+
+**💻 Code:** [⭐ Code](https://github.com/zay002/SplAttN)
+
+> Hi everyone! I'm one of the authors of SplAttN. In this work, we tackle a common failure mode in image-guided point cloud completion: "Cross-Modal Entropy Collapse." We found that hard 3D-to-2D projection often makes the image plane too sparse, ef...
+
+</details>
+
+<details>
+<summary><b>14. Healthcare AI GYM for Medical Agents</b> ⭐ 1</summary>
+
+<br/>
+
+**👥 Authors:** Minbyul Jeong
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02943) • [📄 arXiv](https://arxiv.org/abs/2605.02943) • [📥 PDF](https://arxiv.org/pdf/2605.02943)
+
+**💻 Code:** [⭐ Code](https://github.com/minstar/Healthcare_GYM)
+
+> please contact minstar@upstage.ai any information for the project.
+
+</details>
+
+<details>
+<summary><b>15. StateSMix: Online Lossless Compression via Mamba State Space Models and Sparse N-gram Context Mixing</b> ⭐ 1</summary>
+
+<br/>
+
+**👥 Authors:** Roberto Tacconelli
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02904) • [📄 arXiv](https://arxiv.org/abs/2605.02904) • [📥 PDF](https://arxiv.org/pdf/2605.02904)
+
+**💻 Code:** [⭐ Code](https://github.com/robtacconelli/StateSMix)
+
+> We present StateSMix, a fully self-contained lossless compressor that couples an online-trained Mamba-style State Space Model (SSM) with sparse n-gram context mixing and arithmetic coding. The model is initialised from scratch and trained token-by...
+
+</details>
+
+<details>
+<summary><b>16. ESARBench: A Benchmark for Agentic UAV Embodied Search and Rescue</b> ⭐ 1</summary>
+
+<br/>
+
+**👥 Authors:** Shuo Yang, Jianyi Zhou, Ping Chen, 4amGodvzx
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.01371) • [📄 arXiv](https://arxiv.org/abs/2605.01371) • [📥 PDF](https://arxiv.org/pdf/2605.01371)
+
+**💻 Code:** [⭐ Code](https://github.com/4amGodvzx/ESAR)
+
+> ESARBench is the first comprehensive benchmark specifically designed to evaluate embodied UAV agents in highly realistic Embodied Search and Rescue (ESAR) scenarios: High Fidelity: 4 large-scale environments built with UE5 + AirSim using real-worl...
+
+</details>
+
+<details>
+<summary><b>17. Chain of Evidence: Pixel-Level Visual Attribution for Iterative Retrieval-Augmented Generation</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Wei Ye, Di Liang, Xi Wang, Ziqiang Cui, PeiyangLiu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.01284) • [📄 arXiv](https://arxiv.org/abs/2605.01284) • [📥 PDF](https://arxiv.org/pdf/2605.01284)
+
+**💻 Code:** [⭐ Code](https://github.com/PeiYangLiu/CoE)
+
+> Excited to share our latest work on visual RAG! 🚀 Existing iRAG systems linearise documents into plain text, which (1) breaks visual semantics in slides/charts/diagrams, (2) gives only coarse "[Source: Doc-1]" citations, and (3) leaves multi-hop r...
 
 </details>
 
@@ -303,28 +361,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 13 |
-| 📅 Today | [`2026-05-05.json`](data/daily/2026-05-05.json) | 13 |
-| 📆 This Week | [`2026-W18.json`](data/weekly/2026-W18.json) | 25 |
-| 🗓️ This Month | [`2026-05.json`](data/monthly/2026-05.json) | 89 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 17 |
+| 📅 Today | [`2026-05-06.json`](data/daily/2026-05-06.json) | 17 |
+| 📆 This Week | [`2026-W18.json`](data/weekly/2026-W18.json) | 42 |
+| 🗓️ This Month | [`2026-05.json`](data/monthly/2026-05.json) | 106 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-05-05 | 13 | [View JSON](data/daily/2026-05-05.json) |
+| 📌 2026-05-06 | 17 | [View JSON](data/daily/2026-05-06.json) |
+| 📄 2026-05-05 | 13 | [View JSON](data/daily/2026-05-05.json) |
 | 📄 2026-05-04 | 12 | [View JSON](data/daily/2026-05-04.json) |
 | 📄 2026-05-03 | 24 | [View JSON](data/daily/2026-05-03.json) |
 | 📄 2026-05-02 | 24 | [View JSON](data/daily/2026-05-02.json) |
 | 📄 2026-05-01 | 16 | [View JSON](data/daily/2026-05-01.json) |
 | 📄 2026-04-30 | 8 | [View JSON](data/daily/2026-04-30.json) |
-| 📄 2026-04-29 | 19 | [View JSON](data/daily/2026-04-29.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W18 | 25 | [View JSON](data/weekly/2026-W18.json) |
+| 📅 2026-W18 | 42 | [View JSON](data/weekly/2026-W18.json) |
 | 📅 2026-W17 | 120 | [View JSON](data/weekly/2026-W17.json) |
 | 📅 2026-W16 | 156 | [View JSON](data/weekly/2026-W16.json) |
 | 📅 2026-W15 | 125 | [View JSON](data/weekly/2026-W15.json) |
@@ -333,7 +391,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-05 | 89 | [View JSON](data/monthly/2026-05.json) |
+| 🗓️ 2026-05 | 106 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 606 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
