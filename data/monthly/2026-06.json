@@ -17775,5 +17775,321 @@
       "scraped_at": "2026-06-28T08:44:06.144146"
     },
     "scraped_date": "2026-06-28"
+  },
+  {
+    "title": "PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation",
+    "paper_url": "https://huggingface.co/papers/2606.28128",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.28128",
+      "pdf_url": "https://arxiv.org/pdf/2606.28128",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.28128",
+      "scraped_at": "2026-06-29T10:27:43.467360"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Translation as a Bridging Action: Transferring Manipulation Skills from Humans to Robots",
+    "paper_url": "https://huggingface.co/papers/2606.28133",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Translation as a Bridging Action: Transferring Manipulation Skills from Humans to Robots",
+      "abstract": "We study whether we can learn novel manipulation skills from human actions to a bi-manual robot with parallel grippers. Human action data is cheap, abundant, and diverse, making it one of the most promising resources for scaling up robot learning. Yet transferring skills from humans to robots remains hard: most prior work treats humans as just another bi-manual 6DoF embodiment, where hand-pose estimates are noisy and the contact patterns of human fingers differ fundamentally from those of a parallel gripper. We argue that learning rotation-inclusive action signals from human data is therefore sub-optimal, and instead propose a bridging action representation: the relative wrist translation within the initial head-camera frame, an action space shared by humans and robots. To handle the potential absence of certain action components in different embodiments, we build a π0-like vision-language-action model with interleaved action tokens and attention masking. On a suite of novel bi-manual manipulation tasks, our bridging action transfers human manipulation knowledge to robots far more effectively than noisy 6DoF human actions and scales with the amount of human data.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.28133",
+      "pdf_url": "https://arxiv.org/pdf/2606.28133",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.28133",
+      "scraped_at": "2026-06-29T10:27:45.310127"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Qwen-Image-2.0-RL Technical Report",
+    "paper_url": "https://huggingface.co/papers/2606.27608",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Qwen-Image-2.0-RL Technical Report",
+      "abstract": "will model be released for public? or just the papers?",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27608",
+      "pdf_url": "https://arxiv.org/pdf/2606.27608",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27608",
+      "scraped_at": "2026-06-29T10:27:47.176198"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "SingGuard: A Policy-Adaptive Multimodal LLM Guardrail with Dynamic Reasoning",
+    "paper_url": "https://huggingface.co/papers/2606.22873",
+    "authors": [],
+    "stars": "30",
+    "details": {
+      "title": "SingGuard: A Policy-Adaptive Multimodal LLM Guardrail with Dynamic Reasoning",
+      "abstract": "SingGuard is a policy-adaptive multimodal LLM guardrail model family for text, image, image-text, query-response, and multilingual safety moderation. Unlike static guardrails that rely on a fixed taxonomy, SingGuard treats the active safety policy as a runtime input and performs rule-by-rule policy-grounded judgment, enabling different products or deployment scenarios to apply customized and dynamically updated safety rules. SingGuard supports three inference regimes: fast judgment for low-latency moderation, slow policy-grounded reasoning for complex or audit-sensitive cases, and hybrid fast-slow reasoning with early exit. It also introduces Rule Isolation Mask (RI-Mask), an inference-time acceleration method for multi-rule moderation: shared image-text content is encoded once, while different rule branches remain isolated through attention masking, enabling parallel rule checking without cross-rule interference. We further introduce SingGuard-Bench, a 56,340-example multimodal guardrail benchmark covering 80+ fine-grained risk types, including image safety, multimodal QA safety, cross-modal hidden-intent attacks, multilingual moderation, and dynamic-rule evaluation. Across 6 benchmark families and 35 datasets, SingGuard achieves state-of-the-art average F1 and improves policy-following accuracy under runtime rule shifts.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.22873",
+      "pdf_url": "https://arxiv.org/pdf/2606.22873",
+      "github_links": [
+        "https://github.com/inclusionAI/Sing-Guard",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.22873",
+      "scraped_at": "2026-06-29T10:27:49.053327"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs",
+    "paper_url": "https://huggingface.co/papers/2606.27378",
+    "authors": [
+      "Fatemeh Fard",
+      "Fahd Seddik"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs",
+      "abstract": "We introduce an axiomatic evaluation framework for latent thought representations in LLMs, comprising metrics that are independent of downstream benchmark scores and reveal representational failures that benchmark accuracy masks. Existing evaluations conflate representation quality with model capacity. Therefore, failures cannot be attributed to the representation rather than to the model that processes it. We formalize four functional axioms (Causality, Minimality, Separability, and Stability) and define a quantitative measure for each, computed directly on the representation independently of downstream accuracy. We audit open-weight LLMs across 23 reasoning tasks (e.g., Spatial Reasoning, Factual QA). We find that no candidate satisfies all four axioms simultaneously, that the representations distinguish task type reliably but cannot distinguish between two questions within the same task, and that the representations encode little information beyond what is already present in the input embedding. The failure is consistent across dense, reasoning-distilled, and RL-trained model families, indicating that the gap is structural rather than a property of model size or training procedure.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27378",
+      "pdf_url": "https://arxiv.org/pdf/2606.27378",
+      "github_links": [
+        "https://github.com/fard-lab/formalize-thoughts",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27378",
+      "scraped_at": "2026-06-29T10:27:50.989392"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "ProMSA:Progressive Multimodal Search Agents for Knowledge-Based Visual Question Answering",
+    "paper_url": "https://huggingface.co/papers/2606.27974",
+    "authors": [
+      "Yunyao Yu",
+      "Zhuohong Chen",
+      "Kai Shi",
+      "Hangrui Xu",
+      "ZhengXian Wu"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "ProMSA:Progressive Multimodal Search Agents for Knowledge-Based Visual Question Answering",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27974",
+      "pdf_url": "https://arxiv.org/pdf/2606.27974",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DingWu1021/Promsa"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27974",
+      "scraped_at": "2026-06-29T10:27:52.812217"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+    "paper_url": "https://huggingface.co/papers/2606.28276",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.28276",
+      "pdf_url": "https://arxiv.org/pdf/2606.28276",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.28276",
+      "scraped_at": "2026-06-29T10:27:54.647381"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Learning to Fold: prizewinning solution at LeHome Challenge 2026 (1st place online, 2nd offline)",
+    "paper_url": "https://huggingface.co/papers/2606.27163",
+    "authors": [
+      "IliaLarchenko"
+    ],
+    "stars": "22",
+    "details": {
+      "title": "Learning to Fold: prizewinning solution at LeHome Challenge 2026 (1st place online, 2nd offline)",
+      "abstract": "Earlier this month I placed 🥈 2nd in the LeHome Challenge at ICRA 2026 — and 🥇 1st of 62 teams in the simulation round before that. This paper explains my solution. The task: teach a cheap two-armed robot to fold different garments — long tops, short tops, long pants, and shorts — both in simulation and on a real robot. The robot only sees three cameras and never gets told which garment it's folding, so it has to figure that out on its own. Here's the short version of how it works 👇 🧠 The policy is its own value function. From the same forward pass that picks the next action chunk, cheap heads predict success probability, task completion %, garment type, and future keypoint distances + a Q-residual. Those become the advantage signal for RL - no separate critic. 🔁 A fully asynchronous RL loop coordinated only through the HF Hub: 1 trainer (H200) ships a fresh checkpoint ~every 40 min while N rollout workers (and a human doing teleop / DAgger corrections) collect data in parallel. Nobody waits, it uses the off-policy nature of the loop to the fullest. 📈 Binary success is too sparse, so I densify it by combining multiple approaches simultaneously — from objective keypoint distances, the success-probability value baseline, completion %, and relative success rate of different garments. 🎛️ The RL combines AWR (sample good actions more often) + RECAP (feed advantage as a conditioning input, then ask for good actions only at inference, with CFG). I also tune the inference knobs — execution length, playback speed, inpainting overlap, CFG scale, best-of-N — with a per-parameter Thompson-sampling bandit folded into rollout collection. 📊 Round 1: 1st of 62, 79.6% success (+6.1 over 2nd, top score on 3 of 4 garments). Round 2: 2nd place, with only ~1 week and no access to the eval robot — so the pipeline was sim → my robot → their robot, leaning on heavy augmentation to make the policy more robust. 💡 Biggest win left on the table: I ran full RL in sim and BC + human corrections on real separately. They're very complementary — combining them should push success much higher.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27163",
+      "pdf_url": "https://arxiv.org/pdf/2606.27163",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/IliaLarchenko/lehome_solution"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27163",
+      "scraped_at": "2026-06-29T10:27:56.705031"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "GBC: Gradient-Based Connections for Optimizing Multi-Agent Systems",
+    "paper_url": "https://huggingface.co/papers/2606.28187",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GBC: Gradient-Based Connections for Optimizing Multi-Agent Systems",
+      "abstract": "Excited to share our work: GBC: Gradient-Based Connections for Optimizing Multi-Agent Systems . Multi-agent LLM systems are promising for complex tasks, but they often suffer from miscoordination and weak credit assignment. When the final output is wrong, how do we know which agent caused the failure? We propose Gradient-Based Connections (GBC) . GBC models a multi-agent system as a computational graph and uses gradient-based signals to quantify how each agent output influences downstream agents at the token level. This allows us to construct an attribution graph and propagate task-specific loss signals backward to identify error sources. We evaluate GBC on multi-agent task-oriented dialogue and tool-use settings, showing the effectiveness of this mechanism and that better attribution can lead to more effective system-level optimization. Happy to hear any thoughts, feedback, or suggestions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.28187",
+      "pdf_url": "https://arxiv.org/pdf/2606.28187",
+      "github_links": [
+        "https://github.com/yxc-cyber/AgentChord",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.28187",
+      "scraped_at": "2026-06-29T10:27:58.522038"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Ko-WideSearch: A Korean Breadth-Search Benchmark for Exhaustive Set Enumeration by Web Agents",
+    "paper_url": "https://huggingface.co/papers/2606.27595",
+    "authors": [
+      "Minbyul Jeong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Ko-WideSearch: A Korean Breadth-Search Benchmark for Exhaustive Set Enumeration by Web Agents",
+      "abstract": "https://huggingface.co/datasets/Minbyul/Ko-widesearch",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27595",
+      "pdf_url": "https://arxiv.org/pdf/2606.27595",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27595",
+      "scraped_at": "2026-06-29T10:28:00.305139"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Thinking While Speaking: Inference-Time Knowledge Transfer for Responsive and Intelligent Conversational Voice Agents",
+    "paper_url": "https://huggingface.co/papers/2511.07397",
+    "authors": [
+      "Vikram Iyer",
+      "Shwetak Patel",
+      "maximuspowers",
+      "zenglhardt",
+      "vysri"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "Thinking While Speaking: Inference-Time Knowledge Transfer for Responsive and Intelligent Conversational Voice Agents",
+      "abstract": "👋  Authors here, thanks for checking out our paper! Summary: Conversational AI systems leverage lightweight models that can run real-time, but slower Frontier LLMs are more capable (accuracy, tool use, etc.). We use model collaboration to approach frontier-level performance in a responsive conversational system. A tiny on-device Talker starts replying in milliseconds and weaves in knowledge from a frontier LLM Reasoner as it becomes available. This gives 7–19× faster time-to-first-response and runs on a laptop (Apple M2, 16 GB). The 7 Talker models and 290k-sample training dataset are in the collection linked. We've also got a repo set up here 💻 github.com/vysri/conversational-infill . It has the runnable demo (same as the video) so you can load the released models and talk to the full system yourself, plus the training framework if you want to use the dataset to fine-tune other SLMs into your own Talkers. Happy to answer any questions, we'll be around in the comments!",
+      "arxiv_page_url": "https://arxiv.org/abs/2511.07397",
+      "pdf_url": "https://arxiv.org/pdf/2511.07397",
+      "github_links": [
+        "https://github.com/vysri/conversational-infill",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2511.07397",
+      "scraped_at": "2026-06-29T10:28:02.191020"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "NormGuard: Reward-Preserving Norm Constraints in Flow-Matching Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2606.27771",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NormGuard: Reward-Preserving Norm Constraints in Flow-Matching Reinforcement Learning",
+      "abstract": "RL post-training inflates flow-matching velocity norms by 5–15%, causing perceptual artifacts that inference-time fixes can't remedy; NormGuard applies a training-time hinge penalty on excess norm, improving image quality and realism across models and methods without sacrificing reward gains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27771",
+      "pdf_url": "https://arxiv.org/pdf/2606.27771",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27771",
+      "scraped_at": "2026-06-29T10:28:04.101031"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+    "paper_url": "https://huggingface.co/papers/2606.28277",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.28277",
+      "pdf_url": "https://arxiv.org/pdf/2606.28277",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.28277",
+      "scraped_at": "2026-06-29T10:28:05.881797"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Object-Centric Residual RL for Zero-Shot Sim-to-Real VLA Enhancement",
+    "paper_url": "https://huggingface.co/papers/2606.18953",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Object-Centric Residual RL for Zero-Shot Sim-to-Real VLA Enhancement",
+      "abstract": "TL;DR: We make a frozen Vision-Language-Action (VLA) policy reliable on precise, contact-rich tasks by training a small residual correction policy with RL entirely in simulation. The residual conditions on object pose instead of raw pixels, so it transfers to the real robot zero-shot, with no new demos and no real-world RL. Highlights: Base VLA stays frozen, we only add a learned correction Object pose, not images, so no visual sim-to-real gap Sim 49% to 87%, real robot 42% to 76% across 5 tasks Residual rollouts distill back into the VLA for a stronger standalone policy 🌐 Project page: https://www.microsoft.com/en-us/research/articles/object-centric-residual-rl/ Happy to answer questions, feedback welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18953",
+      "pdf_url": "https://arxiv.org/pdf/2606.18953",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18953",
+      "scraped_at": "2026-06-29T10:28:07.743128"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Boundary-Aware Context Grounding for A Low-Channel EEG Agent",
+    "paper_url": "https://huggingface.co/papers/2606.26519",
+    "authors": [
+      "Junling Li",
+      "Yueqing Dai",
+      "Zhiyuan Xu",
+      "dfhgljw"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Boundary-Aware Context Grounding for A Low-Channel EEG Agent",
+      "abstract": "This paper focuses on the safety and grounding layer of NeuraDock Agent: how to prevent an LLM connected to low-channel EEG software from overinterpreting noisy or limited signals. Our architecture separates a deterministic local EEG engine from a boundary-aware language layer. Raw EEG and dense time-series data remain local, while the LLM receives only compact, allowlisted summaries and a versioned context pack that describes the hardware, implemented workflows, available result fields, and scientific limitations. The broader goal is to build EEG agents that are useful but careful: able to explain what the current workflow supports, qualify uncertain results, and refuse unsupported interpretations. We would welcome feedback from people working on AI agents, scientific software, biosignal analysis, LLM grounding, and human-AI interaction.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26519",
+      "pdf_url": "https://arxiv.org/pdf/2606.26519",
+      "github_links": [
+        "https://github.com/Neuradock/eeg-workstation-agent",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26519",
+      "scraped_at": "2026-06-29T10:28:09.700529"
+    },
+    "scraped_date": "2026-06-29"
   }
 ]
