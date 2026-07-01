@@ -1024,5 +1024,482 @@
       "scraped_at": "2026-06-30T09:00:27.728516"
     },
     "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "Orca: The World is in Your Mind",
+    "paper_url": "https://huggingface.co/papers/2606.30534",
+    "authors": [
+      "Yihao Wang",
+      "tzh21",
+      "HuaihaiLyu",
+      "syq1105",
+      "cmyopu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Orca: The World is in Your Mind",
+      "abstract": "Orca: An initial instantiation of a general world foundation model English version of video demo",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30534",
+      "pdf_url": "https://arxiv.org/pdf/2606.30534",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30534",
+      "scraped_at": "2026-07-01T09:32:49.137348"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "Dockerless: Environment-Free Program Verifier for Coding Agents",
+    "paper_url": "https://huggingface.co/papers/2606.28436",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Dockerless: Environment-Free Program Verifier for Coding Agents",
+      "abstract": "Try environment-free RL!",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.28436",
+      "pdf_url": "https://arxiv.org/pdf/2606.28436",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.28436",
+      "scraped_at": "2026-07-01T09:32:51.051824"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding",
+    "paper_url": "https://huggingface.co/papers/2606.31315",
+    "authors": [
+      "Xin Xiao",
+      "Mingqiao Mo",
+      "Yong Wang",
+      "Yiming Hu",
+      "Hao Zhang"
+    ],
+    "stars": "20",
+    "details": {
+      "title": "BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding",
+      "abstract": "BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding Github: https://github.com/AMAP-ML/BlockPilot",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31315",
+      "pdf_url": "https://arxiv.org/pdf/2606.31315",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AMAP-ML/BlockPilot"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31315",
+      "scraped_at": "2026-07-01T09:32:52.947951"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "DOPD: Dual On-policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2606.30626",
+    "authors": [
+      "Guibin Zhang",
+      "Qingyi Si",
+      "Gen Li",
+      "Xinlei Yu",
+      "DogNeverSleep"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DOPD: Dual On-policy Distillation",
+      "abstract": "DOPD: Dual On-policy Distillation",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30626",
+      "pdf_url": "https://arxiv.org/pdf/2606.30626",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30626",
+      "scraped_at": "2026-07-01T09:32:54.870206"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "GEAR: Guided End-to-End AutoRegression for Image Synthesis",
+    "paper_url": "https://huggingface.co/papers/2606.32039",
+    "authors": [],
+    "stars": "33",
+    "details": {
+      "title": "GEAR: Guided End-to-End AutoRegression for Image Synthesis",
+      "abstract": "📄 Paper: https://arxiv.org/abs/2606.32039 💻 Code: https://github.com/Tencent-Hunyuan/GEAR 🤗 Models: https://huggingface.co/collections/BinLin203 🏠 Homepage: https://linb203.github.io/gear [1/6] 🚨 Stop freezing your tokenizers! Visual Autoregressive (AR) models are stuck in the 2-stage era. We present GEAR ⚙️ (Guided End-to-End AutoRegression). By jointly training the VQ tokenizer & AR generator, we achieve up to 10x faster convergence than strong baselines like LlamaGen-REPA! 🧵👇",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.32039",
+      "pdf_url": "https://arxiv.org/pdf/2606.32039",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Tencent-Hunyuan/GEAR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.32039",
+      "scraped_at": "2026-07-01T09:32:56.940841"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "MemLearner: Learning to Query Context memory for Video World Models",
+    "paper_url": "https://huggingface.co/papers/2606.31734",
+    "authors": [
+      "Kaiyi Huang",
+      "Yiran Qin",
+      "Jianhong Bai",
+      "Jianxiong Gao",
+      "Jiwen Yu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MemLearner: Learning to Query Context memory for Video World Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31734",
+      "pdf_url": "https://arxiv.org/pdf/2606.31734",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31734",
+      "scraped_at": "2026-07-01T09:32:58.825201"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "Multi-Block Diffusion Language Models",
+    "paper_url": "https://huggingface.co/papers/2606.29215",
+    "authors": [],
+    "stars": "15",
+    "details": {
+      "title": "Multi-Block Diffusion Language Models",
+      "abstract": "We introduce Multi-Block Diffusion Language Models (MBD-LMs), a unified framework that bridges the training-inference gap for practical multi-block diffusion in block diffusion language models (BD-LMs). We identify that existing Teacher Forcing and D2F paradigms fail to align with the bounded running-set and heterogeneous slot-wise noise patterns required by Multi-Block Diffusion (MultiBD) inference. To address this, we propose Multi-block Teacher Forcing (MultiTF), a lightweight post-training method that constructs bounded noise groups with randomized chain-uniform scheduling, enabling any BD-LM to upgrade into an MBD-LM. On the inference side, we design the Block Buffer mechanism to decouple dynamic running-sets from static physical shapes, enabling CUDA Graph capture and prefix KV cache reuse. Empirically, MBD-LLaDA2-Mini achieves a 78.4% TPF improvement (3.47 to 6.19) while improving accuracy from 79.95% to 81.03%. Combined with DMax, TPF reaches 9.34 with strong throughput gains. We also release Diffulex, a unified serving engine that supports MBD-LMs and various BD-LM strategies (SingleBD, MultiBD, Dual Cache, DMax, etc.) under a single backend. Project page: https://sjtu-deng-lab.github.io/mbd-lms/ Training code: https://github.com/SJTU-DENG-Lab/mbd-lms Inference engine (Diffulex): https://github.com/SJTU-DENG-Lab/Diffulex",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.29215",
+      "pdf_url": "https://arxiv.org/pdf/2606.29215",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/SJTU-DENG-Lab/mbd-lms",
+        "https://github.com/SJTU-DENG-Lab/Diffulex"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.29215",
+      "scraped_at": "2026-07-01T09:33:00.729999"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "Evolution Fine-Tuning: Learning to Discover Across 371 Optimization Tasks",
+    "paper_url": "https://huggingface.co/papers/2606.29082",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Evolution Fine-Tuning: Learning to Discover Across 371 Optimization Tasks",
+      "abstract": "Would experience designing faster GPU kernels also help close in on a long-standing open mathematical conjecture? Large Language Models (LLMs) integrated into evolutionary search have recently produced state-of-the-art solutions on optimization tasks, including open mathematical conjectures, GPU kernel design, scientific law discovery, and combinatorial puzzles. To achieve this, prior work applied search scaffolds to one target task at a time, so every new problem is approached from scratch and the experience accumulated during search is discarded once the model finishes its attempt. This leaves the capability of iteratively evolving a solution (e.g., knowing which part to mutate and how, deciding when to backtrack) entirely in the scaffold rather than in the model itself. Whether the model itself could acquire this capability and reuse it across different tasks has been largely unexamined. To address this, we introduce Evolution Fine-Tuning (EFT), a mid-training paradigm that teaches LLMs to evolve solutions across tasks by converting evolutionary search trajectories into supervision. We construct Finch Collection, a 156K-trajectory dataset spanning 10 domains and 371 optimization tasks, and fine-tune open-source LLMs from 2B to 9B parameters. Empirically, EFT confers cross-task generalization: across 22 held-out tasks, our models surpass their base counterparts by 10.22% on average. Furthermore, when paired with test-time RL, our model matches state-of-the-art performance on two circle-packing tasks and outperforms its base-model counterpart on the Erdős minimum-overlap problem. EFT thus serves as a \"practice phase\" for general-purpose discovery agents that do not solve new problems from scratch.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.29082",
+      "pdf_url": "https://arxiv.org/pdf/2606.29082",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Open-Galapagos/evolution-fine-tuning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.29082",
+      "scraped_at": "2026-07-01T09:33:02.659298"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "RedVox: Safety and Fairness Gaps in Speech Models Across Languages",
+    "paper_url": "https://huggingface.co/papers/2606.26968",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RedVox: Safety and Fairness Gaps in Speech Models Across Languages",
+      "abstract": "🌍 Speech AI is going multilingual—but its safety evaluations largely aren't. We present RedVox, a multilingual benchmark for speech model safety and fairness built from real spoken interactions across five languages. Evaluating eight leading models, we find consistent safety and fairness gaps beyond English and show that spoken inputs can further amplify vulnerabilities—highlighting a key blind spot in current speech AI evaluation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26968",
+      "pdf_url": "https://arxiv.org/pdf/2606.26968",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26968",
+      "scraped_at": "2026-07-01T09:33:04.641735"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "Scenes as Objects, Not Primitives: Instance-Structured 3D Tokenization from Unposed Views",
+    "paper_url": "https://huggingface.co/papers/2606.29513",
+    "authors": [
+      "Eunbyung Park",
+      "Jiwoo Lee",
+      "Subin Jeon",
+      "In Cho",
+      "mynameisyoomimi"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Scenes as Objects, Not Primitives: Instance-Structured 3D Tokenization from Unposed Views",
+      "abstract": "A feed-forward framework decomposes 3D scenes into instance-structured token groups from multi-view images, enabling direct object-level reconstruction, segmentation, and manipulation without 3D annotations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.29513",
+      "pdf_url": "https://arxiv.org/pdf/2606.29513",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.29513",
+      "scraped_at": "2026-07-01T09:33:06.491287"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "Little Brains, Big Feats: Exploring Compact Language Models",
+    "paper_url": "https://huggingface.co/papers/2606.30062",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Little Brains, Big Feats: Exploring Compact Language Models",
+      "abstract": "Can small language models be strong enough for practical RAG generation without GPUs? We benchmark 17 compact language models from 1B to 8B parameters as generators in Russian-language Retrieval-Augmented Generation systems. All candidate models were evaluated as local GGUF variants, including Q4_K_M and Q5_K_M quantized models, under CPU-only inference constraints. The evaluation uses a 500-sample benchmark built from five Russian-language QA datasets, including open-source and proprietary domain-specific data. Responses are assessed with a multi-judge LLM-as-a-Judge setup across correctness, answer relevance, faithfulness, context relevance, and latency. A clear pattern emerges: Qwen-family models dominate the top-performing SLM tier in this setting. Qwen3-8B-Q4_K_M achieved the strongest overall SLM quality, reaching 0.72 correctness and 0.83 faithfulness, approaching the GPT-5-mini baseline on correctness. At the same time, Qwen3-4B-Instruct-2507-Q5_K_M provided the best practical quality–latency trade-off, with 0.71 correctness, 0.89 answer relevance, 0.80 faithfulness, and substantially lower CPU latency than the 8B model. Qwen2.5-7B-Instruct-Q4_K_M was also a strong candidate, showing high answer relevance and faithfulness with moderate latency. Our findings suggest that carefully selected quantized SLMs, especially from the Qwen family, can be competitive RAG generators while enabling local, private, and GPU-free deployment. The work is especially relevant for on-device AI, privacy-sensitive applications, edge deployment, and production RAG systems with limited compute budgets. Accepted to ECML PKDD 2026 Applied Data Science Track. Author’s preprint version.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30062",
+      "pdf_url": "https://arxiv.org/pdf/2606.30062",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/SibNN/SLM-RAG-EVAL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30062",
+      "scraped_at": "2026-07-01T09:33:08.540896"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "PolyFlow: Continuous Topology Embedding Flow Matching for Artist-style Mesh Generation",
+    "paper_url": "https://huggingface.co/papers/2606.30673",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PolyFlow: Continuous Topology Embedding Flow Matching for Artist-style Mesh Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30673",
+      "pdf_url": "https://arxiv.org/pdf/2606.30673",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30673",
+      "scraped_at": "2026-07-01T09:33:10.404393"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "DataEvolver: Self-Evolving Multi-Agent Data Construction for Text-Rich Image Generation",
+    "paper_url": "https://huggingface.co/papers/2606.31537",
+    "authors": [
+      "Alex Jinpeng Wang",
+      "Dongxing Mao",
+      "Yilin Wang",
+      "Yizhen Gao",
+      "Siyu Yan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DataEvolver: Self-Evolving Multi-Agent Data Construction for Text-Rich Image Generation",
+      "abstract": "DataEvolver: Self-Evolving Multi-Agent Data Construction for Text-Rich Image Generation",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31537",
+      "pdf_url": "https://arxiv.org/pdf/2606.31537",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31537",
+      "scraped_at": "2026-07-01T09:33:12.228311"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
+    "paper_url": "https://huggingface.co/papers/2606.32032",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
+      "abstract": "Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive processes. Yet LLMs exhibit systemic deficiencies in key metacognitive faculties: they hallucinate with high confidence, fail to recognize knowledge boundaries, and misrepresent their internal uncertainty--undermining trustworthiness and reliability. Reinforcement learning with metacognitive feedback (RLMF) is a paradigm to refine completion rankings during preference optimization based on the quality of a model's self-judgments of performance, and metacognitive data selection, which uses similar self-judgments to identify high-value training examples, outperforming naive active learning. Extensive experiments show RLMF achieves generalizable, state-of-the-art FC on diverse tasks while preserving accuracy. Further, RLMF surpasses standard RL by up to 63% while enhancing models' ability to assess and express their own capability limits.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.32032",
+      "pdf_url": "https://arxiv.org/pdf/2606.32032",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yale-nlp/RLMF"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.32032",
+      "scraped_at": "2026-07-01T09:33:14.173346"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "Xiaomi-GUI-0 Technical Report",
+    "paper_url": "https://huggingface.co/papers/2606.31410",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Xiaomi-GUI-0 Technical Report",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31410",
+      "pdf_url": "https://arxiv.org/pdf/2606.31410",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31410",
+      "scraped_at": "2026-07-01T09:33:15.992459"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "AVTok: 1D Unified Tokenization for Holistic Audio-Video Generation",
+    "paper_url": "https://huggingface.co/papers/2606.30811",
+    "authors": [
+      "Long Chen",
+      "Qifeng Chen",
+      "I Chieh Chen",
+      "Kien T. Pham"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "AVTok: 1D Unified Tokenization for Holistic Audio-Video Generation",
+      "abstract": "AVTok: 1D Unified Tokenization for Holistic Audio-Video Generation",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30811",
+      "pdf_url": "https://arxiv.org/pdf/2606.30811",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/hkust-longgroup/AVTok"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30811",
+      "scraped_at": "2026-07-01T09:33:17.846739"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "PhotoQuilt: Training-Free Arbitrary-Resolution Photomosaics via Bootstrapped Tiled Denoising",
+    "paper_url": "https://huggingface.co/papers/2606.30968",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PhotoQuilt: Training-Free Arbitrary-Resolution Photomosaics via Bootstrapped Tiled Denoising",
+      "abstract": "TLDR: PhotoQuilt is a training-free way to make photomosaics, big images where each tile is a convincing little picture on its own, yet together they form a coherent scene. It sketches the whole layout at low resolution first, then upscales and denoises each tile on its own, so tiles get sharp detail while staying anchored to the global structure. Because tiles are handled separately, it scales to huge canvases cheaply and beats prior methods on both the big picture and the fine detail.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30968",
+      "pdf_url": "https://arxiv.org/pdf/2606.30968",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30968",
+      "scraped_at": "2026-07-01T09:33:19.828923"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "BrainJanus: A Unified Model for Understanding and Generation across Brain, Vision, and Language",
+    "paper_url": "https://huggingface.co/papers/2606.30319",
+    "authors": [
+      "Qihao Zheng",
+      "Shangquan Sun",
+      "Zhouheng Yao",
+      "Qirui Zhang",
+      "Haitao Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "BrainJanus: A Unified Model for Understanding and Generation across Brain, Vision, and Language",
+      "abstract": "Modeling the bidirectional correspondence between external sensory stimuli and internal neural activity has emerged as a critical frontier in neuroscience. However, existing approaches predominantly treat brain encoding and decoding as isolated tasks, relying heavily on unimodal alignment and external priors while overlooking the brain's intrinsic nature as a multimodal integration system. To address these limitations, we propose BrainJanus, the first unified brain model that integrates brain, vision, and language within a single framework. Specifically, we introduce a Unified Brain Tokenizer to quantize continuous neural dynamics into discrete tokens aligned with visual and linguistic representations in a shared Omni space. Building on this, we utilize an All-in-One autoregressive architecture that leverages next-token prediction to enable seamless any-to-any generation, which encompasses image-to-brain and text-to-brain encoding, and brain-to-image and brain-to-text decoding. Extensive experiments demonstrate that BrainJanus achieves superior performance across diverse benchmarks. Furthermore, our framework exhibits zero-shot generalization and preserves interpretable biological topography, highlighting its potential as a general-purpose brain modeling paradigm. The code is available at \\href{this https URL}{GitHub}.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30319",
+      "pdf_url": "https://arxiv.org/pdf/2606.30319",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30319",
+      "scraped_at": "2026-07-01T09:33:21.706813"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "TerraDiT-Ω: Unified Spatial Control for Satellite Image Synthesis with Any Geospatial Primitive",
+    "paper_url": "https://huggingface.co/papers/2606.31029",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "TerraDiT-Ω: Unified Spatial Control for Satellite Image Synthesis with Any Geospatial Primitive",
+      "abstract": "TerraDiT-Ω: Unified Spatial Control for Satellite Image Synthesis with Any Geospatial Primitive Accepted to ECCV 2026.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31029",
+      "pdf_url": "https://arxiv.org/pdf/2606.31029",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/mvrl/TerraDiT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31029",
+      "scraped_at": "2026-07-01T09:33:23.556404"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "LUMOS: A Semantic Operating-System Layer for Accessibility-Grounded AI Agents",
+    "paper_url": "https://huggingface.co/papers/2606.30697",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LUMOS: A Semantic Operating-System Layer for Accessibility-Grounded AI Agents",
+      "abstract": "Current operating systems expose interfaces optimized for human users but not for AI agents. Humans benefit from pixels, icons, windows, visual grouping, mouse movement, and keyboard shortcuts; AI agents instead need compact semantic state, grounded actions, and reliable feedback. As a result, many computer-use agents are forced to interpret screenshots, OCR output, and visual crops, introducing high token costs, visual ambiguity, latency, and coordinate uncertainty. This paper introduces LUMOS (Language Model Unified Machine-Readable Operating-System Semantics), a semantic interaction layer between AI agents and operating systems. LUMOS converts native accessibility metadata and browser UI structures into machine readable semantic blueprints with stable identifiers, roles, names, values, bounds, and action affordances. It also supports live semantic pointer grounding by querying the UI element under or near the cursor through operating-system automation APIs. An LLM then acts through an accessibility grounded observe act loop using constrained visible-UI primitives rather than application-specific scripts. LUMOS does not claim to replace visual agents; instead, it reduces dependence on screenshots when operating systems already provide semantic structure. These results suggest a path toward AI-native operating systems and machine-readable interaction layers.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30697",
+      "pdf_url": "https://arxiv.org/pdf/2606.30697",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/thotayogeswarreddy/Lumos"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30697",
+      "scraped_at": "2026-07-01T09:33:25.399212"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "SkillHone: A Harness for Continual Agent Skill Evolution Through Persistent Decision History",
+    "paper_url": "https://huggingface.co/papers/2606.08671",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SkillHone: A Harness for Continual Agent Skill Evolution Through Persistent Decision History",
+      "abstract": "🚀 Excited to share SkillHone, a harness for continual agent skill evolution through persistent decision history. The core idea is simple: agent skills should not only keep the final optimized artifact, but also preserve the decision history behind each revision — diagnoses, rejected alternatives, evaluation evidence, and outcomes. This allows later agents to continue improving a skill across sessions instead of rediscovering the same failures. 🧠 In our implementation, SkillHone uses role-separated optimization/evaluation agents and redacted practice feedback to evolve portable skills. On deep-research benchmarks, SkillHone improves over prior skill-evolution methods and performs strongly in raw open-web settings without relying on a pre-integrated search stack. 🔁 Links: 📄 arXiv: https://arxiv.org/abs/2606.08671 🌐 Project page: https://zwlijay.github.io/SkillHone-Project 🛠️ Skills: https://github.com/Tencent/SkillHone",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.08671",
+      "pdf_url": "https://arxiv.org/pdf/2606.08671",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Tencent/SkillHone"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.08671",
+      "scraped_at": "2026-07-01T09:33:27.474797"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "MuSViT: A Foundation Vision Model for Sheet Music Representation",
+    "paper_url": "https://huggingface.co/papers/2606.31811",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MuSViT: A Foundation Vision Model for Sheet Music Representation",
+      "abstract": "Accepted at European Conference on Computer Vision (ECCV'26) Overview of MuSViT. MuSViT is pre-trained on diverse sheet music pages using Masked Autoencoders: patches are randomly masked and the model learns to reconstruct the missing content from the remaining visible context. We evaluate the generality of the learned representations by probing the encoder across four diverse downstream tasks: full-page and staff-level music score recognition, music symbol detection, and score difficulty classification.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31811",
+      "pdf_url": "https://arxiv.org/pdf/2606.31811",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OMR-PRAIG-UA-ES/MuSViT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31811",
+      "scraped_at": "2026-07-01T09:33:29.309076"
+    },
+    "scraped_date": "2026-07-01"
   }
 ]
