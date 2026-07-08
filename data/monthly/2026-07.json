@@ -3445,5 +3445,553 @@
       "scraped_at": "2026-07-07T09:29:11.372151"
     },
     "scraped_date": "2026-07-07"
+  },
+  {
+    "title": "AlayaWorld: Long-Horizon and Playable Video World Generation",
+    "paper_url": "https://huggingface.co/papers/2607.06291",
+    "authors": [
+      "Yongtao Ge",
+      "Yifan Zhan",
+      "Chuanhao Li",
+      "Kaipeng Zhang",
+      "AlayaWorld Team"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AlayaWorld: Long-Horizon and Playable Video World Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06291",
+      "pdf_url": "https://arxiv.org/pdf/2607.06291",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06291",
+      "scraped_at": "2026-07-08T08:12:37.387856"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "Vision as Unified Multimodal Generation",
+    "paper_url": "https://huggingface.co/papers/2607.06560",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Vision as Unified Multimodal Generation",
+      "abstract": "Vision as Unified Multimodal Generation presents a unified view of vision: perception, understanding, editing, and generation can all be formulated as multimodal generation. We hope this work contributes to building more general-purpose vision foundation models. Feedback and discussions are very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06560",
+      "pdf_url": "https://arxiv.org/pdf/2607.06560",
+      "github_links": [
+        "https://github.com/OpenSenseNova/SenseNova-Vision",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06560",
+      "scraped_at": "2026-07-08T08:12:39.278823"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory",
+    "paper_url": "https://huggingface.co/papers/2607.05511",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory",
+      "abstract": "We introduce Light-Omni, a highly efficient multimodal agent framework for long-term video understanding. Advanced video agents usually suffer from prohibitive latency due to heavy \"detective-style\" iterative reasoning. To solve this, Light-Omni enables instant \"reflexive\" responses via a novel dual-state mechanism (Global & Latent states) in a single forward pass. Key Highlights: 🔥 Incredible Efficiency: Achieves a 12.1× speedup and 2.6× GPU memory reduction compared to M3-Agent, with near-constant latency (~2.3s) regardless of video length. 📈 SOTA Performance: Delivers an average accuracy of 64.8% across VideoMME-long, LVBench, and HippoVlog. 🛠️ Plug-and-Play: Acts as a foundational memory system that seamlessly boosts existing MLLMs (e.g., Qwen2.5-VL, Qwen3-VL, Gemini-2.0-Flash). Code, models, and dataset are available in our repo!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.05511",
+      "pdf_url": "https://arxiv.org/pdf/2607.05511",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Clare-Nie/Light-Omni"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.05511",
+      "scraped_at": "2026-07-08T08:12:41.252576"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "Hierarchical Sparse Attention Done Right: Toward Infinite Context Modeling",
+    "paper_url": "https://huggingface.co/papers/2607.02980",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Hierarchical Sparse Attention Done Right: Toward Infinite Context Modeling",
+      "abstract": "A fully differentiable hierachical sparse attention with extraordinary length generalization ability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02980",
+      "pdf_url": "https://arxiv.org/pdf/2607.02980",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Tencent-Hunyuan/HiLS-Attention"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02980",
+      "scraped_at": "2026-07-08T08:12:43.096250"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "Parallelized Autoregressive Decoding for Omni-Modal Dense Video Captioning",
+    "paper_url": "https://huggingface.co/papers/2607.02963",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Parallelized Autoregressive Decoding for Omni-Modal Dense Video Captioning",
+      "abstract": "We propose PadCaptioner, a 3B model for omni-modal dense video captioning that achieves high efficiency and strong grounded caption quality, outperforming 7B counterparts. The core idea is to exploit the weak local dependencies among temporally distinct events and restructure the causal token dependency, enabling lossless parallel generation. We design a latent planning mechanism that automatically determines parallelizable units with non-local awareness, guiding subsequent parallel decoding and improving event grounding and caption quality. Code will be released at https://github.com/showlab/PadCaptioner . Please give us a ⭐ to stay updated!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02963",
+      "pdf_url": "https://arxiv.org/pdf/2607.02963",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/showlab/PadCaptioner"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02963",
+      "scraped_at": "2026-07-08T08:12:44.962184"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "SkillOpt-Lite: Better and Faster Agent Self-evolution via One Line of Vibe",
+    "paper_url": "https://huggingface.co/papers/2607.03451",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "SkillOpt-Lite: Better and Faster Agent Self-evolution via One Line of Vibe",
+      "abstract": "Train your agent's skills and harness with a single line of vibe — automatic, looped improvements. Convergence and generalization bound of skill and harness optimization is also derived.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.03451",
+      "pdf_url": "https://arxiv.org/pdf/2607.03451",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/EvolvingLMMs-Lab/SkillOpt-Lite"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.03451",
+      "scraped_at": "2026-07-08T08:12:46.847520"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "Gemma 4 Technical Report",
+    "paper_url": "https://huggingface.co/papers/2607.02770",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Gemma 4 Technical Report",
+      "abstract": "Interesting report. Unfortunately it looks like there has been almost no disclosure of any detail, unlike Gemma 3's technical report, and instead standard well-known procedures were simply explained, with almost no input, ablation, negative findings, positive findings, scaling laws, etc...",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02770",
+      "pdf_url": "https://arxiv.org/pdf/2607.02770",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02770",
+      "scraped_at": "2026-07-08T08:12:48.734744"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "MentalThink: Shaping Thoughts in Mental SVG World",
+    "paper_url": "https://huggingface.co/papers/2607.03530",
+    "authors": [
+      "Yana Wei",
+      "En Yu",
+      "Dingming Li",
+      "Jisheng Yin",
+      "Kangheng Lin"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MentalThink: Shaping Thoughts in Mental SVG World",
+      "abstract": "MentalThink presents a \"think-with-SVG\" pipeline for Multimodal LLMs. By generating, rendering, and interpreting scalable vector graphics (SVG), we equip models with an executable mechanism for visual-symbolic reasoning and spatial problem-solving. We hope this work inspires new ways to enhance the verifiable visual reasoning capabilities of MLLMs. Feedback and discussions are very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.03530",
+      "pdf_url": "https://arxiv.org/pdf/2607.03530",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.03530",
+      "scraped_at": "2026-07-08T08:12:50.592824"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation",
+    "paper_url": "https://huggingface.co/papers/2607.06558",
+    "authors": [
+      "Kehan Li",
+      "Biao Gong",
+      "Hangyu Li",
+      "Xingyue Zhao",
+      "Haoyu Zhao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06558",
+      "pdf_url": "https://arxiv.org/pdf/2607.06558",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06558",
+      "scraped_at": "2026-07-08T08:12:52.412310"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
+    "paper_url": "https://huggingface.co/papers/2607.06559",
+    "authors": [
+      "Deli Zhao",
+      "Xin Li",
+      "Siteng Huang",
+      "Xingyue Zhao",
+      "Haoyu Zhao"
+    ],
+    "stars": "11",
+    "details": {
+      "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06559",
+      "pdf_url": "https://arxiv.org/pdf/2607.06559",
+      "github_links": [
+        "https://github.com/alibaba-damo-academy/RynnWorld-4D",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06559",
+      "scraped_at": "2026-07-08T08:12:54.271964"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation",
+    "paper_url": "https://huggingface.co/papers/2607.05147",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.05147",
+      "pdf_url": "https://arxiv.org/pdf/2607.05147",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.05147",
+      "scraped_at": "2026-07-08T08:12:56.078516"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training",
+    "paper_url": "https://huggingface.co/papers/2607.05804",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training",
+      "abstract": "TurnOPD studies on-policy distillation for long-horizon language agents and shows that vanilla OPD wastes compute on low-value tail turns while over-allocating KL loss to shallow early turns. The paper introduces two turn-aware budget controllers: adaptive rollout-depth budgeting, which dynamically selects how many turns to collect, and progressive turn-normalized loss budgeting, which gradually balances KL supervision across turns. Experiments on ALFWorld, WebShop, and Multi-Hop Search show better accuracy-time trade-offs than vanilla OPD under the same wall-clock training budget.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.05804",
+      "pdf_url": "https://arxiv.org/pdf/2607.05804",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.05804",
+      "scraped_at": "2026-07-08T08:12:57.896270"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "TREK: Distill to Explore, Reinforce to Refine",
+    "paper_url": "https://huggingface.co/papers/2607.05339",
+    "authors": [
+      "Hejian Sang",
+      "Jelena Markovic-Voronov",
+      "Kayhan Behdin",
+      "Zhengze Zhou",
+      "Yuanda Xu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "TREK: Distill to Explore, Reinforce to Refine",
+      "abstract": "Distillation for exploration",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.05339",
+      "pdf_url": "https://arxiv.org/pdf/2607.05339",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.05339",
+      "scraped_at": "2026-07-08T08:12:59.705505"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding",
+    "paper_url": "https://huggingface.co/papers/2607.05722",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.05722",
+      "pdf_url": "https://arxiv.org/pdf/2607.05722",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.05722",
+      "scraped_at": "2026-07-08T08:13:01.525199"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "Quantifying and Expanding the Theoretical Capacity of Late-Interaction Retrieval Models",
+    "paper_url": "https://huggingface.co/papers/2607.05803",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Quantifying and Expanding the Theoretical Capacity of Late-Interaction Retrieval Models",
+      "abstract": "This paper helps to explain why MaxSim performs as well as it does. It shows that MaxSim can exactly replicate inner products between two sparse vectors with potentially infinite dimension where the size of the late-interaction representations only impacted by the number of non-zero elements in the original vectors. This helps to explain why late-interaction models can generalize so well, they can encode long-tail features without compressing any information. It also means late-interaction models can exactly replicate any retrieval models that use strictly non-negative vectors such as SPLADE and BM25. We do find that MaxSim cannot replicate inner products between arbitrary real-value vectors. To address this we propose Signed MaxSim which we prove can exactly replicate any real-value vector inner product where representation size is again tied only to the non-zero elements in the original vectors. This extension is thus at least as capable as any single-vector retrieval model and also as any MaxSim-based retrieval model. We also show that MaxSim and Signed MaxSim can represent similarities which standard inner products cannot replicate with the same representation size providing a clear representation gap between inner product and late-interaction models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.05803",
+      "pdf_url": "https://arxiv.org/pdf/2607.05803",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.05803",
+      "scraped_at": "2026-07-08T08:13:03.338401"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "Flex-Forcing: Towards a Unified Autoregressive and Bidirectional Video Diffusion Model",
+    "paper_url": "https://huggingface.co/papers/2607.03509",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Flex-Forcing: Towards a Unified Autoregressive and Bidirectional Video Diffusion Model",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.03509",
+      "pdf_url": "https://arxiv.org/pdf/2607.03509",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.03509",
+      "scraped_at": "2026-07-08T08:13:05.189716"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation",
+    "paper_url": "https://huggingface.co/papers/2607.02515",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation",
+      "abstract": "PointDiT: a minimalist pixel-space Diffusion Transformer for 3D generation without bells and whistles.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02515",
+      "pdf_url": "https://arxiv.org/pdf/2607.02515",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02515",
+      "scraped_at": "2026-07-08T08:13:07.046802"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "When Classic Cache Policies Fail: Learning-Augmented Replacement for Semantic Retrieval Buffers",
+    "paper_url": "https://huggingface.co/papers/2607.00394",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "When Classic Cache Policies Fail: Learning-Augmented Replacement for Semantic Retrieval Buffers",
+      "abstract": "We introduce a novel memory caching mechanism for AI agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.00394",
+      "pdf_url": "https://arxiv.org/pdf/2607.00394",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.00394",
+      "scraped_at": "2026-07-08T08:13:08.951114"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "3D HAMSTER: Bridging Planning and Control in Hierarchical Vision Language Action Models through 3D Trajectory Guidance",
+    "paper_url": "https://huggingface.co/papers/2606.31329",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "3D HAMSTER: Bridging Planning and Control in Hierarchical Vision Language Action Models through 3D Trajectory Guidance",
+      "abstract": "🤖 Why do robots still struggle to act on what they see in 3D? Most Vision-Language-Action planners reason in 2D — they predict pixel waypoints and just inherit whatever depth lies beneath them. The plan looks right on the image, but it isn’t grounded in the geometry the robot actually has to move through. Our new work 3D HAMSTER tackles this head-on: it predicts metrically grounded 3D end-effector trajectories from a single RGB-D observation + a language instruction, keeping planning and control geometrically consistent end to end. Proud to share it’s been accepted to IROS 2026 🎉 📄 Paper: https://arxiv.org/abs/2606.31329 🌐 Project: https://davian-robotics.github.io/3D_HAMSTER/ 💻 Code: https://github.com/DAVIAN-Robotics/3D_HAMSTER 🤗 Model: https://huggingface.co/DAVIAN-Robotics/3D_HAMSTER",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31329",
+      "pdf_url": "https://arxiv.org/pdf/2606.31329",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DAVIAN-Robotics/3D_HAMSTER"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31329",
+      "scraped_at": "2026-07-08T08:13:10.773254"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "MuseBench: Benchmarking Intent-Level Audiovisual Arts Understanding in MLLMs",
+    "paper_url": "https://huggingface.co/papers/2606.30026",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "MuseBench: Benchmarking Intent-Level Audiovisual Arts Understanding in MLLMs",
+      "abstract": ".",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30026",
+      "pdf_url": "https://arxiv.org/pdf/2606.30026",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/musebench/musebench-code"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30026",
+      "scraped_at": "2026-07-08T08:13:12.609200"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "From Foundation to Application: Improving VLA Models in Practice",
+    "paper_url": "https://huggingface.co/papers/2607.06403",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "From Foundation to Application: Improving VLA Models in Practice",
+      "abstract": "LingBot-VLA 2.0 From Foundation to Application: Improving VLA Models in Practice",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06403",
+      "pdf_url": "https://arxiv.org/pdf/2607.06403",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/robbyant/lingbot-vla-v2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06403",
+      "scraped_at": "2026-07-08T08:13:14.424806"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "PluraMath: Extending Mathematical Reasoning Evaluation Beyond High-Resource Languages",
+    "paper_url": "https://huggingface.co/papers/2607.05992",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PluraMath: Extending Mathematical Reasoning Evaluation Beyond High-Resource Languages",
+      "abstract": "Mathematical reasoning has become a central task for evaluating and tuning reasoning Large Language Models (LLMs), yet existing benchmarks remain heavily biased toward high-resource languages, with English and Chinese dominating both pre-training corpora and evaluation suites. The recently released PolyMath dataset represents a significant step forward, yet its coverage is still limited to 18 only high-resource languages. To address this gap, we introduce PluraMath, an extension of PolyMath to 18 additional underrepresented languages spanning 6 language families — ranging from mid-resource to extreme low-resource settings. We constructed the dataset through a human-curated pipeline, where native speakers thoroughly validated pre-computed translations. Using PluraMath, we benchmark 27 reasoning LLMs across four model scales — small, mid-size, large, and closed-source ensembles — probing multilingual mathematical reasoning under diverse linguistic conditions. Our fine-grained analysis confirms a persistent gap in mathematical reasoning performance between high-resource and underrepresented languages, with stronger results largely associated with better instruction-following ability. We fully open-source our dataset, data acquisition pipeline, and evaluation framework, with the goal of lowering the barrier to multilingual benchmark development for underrepresented communities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.05992",
+      "pdf_url": "https://arxiv.org/pdf/2607.05992",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/TUM-NLP/pluramath"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.05992",
+      "scraped_at": "2026-07-08T08:13:16.258350"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "SIEVE: Structure-Aware Data Selection for Imitation Learning with VLA Models",
+    "paper_url": "https://huggingface.co/papers/2607.06442",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "SIEVE: Structure-Aware Data Selection for Imitation Learning with VLA Models",
+      "abstract": "🚀 Do VLA models need more data, or better data? We introduce SIEVE , a structure-aware data selection method for VLA imitation learning. Instead of treating demonstrations as isolated trajectories, SIEVE views them as compositions of reusable visuo-motor primitives and transition interfaces . ✨ What SIEVE does: 🔹 discovers reusable primitives from robot trajectories 🔹 allocates data budgets to structurally informative composition patterns 🔹 selects central, stable demonstrations that are easier for behavior cloning to learn from 📊 Results: ✅ Consistently beats strong data selection baselines ✅ Works across multiple datasets, benchmarks, and VLA models ✅ Surpasses full-data training with only 50% data + 50% training steps 💡 Takeaway: For efficient VLA training, selecting reusable behavioral structure can be more important than simply scaling up robot data.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06442",
+      "pdf_url": "https://arxiv.org/pdf/2607.06442",
+      "github_links": [
+        "https://github.com/ChangtiWu/SIEVE",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06442",
+      "scraped_at": "2026-07-08T08:13:18.063239"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "CGGS: Consistency-Augmented Geometric Gaussian Splatting for Ego-centric 3D Scene Generation",
+    "paper_url": "https://huggingface.co/papers/2607.03819",
+    "authors": [
+      "Huan Wang",
+      "Qi Liu",
+      "Xiaohan Zhang",
+      "Austin-Sun"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "CGGS: Consistency-Augmented Geometric Gaussian Splatting for Ego-centric 3D Scene Generation",
+      "abstract": "Code is avaliable at https://github.com/CGGS-26/CGGS",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.03819",
+      "pdf_url": "https://arxiv.org/pdf/2607.03819",
+      "github_links": [
+        "https://github.com/CGGS-26/CGGS",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.03819",
+      "scraped_at": "2026-07-08T08:13:19.943442"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "Layer-wise Cross-Lingual Depression Detection from Speech: Analysis with Contrastive Alignment",
+    "paper_url": "https://huggingface.co/papers/2607.02920",
+    "authors": [
+      "Sudarsana Reddy Kadiri",
+      "Shrikanth Narayanan",
+      "Huang-Cheng Chou",
+      "Hanie Kang",
+      "Anisha Pattanayak"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Layer-wise Cross-Lingual Depression Detection from Speech: Analysis with Contrastive Alignment",
+      "abstract": "Depression doesn't look or sound the same in every language, but most speech-based detection models are only tested in the language they were trained on. Worse, prior work split data without grouping by speaker, so models were quietly memorizing voices instead of detecting depression. We built CLeaD, a supervised contrastive framework that aligns English and Mandarin WavLM embeddings into a shared clinical space, no parallel data or target-language fine-tuning needed. On 52 Mandarin speakers with leave-one-speaker-out evaluation, it modestly beats the baseline (F1: 0.640 vs. 0.622). Two findings hold up strongly: bigger models get worse at cross-lingual transfer while getting better at English, and speaker leakage inflated prior Mandarin F1 scores to 0.954. We reproduce and quantify that artifact.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02920",
+      "pdf_url": "https://arxiv.org/pdf/2607.02920",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02920",
+      "scraped_at": "2026-07-08T08:13:21.756522"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "Image2Sim: Scaling Embodied Navigation via Generative Neural Simulator",
+    "paper_url": "https://huggingface.co/papers/2607.05765",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Image2Sim: Scaling Embodied Navigation via Generative Neural Simulator",
+      "abstract": "Image2Sim is a real-time neural simulation framework that builds interactive embodied navigation environments from posed RGB-D image sequences. All the code with specific instructions are released in the below GitHub page!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.05765",
+      "pdf_url": "https://arxiv.org/pdf/2607.05765",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/MrZihan/Image2Sim"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.05765",
+      "scraped_at": "2026-07-08T08:13:23.541453"
+    },
+    "scraped_date": "2026-07-08"
   }
 ]
