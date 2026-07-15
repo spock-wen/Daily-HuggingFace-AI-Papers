@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-12-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5964+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-2-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5966+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">12</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">25</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">276</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5964+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">2</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">27</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">278</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5966+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 14, 2026
+**Last Updated:** July 15, 2026
 
 ---
 
@@ -119,164 +119,28 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. ABot-N1: Toward a General Visual Language Navigation Foundation Model</b> ⭐ 0</summary>
+<summary><b>1. Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.10383) • [📄 arXiv](https://arxiv.org/abs/2607.10383) • [📥 PDF](https://arxiv.org/pdf/2607.10383)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.11886) • [📄 arXiv](https://arxiv.org/abs/2607.11886) • [📥 PDF](https://arxiv.org/pdf/2607.11886)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> No abstract available.
+> We introduce SpectraReward , a training-free reward function for image-generation reinforcement learning. Prompt recovery as reward: We measure how well an MLLM can recover the original prompt from a generated image. No additional training: We req...
 
 </details>
 
 <details>
-<summary><b>2. ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory</b> ⭐ 0</summary>
+<summary><b>2. Know Before Fix: QA-Driven Repository Knowledge Acquisition for Software Issue Resolution</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.10350) • [📄 arXiv](https://arxiv.org/abs/2607.10350) • [📥 PDF](https://arxiv.org/pdf/2607.10350)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.11111) • [📄 arXiv](https://arxiv.org/abs/2607.11111) • [📥 PDF](https://arxiv.org/pdf/2607.11111)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> We present ABot-AgentOS, a general robotic Agent Operating System that sits above low-level controllers and provides a deliberative agent layer for scene-conditioned planning, context-isolated skill execution, multi-stage verification, multi-modal...
-
-</details>
-
-<details>
-<summary><b>3. Weak-to-Strong Generalization via Direct On-Policy Distillation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.05394) • [📄 arXiv](https://arxiv.org/abs/2607.05394) • [📥 PDF](https://arxiv.org/pdf/2607.05394)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> RLVR is powerful, but repeating it for every larger target model is expensive: each target must generate its own rollouts and rediscover useful learning signals from sparse outcome rewards. Can RL on a small, weaker model improve a stronger studen...
-
-</details>
-
-<details>
-<summary><b>4. 4D Human-Scene Reconstruction from Low-Overlap Captures</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.09125) • [📄 arXiv](https://arxiv.org/abs/2607.09125) • [📥 PDF](https://arxiv.org/pdf/2607.09125)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> Four cameras around a room, roughly 90° apart, with barely any overlap between neighboring views. COLMAP doesn't even register them. That's the setting we went after. Our insight: backgrounds and humans want different priors, so we stop making one...
-
-</details>
-
-<details>
-<summary><b>5. LightMem-Ego: Your AI Memory for Everyday Life</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.11487) • [📄 arXiv](https://arxiv.org/abs/2607.11487) • [📥 PDF](https://arxiv.org/pdf/2607.11487)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> LightMem-Ego: Bringing lifelong memory to AI assistants on smartphones and AI glasses, enabling them to see, remember, and help with your daily life.
-
-</details>
-
-<details>
-<summary><b>6. AdvancedMathBench: A Benchmark Suite for Advanced Mathematical Proof Generation and Verification</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.11849) • [📄 arXiv](https://arxiv.org/abs/2607.11849) • [📥 PDF](https://arxiv.org/pdf/2607.11849)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> We introduce AdvancedMathBench, a benchmark suite designed to evaluate advanced mathematical reasoning capabilities.
-
-</details>
-
-<details>
-<summary><b>7. Metacognition in LLMs: Foundations, Progress, and Opportunities</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.11881) • [📄 arXiv](https://arxiv.org/abs/2607.11881) • [📥 PDF](https://arxiv.org/pdf/2607.11881)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> Metacognition is a foundational component of intelligence that has become increasingly recognized as a cornerstone of capable, transparent AI systems. While LLMs have made significant progress, it remains unclear when, how, or to what extent they ...
-
-</details>
-
-<details>
-<summary><b>8. Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.11505) • [📄 arXiv](https://arxiv.org/abs/2607.11505) • [📥 PDF](https://arxiv.org/pdf/2607.11505)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> Post-training is essential for refining the domain-specific capabilities of large language models (LLMs), yet existing reward optimization and distribution matching methods tightly couple policy exploration with distribution alignment. This coupli...
-
-</details>
-
-<details>
-<summary><b>9. NeuroCogMap Reveals Cognitive Organization of Large Language Models</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Qipeng Wang, Qi Li, Qiang Ma, Haolang Lu, Zhongxiang Sun
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.00397) • [📄 arXiv](https://arxiv.org/abs/2607.00397) • [📥 PDF](https://arxiv.org/pdf/2607.00397)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> NeuroCogMap maps reproducible cognitive organization within large language models, revealing how functional systems support capabilities, break down in model pathologies, align with human cortical activity and inform cognitive-model discovery.
-
-</details>
-
-<details>
-<summary><b>10. Motion4Motion: Motion Transfer Across Subjects at Inference</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Gang Yu, Xianfang Zeng, Duomin Wang, Zixin Yin, Ling-Hao Chen
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.11644) • [📄 arXiv](https://arxiv.org/abs/2607.11644) • [📥 PDF](https://arxiv.org/pdf/2607.11644)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>11. CtrlVTON: Controllable Virtual Try-On via Visual-Instance-Prompt Segmentation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.09362) • [📄 arXiv](https://arxiv.org/abs/2607.09362) • [📥 PDF](https://arxiv.org/pdf/2607.09362)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/nxnai/CtrlVTON)
-
-> CtrlVTON: Controllable Virtual Try-On via Visual-Instance-Prompt Segmentation VITON-HD-edit dataset: https://huggingface.co/datasets/NXN-Labs/VITON-HD-edit GitHub: https://github.com/nxnai/CtrlVTON Project page: COMING SOON! Our previous work: htt...
-
-</details>
-
-<details>
-<summary><b>12. LATO.2: Factorized 3D Mesh Generation with Vertex and Topology Flow</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Huipeng Guo, Youjia Zhang, Junkai Lin, Tianhao Zhao, Hang Long
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.10623) • [📄 arXiv](https://arxiv.org/abs/2607.10623) • [📥 PDF](https://arxiv.org/pdf/2607.10623)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
+> ACQUIRE introduces a QA-driven knowledge acquisition paradigm that explicitly identifies and resolves an agent’s repository understanding gaps before patch generation, replacing unguided pre-repair exploration with structured, evidence-grounded kn...
 
 </details>
 
@@ -288,28 +152,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 12 |
-| 📅 Today | [`2026-07-14.json`](data/daily/2026-07-14.json) | 12 |
-| 📆 This Week | [`2026-W28.json`](data/weekly/2026-W28.json) | 25 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 276 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 2 |
+| 📅 Today | [`2026-07-15.json`](data/daily/2026-07-15.json) | 2 |
+| 📆 This Week | [`2026-W28.json`](data/weekly/2026-W28.json) | 27 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 278 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-14 | 12 | [View JSON](data/daily/2026-07-14.json) |
+| 📌 2026-07-15 | 2 | [View JSON](data/daily/2026-07-15.json) |
+| 📄 2026-07-14 | 12 | [View JSON](data/daily/2026-07-14.json) |
 | 📄 2026-07-13 | 13 | [View JSON](data/daily/2026-07-13.json) |
 | 📄 2026-07-12 | 23 | [View JSON](data/daily/2026-07-12.json) |
 | 📄 2026-07-11 | 23 | [View JSON](data/daily/2026-07-11.json) |
 | 📄 2026-07-10 | 19 | [View JSON](data/daily/2026-07-10.json) |
 | 📄 2026-07-09 | 7 | [View JSON](data/daily/2026-07-09.json) |
-| 📄 2026-07-08 | 26 | [View JSON](data/daily/2026-07-08.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W28 | 25 | [View JSON](data/weekly/2026-W28.json) |
+| 📅 2026-W28 | 27 | [View JSON](data/weekly/2026-W28.json) |
 | 📅 2026-W27 | 133 | [View JSON](data/weekly/2026-W27.json) |
 | 📅 2026-W26 | 165 | [View JSON](data/weekly/2026-W26.json) |
 | 📅 2026-W25 | 155 | [View JSON](data/weekly/2026-W25.json) |
@@ -318,7 +182,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 276 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 278 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 866 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 1058 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 606 | [View JSON](data/monthly/2026-04.json) |
