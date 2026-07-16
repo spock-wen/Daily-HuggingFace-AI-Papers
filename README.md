@@ -7,7 +7,7 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-2-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-0-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
 [![Total Papers](https://img.shields.io/badge/Total%20Papers-5966+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
@@ -103,46 +103,20 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">2</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">0</font><br/>papers</td>
 <td align="center"><b>📅 This Week</b><br/><font size="5">27</font><br/>papers</td>
 <td align="center"><b>📆 This Month</b><br/><font size="5">278</font><br/>papers</td>
 <td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5966+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 15, 2026
+**Last Updated:** July 16, 2026
 
 ---
 
 ## 🔥 Today's Trending Papers
 
 > Latest AI research papers from HuggingFace Papers, updated daily
-
-<details>
-<summary><b>1. Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.11886) • [📄 arXiv](https://arxiv.org/abs/2607.11886) • [📥 PDF](https://arxiv.org/pdf/2607.11886)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> We introduce SpectraReward , a training-free reward function for image-generation reinforcement learning. Prompt recovery as reward: We measure how well an MLLM can recover the original prompt from a generated image. No additional training: We req...
-
-</details>
-
-<details>
-<summary><b>2. Know Before Fix: QA-Driven Repository Knowledge Acquisition for Software Issue Resolution</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.11111) • [📄 arXiv](https://arxiv.org/abs/2607.11111) • [📥 PDF](https://arxiv.org/pdf/2607.11111)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> ACQUIRE introduces a QA-driven knowledge acquisition paradigm that explicitly identifies and resolves an agent’s repository understanding gaps before patch generation, replacing unguided pre-repair exploration with structured, evidence-grounded kn...
-
-</details>
 
 ---
 
@@ -152,8 +126,8 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 2 |
-| 📅 Today | [`2026-07-15.json`](data/daily/2026-07-15.json) | 2 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 0 |
+| 📅 Today | [`2026-07-16.json`](data/daily/2026-07-16.json) | 0 |
 | 📆 This Week | [`2026-W28.json`](data/weekly/2026-W28.json) | 27 |
 | 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 278 |
 
@@ -161,13 +135,13 @@ getTodaysPapers();
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-15 | 2 | [View JSON](data/daily/2026-07-15.json) |
+| 📌 2026-07-16 | 0 | [View JSON](data/daily/2026-07-16.json) |
+| 📄 2026-07-15 | 2 | [View JSON](data/daily/2026-07-15.json) |
 | 📄 2026-07-14 | 12 | [View JSON](data/daily/2026-07-14.json) |
 | 📄 2026-07-13 | 13 | [View JSON](data/daily/2026-07-13.json) |
 | 📄 2026-07-12 | 23 | [View JSON](data/daily/2026-07-12.json) |
 | 📄 2026-07-11 | 23 | [View JSON](data/daily/2026-07-11.json) |
 | 📄 2026-07-10 | 19 | [View JSON](data/daily/2026-07-10.json) |
-| 📄 2026-07-09 | 7 | [View JSON](data/daily/2026-07-09.json) |
 
 ### 📚 Weekly Archives
 
