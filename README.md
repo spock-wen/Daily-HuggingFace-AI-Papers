@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-22-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-6151+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-6173+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">22</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">107</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">463</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6151+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">129</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">485</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6173+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 25, 2026
+**Last Updated:** July 26, 2026
 
 ---
 
@@ -132,20 +132,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>2. ReferTrack: Referring Then Tracking for Embodied Visual Tracking</b> ⭐ 19</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.20061) • [📄 arXiv](https://arxiv.org/abs/2607.20061) • [📥 PDF](https://arxiv.org/pdf/2607.20061)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/MedlarTea/referTrack)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>3. K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs</b> ⭐ 49</summary>
+<summary><b>2. K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs</b> ⭐ 62</summary>
 
 <br/>
 
@@ -158,7 +145,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. Visual Contrastive Self-Distillation</b> ⭐ 5</summary>
+<summary><b>3. ReferTrack: Referring Then Tracking for Embodied Visual Tracking</b> ⭐ 19</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.20061) • [📄 arXiv](https://arxiv.org/abs/2607.20061) • [📥 PDF](https://arxiv.org/pdf/2607.20061)
+
+**💻 Code:** [⭐ Code](https://github.com/MedlarTea/referTrack) • [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>4. Visual Contrastive Self-Distillation</b> ⭐ 7</summary>
 
 <br/>
 
@@ -171,7 +171,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text</b> ⭐ 16</summary>
+<summary><b>5. Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text</b> ⭐ 18</summary>
 
 <br/>
 
@@ -184,20 +184,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>6. Tencent WorkBuddy Bench: A Multi-Domain Coding-Agent Benchmark with Contamination-Resistant Task Construction</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.20911) • [📄 arXiv](https://arxiv.org/abs/2607.20911) • [📥 PDF](https://arxiv.org/pdf/2607.20911)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API DeepSWE: Measuring Frontier Coding Agents on Original, Long-Horizon Enginee...
-
-</details>
-
-<details>
-<summary><b>7. NVIDIA-labs OO Agents: Native Python Object-Oriented Agents</b> ⭐ 0</summary>
+<summary><b>6. NVIDIA-labs OO Agents: Native Python Object-Oriented Agents</b> ⭐ 0</summary>
 
 <br/>
 
@@ -210,7 +197,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation</b> ⭐ 0</summary>
+<summary><b>7. SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -223,20 +210,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>9. Color Pass-Through via Camera-Display Coupling</b> ⭐ 38</summary>
+<summary><b>8. Tencent WorkBuddy Bench: A Multi-Domain Coding-Agent Benchmark with Contamination-Resistant Task Construction</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.12746) • [📄 arXiv](https://arxiv.org/abs/2607.12746) • [📥 PDF](https://arxiv.org/pdf/2607.12746)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.20911) • [📄 arXiv](https://arxiv.org/abs/2607.20911) • [📥 PDF](https://arxiv.org/pdf/2607.20911)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/lyricccco/color-pass-through)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Color Pass-Through aims to make an image captured by a camera and reproduced on a display perceptually match the real scene as viewed through the device. Instead of calibrating the camera and display independently through a predefined intermediate...
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API DeepSWE: Measuring Frontier Coding Agents on Original, Long-Horizon Enginee...
 
 </details>
 
 <details>
-<summary><b>10. LLMs Get Lost in Evolving User Intent</b> ⭐ 2</summary>
+<summary><b>9. LLMs Get Lost in Evolving User Intent</b> ⭐ 2</summary>
 
 <br/>
 
@@ -249,7 +236,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>11. Self-Supervised Learning of Structured Dynamics from Videos</b> ⭐ 5</summary>
+<summary><b>10. Color Pass-Through via Camera-Display Coupling</b> ⭐ 50</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.12746) • [📄 arXiv](https://arxiv.org/abs/2607.12746) • [📥 PDF](https://arxiv.org/pdf/2607.12746)
+
+**💻 Code:** [⭐ Code](https://github.com/lyricccco/color-pass-through) • [⭐ Code](https://github.com/huggingface)
+
+> Color Pass-Through aims to make an image captured by a camera and reproduced on a display perceptually match the real scene as viewed through the device. Instead of calibrating the camera and display independently through a predefined intermediate...
+
+</details>
+
+<details>
+<summary><b>11. Self-Supervised Learning of Structured Dynamics from Videos</b> ⭐ 6</summary>
 
 <br/>
 
@@ -305,13 +305,13 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. Multi-Turn On-Policy Distillation with Prefix Replay</b> ⭐ 4</summary>
+<summary><b>15. Multi-Turn On-Policy Distillation with Prefix Replay</b> ⭐ 5</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.04763) • [📄 arXiv](https://arxiv.org/abs/2607.04763) • [📥 PDF](https://arxiv.org/pdf/2607.04763)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/BaohaoLiao/ReOPD)
+**💻 Code:** [⭐ Code](https://github.com/BaohaoLiao/ReOPD) • [⭐ Code](https://github.com/huggingface)
 
 > On-policy distillation for agents without the environment: replay teacher prefixes instead of live rollouts.
 
@@ -341,7 +341,7 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.21485) • [📄 arXiv](https://arxiv.org/abs/2607.21485) • [📥 PDF](https://arxiv.org/pdf/2607.21485)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/hyeon-cho/Harmonic-Siren)
+**💻 Code:** [⭐ Code](https://github.com/hyeon-cho/Harmonic-Siren) • [⭐ Code](https://github.com/huggingface)
 
 > Accepted to ECCV 2026 (Poster) We study sinusoidal recurrence as an iterative mechanism for harmonic spectral enrichment in implicit neural representations (INRs). Our analysis reveals that sinusoidal activations induce a harmonic line spectrum, p...
 
@@ -374,13 +374,13 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. FinanceComplexQA: Benchmarking Agentic Reasoning on Industrial-grade Financial Documents</b> ⭐ 3</summary>
+<summary><b>20. FinanceComplexQA: Benchmarking Agentic Reasoning on Industrial-grade Financial Documents</b> ⭐ 5</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.19238) • [📄 arXiv](https://arxiv.org/abs/2607.19238) • [📥 PDF](https://arxiv.org/pdf/2607.19238)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/buaacxf/FinanceComplexQA)
+**💻 Code:** [⭐ Code](https://github.com/buaacxf/FinanceComplexQA) • [⭐ Code](https://github.com/huggingface)
 
 > Agentic Reasoning has become a transformative force in financial analysis due to its ability to integrate large-scale information and generate reliable and accurate content. However, when handling complex real-world problems, different agents stil...
 
@@ -406,7 +406,7 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.16859) • [📄 arXiv](https://arxiv.org/abs/2607.16859) • [📥 PDF](https://arxiv.org/pdf/2607.16859)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/hrtan/infmatch)
+**💻 Code:** [⭐ Code](https://github.com/hrtan/infmatch) • [⭐ Code](https://github.com/huggingface)
 
 > We revisit dataset distillation from an outcome-centric perspective. Rather than aligning process surrogates (per-step gradients or training trajectories), Influence Matching (Inf-Match) aligns the final outcome of training: it learns a compact sy...
 
@@ -421,27 +421,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 22 |
-| 📅 Today | [`2026-07-25.json`](data/daily/2026-07-25.json) | 22 |
-| 📆 This Week | [`2026-W29.json`](data/weekly/2026-W29.json) | 107 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 463 |
+| 📅 Today | [`2026-07-26.json`](data/daily/2026-07-26.json) | 22 |
+| 📆 This Week | [`2026-W29.json`](data/weekly/2026-W29.json) | 129 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 485 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-25 | 22 | [View JSON](data/daily/2026-07-25.json) |
+| 📌 2026-07-26 | 22 | [View JSON](data/daily/2026-07-26.json) |
+| 📄 2026-07-25 | 22 | [View JSON](data/daily/2026-07-25.json) |
 | 📄 2026-07-24 | 16 | [View JSON](data/daily/2026-07-24.json) |
 | 📄 2026-07-23 | 14 | [View JSON](data/daily/2026-07-23.json) |
 | 📄 2026-07-22 | 19 | [View JSON](data/daily/2026-07-22.json) |
 | 📄 2026-07-21 | 20 | [View JSON](data/daily/2026-07-21.json) |
 | 📄 2026-07-20 | 16 | [View JSON](data/daily/2026-07-20.json) |
-| 📄 2026-07-19 | 29 | [View JSON](data/daily/2026-07-19.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W29 | 107 | [View JSON](data/weekly/2026-W29.json) |
+| 📅 2026-W29 | 129 | [View JSON](data/weekly/2026-W29.json) |
 | 📅 2026-W28 | 105 | [View JSON](data/weekly/2026-W28.json) |
 | 📅 2026-W27 | 133 | [View JSON](data/weekly/2026-W27.json) |
 | 📅 2026-W26 | 165 | [View JSON](data/weekly/2026-W26.json) |
@@ -450,7 +450,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 463 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 485 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 866 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 1058 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 606 | [View JSON](data/monthly/2026-04.json) |
