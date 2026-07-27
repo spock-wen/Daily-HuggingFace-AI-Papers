@@ -10474,5 +10474,312 @@
       "scraped_at": "2026-07-26T08:13:24.828978"
     },
     "scraped_date": "2026-07-26"
+  },
+  {
+    "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+    "paper_url": "https://huggingface.co/papers/2607.22529",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.22529",
+      "pdf_url": "https://arxiv.org/pdf/2607.22529",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Qwen-Applications/skill-self-play"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.22529",
+      "scraped_at": "2026-07-27T09:35:55.009134"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
+    "paper_url": "https://huggingface.co/papers/2607.20465",
+    "authors": [
+      "Qifeng Xia",
+      "Jianzhuo Du",
+      "Yibo Lin",
+      "Qifeng Cai",
+      "lhpku20010120"
+    ],
+    "stars": "218",
+    "details": {
+      "title": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
+      "abstract": "Benchmark LLM Data Preparation ability",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.20465",
+      "pdf_url": "https://arxiv.org/pdf/2607.20465",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenDCAI/Data-Preparation-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.20465",
+      "scraped_at": "2026-07-27T09:35:56.902706"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "Scaling Native Multimodal Pre-Training From Scratch",
+    "paper_url": "https://huggingface.co/papers/2607.22043",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Scaling Native Multimodal Pre-Training From Scratch",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.22043",
+      "pdf_url": "https://arxiv.org/pdf/2607.22043",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.22043",
+      "scraped_at": "2026-07-27T09:35:58.813152"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2607.21653",
+    "authors": [],
+    "stars": "605",
+    "details": {
+      "title": "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.21653",
+      "pdf_url": "https://arxiv.org/pdf/2607.21653",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/NVIDIA-NeMo/labs-molt"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.21653",
+      "scraped_at": "2026-07-27T09:36:00.657981"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "Three-Body Scattering for Generative Modeling",
+    "paper_url": "https://huggingface.co/papers/2607.18198",
+    "authors": [
+      "Xinyi Shang",
+      "Jun Xie",
+      "Deyuan Liu",
+      "Zhenglin Cheng",
+      "Peng Sun"
+    ],
+    "stars": "29",
+    "details": {
+      "title": "Three-Body Scattering for Generative Modeling",
+      "abstract": "We introduce Three-Body Scattering Modeling (TBSM), a new framework for one-step generative modeling that learns a transport field from the generated distribution toward the real data distribution. Unlike GANs that rely on adversarial discrimination, diffusion models that follow predefined denoising trajectories, or distillation methods that require teacher models, TBSM learns a tracked scattering field to estimate how generated samples should move toward real samples. The learned tracker directly provides optimization guidance for the generator, enabling stable training of one-step and few-step generative models. TBSM achieves strong performance on challenging image generation benchmarks. On ImageNet-256, TBSM-trained one-step generators achieve competitive generation quality with NFE=1, including FID 2.23 with pixel-space PixelDiT-XL and FID 1.63 with latent-space DiT-XL. Beyond standard image generation, TBSM demonstrates stable training of large-scale text-to-image models with up to 20B parameters, achieving one-step and few-step generation without additional auxiliary losses. Beyond a new training algorithm, TBSM provides a new perspective for understanding the relationships among several major generative paradigms. By viewing generation through the lens of distributional transport fields, TBSM reveals connections among GANs, diffusion models, and drifting-based approaches. Here we provide: 🎨 One-step generation visualizations from TBSM-trained models 🗺️ A design map illustrating the connections among existing generative modeling paradigms 🎬 An introduction video explaining the TBSM framework We hope TBSM offers a simple and scalable perspective toward efficient generative modeling.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.18198",
+      "pdf_url": "https://arxiv.org/pdf/2607.18198",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/sp12138/TBSM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.18198",
+      "scraped_at": "2026-07-27T09:36:02.616005"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "LAMAR: An Open Language-Aware Multilingual Alignment Reranker",
+    "paper_url": "https://huggingface.co/papers/2607.22042",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LAMAR: An Open Language-Aware Multilingual Alignment Reranker",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.22042",
+      "pdf_url": "https://arxiv.org/pdf/2607.22042",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.22042",
+      "scraped_at": "2026-07-27T09:36:04.513450"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems",
+    "paper_url": "https://huggingface.co/papers/2607.21503",
+    "authors": [
+      "gdadhich"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems",
+      "abstract": "Author here. Short version: most agent memory failures are not reasoning failures, they are context-management failures, and the field keeps treating that as a storage and retrieval problem when it is really a lifecycle and architecture problem. We break the lifecycle into five primitives (architecting, ingesting, scoping, anticipating, compacting and consolidation) that operate across a user, customer, client scope hierarchy, and we make the cost case: full-append context grows quadratically, crude summarization buys linear cost by dropping accuracy, and only validated compaction gets linear cost with fidelity intact. The reference implementation (Maximem Synap) reports 92% on LongMemEval and 93.2% on LoCoMo with a smaller answer model (gpt-5-mini). The eval harness and a file-vs-vector retrieval study are linked in the paper, so you can poke at the methodology. Would really value feedback from people running agents in production, especially on the scoping and forgetting pieces.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.21503",
+      "pdf_url": "https://arxiv.org/pdf/2607.21503",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/maximem-ai/eval_benchmark_runs_output"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.21503",
+      "scraped_at": "2026-07-27T09:36:06.386038"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "Multi-Head Latent Control: A Unified Interface for LLM Agent Decision Making",
+    "paper_url": "https://huggingface.co/papers/2607.14277",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Multi-Head Latent Control: A Unified Interface for LLM Agent Decision Making",
+      "abstract": "Dynamic latent-state control heads for LLMs: route each query by actual model capability, not task type, to answer, reason, call tools, abstain, or escalate",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.14277",
+      "pdf_url": "https://arxiv.org/pdf/2607.14277",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Amirhosein-gh98/Multi-Head-Latent-Control"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.14277",
+      "scraped_at": "2026-07-27T09:36:08.309765"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "Spectral Prior for Reducing Exposure Bias in Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2607.22091",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Spectral Prior for Reducing Exposure Bias in Diffusion Models",
+      "abstract": "Inference-time calibration method for a wide range of diffusion / flow matching models with minimal computational overhead.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.22091",
+      "pdf_url": "https://arxiv.org/pdf/2607.22091",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/SonyResearch/SPA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.22091",
+      "scraped_at": "2026-07-27T09:36:10.275150"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation",
+    "paper_url": "https://huggingface.co/papers/2607.22375",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation",
+      "abstract": "IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.22375",
+      "pdf_url": "https://arxiv.org/pdf/2607.22375",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/declare-lab/IDEAgent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.22375",
+      "scraped_at": "2026-07-27T09:36:12.226545"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "SceneActBench: Can Agents Act on the 3D Scenes They See?",
+    "paper_url": "https://huggingface.co/papers/2607.22393",
+    "authors": [
+      "Pu Jian",
+      "Jiaqi Tang",
+      "Wenhao Yang",
+      "Xiangxin Zhou",
+      "Yifei Zhao"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "SceneActBench: Can Agents Act on the 3D Scenes They See?",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.22393",
+      "pdf_url": "https://arxiv.org/pdf/2607.22393",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Feinaldo2/SceneActBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.22393",
+      "scraped_at": "2026-07-27T09:36:14.039282"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "Closing the Loop: Training-Free Revisit Consistency for Autoregressive Generative Rendering",
+    "paper_url": "https://huggingface.co/papers/2607.21848",
+    "authors": [
+      "Haomiao Jiang",
+      "Sharon X. Huang",
+      "Changran Liu",
+      "Wenchao Ma"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Closing the Loop: Training-Free Revisit Consistency for Autoregressive Generative Rendering",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.21848",
+      "pdf_url": "https://arxiv.org/pdf/2607.21848",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.21848",
+      "scraped_at": "2026-07-27T09:36:15.850386"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "VisCo: Leveraging Large Language Models as Intrinsic Encoders for Visual Token Compression",
+    "paper_url": "https://huggingface.co/papers/2607.12756",
+    "authors": [
+      "Nenghai Yu",
+      "Bin Liu",
+      "Kai Zou",
+      "zpatrick"
+    ],
+    "stars": "11",
+    "details": {
+      "title": "VisCo: Leveraging Large Language Models as Intrinsic Encoders for Visual Token Compression",
+      "abstract": "github: https://github.com/Zyvpeng/VisCo",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.12756",
+      "pdf_url": "https://arxiv.org/pdf/2607.12756",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Zyvpeng/VisCo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.12756",
+      "scraped_at": "2026-07-27T09:36:17.711727"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "Multimodal Speaker Verification as a Threat to Speaker Anonymization",
+    "paper_url": "https://huggingface.co/papers/2607.19636",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Multimodal Speaker Verification as a Threat to Speaker Anonymization",
+      "abstract": "Most automatic speaker verification (ASV) systems operate on individual utterances, despite real-world interactions typically consisting of multiple utterances. As speech accumu- lates, increasingly rich speaker information becomes available through acoustic, prosodic, and linguistic cues, potentially chal- lenging speaker anonymization methods that primarily target vocal characteristics. We investigate ASV in a multi-utterance, multimodal setting and examine whether aggregating information across anonymized speech impacts privacy. We first study audio- only aggregation across multiple anonymized utterances and observe consistent performance improvements as more speech becomes available. We then incorporate prosodic and linguistic information, showing that multimodal systems outperform uni- modal approaches. Finally, we compare aggregation strategies and find that frame-level aggregation yields the lowest EERs. Even with only five anonymized utterances, combining audio and text reduces EER by over 15% relative to audio-only ag- gregation, demonstrating that substantial speaker-discriminative information remains accessible despite anonymization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.19636",
+      "pdf_url": "https://arxiv.org/pdf/2607.19636",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Ashigarg123/multimodal-speaker-verification"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.19636",
+      "scraped_at": "2026-07-27T09:36:19.500735"
+    },
+    "scraped_date": "2026-07-27"
   }
 ]
