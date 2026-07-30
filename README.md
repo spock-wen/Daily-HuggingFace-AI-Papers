@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-15-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-6226+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-14-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-6240+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">15</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">53</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">538</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6226+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">14</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">67</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">552</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6240+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 29, 2026
+**Last Updated:** July 30, 2026
 
 ---
 
@@ -119,76 +119,123 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone</b> ⭐ 0</summary>
+<summary><b>1. TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM</b> ⭐ 15</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25895) • [📄 arXiv](https://arxiv.org/abs/2607.25895) • [📥 PDF](https://arxiv.org/pdf/2607.25895)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27205) • [📄 arXiv](https://arxiv.org/abs/2607.27205) • [📥 PDF](https://arxiv.org/pdf/2607.27205)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/H-EmbodVis/TurboVLA)
+
+> Vision-language-action (VLA) models commonly adopt an LLM-centric V→L→A pathway, where visual observations are projected into the representation space of a large language model before being decoded into robot actions. Although effective, this desi...
+
+</details>
+
+<details>
+<summary><b>2. HumanCLAW: Can Vision-Language Models Act Through a Body?</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27180) • [📄 arXiv](https://arxiv.org/abs/2607.27180) • [📥 PDF](https://arxiv.org/pdf/2607.27180)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Human-CLAW/HumanCLAW)
+
+> A model may know where the sofa is, yet still not know how to move its body there and sit down. We call this ability Action Intelligence , and HumanCLAW makes it measurable without tying it to motor control. This is a first step toward models that...
+
+</details>
+
+<details>
+<summary><b>3. DecoEvo: Score-Decoupled Co-Evolution of Solver and Rubric-Generator Skills in Text Space</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25675) • [📄 arXiv](https://arxiv.org/abs/2607.25675) • [📥 PDF](https://arxiv.org/pdf/2607.25675)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Hi everyone! We’re excited to share HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone. The central question is simple: can we eliminate target-task robot teleoperation from post-training, rather than merely redu...
+> Can an AI system improve not only its answers, but also the criteria it uses to judge those answers? We introduce DecoEvo, a score-decoupled co-evolution framework that jointly evolves a solver and a rubric generator in text space. By extracting s...
 
 </details>
 
 <details>
-<summary><b>2. A New Role for Relevance: Guiding Corpus Interaction in Agentic Search</b> ⭐ 23</summary>
+<summary><b>4. CLBench-V: Evaluating Multimodal Context Learning from Grounding to Knowledge Acquisition</b> ⭐ 1</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.24223) • [📄 arXiv](https://arxiv.org/abs/2607.24223) • [📥 PDF](https://arxiv.org/pdf/2607.24223)
+**👥 Authors:** Yue Wang, Ruina Hu, Jiapeng Li, Chengqi Li, Lai Wei
 
-**💻 Code:** [⭐ Code](https://github.com/LeqsNaN/RARG) • [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25294) • [📄 arXiv](https://arxiv.org/abs/2607.25294) • [📥 PDF](https://arxiv.org/pdf/2607.25294)
 
-> Relevance no longer only decides what enters the context. It guides where interaction begins, which documents are searched first, and which local excerpts remain visible. 🌟 Accuracy/nDCG@10 versus interaction cost (average tool calls) on BrowseCom...
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/IamLihua/CLBench-V)
+
+> Excited to share CLBench-V , a new benchmark evaluating whether multimodal models can truly learn from context—from grounding evidence to acquiring new knowledge.
 
 </details>
 
 <details>
-<summary><b>3. ReDesign: Recovering Editable Design Structures from Images via Agentic Decomposition</b> ⭐ 0</summary>
+<summary><b>5. CoRT: Counterfactual Replay for Token-Level Rubric-Guided Policy Optimization</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25565) • [📄 arXiv](https://arxiv.org/abs/2607.25565) • [📥 PDF](https://arxiv.org/pdf/2607.25565)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25659) • [📄 arXiv](https://arxiv.org/abs/2607.25659) • [📥 PDF](https://arxiv.org/pdf/2607.25659)
 
-**💻 Code:** [⭐ Code](https://github.com/jintae-00/ReDesign) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Data also available at: https://huggingface.co/datasets/Jintae-Park/ReDesign-Figma909
+> CoRT addresses a simple but important mismatch in rubric-guided RL: rich criterion-level feedback is ultimately collapsed into one response-level advantage and broadcast uniformly to every generated token. By replaying the same response with and w...
 
 </details>
 
 <details>
-<summary><b>4. Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory</b> ⭐ 1</summary>
+<summary><b>6. CAST: Game Solvers as Turn-Level Teachers for LLM Agents</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.24368) • [📄 arXiv](https://arxiv.org/abs/2607.24368) • [📥 PDF](https://arxiv.org/pdf/2607.24368)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25308) • [📄 arXiv](https://arxiv.org/abs/2607.25308) • [📥 PDF](https://arxiv.org/pdf/2607.25308)
 
-**💻 Code:** [⭐ Code](https://github.com/imlrz/InMind) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Wloner0809/CAST)
 
-> We want to make a claim: Agent memory cannot be retrieve-only. Retrieve-only memory is closer to a notebook than to human memory. A notebook may store information perfectly, but it helps only when you realize that you should look something up. Hum...
+> Training LLMs to play long-horizon games with RLVR is hard: the reward is a single 0/1 signal at the very end, so the model never learns which move actually won or lost the game. This is the classic credit-assignment problem. CAST fixes this by re...
 
 </details>
 
 <details>
-<summary><b>5. Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model</b> ⭐ 776</summary>
+<summary><b>7. SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.24904) • [📄 arXiv](https://arxiv.org/abs/2607.24904) • [📥 PDF](https://arxiv.org/pdf/2607.24904)
+**👥 Authors:** Yueqing Sun, Zishan Xu, Zhengxi Lu, Yuxin Chen, Zhiyuan Yao
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/microsoft/Mage)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.26784) • [📄 arXiv](https://arxiv.org/abs/2607.26784) • [📥 PDF](https://arxiv.org/pdf/2607.26784)
 
-> 🚀Project Page: https://microsoft.github.io/Mage 🔥 Code: https://github.com/microsoft/Mage
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Within-yao/SkillRise)
+
+> We introduce SkillRise, a unified RL framework where a single policy alternates between solving tasks and curating an evolving skill document across related tasks, with decoupled credit assignment enabling cross-task skill transfer and test-time s...
 
 </details>
 
 <details>
-<summary><b>6. Wonder: Video World Model Done Better</b> ⭐ 0</summary>
+<summary><b>8. OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.26037) • [📄 arXiv](https://arxiv.org/abs/2607.26037) • [📥 PDF](https://arxiv.org/pdf/2607.26037)
+**👥 Authors:** Zhenghai Chen, Jingjia Cao, Qi Bao, Yusai Zhao, Jingbo Zhou
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27155) • [📄 arXiv](https://arxiv.org/abs/2607.27155) • [📥 PDF](https://arxiv.org/pdf/2607.27155)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/baidu-frontier-research/OmegaUse-OfficeVal)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>9. Can AI agents conduct open-ended AI research? Early evidence from two case studies</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** David Africa, Stephan Rabanser, Andrew Schwartz, Sayash Kapoor, Peter Kirgis
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27191) • [📄 arXiv](https://arxiv.org/abs/2607.27191) • [📥 PDF](https://arxiv.org/pdf/2607.27191)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
@@ -197,24 +244,24 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. Pass the Baton: Trajectory-Relayed On-Policy Distillation</b> ⭐ 3</summary>
+<summary><b>10. Explicit Layer Modeling for Video Object Insertion and Layer Decomposition</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.26057) • [📄 arXiv](https://arxiv.org/abs/2607.26057) • [📥 PDF](https://arxiv.org/pdf/2607.26057)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25802) • [📄 arXiv](https://arxiv.org/abs/2607.25802) • [📥 PDF](https://arxiv.org/pdf/2607.25802)
 
-**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/Relay-OPD) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/KyujinHan/DBL-Diffusion)
 
-> We introduce Relay-OPD 🏃 — on-policy distillation that fixes prefix failure: once a student commits to a wrong reasoning direction early, the entire rollout builds on the mistake, yielding unreliable supervision and wasted compute. Key observation...
+> Release the paper on arXiv! Check out DBL-Diffusion’s amazing layered video generation capabilities🔥
 
 </details>
 
 <details>
-<summary><b>8. PerceptionBench: Evaluating Atomic Visual Perception in Multimodal Large Language Models</b> ⭐ 0</summary>
+<summary><b>11. GPT-Red: Automated Red Teaming via Self-Play at Scale</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.24957) • [📄 arXiv](https://arxiv.org/abs/2607.24957) • [📥 PDF](https://arxiv.org/pdf/2607.24957)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.26115) • [📄 arXiv](https://arxiv.org/abs/2607.26115) • [📥 PDF](https://arxiv.org/pdf/2607.26115)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
@@ -223,99 +270,45 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>9. Shieldstral</b> ⭐ 0</summary>
+<summary><b>12. StealthBench: Measuring Operational Stealth in Autonomous Offensive-Security Agents</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25857) • [📄 arXiv](https://arxiv.org/abs/2607.25857) • [📥 PDF](https://arxiv.org/pdf/2607.25857)
+**👥 Authors:** Adrian Wood, Ads Dawson
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.26314) • [📄 arXiv](https://arxiv.org/abs/2607.26314) • [📥 PDF](https://arxiv.org/pdf/2607.26314)
 
-> No abstract available.
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/GangGreenTemperTatum/stealthbench)
+
+> Stealth, the discipline of achieving an objective without revealing your presence, capabilities, or collected intelligence, is what separates sophisticated operators from detectable ones. Elite security researchers and advanced persistent threats ...
 
 </details>
 
 <details>
-<summary><b>10. Novel Claim or Déjà Vu? Rethinking "Contamination-Free'' Dynamic Evaluation for Multimodal Automated Fact-Checking</b> ⭐ 4</summary>
+<summary><b>13. Grading the Narrators: An Isnad-Rijal Framework for Claim-Level Provenance in Multi-Agent Knowledge Systems</b> ⭐ 21</summary>
 
 <br/>
 
-**👥 Authors:** Francis C. M. Lau, Reynold Cheng, Dacheng Wen, Xinwen Chen, Haorui He
+**👥 Authors:** alizahidraja
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.23514) • [📄 arXiv](https://arxiv.org/abs/2607.23514) • [📥 PDF](https://arxiv.org/pdf/2607.23514)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.24117) • [📄 arXiv](https://arxiv.org/abs/2607.24117) • [📥 PDF](https://arxiv.org/pdf/2607.24117)
 
-**💻 Code:** [⭐ Code](https://github.com/TrustworthyComp/Rethink-MAFC-Eval) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/alizahidraja/isnad)
 
-> “Novel Claim or Déjà Vu? Rethinking ‘Contamination-Free’ Dynamic Evaluation for Multimodal Automated Fact-Checking” (ACM MM 2026 Accepted) 🤔 High benchmark scores ≠ real-world fact-checking ability. Static MAFC datasets let models take shortcuts v...
+> Author here. Multi-agent pipelines fail silently: an unreliable intermediate link degrades the output while the final answer stays fluent and confident. Existing work largely verifies the agent's identity and permissions, not the truth and corrobo...
 
 </details>
 
 <details>
-<summary><b>11. Visual prompt engineering for video models</b> ⭐ 0</summary>
+<summary><b>14. SecRespond: Benchmarking AI Agents for Real-World Post-Compromise Incident Response</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25537) • [📄 arXiv](https://arxiv.org/abs/2607.25537) • [📥 PDF](https://arxiv.org/pdf/2607.25537)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.26791) • [📄 arXiv](https://arxiv.org/abs/2607.26791) • [📥 PDF](https://arxiv.org/pdf/2607.26791)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Alibaba-NLP/qqr/tree/main/data/secrespond)
 
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>12. OmniDelta: Skill-Driven Budget Allocation for Token Compression in OmniLLMs</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Kang Tan, Hongyaoxing Gu, Tianqi Xu, Wenjie Huang, Haoyang Huang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25669) • [📄 arXiv](https://arxiv.org/abs/2607.25669) • [📥 PDF](https://arxiv.org/pdf/2607.25669)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>13. Towards Robust Reinforcement Learning for Small-Scale Language Model Agents</b> ⭐ 2</summary>
-
-<br/>
-
-**👥 Authors:** Fakhri Karray, Md. Milon Islam, Md Rezwanul Haque
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25091) • [📄 arXiv](https://arxiv.org/abs/2607.25091) • [📥 PDF](https://arxiv.org/pdf/2607.25091)
-
-**💻 Code:** [⭐ Code](https://github.com/rezwanh001/SLM-RL-Agents) • [⭐ Code](https://github.com/huggingface)
-
-> Proceedings of the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC), Bellevue, WA, USA
-
-</details>
-
-<details>
-<summary><b>14. Mapping CVEs to MITRE ATT&CK Techniques: A Curated Gold-Set Classifier and the Limits of LLM-Assisted Label Expansion</b> ⭐ 3</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25572) • [📄 arXiv](https://arxiv.org/abs/2607.25572) • [📥 PDF](https://arxiv.org/pdf/2607.25572)
-
-**💻 Code:** [⭐ Code](https://github.com/vulnerability-lookup/cve-attack-mapping-paper) • [⭐ Code](https://github.com/huggingface)
-
-> We present a reproducible pipeline for mapping Common Vulnerabilities and Exposures (CVEs) to MITRE ATT&CK Enterprise techniques from free-text vulnerability descriptions. Rather than relying on the CWE->CAPEC->ATT&CK derivation chain, whose table...
-
-</details>
-
-<details>
-<summary><b>15. MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities</b> ⭐ 16</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25948) • [📄 arXiv](https://arxiv.org/abs/2607.25948) • [📥 PDF](https://arxiv.org/pdf/2607.25948)
-
-**💻 Code:** [⭐ Code](https://github.com/EPFL-VILAB/Modus) • [⭐ Code](https://github.com/huggingface)
-
-> MODUS unifies any-to-any multimodal generation with one decoder, two experts, and zero task heads.
+> We introduce SecRespond , a benchmark for evaluating AI agents on real-world post-compromise incident response. It includes 10 reproducible cyber ranges across Linux and Windows, frozen forensic disk snapshots, synthetic security-product evidence,...
 
 </details>
 
@@ -327,28 +320,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 15 |
-| 📅 Today | [`2026-07-29.json`](data/daily/2026-07-29.json) | 15 |
-| 📆 This Week | [`2026-W30.json`](data/weekly/2026-W30.json) | 53 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 538 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 14 |
+| 📅 Today | [`2026-07-30.json`](data/daily/2026-07-30.json) | 14 |
+| 📆 This Week | [`2026-W30.json`](data/weekly/2026-W30.json) | 67 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 552 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-29 | 15 | [View JSON](data/daily/2026-07-29.json) |
+| 📌 2026-07-30 | 14 | [View JSON](data/daily/2026-07-30.json) |
+| 📄 2026-07-29 | 15 | [View JSON](data/daily/2026-07-29.json) |
 | 📄 2026-07-28 | 24 | [View JSON](data/daily/2026-07-28.json) |
 | 📄 2026-07-27 | 14 | [View JSON](data/daily/2026-07-27.json) |
 | 📄 2026-07-26 | 22 | [View JSON](data/daily/2026-07-26.json) |
 | 📄 2026-07-25 | 22 | [View JSON](data/daily/2026-07-25.json) |
 | 📄 2026-07-24 | 16 | [View JSON](data/daily/2026-07-24.json) |
-| 📄 2026-07-23 | 14 | [View JSON](data/daily/2026-07-23.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W30 | 53 | [View JSON](data/weekly/2026-W30.json) |
+| 📅 2026-W30 | 67 | [View JSON](data/weekly/2026-W30.json) |
 | 📅 2026-W29 | 129 | [View JSON](data/weekly/2026-W29.json) |
 | 📅 2026-W28 | 105 | [View JSON](data/weekly/2026-W28.json) |
 | 📅 2026-W27 | 133 | [View JSON](data/weekly/2026-W27.json) |
@@ -357,7 +350,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 538 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 552 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 866 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 1058 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 606 | [View JSON](data/monthly/2026-04.json) |
