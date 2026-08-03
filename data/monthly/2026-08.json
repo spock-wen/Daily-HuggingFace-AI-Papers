@@ -1702,5 +1702,465 @@
       "scraped_at": "2026-08-02T08:10:45.668178"
     },
     "scraped_date": "2026-08-02"
+  },
+  {
+    "title": "From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement",
+    "paper_url": "https://huggingface.co/papers/2607.23802",
+    "authors": [
+      "Huazheng Wang",
+      "Jing Shi",
+      "Qinsi Wang",
+      "Benjamin-eecs",
+      "timecuriosity"
+    ],
+    "stars": "138",
+    "details": {
+      "title": "From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement",
+      "abstract": "[COLM 2026] From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.23802",
+      "pdf_url": "https://arxiv.org/pdf/2607.23802",
+      "github_links": [
+        "https://github.com/wangqinsi1/RLSVR",
+        "https://github.com/huggingface",
+        "https://github.com/wangqinsi1/RLSVR/tree/SpyRL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.23802",
+      "scraped_at": "2026-08-03T09:28:50.708444"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "N_0-VTLA: Scaling Vision-Tactile-Language-Action Model with Latent Tactile Tokens",
+    "paper_url": "https://huggingface.co/papers/2607.23782",
+    "authors": [],
+    "stars": "31",
+    "details": {
+      "title": "N_0-VTLA: Scaling Vision-Tactile-Language-Action Model with Latent Tactile Tokens",
+      "abstract": "Hi all, author here 👋 We're excited to share N0-VTLA, a vision–tactile–language–action (VTLA) foundation model built for two things current VLA backbones struggle with: fine-grained contact-rich manipulation with real tactile feedback control, and offline policy improvement from data you've already collected during deployment. The recipe has three parts: Visuo-tactile pre-training on NeoData, our large-scale visuo-tactile robot dataset. To our knowledge this makes N0-VTLA the first VTLA model pre-trained on tactile data at scale. Staged tactile-pathway integration in post-training, a predictive tactile pathway that distills the contact priors learned at scale into fine motion adjustments for downstream tactile-centric tasks. [ALTER], an advantage-conditioned offline RL method that turns relative progress and trajectory-event comparisons into binary advantage labels, so a fixed deployment corpus can keep improving the policy. Results: N0-VTLA wins all nine real-robot NeoReal tasks, and reaches 63.8% mean success on our 20-task simulation suite vs. 44.0% for the strongest baseline. With [ALTER], policies hit 75–95% success on three long-horizon real-robot tasks, including deformable object manipulation. Happy to answer questions here — feedback very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.23782",
+      "pdf_url": "https://arxiv.org/pdf/2607.23782",
+      "github_links": [
+        "https://github.com/neoteai/N0-VTLA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.23782",
+      "scraped_at": "2026-08-03T09:28:52.549750"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "Meshy T2: Fast Native Mesh Generation with Flow Matching",
+    "paper_url": "https://huggingface.co/papers/2607.28675",
+    "authors": [
+      "Zangyueyang Xian",
+      "Siyuan Shen",
+      "Yuhao Long",
+      "Rendong Liang",
+      "bluestyle97"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Meshy T2: Fast Native Mesh Generation with Flow Matching",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28675",
+      "pdf_url": "https://arxiv.org/pdf/2607.28675",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28675",
+      "scraped_at": "2026-08-03T09:28:54.464370"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+    "paper_url": "https://huggingface.co/papers/2607.28617",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "abstract": "YOUR AGENT HAS A HIDDENT AGENDA! Introducing SystemPromptIndex SystemPromptIndex is the first and largest system prompt index, created to advance transparency and accountability in AI system prompts. It also introduces AISPA ( Artificial Intelligence System Prompt Assurance ), the first user-centric assurance standard for AI system prompts.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28617",
+      "pdf_url": "https://arxiv.org/pdf/2607.28617",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/SystemPromptIndex/SystemPromptIndex"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28617",
+      "scraped_at": "2026-08-03T09:28:56.390746"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
+    "paper_url": "https://huggingface.co/papers/2607.28415",
+    "authors": [
+      "Xiangyu Xu",
+      "Xiaoyu Hu",
+      "Zhoushun Yu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
+      "abstract": "QQWorld improves latent world models with a quantile-quantile matching objective that aligns projected latent samples with rank-matched Gaussian quantiles, boosting planning success.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28415",
+      "pdf_url": "https://arxiv.org/pdf/2607.28415",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28415",
+      "scraped_at": "2026-08-03T09:28:58.190240"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "Scaling Properties of Text Conditioning in Visual Generation",
+    "paper_url": "https://huggingface.co/papers/2607.29679",
+    "authors": [
+      "Haoqi Fan",
+      "Hongyi Yuan",
+      "Chaorui Deng",
+      "Andy1621",
+      "heheyas"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Scaling Properties of Text Conditioning in Visual Generation",
+      "abstract": "We study empirical scaling properties for text conditioning in visual generation. Such properties have rarely been measured because diffusion loss does not scale with the number of tokens in natural-language prompts. Surprisingly, we find that the converged diffusion loss scales with the amount of structured language in the prompt. To quantify structured language, we adapt two complementary measures: a white-box likelihood metric (GPG) and a black-box attribute metric (ED). Across controlled training runs, the converged diffusion loss decreases approximately linearly with GPG and follows a power law with ED. Guided by these scaling properties, we improve \\emph{diffusability} by constructing structured prompts with semantic and geometric annotations derived from images, and improve \\emph{promptability} by training a prompter through supervised fine-tuning, cold-start, and verifier-gated on-policy distillation. The resulting system outperforms all evaluated open-weight models on nearly every compositional, reasoning, and world-knowledge benchmark, while matching or surpassing the strongest closed-weight models on most evaluations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.29679",
+      "pdf_url": "https://arxiv.org/pdf/2607.29679",
+      "github_links": [
+        "https://github.com/heheyas/context-scaling",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.29679",
+      "scraped_at": "2026-08-03T09:28:59.988935"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "N_0-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation",
+    "paper_url": "https://huggingface.co/papers/2607.23783",
+    "authors": [],
+    "stars": "48",
+    "details": {
+      "title": "N_0-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation",
+      "abstract": "Hi everyone — author here! 👋 Excited to share N₀-TWAM, a tactile-native world-action model for contact-rich manipulation. Code and pretrained checkpoints are already out: Code: https://github.com/neoteai/N0-TWAM Project page: https://research.neoteai.com/n0-twam/ Instead of treating touch as an auxiliary input channel, we make the model predict future contact together with future vision, under the same objective and at the same causal step, and read actions off that jointly predicted future. Tactile-native world model! To our knowledge the first tactile world-action model trained at scale — visuo-tactile joint pre-training on tactile-rich demos spanning 6 embodiments and 450 tasks. Happy to answer questions here or at github, and feedback or criticism is very welcome, especially from people working on tactile sensing, VLA, or world models. 🙌",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.23783",
+      "pdf_url": "https://arxiv.org/pdf/2607.23783",
+      "github_links": [
+        "https://github.com/neoteai/N0-TWAM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.23783",
+      "scraped_at": "2026-08-03T09:29:01.823427"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants",
+    "paper_url": "https://huggingface.co/papers/2607.26611",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants",
+      "abstract": "We introduce CAPA, which characterizes personalized coding ambiguity through six mechanisms and injects these mechanisms into unambiguous executable tasks using a controlled three-stage generation pipeline. CAPA contains 600 coding sessions across 60 balanced user–ambiguity cells, including 300 held-out evaluation sessions. We evaluate 12 recent LLMs under no-history and same-user-history conditions using executable success, first-turn success, and turns-to-completion. We further study how task difficulty, user identity, and memory management affect adaptation and propose a lightweight user history gating method. CAPA provides a foundation for developing long-term coding assistants that better align generated code with user intent while reducing repeated clarification.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.26611",
+      "pdf_url": "https://arxiv.org/pdf/2607.26611",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.26611",
+      "scraped_at": "2026-08-03T09:29:03.845484"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "Enhancing Rubric-based RL via Self-Distillation",
+    "paper_url": "https://huggingface.co/papers/2607.18082",
+    "authors": [
+      "Shenzhi Yang",
+      "Shuai Zhu",
+      "Chao Ye",
+      "Yuhang Yang",
+      "Mingxuan Xia"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Enhancing Rubric-based RL via Self-Distillation",
+      "abstract": "We introduce CriPO ( Criterion-Distilled Policy Optimization ), a simple on-policy framework that improves rubric-based reinforcement learning for open-ended LLM post-training. We identify two overlooked failure modes— Unexplored Criteria and Suppressed Criteria —and address them with localized self-distillation and token-level advantage correction, without introducing train–inference mismatch. Across medicine and science benchmarks, CriPO consistently outperforms existing rubric-based RL methods while reaching the same performance with ~2× fewer optimization steps.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.18082",
+      "pdf_url": "https://arxiv.org/pdf/2607.18082",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.18082",
+      "scraped_at": "2026-08-03T09:29:05.716167"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
+    "paper_url": "https://huggingface.co/papers/2607.29677",
+    "authors": [
+      "Simon Suo",
+      "Zhaoqi Li",
+      "Eli Stewart",
+      "Adrian Lyjak",
+      "Boyang Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.29677",
+      "pdf_url": "https://arxiv.org/pdf/2607.29677",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.29677",
+      "scraped_at": "2026-08-03T09:29:08.144249"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "Evaluation-Verification Reward for Consistent Multi-Reference Image Editing",
+    "paper_url": "https://huggingface.co/papers/2607.29025",
+    "authors": [
+      "Lei Sun",
+      "Meng Yu",
+      "Xiaochen Lv",
+      "Pengfei Zhang",
+      "Yingmao Miao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Evaluation-Verification Reward for Consistent Multi-Reference Image Editing",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.29025",
+      "pdf_url": "https://arxiv.org/pdf/2607.29025",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.29025",
+      "scraped_at": "2026-08-03T09:29:09.913275"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "Mental World Modeling",
+    "paper_url": "https://huggingface.co/papers/2607.27201",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Mental World Modeling",
+      "abstract": "🧠 Mental World Modeling (Project Page) From simulating physical scenes to simulating the minds that act within them. TL;DR: A world model can reconstruct the physical scene correctly and still predict the wrong human action. Why? Because human decisions are shaped not only by objects, geometry, and physical dynamics, but also by hidden mental and social variables: what someone has observed, knows, believes, wants, intends, feels, and considers socially permissible. We introduce Mental World Modeling (MWM) , a general framework that makes these mental variables part of the world state itself—rather than treating them as post-hoc explanations. The world’s next state is not only physical. It is also mental. The missing half of a world model Most existing world models focus on the physical substrate of the world: What objects and agents are present? Where are they? How will the visible scene evolve? But two physically identical scenes can produce completely different actions when the people inside them hold different beliefs, goals, emotions, relationships, or social obligations. MWM therefore maintains a coupled physical–mental world state . For every target agent, it: represents both the physical environment and the agents’ latent mental states; renders a target-specific partial observation—what that person can actually see, hear, know, and infer; simulates how each candidate action changes both the physical world and the mental-social world. MENTIS: an inspectable implementation We instantiate the framework in MENTIS , a training-free and fully inspectable baseline that forces an LLM-based system to operate as a mental world model. MENTIS decomposes decision prediction into explicit stages: state parsing → target-observation generation → action decomposition → coupled transition simulation → branch-level evaluation → final decision What do the experiment results show? The results reveal a consistent pattern: Full MWM achieves the strongest decision-prediction performance for every evaluated model. Removing the mental channel degrades all models. The gains are largest in interpersonal situations, where hidden beliefs, intentions, emotions, and norms determine the action. Explicit intermediate structure substantially improves multimodal reasoning. The largest remaining bottleneck is transition simulation : predicting how an action changes the coupled physical–mental world. Why does this matter? A physically possible action is not necessarily the action a person will take. The same movement can represent help, pressure, deception, politeness, avoidance, or trust depending on the mental and social state surrounding it. This distinction matters for embodied assistants, human–AI collaboration, education, care, interactive agents, and any AI system expected to operate around people. MWM does not claim direct access to private consciousness. Mental states are treated as approximate, task-relevant hypotheses that must remain inspectable, revisable, and responsibly used.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27201",
+      "pdf_url": "https://arxiv.org/pdf/2607.27201",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/mental-world/Mentis"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27201",
+      "scraped_at": "2026-08-03T09:29:11.878411"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "One Future, Every Robot: Label-Efficient Collective-State Prediction with Decentralized JEPA",
+    "paper_url": "https://huggingface.co/papers/2607.28443",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "One Future, Every Robot: Label-Efficient Collective-State Prediction with Decentralized JEPA",
+      "abstract": "Can every robot predict the same future collective state using only local observations and bandwidth-limited neighbor messages? We introduce CS-JEPA, a fully decentralized predictive architecture that transfers across unseen swarm topologies and sizes up to 108 robots while requiring fewer globally labeled episodes than future reconstruction. Further experiments demonstrate more accurate action-value estimation and more consistent closed-loop decisions across robots.  See Version 2 of this paper, which includes additional experiments, on arXiv: https://arxiv.org/abs/2607.28443",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28443",
+      "pdf_url": "https://arxiv.org/pdf/2607.28443",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28443",
+      "scraped_at": "2026-08-03T09:29:13.690143"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "Toward Robust and 3D-Aware RGB-NIR Imaging in the Dark",
+    "paper_url": "https://huggingface.co/papers/2607.29684",
+    "authors": [
+      "Zhihang Zhong",
+      "Qingtian Zhu",
+      "Yifan Zhan",
+      "Mingze Ma",
+      "Muyao Niu"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Toward Robust and 3D-Aware RGB-NIR Imaging in the Dark",
+      "abstract": "3DarkFusion fuses extremely noisy RGB with Near-Infrared (NIR) in 3D space via neural rendering -- no clean RGB supervision needed, robust even under severe noise interference.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.29684",
+      "pdf_url": "https://arxiv.org/pdf/2607.29684",
+      "github_links": [
+        "https://github.com/MyNiuuu/3DarkFusion",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.29684",
+      "scraped_at": "2026-08-03T09:29:15.489531"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "SULAND v2: A Refined RGB Dataset and Deep Learning Object Detection Benchmark for UAV/UGV-Based SUrface LANDmine Detection Under Domain Shift",
+    "paper_url": "https://huggingface.co/papers/2607.28996",
+    "authors": [
+      "Emmett J. Ientilucci",
+      "Ramesh Bhatta",
+      "Lalit Joshi",
+      "Sagar Lekhak",
+      "prasannareddyp"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "SULAND v2: A Refined RGB Dataset and Deep Learning Object Detection Benchmark for UAV/UGV-Based SUrface LANDmine Detection Under Domain Shift",
+      "abstract": "We release SULAND_v2, a refined RGB surface-landmine dataset and an IID/OOD object-detection benchmark for UAV/UGV-based mine-action survey support. Public RGB landmine datasets are scarce, so each one disproportionately shapes which methods get trusted. Auditing SULAND frame-by-frame turned up missing and false annotations, mislocalized boxes, inconsistent partial-visibility criteria, and, critically, an inverted class-ID convention in the OOD split. We manually re-annotated the whole dataset in Label Studio (33,771 images, 12,433 boxes), keeping the original imagery and splits intact so v1 and v2 stay directly comparable. What the refinement is worth, quantitatively: YOLOv8 IID test mAP@50 improves by 14.6 to 19.6 pp, and fixing the class-ID convention alone adds roughly 25 pp to mean OOD mAP@50. Cross-version training and evaluation (v1→v2, v2→v1, and so on) separates training-label quality from evaluation-ground-truth consistency. On the refined benchmark we train 35 configurations across 9 detector families (one-stage, two-stage, transformer, open-vocabulary) under one protocol. YOLOv12-S leads IID (0.908 mAP@50); RF-DETR-L leads OOD (0.799 mAP@50, 0.675 recall). The ranking reshuffles entirely under domain shift, and model scale does not predict robustness. High IID accuracy is not evidence of operational readiness. Dataset: https://huggingface.co/datasets/SagarLekhak/SULAND_v2_RGB_Surface_Landmine_Dataset Code: https://github.com/PrasannaPulakurthi/SULAND_v2",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28996",
+      "pdf_url": "https://arxiv.org/pdf/2607.28996",
+      "github_links": [
+        "https://github.com/PrasannaPulakurthi/SULAND_v2",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28996",
+      "scraped_at": "2026-08-03T09:29:17.301841"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow",
+    "paper_url": "https://huggingface.co/papers/2607.27924",
+    "authors": [
+      "Xirui Kang",
+      "Yuan Gao",
+      "Peng Cheng",
+      "Haoyi Niu",
+      "Dongxiu Liu"
+    ],
+    "stars": "11",
+    "details": {
+      "title": "ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow",
+      "abstract": "ODEWorld explores continuous-time world modeling by learning a latent ODE velocity field instead of discrete-time transitions. The approach provides elegant properties such as arbitrary temporal resolution and backward prediction, and shows promising results for robotic planning and video prediction.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27924",
+      "pdf_url": "https://arxiv.org/pdf/2607.27924",
+      "github_links": [
+        "https://github.com/Dstate/ODEWorld",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27924",
+      "scraped_at": "2026-08-03T09:29:19.149547"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "Would You Walk to the Car Wash? Revealing the Salience Bias of Large Language Models in Commonsense Reasoning",
+    "paper_url": "https://huggingface.co/papers/2607.28478",
+    "authors": [
+      "Cheng Yang",
+      "Yijie Lu",
+      "Shijie Zheng",
+      "Chenhao Xue",
+      "Zheng Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Would You Walk to the Car Wash? Revealing the Salience Bias of Large Language Models in Commonsense Reasoning",
+      "abstract": "As large language models (LLMs) continue to advance in complex reasoning tasks, they have learned to heavily prioritize explicit conditions provided in the input. However, in everyday commonsense reasoning, this mechanism exposes a critical vulnerability which we term Salience Bias: models become easily hijacked by useless explicit distractors (e.g., numerical values), leading them to ignore the implicit physical or commonsense prerequisites of a task. A critical open question is whether this failure reflects a genuine gap in commonsense knowledge or merely its suppression under misleading task framing. To investigate this, we construct the SaliTrap Benchmark, a high-quality dataset across four trap dimensions. Evaluating 12 state-of-the-art LLMs, we find that all mainstream models suffer significantly from salience bias, with severity scaling with distractor density and detecting the trap often decoupled from actually avoiding it. Crucially, by re-eliciting the same models with the task framing stripped away, we show that this is overwhelmingly a failure of \\textbf{knowledge suppression rather than knowledge absence}: a context-free knowledge probe alone recovers over 90% of sycophantic-compliance failures, revealing that the requisite commonsense is intrinsically present but actively crowded out by salient distractors that lure the model into over-compliant, unnecessary computation. Building on this diagnosis, we further show that lightweight, inference-time prompting alone substantially closes the gap without any retraining. Our findings relocate the bottleneck of commonsense reasoning failures from model competence to elicitation, and we release SaliTrap as a testbed for this blind spot.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28478",
+      "pdf_url": "https://arxiv.org/pdf/2607.28478",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28478",
+      "scraped_at": "2026-08-03T09:29:21.019585"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "Safeguards Based on Copyable Context Cannot Provide Reliable Safety for LLMs",
+    "paper_url": "https://huggingface.co/papers/2607.27951",
+    "authors": [
+      "Nenghai Yu",
+      "Weiming Zhang",
+      "Lingyao Zhu",
+      "wpydcr"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Safeguards Based on Copyable Context Cannot Provide Reliable Safety for LLMs",
+      "abstract": "This paper studies LLM safety through a game theoretic lens and develops a safety trilemma involving Useful Capability, Reliable Safety, and Open Access. It rigorously shows that, for dual use tasks where attackers can reproduce the contextual evidence available to the defense, safeguards relying solely on such evidence cannot provide reliable safety guarantees while preserving useful capability. Guided by this theoretical analysis, the paper further identifies a promising direction for reliable safeguards: augmenting existing mechanisms with trusted credentials that are difficult for attackers to copy and predictive of actual downstream use. More broadly, the proposed framework provides a unified theoretical explanation for recurring failures observed in real world LLM safety incidents, as well as for previously scattered empirical findings in the literature. I find the paper theoretically significant, practically relevant, and worthy of acceptance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27951",
+      "pdf_url": "https://arxiv.org/pdf/2607.27951",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27951",
+      "scraped_at": "2026-08-03T09:29:22.808933"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "SGTP: Sampling-based Game-Theoretic Planning for Real-Time Multi-Vehicle Autonomous Racing",
+    "paper_url": "https://huggingface.co/papers/2607.25388",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SGTP: Sampling-based Game-Theoretic Planning for Real-Time Multi-Vehicle Autonomous Racing",
+      "abstract": "Proposed Sampling-based Game-Theoretic Planning (SGTP) framework for multi-behavior autonomous racing. SGTP combines GPU-accelerated sampling-based planning with game-theoretic best-response reasoning, using a new game-aware cost to favor competitive interactions and selecting the lowest-cost feasible trajectory.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.25388",
+      "pdf_url": "https://arxiv.org/pdf/2607.25388",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zhouhengli/SGTP-Racer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.25388",
+      "scraped_at": "2026-08-03T09:29:24.599316"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "In the Driver's Seat: A Multi-Company Study on the Reality of Autonomous Driving System Testing",
+    "paper_url": "https://huggingface.co/papers/2607.15820",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "In the Driver's Seat: A Multi-Company Study on the Reality of Autonomous Driving System Testing",
+      "abstract": "This study provides a comprehensive industry-grounded overview of ADS testing, proposes an evidence-centered closed-loop testing framework to provide actionable guidance for ADS testing, and outlines important directions for future research and practice.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.15820",
+      "pdf_url": "https://arxiv.org/pdf/2607.15820",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.15820",
+      "scraped_at": "2026-08-03T09:29:26.361233"
+    },
+    "scraped_date": "2026-08-03"
   }
 ]
