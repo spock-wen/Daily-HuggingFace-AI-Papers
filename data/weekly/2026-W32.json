@@ -1196,5 +1196,414 @@
       "scraped_at": "2026-08-12T07:13:22.432200"
     },
     "scraped_date": "2026-08-12"
+  },
+  {
+    "title": "OpenART: Scaling Agent Red Teaming via Open-Ended Environment Evolution",
+    "paper_url": "https://huggingface.co/papers/2608.00677",
+    "authors": [
+      "Jie Li",
+      "Yi Liu",
+      "Yixu Wang",
+      "Xin Wang",
+      "Yunhao Chen"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "OpenART: Scaling Agent Red Teaming via Open-Ended Environment Evolution",
+      "abstract": "AI agents operate in persistent environments where early state changes can influence decisions far into the future. Unlike conventional language-model interactions, agent behavior is mediated through a shared state that is repeatedly modified and reused across long-horizon workflows. Current safety benchmarks often fail to capture these cumulative risks because they focus on short, static tasks. To address these limitations, we introduce OpenART, an open-ended arena for scalable agent red teaming through environment evolution. OpenART provides over 10,000 validated stateful scenarios across 50 domains, drawing from a pool of more than 500,000 tools and skills. These tasks require a median of 97 tool calls and enable unified evaluation across 75 different agent-model configurations. To systematically explore these evolving attack surfaces, we propose the Evolutionary Markov Hypergraph Attack (EMHA). EMHA is a black-box policy that performs feedback-driven environment evolution by coordinating authorized state transitions without requiring parameter updates. Throughout the evaluation, task objectives remain fixed while only the environment state changes. Across all configurations, EMHA achieves a pooled Attack Success Rate (ASR) of 85.0%. Its advantage over instruction-only evolution increases from approximately 2% on simple environments to over 17% on the most complex ones, demonstrating that environment evolution increasingly exposes safety failures as task complexity grows. Furthermore, our analysis shows that the specific runtime implementation of an agent explains a significant portion of safety variation beyond the underlying model's capabilities. These results establish OpenART as a scalable foundation for studying agent safety in complex, evolving environments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.00677",
+      "pdf_url": "https://arxiv.org/pdf/2608.00677",
+      "github_links": [
+        "https://github.com/AI45Lab/OpenART",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.00677",
+      "scraped_at": "2026-08-13T07:15:39.320859"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+    "paper_url": "https://huggingface.co/papers/2608.12307",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+      "abstract": "Paper Link: https://arxiv.org/pdf/2608.12307 A strong model can transfer capability to a weaker model at test time by automatically building an inference harness.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.12307",
+      "pdf_url": "https://arxiv.org/pdf/2608.12307",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.12307",
+      "scraped_at": "2026-08-13T07:15:41.088530"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill",
+    "paper_url": "https://huggingface.co/papers/2608.11924",
+    "authors": [
+      "Desan Dai",
+      "Chris D Yan",
+      "Yiran Wang",
+      "Biao Wu",
+      "Zhuoyang Qian"
+    ],
+    "stars": "505",
+    "details": {
+      "title": "Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill",
+      "abstract": "🚀 Spark-to-Paper is now on Hugging Face Daily Papers: drop in a one-line research idea and get an end-to-end draft with verified citations, auto-run experiments, and editable vector figures.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.11924",
+      "pdf_url": "https://arxiv.org/pdf/2608.11924",
+      "github_links": [
+        "https://github.com/Spark-To-Paper-Skills/spark-to-paper-skills",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.11924",
+      "scraped_at": "2026-08-13T07:15:42.878899"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "Can LLM Agents Stick to the Script? A Benchmark for Long-Horizon Consistency in Interactive Narratives",
+    "paper_url": "https://huggingface.co/papers/2608.08160",
+    "authors": [
+      "Runnan Wang",
+      "Ka Hou Kam",
+      "Bei Shi",
+      "Jianhao Yan",
+      "Yingpeng Ma"
+    ],
+    "stars": "9",
+    "details": {
+      "title": "Can LLM Agents Stick to the Script? A Benchmark for Long-Horizon Consistency in Interactive Narratives",
+      "abstract": "We release our data, code and prompt templates in https://github.com/yingpengma/NCP-Bench .",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.08160",
+      "pdf_url": "https://arxiv.org/pdf/2608.08160",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yingpengma/NCP-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.08160",
+      "scraped_at": "2026-08-13T07:15:44.795465"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization",
+    "paper_url": "https://huggingface.co/papers/2608.12314",
+    "authors": [
+      "Shifang Zhao",
+      "Hongkai Li",
+      "Longxuan Deng",
+      "Zixiang Li",
+      "Yuyang Yin"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.12314",
+      "pdf_url": "https://arxiv.org/pdf/2608.12314",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.12314",
+      "scraped_at": "2026-08-13T07:15:46.520452"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "Self-Geometry: GT-Free and Plug-and-Play Test-Time Adaptation for Geometrically Consistent 3D Vision Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2608.10708",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Self-Geometry: GT-Free and Plug-and-Play Test-Time Adaptation for Geometrically Consistent 3D Vision Foundation Models",
+      "abstract": "Excited to share our new work: Self-Geometry! 🎉 TL;DR: A GT-free, plug-and-play test-time adaptation pipeline that imposes explicit multi-view geometric constraints on pretrained 3D Vision Foundation Models, using 2D pixel correspondences as pseudo ground-truth. Prior TTA methods rely on implicit self-consistency derived from the model's own outputs, which barely helps exactly where the pretrained VFM is most inaccurate. We supervise with explicit geometry instead, and adapt only LoRA parameters, completing per-scene adaptation in a few minutes on a single GPU. Result: consistent mean improvements in both pose and geometry estimation across 6 VFMs (VGGT, π³, DA3-Giant/Large/Base/Small) and 4 benchmarks (7Scenes, ETH3D, ScanNet++, HiRoom). 📄 arXiv: https://arxiv.org/abs/2608.10708 🌐 Project page (with interactive side-by-side comparisons): https://cmlab-korea.github.io/Self-Geometry/ Happy to answer any questions. Feedback and discussion very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.10708",
+      "pdf_url": "https://arxiv.org/pdf/2608.10708",
+      "github_links": [
+        "https://github.com/CMLab-Korea/Self-Geometry",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.10708",
+      "scraped_at": "2026-08-13T07:15:48.504575"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "From Synthesis to Removal: Physics-Grounded Reflection Simulation and Diffusion-Based Video Dereflection",
+    "paper_url": "https://huggingface.co/papers/2608.11562",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "From Synthesis to Removal: Physics-Grounded Reflection Simulation and Diffusion-Based Video Dereflection",
+      "abstract": "Interesting work on video reflection removal , a problem that has received much less attention than single-image reflection removal. The paper proposes a closed-loop approach combining physics-grounded reflection synthesis, diffusion-based video dereflection, and dedicated benchmark design . In particular, S2R-Synthesis generates realistic reflected videos for training, S2R-Removal adapts a pretrained video diffusion prior for one-step reflection removal, and S2R-Bench provides a dedicated benchmark for evaluating video dereflection. The combination of realistic data synthesis + video diffusion + benchmark design makes this a promising step toward more practical video reflection removal. Code and pretrained weights will be released soon. Stay tuned!",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.11562",
+      "pdf_url": "https://arxiv.org/pdf/2608.11562",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.11562",
+      "scraped_at": "2026-08-13T07:15:50.211659"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents",
+    "paper_url": "https://huggingface.co/papers/2608.11878",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents",
+      "abstract": "In this study, we propose ToolHazard, a scalable adversarial environment synthesis framework that enables agent security evaluation and adversarial alignment across broader application domains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.11878",
+      "pdf_url": "https://arxiv.org/pdf/2608.11878",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/MurrayTom/ToolHazard"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.11878",
+      "scraped_at": "2026-08-13T07:15:51.883523"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "Persistent Recursive Worlds Enable Autonomous Software Evolution",
+    "paper_url": "https://huggingface.co/papers/2608.10450",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "Persistent Recursive Worlds Enable Autonomous Software Evolution",
+      "abstract": "One only needs to describe what the software should become. Genesis recursively creates local responsibilities, instantiates finite-lived agents where needed, validates what comes back, and carries accepted consequences forward as one persistent software world, scaling to millions of lines of code.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.10450",
+      "pdf_url": "https://arxiv.org/pdf/2608.10450",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/EMI-Group/genesis"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.10450",
+      "scraped_at": "2026-08-13T07:15:53.577368"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "MBA: Multimodal Benchmark and Agents for Real-World Business Ideation",
+    "paper_url": "https://huggingface.co/papers/2608.11616",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "MBA: Multimodal Benchmark and Agents for Real-World Business Ideation",
+      "abstract": "Business opportunities exist in the real world—not just in text. Yet most AI-driven business ideation remains largely text-centric, overlooking rich visual signals from products, environments, interfaces, and everyday scenes. We introduce MBA: Multimodal Benchmark and Agents for Real-World Business Ideation , a framework for exploring how AI can turn multimodal observations into actionable business ideas. • MBA-Bench : 30K samples across 6 real-world domains • MBA-b / MBA-k : agents optimized for creativity, feasibility, and business-oriented objectives • +25.6% / +35.8% over open-source multimodal LLMs. Can multimodal AI better understand the real world—and uncover business opportunities within it?",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.11616",
+      "pdf_url": "https://arxiv.org/pdf/2608.11616",
+      "github_links": [
+        "https://github.com/hchoi256/MBA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.11616",
+      "scraped_at": "2026-08-13T07:15:55.438008"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+    "paper_url": "https://huggingface.co/papers/2608.12313",
+    "authors": [
+      "Zhijing Zhang",
+      "Tian Xueyun",
+      "Haozhe Wang",
+      "Jinpeng Yu",
+      "Chuyue Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.12313",
+      "pdf_url": "https://arxiv.org/pdf/2608.12313",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.12313",
+      "scraped_at": "2026-08-13T07:15:57.099135"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "Agent Safety Should Be a Runtime Contract",
+    "paper_url": "https://huggingface.co/papers/2608.11274",
+    "authors": [
+      "Wenhao Wang",
+      "Jusheng Zhang",
+      "Yi Han",
+      "Albus W. Ng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Agent Safety Should Be a Runtime Contract",
+      "abstract": "Agent safety shouldn’t stop at training: our new paper argues for runtime contracts that block dangerous actions and require checkable evidence that agents actually did what they claim.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.11274",
+      "pdf_url": "https://arxiv.org/pdf/2608.11274",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.11274",
+      "scraped_at": "2026-08-13T07:15:59.077991"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
+    "paper_url": "https://huggingface.co/papers/2608.06270",
+    "authors": [
+      "Chaochao Lu",
+      "Lai Wei",
+      "Bo Peng",
+      "zhwang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
+      "abstract": "Thinking-with-images models interleave reasoning with visual operations such as crop-and-zoom. Aggregate accuracy gains often look like successful tool-use, but many rollouts do not actually rely on the returned visual evidence. This work formulates visual tool-use as a causal graph and audits it with three levels of intervention.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.06270",
+      "pdf_url": "https://arxiv.org/pdf/2608.06270",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenCausaLab/CauAudit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.06270",
+      "scraped_at": "2026-08-13T07:16:00.810012"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
+    "paper_url": "https://huggingface.co/papers/2608.11216",
+    "authors": [
+      "Mohammad Reza Taesiri",
+      "Harold Chaput",
+      "Fernando De Mesentier Silva",
+      "Xuankang Zhu",
+      "Marjan Moodi"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.11216",
+      "pdf_url": "https://arxiv.org/pdf/2608.11216",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.11216",
+      "scraped_at": "2026-08-13T07:16:02.446245"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "Hand Visibility Detector: Per-Keypoint Visibility Estimation for Hands",
+    "paper_url": "https://huggingface.co/papers/2608.11574",
+    "authors": [
+      "Takuma Yagi",
+      "Atsushi Hashimoto",
+      "Rintaro Yanagi",
+      "Masashi Hatano",
+      "Ryosei Hara"
+    ],
+    "stars": "30",
+    "details": {
+      "title": "Hand Visibility Detector: Per-Keypoint Visibility Estimation for Hands",
+      "abstract": "It predicts the visibility of each hand joint 👋 We hope researchers across HCI, robotics, hand-object interaction, and beyond will find hand visibility estimation useful in their own work! The code has been available on GitHub for a while, and I’m glad to see it already receiving stars⭐️ and interest from the community! 🙌 Please give it a try! 📄 https://arxiv.org/abs/2608.11574 💻️ https://github.com/ryhara/hand_visibility_detector",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.11574",
+      "pdf_url": "https://arxiv.org/pdf/2608.11574",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ryhara/hand_visibility_detector"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.11574",
+      "scraped_at": "2026-08-13T07:16:04.107324"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "Simplex Relaxation for Discrete Diffusion",
+    "paper_url": "https://huggingface.co/papers/2608.10615",
+    "authors": [
+      "Xulei Yang",
+      "Jaehong Yoon",
+      "Satoshi Hayakawa",
+      "Patrick Pynadath",
+      "Jinya Sakurai"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Simplex Relaxation for Discrete Diffusion",
+      "abstract": ".",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.10615",
+      "pdf_url": "https://arxiv.org/pdf/2608.10615",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.10615",
+      "scraped_at": "2026-08-13T07:16:05.757927"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "NeuPAT: Neuron-aware Plasticity Allocation Tuning for Language-Preserving MLLMs",
+    "paper_url": "https://huggingface.co/papers/2608.08107",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NeuPAT: Neuron-aware Plasticity Allocation Tuning for Language-Preserving MLLMs",
+      "abstract": "Multimodal expansion of large language models (LLMs) enables new perceptual capabilities but often compromises the language intelligence acquired during pretraining. In this work, we investigate this phenomenon from the perspective of internal adaptation dynamics and discover that neurons in pretrained LLMs exhibit heterogeneous plasticity during multimodal learning: some neurons are critical for preserving language capabilities, while others are more adaptive to multimodal knowledge. Based on this insight, we propose NeuPAT (Neuron-aware Plasticity Allocation Tuning), a lightweight and architecture-agnostic framework that allocates neuron-wise update constraints during multimodal instruction tuning. NeuPAT uses a small-scale probing stage to estimate neuron adaptation patterns and selectively protects language-sensitive neurons while promoting multimodal adaptation through more plastic neurons. Experiments across diverse LLM families demonstrate that NeuPAT recovers 94.5% of the language capability degradation caused by vanilla tuning on 11 language benchmarks while maintaining comparable multimodal performance, providing an effective approach for capability-preserving multimodal expansion.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.08107",
+      "pdf_url": "https://arxiv.org/pdf/2608.08107",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.08107",
+      "scraped_at": "2026-08-13T07:16:07.410934"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "AtlasVLA: Persistent World-Ego State Modeling for Vision-Language-Action Models",
+    "paper_url": "https://huggingface.co/papers/2608.06729",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AtlasVLA: Persistent World-Ego State Modeling for Vision-Language-Action Models",
+      "abstract": "While Vision-Language-Action (VLA) models have advanced embodied AI, their fundamentally reactive paradigm severely limits performance in partially observable and long-horizon tasks. When restricted to a single wrist-mounted camera, they inevitably suffer from perception forgetting as objects exit the field of view, and temporal task-progress forgetting} during multi-step execution. To overcome these bottlenecks, we propose AtlasVLA, a novel framework that transitions from direct reactive manipulation to proactive reasoning through a persistent world-ego state. AtlasVLA features a dual-memory architecture: a 4D Persistent World State Memory that lifts transient 2D observations into a globally updated, voxel-hashed spatial state to resolve visual blind spots, and an Ego-Working State Memory that tracks historical ego state and task progress. By conditioning a diffusion transformer (DiT) on this joint World-Ego state, AtlasVLA enables robust spatial reasoning. Extensive evaluations across LIBERO, RLBench, and real-world benchmarks demonstrate that AtlasVLA achieves state-of-the-art performance using solely a wrist camera. Remarkably, it decisively outperforms multi-view baselines, yielding absolute success rate improvements of 9.4% on LIBERO-Long and 17.5% in real-world long-horizon tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.06729",
+      "pdf_url": "https://arxiv.org/pdf/2608.06729",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.06729",
+      "scraped_at": "2026-08-13T07:16:09.079451"
+    },
+    "scraped_date": "2026-08-13"
   }
 ]
