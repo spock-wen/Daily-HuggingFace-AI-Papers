@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-22-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-7560+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-7582+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">22</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">124</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">580</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">7560+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">146</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">602</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">7582+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** September 26, 2026
+**Last Updated:** September 27, 2026
 
 ---
 
@@ -119,7 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Training Object Permanence in World Models</b> ⭐ 12</summary>
+<summary><b>1. Training Object Permanence in World Models</b> ⭐ 91</summary>
 
 <br/>
 
@@ -162,7 +162,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. OmniEcho: Spatial Audio Understanding for Embodied Agents</b> ⭐ 11</summary>
+<summary><b>4. OmniEcho: Spatial Audio Understanding for Embodied Agents</b> ⭐ 12</summary>
 
 <br/>
 
@@ -175,33 +175,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. Agent-Editing World Model: Rethinking World Modeling for LLM Agents</b> ⭐ 4</summary>
+<summary><b>5. Agent-Editing World Model: Rethinking World Modeling for LLM Agents</b> ⭐ 6</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.28416) • [📄 arXiv](https://arxiv.org/abs/2609.28416) • [📥 PDF](https://arxiv.org/pdf/2609.28416)
 
-**💻 Code:** [⭐ Code](https://github.com/RUCAIBox/Agent-Editing-World-Model) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/RUCAIBox/Agent-Editing-World-Model)
 
 > Agent-Editing World Model (AEWM) rethinks world modeling for long-horizon LLM agents by shifting the objective from predicting environment observations to modeling how an agent’s reasoning and actions affect future task progress. AEWM combines Act...
 
 </details>
 
 <details>
-<summary><b>6. Parts-of-Speech as Emergent Categories in SAE Latent Space</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.29362) • [📄 arXiv](https://arxiv.org/abs/2609.29362) • [📥 PDF](https://arxiv.org/pdf/2609.29362)
-
-**💻 Code:** [⭐ Code](https://github.com/colinglab/pos-sae-latents) • [⭐ Code](https://github.com/huggingface)
-
-> Hi all! This is our new paper on how Sparse Autoencoders encode parts of speech, which was accepted at EMNLP 2026 🎉 SAE latents are often described as monosemantic features, so we tested whether linguistic categories like POS map onto individual l...
-
-</details>
-
-<details>
-<summary><b>7. Rufus-Air: An Open LLM Post-Training Recipe</b> ⭐ 0</summary>
+<summary><b>6. Rufus-Air: An Open LLM Post-Training Recipe</b> ⭐ 0</summary>
 
 <br/>
 
@@ -214,15 +201,28 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis</b> ⭐ 4</summary>
+<summary><b>7. ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.29444) • [📄 arXiv](https://arxiv.org/abs/2609.29444) • [📥 PDF](https://arxiv.org/pdf/2609.29444)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.30199) • [📄 arXiv](https://arxiv.org/abs/2609.30199) • [📥 PDF](https://arxiv.org/pdf/2609.30199)
 
-**💻 Code:** [⭐ Code](https://github.com/Tencent/IterSynth) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis Deep-search agents that follow the ReAct recipe inherit two coupled bottlenecks: one policy has to plan, use evidence, and synthesize at the same time, while its conte...
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Can LLMs Discover Scientific Laws in Real and Parallel Worlds? (2026) Scien...
+
+</details>
+
+<details>
+<summary><b>8. Parts-of-Speech as Emergent Categories in SAE Latent Space</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.29362) • [📄 arXiv](https://arxiv.org/abs/2609.29362) • [📥 PDF](https://arxiv.org/pdf/2609.29362)
+
+**💻 Code:** [⭐ Code](https://github.com/colinglab/pos-sae-latents) • [⭐ Code](https://github.com/huggingface)
+
+> Hi all! This is our new paper on how Sparse Autoencoders encode parts of speech, which was accepted at EMNLP 2026 🎉 SAE latents are often described as monosemantic features, so we tested whether linguistic categories like POS map onto individual l...
 
 </details>
 
@@ -240,20 +240,33 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation</b> ⭐ 4</summary>
+<summary><b>10. Coding Agents for Generalized Task and Motion Planning Problems</b> ⭐ 13</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.29028) • [📄 arXiv](https://arxiv.org/abs/2609.29028) • [📥 PDF](https://arxiv.org/pdf/2609.29028)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.30233) • [📄 arXiv](https://arxiv.org/abs/2609.30233) • [📥 PDF](https://arxiv.org/pdf/2609.30233)
 
-**💻 Code:** [⭐ Code](https://github.com/ShaohuaDong2021/RGBD20K) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/tomsilver/robocode)
 
-> We introduce RGBD20K, a large-scale benchmark for RGB-D semantic segmentation with 20,000 RGB-D image pairs and 160 fine-grained semantic categories. We also provide high-quality re-annotated ground truth to address annotation noise in existing be...
+> How far can you get by asking a coding agent to write a robot policy? 🤖 We've seen some amazing one-off demos of Astra in robotics, but we need more systematic evaluations of these capabilities. We've spent months doing just that: 98,000 evaluatio...
 
 </details>
 
 <details>
-<summary><b>11. Learning to Discover Interesting Mathematics</b> ⭐ 0</summary>
+<summary><b>11. IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis</b> ⭐ 6</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.29444) • [📄 arXiv](https://arxiv.org/abs/2609.29444) • [📥 PDF](https://arxiv.org/pdf/2609.29444)
+
+**💻 Code:** [⭐ Code](https://github.com/Tencent/IterSynth) • [⭐ Code](https://github.com/huggingface)
+
+> IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis Deep-search agents that follow the ReAct recipe inherit two coupled bottlenecks: one policy has to plan, use evidence, and synthesize at the same time, while its conte...
+
+</details>
+
+<details>
+<summary><b>12. Learning to Discover Interesting Mathematics</b> ⭐ 0</summary>
 
 <br/>
 
@@ -266,20 +279,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>12. Coding Agents for Generalized Task and Motion Planning Problems</b> ⭐ 12</summary>
+<summary><b>13. RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation</b> ⭐ 5</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.30233) • [📄 arXiv](https://arxiv.org/abs/2609.30233) • [📥 PDF](https://arxiv.org/pdf/2609.30233)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.29028) • [📄 arXiv](https://arxiv.org/abs/2609.29028) • [📥 PDF](https://arxiv.org/pdf/2609.29028)
 
-**💻 Code:** [⭐ Code](https://github.com/tomsilver/robocode) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/ShaohuaDong2021/RGBD20K) • [⭐ Code](https://github.com/huggingface)
 
-> How far can you get by asking a coding agent to write a robot policy? 🤖 We've seen some amazing one-off demos of Astra in robotics, but we need more systematic evaluations of these capabilities. We've spent months doing just that: 98,000 evaluatio...
+> We introduce RGBD20K, a large-scale benchmark for RGB-D semantic segmentation with 20,000 RGB-D image pairs and 160 fine-grained semantic categories. We also provide high-quality re-annotated ground truth to address annotation noise in existing be...
 
 </details>
 
 <details>
-<summary><b>13. Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone</b> ⭐ 2</summary>
+<summary><b>14. Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone</b> ⭐ 5</summary>
 
 <br/>
 
@@ -292,7 +305,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. AgentKernel: The Trust-Native Agentic Operating System</b> ⭐ 0</summary>
+<summary><b>15. AgentKernel: The Trust-Native Agentic Operating System</b> ⭐ 0</summary>
 
 <br/>
 
@@ -303,21 +316,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
 > This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API InterSAGE: The Secure and Verifiable Interoperability Protocol for An Inter...
-
-</details>
-
-<details>
-<summary><b>15. PUBG Ally: A Conversational Embodied Agent as an AI Teammate</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Eunchong Kim, Dongwon Kim, Dohyun Kim, Byeongju Kim, Beomsoo Kim
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.29837) • [📄 arXiv](https://arxiv.org/abs/2609.29837) • [📥 PDF](https://arxiv.org/pdf/2609.29837)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API AI for Games in the Foundation Model Era (2026) "What Can I Do for You'': H...
 
 </details>
 
@@ -337,33 +335,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>17. ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.30199) • [📄 arXiv](https://arxiv.org/abs/2609.30199) • [📥 PDF](https://arxiv.org/pdf/2609.30199)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Can LLMs Discover Scientific Laws in Real and Parallel Worlds? (2026) Scien...
-
-</details>
-
-<details>
-<summary><b>18. AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation</b> ⭐ 13</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.29816) • [📄 arXiv](https://arxiv.org/abs/2609.29816) • [📥 PDF](https://arxiv.org/pdf/2609.29816)
-
-**💻 Code:** [⭐ Code](https://github.com/zhiyuxu03/AV-GRPO) • [⭐ Code](https://github.com/huggingface)
-
-> AV-GRPO, to our knowledge, is the first GRPO framework designed for joint audio-video generation models. It enables full-parameter training or LoRA training of the 22B LTX-2.3 model on just 8 A800 GPUs.
-
-</details>
-
-<details>
-<summary><b>19. Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures</b> ⭐ 5</summary>
+<summary><b>17. Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures</b> ⭐ 14</summary>
 
 <br/>
 
@@ -378,7 +350,35 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. DeltaWAM: Delta World Action Models for Bimanual Manipulation</b> ⭐ 0</summary>
+<summary><b>18. PUBG Ally: A Conversational Embodied Agent as an AI Teammate</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Eunchong Kim, Dongwon Kim, Dohyun Kim, Byeongju Kim, Beomsoo Kim
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.29837) • [📄 arXiv](https://arxiv.org/abs/2609.29837) • [📥 PDF](https://arxiv.org/pdf/2609.29837)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API AI for Games in the Foundation Model Era (2026) "What Can I Do for You'': H...
+
+</details>
+
+<details>
+<summary><b>19. AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation</b> ⭐ 17</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.29816) • [📄 arXiv](https://arxiv.org/abs/2609.29816) • [📥 PDF](https://arxiv.org/pdf/2609.29816)
+
+**💻 Code:** [⭐ Code](https://github.com/zhiyuxu03/AV-GRPO) • [⭐ Code](https://github.com/huggingface)
+
+> AV-GRPO, to our knowledge, is the first GRPO framework designed for joint audio-video generation models. It enables full-parameter training or LoRA training of the 22B LTX-2.3 model on just 8 A800 GPUs.
+
+</details>
+
+<details>
+<summary><b>20. DeltaWAM: Delta World Action Models for Bimanual Manipulation</b> ⭐ 1</summary>
 
 <br/>
 
@@ -393,7 +393,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>21. ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation</b> ⭐ 7</summary>
+<summary><b>21. ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation</b> ⭐ 13</summary>
 
 <br/>
 
@@ -401,7 +401,7 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.28923) • [📄 arXiv](https://arxiv.org/abs/2609.28923) • [📥 PDF](https://arxiv.org/pdf/2609.28923)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/neu-vi/ViRDM)
+**💻 Code:** [⭐ Code](https://github.com/neu-vi/ViRDM) • [⭐ Code](https://github.com/huggingface)
 
 > Hi everyone! 👋 We’re sharing ViRDM : A recipe for RDM-based few-step causal video post-training, along with the pitfalls and lessons learned (single-GPU training supported 💥) Inspired by the impressive results of FD Loss and RDM in image generatio...
 
@@ -429,27 +429,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 22 |
-| 📅 Today | [`2026-09-26.json`](data/daily/2026-09-26.json) | 22 |
-| 📆 This Week | [`2026-W38.json`](data/weekly/2026-W38.json) | 124 |
-| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 580 |
+| 📅 Today | [`2026-09-27.json`](data/daily/2026-09-27.json) | 22 |
+| 📆 This Week | [`2026-W38.json`](data/weekly/2026-W38.json) | 146 |
+| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 602 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-09-26 | 22 | [View JSON](data/daily/2026-09-26.json) |
+| 📌 2026-09-27 | 22 | [View JSON](data/daily/2026-09-27.json) |
+| 📄 2026-09-26 | 22 | [View JSON](data/daily/2026-09-26.json) |
 | 📄 2026-09-25 | 18 | [View JSON](data/daily/2026-09-25.json) |
 | 📄 2026-09-24 | 24 | [View JSON](data/daily/2026-09-24.json) |
 | 📄 2026-09-23 | 18 | [View JSON](data/daily/2026-09-23.json) |
 | 📄 2026-09-22 | 21 | [View JSON](data/daily/2026-09-22.json) |
 | 📄 2026-09-21 | 21 | [View JSON](data/daily/2026-09-21.json) |
-| 📄 2026-09-20 | 24 | [View JSON](data/daily/2026-09-20.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W38 | 124 | [View JSON](data/weekly/2026-W38.json) |
+| 📅 2026-W38 | 146 | [View JSON](data/weekly/2026-W38.json) |
 | 📅 2026-W37 | 138 | [View JSON](data/weekly/2026-W37.json) |
 | 📅 2026-W36 | 151 | [View JSON](data/weekly/2026-W36.json) |
 | 📅 2026-W35 | 192 | [View JSON](data/weekly/2026-W35.json) |
@@ -458,7 +458,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-09 | 580 | [View JSON](data/monthly/2026-09.json) |
+| 🗓️ 2026-09 | 602 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 709 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 583 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 866 | [View JSON](data/monthly/2026-06.json) |
