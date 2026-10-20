@@ -1119,5 +1119,1190 @@
       "scraped_at": "2026-10-19T11:44:26.638238"
     },
     "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
+    "paper_url": "https://huggingface.co/papers/2610.25736",
+    "authors": [
+      "Chao Yu",
+      "sundrops",
+      "chenrh",
+      "XuXin2003",
+      "AdamCYH"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
+      "abstract": "We introduce Collective Experience Learning (CEL), a scalable paradigm in which deployed robots share their execution experience to improve a common policy. Its algorithm, FERT, uses failure contexts to retrieve relevant successful segments from the fleet's shared experience as supervision, without additional expert demonstrations or corrective actions. Its fault-tolerant asynchronous system, FATS, keeps learning running at the scale of 96 robots despite local interruptions. CEL scales with the fleet: with collection time per robot held fixed, larger fleets consistently bring higher success. On multi-stage phone packaging, growing the fleet from 16 to 96 robots raises success from 86.7% to 98.3% (from 79.2% at initialization). Across five real-world manipulation tasks, CEL achieves 93.3–99.2% success on held-out robots. Project page: cel-robot-learning.github.io",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.25736",
+      "pdf_url": "https://arxiv.org/pdf/2610.25736",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.25736",
+      "scraped_at": "2026-10-20T10:44:28.432613"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "MemT-1.0: Towards Memory-Native Evolution",
+    "paper_url": "https://huggingface.co/papers/2610.26825",
+    "authors": [],
+    "stars": "146",
+    "details": {
+      "title": "MemT-1.0: Towards Memory-Native Evolution",
+      "abstract": "Welcome, everyone! We’d love for you to try it out and share your feedback!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26825",
+      "pdf_url": "https://arxiv.org/pdf/2610.26825",
+      "github_links": [
+        "https://github.com/MemTensor/MemT-1.0",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26825",
+      "scraped_at": "2026-10-20T10:44:30.023749"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
+    "paper_url": "https://huggingface.co/papers/2610.26625",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
+      "abstract": "The SOTA mocap pipeline and model.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26625",
+      "pdf_url": "https://arxiv.org/pdf/2610.26625",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Ropedia/EgoXperience"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26625",
+      "scraped_at": "2026-10-20T10:44:31.661218"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+    "paper_url": "https://huggingface.co/papers/2610.26860",
+    "authors": [],
+    "stars": "18",
+    "details": {
+      "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+      "abstract": "OpenVLHarness is a training-free harness that lets multimodal models combine perception, web search and Python computation, and keeps every piece of tool evidence readable and reusable across reasoning steps.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26860",
+      "pdf_url": "https://arxiv.org/pdf/2610.26860",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/uclanlp/OpenVLHarness"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26860",
+      "scraped_at": "2026-10-20T10:44:33.414556"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+    "paper_url": "https://huggingface.co/papers/2610.26549",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+      "abstract": "HOLI-WORLD, an integrated ecosystem connecting experience capture, world representation, automated data construction, model learning, and independent evaluation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26549",
+      "pdf_url": "https://arxiv.org/pdf/2610.26549",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Ropedia/holi-world"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26549",
+      "scraped_at": "2026-10-20T10:44:35.076555"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+    "paper_url": "https://huggingface.co/papers/2610.26802",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+      "abstract": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very large pretrained backbones for brain encoding with a small number of trainable parameters. To make it computationally practical, we exploit the backbone's causal structure to predict multiple timepoints in a single pass instead of using sliding windows, significantly reducing feature-extraction cost. This enables efficient fine-tuning of multimodal backbones with up to 104B parameters, the largest model adapted for brain encoding to our knowledge. Trained with a low-rank adapter (LoRA) and a lightweight readout, our approach consistently improves brain encoding performance across nine diverse multimodal backbones. On the same Qwen3-Omni backbone as the prior state-of-the-art (SoTA), our method BrainLoRA achieves the best published performance on the Algonauts 2025 Challenge. We also show the adapted multimodal backbones remain interpretable: modality attribution recovers the canonical sensory topography that prior work often obtains by construction from separate unimodal encoders, and neural adaptation increases the contribution of audio inputs and cross-modal mixing within the backbone. To scale out the number of adapted models, we develop a multi-LoRA kernel that accelerates joint training of multiple LoRAs on a shared backbone. This enables an ensemble of 200+ adapted models that ranks first on the public Algonauts post-challenge leaderboard at the time of writing. Together, our results highlight PEFT as an efficient and powerful paradigm for brain encoding.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26802",
+      "pdf_url": "https://arxiv.org/pdf/2610.26802",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26802",
+      "scraped_at": "2026-10-20T10:44:36.702574"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation",
+    "paper_url": "https://huggingface.co/papers/2610.25690",
+    "authors": [
+      "Jia Shi",
+      "Zhongrui Yu",
+      "Jiawei Wang",
+      "Yuanhong Yu",
+      "Yangyihui"
+    ],
+    "stars": "13",
+    "details": {
+      "title": "ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation",
+      "abstract": "We are excited to share ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation . ScaleNav uses scalable Internet video pretraining to learn navigation priors from action-free egocentric videos. A unified world-action model then connects these priors to executable robot actions through action alignment and joint fine-tuning on simulated data. ScaleNav achieves 86.5% success on a single-view adaptation of Short-Horizon OVON , 94.9% on HabitatGS-LN , and 83.3% on a real quadruped robot across three indoor environments . 📄 Paper: https://arxiv.org/abs/2610.25690 🌐 Project page: https://zju3dv.github.io/ScaleNav/ 🚀 Code: https://github.com/MachEmbodied/ScaleNav 🤗 Model: https://huggingface.co/Yangyihui/ScaleNav 📊 Data: https://huggingface.co/datasets/Yangyihui/ScaleNav-Data",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.25690",
+      "pdf_url": "https://arxiv.org/pdf/2610.25690",
+      "github_links": [
+        "https://github.com/MachEmbodied/ScaleNav",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.25690",
+      "scraped_at": "2026-10-20T10:44:38.317722"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "SpecMRL: Redesign Matryoshka Representation Learning within Parametric Spectrum",
+    "paper_url": "https://huggingface.co/papers/2610.26824",
+    "authors": [
+      "Xiao Zhou",
+      "Cong Li",
+      "Heng Cui",
+      "Songhao Wu",
+      "Zhongxin Chen"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "SpecMRL: Redesign Matryoshka Representation Learning within Parametric Spectrum",
+      "abstract": "We find that the ordered, orthogonal structure of a spectral basis naturally aligns with MRL’s nested prefix design, providing a better space for organizing information. SpecMRL reorganizes the embedding space using a learned, parameter-derived spectral basis, improving representation across different embedding sizes. We hope this perspective inspires more principled approaches to representation compression.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26824",
+      "pdf_url": "https://arxiv.org/pdf/2610.26824",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/CentreChen/Spec-MRL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26824",
+      "scraped_at": "2026-10-20T10:44:39.921316"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Self-Evolving Coding Agents via Harness-Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2610.22791",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Self-Evolving Coding Agents via Harness-Policy Optimization",
+      "abstract": "🤩 Introducing Self-HPO: let the coding agent improve its own harness, then train a stronger policy model with the optimized harness, and repeat the process for recursive improvement! 💪 Self-evolving: no external model required 🎯 Harness search targets the policy's evolving failure modes 📈 Avg over SWE-Bench Verified/Multilingual/Pro: 57.8% → 64.8% === Resources === 📄 Paper: https://arxiv.org/abs/2610.22791 💻 Code: https://github.com/MSR-Orchard/Self-HPO 🤗 Models & data: https://huggingface.co/self-hpo 📝 Blog: https://weizhepei.com/blog/self-hpo/ 🧵 X thread: https://x.com/weizhepei/status/2112260175000461453",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.22791",
+      "pdf_url": "https://arxiv.org/pdf/2610.22791",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/MSR-Orchard/Self-HPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.22791",
+      "scraped_at": "2026-10-20T10:44:41.557137"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners",
+    "paper_url": "https://huggingface.co/papers/2610.24087",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners",
+      "abstract": "🚀OR-License benchmarks LLM agents as real-world OR practitioners using industry-derived optimization problems from $3.68M in commissioned projects, evaluating end-to-end OR problem solving. We evaluated 11 frontier LLMs and analyzed their performance from both LLM agent and operations research perspectives. 📚Code and Dataset: https://github.com/NineAbyss/OR-License https://huggingface.co/datasets/OR-License/OR-License",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.24087",
+      "pdf_url": "https://arxiv.org/pdf/2610.24087",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/NineAbyss/OR-License"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.24087",
+      "scraped_at": "2026-10-20T10:44:43.182842"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion",
+    "paper_url": "https://huggingface.co/papers/2610.25404",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion",
+      "abstract": "Introducing MT Forcing : towards stable and consistent multi-turn image editing with autoregressive diffusion. Image editing models often produce good results in a single turn, yet accumulate artifacts and lose previously established details over successive edits. MT Forcing addresses both visual degradation and content drift through two complementary training signals: Single-Turn DMD trains on student self-rollouts, using a teacher that applies cumulative editing instructions directly to the original image in one turn. Teacher-Forcing Guidance uses consistent reference trajectories for warmup and regularization, helping preserve content across turns. On MTEdit-Bench, applying MT Forcing to SenseNova-U1.5 improves eight-turn average instruction following from 8.47 to 9.66 and content consistency from 7.09 to 8.40 . Explore the project page for interactive comparisons and a 15-turn editing demo! 🤗 Model weights: https://huggingface.co/houyuanchen/MT-Forcing",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.25404",
+      "pdf_url": "https://arxiv.org/pdf/2610.25404",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/houyuanchen111/MT-Forcing"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.25404",
+      "scraped_at": "2026-10-20T10:44:44.813666"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "CoworkEnv: Synthesizing Training Environments for Long-Horizon Cowork Agents",
+    "paper_url": "https://huggingface.co/papers/2610.24960",
+    "authors": [
+      "Chunyang Li",
+      "Baixuan Xu",
+      "Jiaxin Bai",
+      "Yiming Du",
+      "Zhongwei Xie"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "CoworkEnv: Synthesizing Training Environments for Long-Horizon Cowork Agents",
+      "abstract": "How can we build training environments for AI coworkers that need to use tools, handle multi-turn interactions, and operate in changing workspaces? We introduce CoworkEnv, a framework that synthesizes executable environments for training these agents. It combines capability-guided task generation with programmatic validation and feedback-based repair, supporting both supervised fine-tuning and reinforcement learning. Using CoworkEnv, we train compact PocketWorker models. On Claw-Eval, SFT improves Qwen3-VL-8B-Instruct from 46.6 to 64.1 (+17.5 points), with a +31.9-point gain on multi-turn tasks. We welcome feedback and discussion on environment synthesis and training long-horizon agents!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.24960",
+      "pdf_url": "https://arxiv.org/pdf/2610.24960",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/HKUST-KnowComp/CoworkEnv"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.24960",
+      "scraped_at": "2026-10-20T10:44:46.413306"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
+    "paper_url": "https://huggingface.co/papers/2610.26844",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
+      "abstract": "💡A compositional generalization suite for world model research. pip install anygoal and see how much your world model knows about the world! Project Page: https://hazel-heejeong-nam.github.io/anygoal/ github: https://github.com/galilai-group/AnyGoal huggingface: https://huggingface.co/collections/HazelNam/anygoal",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26844",
+      "pdf_url": "https://arxiv.org/pdf/2610.26844",
+      "github_links": [
+        "https://github.com/galilai-group/AnyGoal",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26844",
+      "scraped_at": "2026-10-20T10:44:48.005719"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "RoAR-VAE: Improving Latent Diffusability through Robust Prediction",
+    "paper_url": "https://huggingface.co/papers/2610.26216",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "RoAR-VAE: Improving Latent Diffusability through Robust Prediction",
+      "abstract": "This project aims to develop an open VAE training recipe with performance comparable to FLUX.2-VAE. Revisiting REPA-E, we identify robust prediction as an effective regularization principle: requiring useful information to remain recoverable from noisy latents encourages it to become more prominent in dominant latent directions, which diffusion models tend to learn earlier.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26216",
+      "pdf_url": "https://arxiv.org/pdf/2610.26216",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/LeapLabTHU/RoAR-VAE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26216",
+      "scraped_at": "2026-10-20T10:44:49.578682"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "InfiniDream: Open-Ended Photorealistic 3D Worlds Through Procedural Generation",
+    "paper_url": "https://huggingface.co/papers/2610.26853",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "InfiniDream: Open-Ended Photorealistic 3D Worlds Through Procedural Generation",
+      "abstract": "Procedural generation plays a key role in synthetic data creation and game development, offering greater controllability, editability, and diversity than static mesh representations. However, VLM-based code generation often produces relatively simple 3D assets, while sophisticated photorealistic procedural systems require extensive manual development. Existing VLM-guided procedural methods remain largely constrained by predefined factories and APIs, limiting their ability to create novel asset types. We introduce InfiniDream, a VLM-driven framework for open-ended procedural 3D world generation. First, we propose Symbolically Constrained Asset Generation, which leverages existing procedural algorithms to create novel, photorealistic assets while preserving editability and seed-based diversity. Second, we develop an end-to-end text-to-world pipeline that combines semantic scene planning with Deterministic Frustum-Guided Grid Placement to construct large-scale 3D worlds with precise object placement, procedural population, and animation. Extensive evaluations on 100 object and 20 scene generation tasks demonstrate improvements across four perceptual metrics. Diversity analysis, ablation studies, and human preference evaluations further validate the effectiveness of our framework.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26853",
+      "pdf_url": "https://arxiv.org/pdf/2610.26853",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yichuanH/InfiniDream"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26853",
+      "scraped_at": "2026-10-20T10:44:51.230282"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2610.06830",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
+      "abstract": "Memory has become integral to the LLM agent ecosystem, supporting information retention and reuse across interactions. However, most existing agent memory systems construct memory in a query-agnostic manner, which can incur unnecessary preprocessing cost and discard details that later prove essential. Recent studies have begun shifting memory processing toward runtime adaptation, but typically specialize in particular operations or fixed processing schemes, leaving flexible control over performance, cost, and latency largely underexplored. To address this challenge, we present \\textbf{MemPilot}, a flexible framework that orchestrates on-demand memory curation under different performance--cost--latency preferences. Specifically, we optimize a multi-step LLM policy via reinforcement learning to iteratively choose between retrieving from query-agnostic memory and delegating query-specific curation of raw multimodal history to heterogeneous LLMs and VLMs. The policy jointly controls evidence amount, curation instructions, model selection, and visual access, enabling fine-grained allocation of runtime computation. To optimize this policy under competing objectives, we adapt objective-wise advantage decoupling by separately estimating each objective's advantage before aggregation. Moreover, we introduce prefix-based marginal utility estimation for fine-grained credit assignment across multi-step rollouts. Experiments on five multimodal agent-memory benchmarks demonstrate favorable performance--cost--latency trade-offs across optimization preferences, with preference sweeps yielding broader frontiers than existing trade-off-aware baselines.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.06830",
+      "pdf_url": "https://arxiv.org/pdf/2610.06830",
+      "github_links": [
+        "https://github.com/ViktorAxelsen/MemPilot",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.06830",
+      "scraped_at": "2026-10-20T10:44:52.877244"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "RoboValue: A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Robotic Value Models",
+    "paper_url": "https://huggingface.co/papers/2610.26663",
+    "authors": [
+      "Honghao Su",
+      "Zhengye Du",
+      "xiaojy",
+      "wzlllong",
+      "Shengbang0209"
+    ],
+    "stars": "13",
+    "details": {
+      "title": "RoboValue: A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Robotic Value Models",
+      "abstract": "We introduce RoboValue , a fine-grained sim-and-real benchmark for unified evaluation of robotic value models. It evaluates four complementary capabilities: task-state understanding, temporal progress monitoring, failure and recovery reasoning, and value consistency. RoboValue covers 15 simulation and 20 real-world manipulation tasks . Our Zero-Shot and One-Shot evaluations reveal limitations in instruction grounding, execution-history awareness, recovery assessment, and consistent subtask credit. All four Full-Shot and One-Shot training subsets are publicly available in LeRobot v3.0 format. Project page: robovalue-benchmark.github.io",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26663",
+      "pdf_url": "https://arxiv.org/pdf/2610.26663",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/RoboValue-Benchmark/RoboValue"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26663",
+      "scraped_at": "2026-10-20T10:44:55.142509"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Kronecker Delta Rule for Long Context Linear Attention",
+    "paper_url": "https://huggingface.co/papers/2610.26834",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Kronecker Delta Rule for Long Context Linear Attention",
+      "abstract": "✨ Meet KronLSTM, our new linear attention architecture! 📦 The code is compatible with FLA, so you can plug it right in. 🛠️ We’re also cooking up faster kernels 🔥⚡ Stay tuned!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26834",
+      "pdf_url": "https://arxiv.org/pdf/2610.26834",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26834",
+      "scraped_at": "2026-10-20T10:44:56.807967"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
+    "paper_url": "https://huggingface.co/papers/2610.26848",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
+      "abstract": "https://physrsi-eval.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26848",
+      "pdf_url": "https://arxiv.org/pdf/2610.26848",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26848",
+      "scraped_at": "2026-10-20T10:44:58.511192"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning",
+    "paper_url": "https://huggingface.co/papers/2610.26851",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning",
+      "abstract": "Adapting existing manga into coherent animation that stays faithful to the source is a valuable yet challenging task. Existing methods either access the manga mainly through text, losing its characters and art style, or feed manga pages directly into video generation models, which misinterpret the manga's structure and produce incorrect storylines. In this paper, we propose Manga2Animate, a multi-agent framework that grounds every stage of generation in the source manga. We decompose the task into two intermediate representations, an animation script and a visual storyboard. Each representation is produced by a creator agent and reviewed against the source panels by a paired reviewer agent. We tailor representation-specific selection and dual-level feedback to progressively refine both before synthesizing the final animation. Extensive experiments and a user study demonstrate that Manga2Animate produces animations more faithful to the source manga and more consistent across shots than state-of-the-art approaches.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26851",
+      "pdf_url": "https://arxiv.org/pdf/2610.26851",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/annchenn/Manga2Animate"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26851",
+      "scraped_at": "2026-10-20T10:45:00.108518"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments",
+    "paper_url": "https://huggingface.co/papers/2610.25950",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments",
+      "abstract": "We introduce AdaExploreBench, a benchmark of LLM agents for proactive exploration and test-time adaptation in evolving environments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.25950",
+      "pdf_url": "https://arxiv.org/pdf/2610.25950",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/HKUST-KnowComp/AdaExploreBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.25950",
+      "scraped_at": "2026-10-20T10:45:01.702819"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation",
+    "paper_url": "https://huggingface.co/papers/2609.22332",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation",
+      "abstract": "🤔 Have egocentric human videos, but aren’t sure how to use them to train robots without robot action labels? We introduce AffordanceWAM, which uses affordances to connect human video learning with robot action generation. The idea is to learn which objects matter, where interactions happen, and how the scene evolves from human videos. Human and robot videos share these affordance prediction targets, while robot trajectories additionally teach the model how to act—without requiring human action labels or motion retargeting. 🤖 AffordanceWAM jointly predicts future visual observations, affordances, and robot actions. We observe consistent gains on RoboCasa, CALVIN, and real-world manipulation. With robot supervision held fixed, adding more affordance-annotated human video steadily improves RoboCasa performance. Project & demos · Code We’d love to hear how you’re using human videos for robot learning!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.22332",
+      "pdf_url": "https://arxiv.org/pdf/2609.22332",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Skywalker-yqz/AffordanceWAM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.22332",
+      "scraped_at": "2026-10-20T10:45:03.357859"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Think Visually Across Space and Time: Grounded Reasoning for Video Segmentation",
+    "paper_url": "https://huggingface.co/papers/2610.25090",
+    "authors": [
+      "Xin Li",
+      "Ming-Hsuan Yang",
+      "Guangming Lu",
+      "Deshui Miao",
+      "Junwei Wen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Think Visually Across Space and Time: Grounded Reasoning for Video Segmentation",
+      "abstract": "A spatiotemporally grounded form of Video CoT that organizes query-relevant observations into a chronological reasoning chain.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.25090",
+      "pdf_url": "https://arxiv.org/pdf/2610.25090",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.25090",
+      "scraped_at": "2026-10-20T10:45:04.962711"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "DeOverlay: A Benchmark and Source-Anchored Flow for Video Overlay Removal",
+    "paper_url": "https://huggingface.co/papers/2610.26081",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DeOverlay: A Benchmark and Source-Anchored Flow for Video Overlay Removal",
+      "abstract": "A Benchmark and Source-Anchored Flow for Video Overlay Removal",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26081",
+      "pdf_url": "https://arxiv.org/pdf/2610.26081",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26081",
+      "scraped_at": "2026-10-20T10:45:06.540179"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Evidence-First Agentic Verification",
+    "paper_url": "https://huggingface.co/papers/2610.17724",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Evidence-First Agentic Verification",
+      "abstract": "When agent evaluations become post-training rewards, unreliable verdicts can reinforce failures. We introduce Sauron, an evidence-first agentic verifier that scales long-horizon evaluation through shared-evidence clustering, targeted trace/state queries, and independent claim verification. Across 2,586 human-labeled criteria, Sauron achieves 0.96 F1 with lower cost and latency than competing verifiers.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.17724",
+      "pdf_url": "https://arxiv.org/pdf/2610.17724",
+      "github_links": [
+        "https://github.com/rsanayei/Sauron",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.17724",
+      "scraped_at": "2026-10-20T10:45:08.162425"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs",
+    "paper_url": "https://huggingface.co/papers/2610.26770",
+    "authors": [
+      "Honglin Lin",
+      "Yukuo Cen",
+      "ZhiYuan Feng",
+      "Zhuoshi Pan",
+      "Junrulu"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs",
+      "abstract": "HarnessPro recursively improves agent harnesses to achieve better task performance at lower execution cost, offering multiple performance–cost trade-offs for different deployment budgets.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26770",
+      "pdf_url": "https://arxiv.org/pdf/2610.26770",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/pzs19/HarnessPro"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26770",
+      "scraped_at": "2026-10-20T10:45:09.775750"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "BlenderWorld: Benchmarking Visual Agents for 3D Creation from Real-World References",
+    "paper_url": "https://huggingface.co/papers/2610.23986",
+    "authors": [],
+    "stars": "156",
+    "details": {
+      "title": "BlenderWorld: Benchmarking Visual Agents for 3D Creation from Real-World References",
+      "abstract": "🎉 Excited to share our latest work from the Qwen team!  Visual agents can already build websites, design posters, and create slide decks. But how well can they handle 3D creation? This demands spatial reasoning, tool use, and iterative visual feedback—yet existing benchmarks offer limited coverage of realistic, open-ended 3D tasks. 🔥 Introducing BlenderWorld, the first comprehensive benchmark for systematically evaluating visual agents on real-world 3D creation tasks. 🔹 223 realistic tasks across 9 domains and 22 subcategories, including architecture, product design, nature, character animation, and scientific visualization. Inputs span text, images, videos, and structured specification files. 🔹 Deliverables are complete, editable Blender projects, going beyond a visually appealing render. 🔹 2,651 task-specific, fine-grained criteria cover 13 aspects, including geometry, spatial layout, materials, and functionality. An agent automatically selects and renders 8 key views: VLM-as-Judge evaluates the visual output, while Agent-as-Judge inspects the underlying project structure. Overall quality is also assessed across 8 dimensions, including realism and physical plausibility. 🔹 We evaluate 13 frontier models. GPT-6-Astra leads with a score of 79.9, but even the strongest model satisfies every fine-grained requirement on only 42.2% of tasks. The results are promising, with substantial room for improvement in interpreting multimodal references, meeting detailed requirements, and handling physical and spatial relationships. 🌍 We also built an interactive 3D gallery where you can explore, rotate, and compare creations from different models directly in your browser. Take a look! 📖 Paper: https://arxiv.org/abs/2610.23986 🚀 Project: https://blenderworld.github.io/ 💻 GitHub: https://github.com/QwenLM/BlenderWorld ⭐ The code and dataset are publicly available! If you find BlenderWorld useful, consider giving us a star on GitHub. Thanks for your support!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.23986",
+      "pdf_url": "https://arxiv.org/pdf/2610.23986",
+      "github_links": [
+        "https://github.com/QwenLM/BlenderWorld",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.23986",
+      "scraped_at": "2026-10-20T10:45:11.511248"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "State World Models: Execute the Rules, Generate the Pixels",
+    "paper_url": "https://huggingface.co/papers/2610.26811",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "State World Models: Execute the Rules, Generate the Pixels",
+      "abstract": "HF Dataset: https://huggingface.co/datasets/Louis0411/StateWorldModel Modelscope Dataset: https://modelscope.cn/datasets/Louis0411/StateWorldModel",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26811",
+      "pdf_url": "https://arxiv.org/pdf/2610.26811",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Zhangyr2022/StateWorldModel"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26811",
+      "scraped_at": "2026-10-20T10:45:13.140231"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Frechet Forcing: Training Long-Horizon Streaming World Models from Short Clips",
+    "paper_url": "https://huggingface.co/papers/2610.25666",
+    "authors": [
+      "Jian Zhang",
+      "Ruochong Zheng",
+      "Yu Yan",
+      "Yian Zhao",
+      "HongcanGuo04"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "Frechet Forcing: Training Long-Horizon Streaming World Models from Short Clips",
+      "abstract": "Frechet Forcing: Training Long-Horizon Streaming World Models from Short Clips",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.25666",
+      "pdf_url": "https://arxiv.org/pdf/2610.25666",
+      "github_links": [
+        "https://github.com/zhao-yian/Frechet_Forcing",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.25666",
+      "scraped_at": "2026-10-20T10:45:14.711761"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Harnessing Textual Refusal Directions for Multimodal Safety",
+    "paper_url": "https://huggingface.co/papers/2606.31876",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Harnessing Textual Refusal Directions for Multimodal Safety",
+      "abstract": "TLDR; MARS leverages textual refusal directions to selectively steer model activations towards refusal when the model’s internal representations indicate potential risk, regardless of modality. The approach is training-free, requires no multimodal safety data, and consistently improves safety across images and videos while preserving utility.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31876",
+      "pdf_url": "https://arxiv.org/pdf/2606.31876",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Moreno98/MARS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31876",
+      "scraped_at": "2026-10-20T10:45:16.299818"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Interlock: From Local Correctness to Task Completion in Long-Horizon Agents",
+    "paper_url": "https://huggingface.co/papers/2610.19686",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Interlock: From Local Correctness to Task Completion in Long-Horizon Agents",
+      "abstract": "Interlock: From Local Correctness to Task Completion in Long-Horizon Agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.19686",
+      "pdf_url": "https://arxiv.org/pdf/2610.19686",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.19686",
+      "scraped_at": "2026-10-20T10:45:17.995812"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Learning to Discriminate Scene Structures Makes Self-Supervised Depth Learning Scalable",
+    "paper_url": "https://huggingface.co/papers/2610.23600",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Learning to Discriminate Scene Structures Makes Self-Supervised Depth Learning Scalable",
+      "abstract": "Beyond achieving SoTA performance across diverse datasets with a unified model, MaSS is the first SSMDE method to effectively benefit from increased data diversity and exhibit remarkable generalizability to entirely out-of-distribution scenes. Code: https://github.com/mengtanZ/MaSS Model weights: https://huggingface.co/mengtanZ/MaSS",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.23600",
+      "pdf_url": "https://arxiv.org/pdf/2610.23600",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/mengtanZ/MaSS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.23600",
+      "scraped_at": "2026-10-20T10:45:19.552493"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Self-Evaluating Recursive Agents",
+    "paper_url": "https://huggingface.co/papers/2610.04902",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "Self-Evaluating Recursive Agents",
+      "abstract": "🚀 Excited to share our latest work: Self-Evaluating Recursive Agents (SERA) ! As coding agents such as Claude Code and OpenAI Codex increasingly adopt task decomposition and subagent delegation, recursive agent architectures are emerging as a promising paradigm for tackling complex, long-horizon tasks. However, effectively training recursive agents remains a fundamental challenge . While final task outcomes are often verifiable, the intermediate subtasks generated by agents lack ground-truth supervision, making it difficult to assign credit for subtask execution and even harder to evaluate decomposition quality. Existing approaches typically rely on external verifiers or LLM judges, which can be costly and provide limited supervision for learning effective decomposition. To address this challenge, we introduce SERA (Self-Evaluating Recursive Agents) , a framework that jointly trains a single policy to decompose, execute, and evaluate subtasks. SERA enables agents to generate task-specific evaluation rubrics before delegation and learns to align these rubrics with verifiable task outcomes, providing finer-grained feedback for subtask execution. We also introduce a Leaf-Coverage Reward to directly improve decomposition quality. 🔍 Our key finding: Learning to Evaluate Improves Solving. Because execution and evaluation share the same model parameters, training agents to recognize successful subtask outcomes also improves their ability to solve those subtasks . In other words, evaluation is not merely a source of supervision; it can itself become a learned capability that strengthens agent reasoning and execution. Experimentally, SERA outperforms strong recursive-agent baselines by 5.38 and 13.14 percentage points on TextCraft-Synth and TextWorld-Sync, respectively. Moreover, the learned rubrics can guide tree search at inference time, yielding an additional 2.43-point improvement on TextWorld-Sync. Our results suggest a broader perspective: rather than relying solely on external judges, we can train agents to evaluate their own work, and in doing so, make them better problem solvers.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.04902",
+      "pdf_url": "https://arxiv.org/pdf/2610.04902",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OliverLeeXZ/SERA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.04902",
+      "scraped_at": "2026-10-20T10:45:21.189871"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "LIBERO-Industry: Benchmarking Robotic Manipulation under Industrial Process Constraints",
+    "paper_url": "https://huggingface.co/papers/2610.16782",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "LIBERO-Industry: Benchmarking Robotic Manipulation under Industrial Process Constraints",
+      "abstract": "Are embodied AI models ready for the factory floor? Flexible manufacturing requires robots to adapt to changing products and production conditions. Yet today’s general-purpose embodied models still struggle when action failures and execution errors accumulate. We introduce LIBERO-Industry, a benchmark that turns four common production-line challenges into controllable test conditions: moving material flows, variation in product geometry, strict cycle times, and tight spatial tolerances. Across simulation and a physical conveyor-belt workcell, we evaluate models on industrial loading, unloading, and material-transfer tasks. 💡 What we found: In simulation, policy performance declined progressively as the constraints were introduced and combined. In real-world experiments, the LIBERO-Industry co-training condition achieved higher observed target-transfer completion than the original-LIBERO condition. Ultimately, LIBERO-Industry aims to make industrial readiness a measurable research target for embodied AI.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.16782",
+      "pdf_url": "https://arxiv.org/pdf/2610.16782",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/IAIE-PhysicalAI/LIBERO-Industry"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.16782",
+      "scraped_at": "2026-10-20T10:45:22.803689"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "HandsOn: A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation",
+    "paper_url": "https://huggingface.co/papers/2610.26765",
+    "authors": [
+      "Debin Ren",
+      "Ting Pan",
+      "Hongjin Wu",
+      "Yiming He",
+      "Tianwei Luo"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "HandsOn: A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation",
+      "abstract": "Introducing HandsOn, a simulation platform and benchmark for generalizable dexterous manipulation. 66 human-verified tasks: Core-50 for demonstration-based learning and execution, plus Transfer-16 for asset and relation transfer, skill composition, and deformable manipulation without target-task training demonstrations. 18,000 curated human demonstrations in LeRobot v2.1 format, with synchronized front and wrist-camera observations. A composable platform supporting five robotic arms, six dexterous hands, and approximately 200 rigid, articulated, and deformable assets. Across diffusion, vision-language-action, and world-action policies, the best trained multi-task policy reaches 29.1% Core-50 success. Stage-level diagnostics highlight challenges in establishing contact, coordinating actions, and maintaining achieved goals. Code and the PhysX demonstration dataset are publicly available. Explore the task videos and qualitative real-robot rollouts on the project page. Project page Code Dataset We welcome feedback and experiments on dexterous manipulation generalization!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26765",
+      "pdf_url": "https://arxiv.org/pdf/2610.26765",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/TsinghuaC3I/HandsOn"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26765",
+      "scraped_at": "2026-10-20T10:45:24.446080"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Factorization-Guided Training and Inference for Diffusion-Drafted Speculative Decoding",
+    "paper_url": "https://huggingface.co/papers/2610.23935",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Factorization-Guided Training and Inference for Diffusion-Drafted Speculative Decoding",
+      "abstract": "TL;DR: More accepted tokens don’t always mean faster speculative decoding. We introduce DScout, which co-designs diffusion drafter training and inference: training aligns supervision with prefix acceptance, while inference configuration balances accepted tokens against per-round latency. Across six benchmarks, DScout achieves 3.84× and 4.14× mean speedups over autoregressive decoding on Qwen3-4B and Qwen3-8B, respectively—9.1% and 7.1% higher mean speedups than the state-of-the-art baseline.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.23935",
+      "pdf_url": "https://arxiv.org/pdf/2610.23935",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.23935",
+      "scraped_at": "2026-10-20T10:45:26.080892"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "ActionRoPE: action as coordinates for spatially consistent control in planar-camera game world models",
+    "paper_url": "https://huggingface.co/papers/2610.25861",
+    "authors": [
+      "Yeying Jin",
+      "Yuzhe Wu",
+      "Zhiyang Deng",
+      "onepiece1999"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "ActionRoPE: action as coordinates for spatially consistent control in planar-camera game world models",
+      "abstract": "🎮 ActionRoPE: Actions as Coordinates for Game Worlds That Move Precisely and Stay Consistent In top-down and isometric games, the camera follows the player, so how far each action shifts the view is a fixed geometric quantity. Yet existing game world models feed actions in as features and leave the direction and distance of motion to be learned from data. 🧐 The motion is imprecise, and when you walk back the same way, the world has changed. We propose ActionRoPE: actions as coordinates, not features. 📍 The camera displacement is written into the RoPE positional encoding, turning screen coordinates into world coordinates. The same world location keeps the same positional address in every frame, with zero extra parameters on the control path. 🎯 We also propose CNS (Coordinate-Conditioned Noise Scheduling): regions already visible in the first frame are denoised first, and newly revealed regions are generated with reference to them. 📊 On the same Wan2.2-5B backbone, compared with four common action-injection methods: ⦁ Walk away and come back: 66% less drift than the strongest baseline, +2.8 dB PSNR 🧩 The same interface transfers directly to four backbones from 1.3B to 33B, and control holds in unseen art styles (oil painting, ukiyo-e, cyberpunk). 🔗 📄 arXiv: https://arxiv.org/abs/2610.25861 🏠 Project page: https://teawhite.cn/ActionRoPE/ 💻 Code: https://github.com/TeaWhiteBro/ActionRoPE 🤗 Model: https://huggingface.co/teawhite/ActionRoPE",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.25861",
+      "pdf_url": "https://arxiv.org/pdf/2610.25861",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/TeaWhiteBro/ActionRoPE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.25861",
+      "scraped_at": "2026-10-20T10:45:27.660985"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "UniAVC: Unified Audio-Video Creation via Progressive Training and Asymmetric Scheduling",
+    "paper_url": "https://huggingface.co/papers/2610.24791",
+    "authors": [
+      "Yanghao Wang",
+      "Zhenqi He",
+      "Chong Hou Choi",
+      "Yuhao Liu",
+      "Kien T. Pham"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "UniAVC: Unified Audio-Video Creation via Progressive Training and Asymmetric Scheduling",
+      "abstract": "UniAVC: Unified Audio-Video Creation via Progressive Training and Asymmetric Scheduling",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.24791",
+      "pdf_url": "https://arxiv.org/pdf/2610.24791",
+      "github_links": [
+        "https://github.com/HKUST-LongGroup/UniAVC",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.24791",
+      "scraped_at": "2026-10-20T10:45:29.321628"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "HSPR: Recovering Software-Agent Benchmark Scores via Hierarchical Posterior Inference",
+    "paper_url": "https://huggingface.co/papers/2610.24611",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "HSPR: Recovering Software-Agent Benchmark Scores via Hierarchical Posterior Inference",
+      "abstract": "Can we estimate a software agent’s full benchmark score by running only a small fraction of tasks? HSPR uses historical agent responses to build a hierarchical posterior over a new agent’s performance, then adaptively selects the most informative tasks to evaluate next. At a 10% task budget across four SWE-bench-family task banks, HSPR achieves the lowest MAE on three and the lowest worst-case error on all four.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.24611",
+      "pdf_url": "https://arxiv.org/pdf/2610.24611",
+      "github_links": [
+        "https://github.com/wanyichen06/HSPR",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.24611",
+      "scraped_at": "2026-10-20T10:45:30.909224"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent",
+    "paper_url": "https://huggingface.co/papers/2610.21791",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent",
+      "abstract": "Large language model (LLM) agents have demonstrated strong capabilities in complex tasks, including code generation, tool use, and multi-hop question answering. Existing self-improvement methods enhance agent performance through model optimization, harness evolution, and executable artifact refinement, while recursive self-improvement (RSI) further extends optimization to the improvement mechanisms themselves. However, adapting self-improvement workflows to evolving performance bottlenecks while improving workflow orchestration through execution feedback remains a key challenge. We propose \\textbf{RSIFlow}, a \\textbf{R}ecursive \\textbf{S}elf-\\textbf{I}mprovement framework that integrates adaptive work\\textbf{flow} orchestration with meta-agent capability evolution. RSIFlow diagnoses performance bottlenecks from task-agent trajectories and environmental feedback to dynamically select component-specific improvement workflows. The meta-agent then distills workflow outcomes into component-specific skills and cross-component principles, evolving its own harness to improve subsequent workflow orchestration. Experiments across six benchmarks and two backbone models show that RSIFlow achieves the SOTA average performance on all benchmarks. Ablation studies further demonstrate the contributions of adaptive workflow orchestration and meta-harness evolution. Code is available at https://github.com/1HUAN1/RSI-Flow .",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.21791",
+      "pdf_url": "https://arxiv.org/pdf/2610.21791",
+      "github_links": [
+        "https://github.com/1HUAN1/RSI-Flow",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.21791",
+      "scraped_at": "2026-10-20T10:45:32.525944"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "World Model Interpretability: From Decoding Representations to Understanding Latent Worlds",
+    "paper_url": "https://huggingface.co/papers/2610.25296",
+    "authors": [
+      "Xinping Guan",
+      "Cailian Chen",
+      "Xinyi Le",
+      "Yongcheng Jing",
+      "Jize Wang"
+    ],
+    "stars": "95",
+    "details": {
+      "title": "World Model Interpretability: From Decoding Representations to Understanding Latent Worlds",
+      "abstract": "This Perspective aims to establish latent-world understanding as a central goal for interpreting predictive world models. We note that decodability is not understanding: accessible information does not reveal how it is organized, evolves, or causally supports prediction. Building on this observation, we envision the Ground–Structure–Verify–Act blueprint as a path toward this goal, and as a framework for shaping future research on latent-world interpretability. We call for future interpretability efforts to move beyond isolated representation-level analyses toward systematically understanding, validating, and acting on the internal worlds learned by predictive models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.25296",
+      "pdf_url": "https://arxiv.org/pdf/2610.25296",
+      "github_links": [
+        "https://github.com/Jize-W/Awesome-World-Model-Interpretability",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.25296",
+      "scraped_at": "2026-10-20T10:45:34.136367"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "FineSplat: Fine Patches, Local Groups, Detailed Splats",
+    "paper_url": "https://huggingface.co/papers/2610.25011",
+    "authors": [
+      "Jungwoo Kim",
+      "Gyeongjin Kang",
+      "Joonhyuk Park",
+      "Hwasik Jeong",
+      "HyebinKim"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "FineSplat: Fine Patches, Local Groups, Detailed Splats",
+      "abstract": "Key Idea: A pose-free feed-forward 3DGS framework that leverages fine-grained features and dual-grouping attention for efficient cross-view interactions, enabling high-quality novel view synthesis with fewer Gaussians. Highlights: Fine-grained features: Leverages high-resolution image patches to preserve fine-grained appearance details. Dual-grouping attention: Combines 2D view-wise and 3D spatial grouping to efficiently capture cross-view correspondences. State-of-the-art performance: Achieves superior posed and pose-free novel view synthesis quality with ~4× fewer Gaussians.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.25011",
+      "pdf_url": "https://arxiv.org/pdf/2610.25011",
+      "github_links": [
+        "https://github.com/hyebinny/FineSplat",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.25011",
+      "scraped_at": "2026-10-20T10:45:35.822081"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "ECHO: Efficient Causal Self-Recursion Beyond Auxiliary Multi-Token Prediction",
+    "paper_url": "https://huggingface.co/papers/2610.24766",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "ECHO: Efficient Causal Self-Recursion Beyond Auxiliary Multi-Token Prediction",
+      "abstract": "ECHO — Efficient Causal Self-Recursion Beyond Auxiliary Multi-Token Prediction A causal self-recursive Multi-Token Prediction (MTP) paradigm: Final-layer sharing : turns the indirect supervision of auxiliary MTP into direct multi-horizon supervision of the backbone, resulting in more substantial gains at a single prediction depth and continued gains with added depth, where auxiliary MTP saturates; the gains concentrate on reasoning and code in pretraining, with QA & multiple choice holding, and extend to both categories after supervised finetuning. Dynamic Depth Sampling : makes deep supervision affordable while preserving its gains. Emergent depth extrapolation : maintains high acceptance rates even when drafting beyond the trained depth, entirely eliminating the need for post-hoc drafters. Deployed in production at 200B-A13B scale.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.24766",
+      "pdf_url": "https://arxiv.org/pdf/2610.24766",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ernie-research/ECHO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.24766",
+      "scraped_at": "2026-10-20T10:45:37.462810"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Competing Learning in Hybrid Architectures",
+    "paper_url": "https://huggingface.co/papers/2610.26830",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Competing Learning in Hybrid Architectures",
+      "abstract": "Simple trick improves hybrid linear attention models (e.g., Kimi Delta Attention + Softmax Attention) for free!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26830",
+      "pdf_url": "https://arxiv.org/pdf/2610.26830",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/thunlp/competing-learning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26830",
+      "scraped_at": "2026-10-20T10:45:39.071416"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Remembering Has a Price: Learning Memory Worth under Resource Constraints",
+    "paper_url": "https://huggingface.co/papers/2610.26453",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Remembering Has a Price: Learning Memory Worth under Resource Constraints",
+      "abstract": "We introduce TokenWorth , a lightweight online memory framework for lifelong agents operating under tight resource budgets. By learning query-dependent memory utility from execution feedback, TokenWorth improves memory retrieval and management, achieving higher task success rates with fewer output tokens across multiple environments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26453",
+      "pdf_url": "https://arxiv.org/pdf/2610.26453",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AIGNLAI/TokenWorth"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26453",
+      "scraped_at": "2026-10-20T10:45:40.672323"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Co-Evolving Acting and Forecasting for Language Agents",
+    "paper_url": "https://huggingface.co/papers/2610.20597",
+    "authors": [
+      "Yuxiang Liu",
+      "Xuyan Ye",
+      "Yining Zhao",
+      "Yixing Chen",
+      "Haofei Yu"
+    ],
+    "stars": "12",
+    "details": {
+      "title": "Co-Evolving Acting and Forecasting for Language Agents",
+      "abstract": "Agentic reinforcement learning learns only from a terminal scalar reward, so most of a long rollout goes unused. Per-step value targets all derive from that one scalar, and next-observation targets are long, noisy, and reach only one step ahead. CoPE adds multi-step action targets: on successful trajectories, the policy backbone is also trained to forecast the actions that follow each history, so acting and forecasting co-evolve in one model. At inference it still acts one step at a time, with no overhead. Across ALFWorld, ScienceWorld, WebShop, τ2-bench, and AppWorld, CoPE outperforms GRPO and predictive-auxiliary baselines with up to 2.0× the sample efficiency, using no extra models, pretraining stages, or inference-time cost.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.20597",
+      "pdf_url": "https://arxiv.org/pdf/2610.20597",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ulab-uiuc/CoPE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.20597",
+      "scraped_at": "2026-10-20T10:45:42.392074"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution",
+    "paper_url": "https://huggingface.co/papers/2610.17816",
+    "authors": [],
+    "stars": "15",
+    "details": {
+      "title": "Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution",
+      "abstract": "We systematically analyze edge-cloud collaboration strategies for LLM agents across 128 executable long-horizon tasks, measuring task performance, resource cost, and privacy exposure. Key finding: a 9B edge model with collaboration achieves ~73% of full-cloud performance at ~15% of the cloud API cost. We also show that the best collaboration mode shifts as edge capability grows — from external routing with cloud execution toward edge-driven decision-making with cloud advisory (\"cloud as advisor, not executor\").",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.17816",
+      "pdf_url": "https://arxiv.org/pdf/2610.17816",
+      "github_links": [
+        "https://github.com/OpenBMB/EC2-Bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.17816",
+      "scraped_at": "2026-10-20T10:45:44.026521"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "RealityBench: Simulated Environments to Evaluate a Vision Language Model's Ability to Document Human Physical Work",
+    "paper_url": "https://huggingface.co/papers/2610.14397",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RealityBench: Simulated Environments to Evaluate a Vision Language Model's Ability to Document Human Physical Work",
+      "abstract": "We evaluate 26 VLMs in their ability to understand physical work, and release 11 Blender environments to evaluate them.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.14397",
+      "pdf_url": "https://arxiv.org/pdf/2610.14397",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.14397",
+      "scraped_at": "2026-10-20T10:45:45.657238"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "A Conditional No-Hair Theorem for Transformers: How Language Models Forget Their Prompt",
+    "paper_url": "https://huggingface.co/papers/2610.24133",
+    "authors": [
+      "Shuyang Xiang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "A Conditional No-Hair Theorem for Transformers: How Language Models Forget Their Prompt",
+      "abstract": "We ask how much an autoregressive transformer retains of its prompt after generating t tokens. Consider two different prompts followed by the same continuation text, so that any difference in their hidden states comes from the prompt alone, and we find that the distance between their hidden states decays approximately as a power law t−α, where α=1 is the rate at which a fixed prompt's share of uniform attention shrinks and smaller values mean longer memory. Trained models forget fast (α≈0.55--0.7), untrained ones slowly (α≈0.2--0.5). We prove that this offset is O(P(logt)L−1/t) for a prompt of length P and depth L. The bound holds for finite-depth pre-LN softmax transformers with bounded attention logits, under one additional condition: the pre-norm activations stay away from zero. The mechanism is geometric: the prompt's direct influence is diluted as the context grows, and \\emph{relay} --- continuation tokens passing on what earlier tokens read from the prompt --- can only add logarithmic factors. This is what we call the \\emph{conditional no-hair theorem}: given the text generated so far, the prompt's influence on the next token vanishes as t grows, so any property of the prompt that survives, such as its language, must be carried by the text itself. An exactly solvable linear relay model shows that the bound cannot be improved and reproduces the rise of the local exponent towards 1 seen in untrained networks. Cancelling the dilution with a logit bias stops the decay early in training and reverses it after, so dilution is necessary for the forgetting we measure; untrained networks and the solvable model show it is also sufficient.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.24133",
+      "pdf_url": "https://arxiv.org/pdf/2610.24133",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ShuyangenFrance/no-hair-transformers"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.24133",
+      "scraped_at": "2026-10-20T10:45:47.266726"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Text-to-Image Generative Modeling Without Language Pretraining",
+    "paper_url": "https://huggingface.co/papers/2610.26863",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Text-to-Image Generative Modeling Without Language Pretraining",
+      "abstract": "We ask whether language pretraining is necessary for strong text-to-image generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models trained entirely from scratch on 100M image–text pairs. Halcyon outperforms strong late-fusion baselines with significantly less pretraining compute. Controlled experiments further show that text-only pretraining does not improve text-to-image generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26863",
+      "pdf_url": "https://arxiv.org/pdf/2610.26863",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26863",
+      "scraped_at": "2026-10-20T10:45:48.864538"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Vision-Language-Delta-Action: Learning Compact Deltas as Actionable Transition Interfaces for Robotic Manipulation",
+    "paper_url": "https://huggingface.co/papers/2610.25874",
+    "authors": [],
+    "stars": "695",
+    "details": {
+      "title": "Vision-Language-Delta-Action: Learning Compact Deltas as Actionable Transition Interfaces for Robotic Manipulation",
+      "abstract": "a Vision-Language-Delta-Action model trained with LoongForge: 98.5% on LIBERO, 84.5% zero-shot on LIBERO-Plus, and +17–18 points over π0.5 on real robots",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.25874",
+      "pdf_url": "https://arxiv.org/pdf/2610.25874",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/baidu-baige/LoongForge"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.25874",
+      "scraped_at": "2026-10-20T10:45:50.475799"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "QD-Rec: Open-Ended Evolution of Recommendations via Quality-Diversity",
+    "paper_url": "https://huggingface.co/papers/2610.23470",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "QD-Rec: Open-Ended Evolution of Recommendations via Quality-Diversity",
+      "abstract": "QD-Rec repeatedly selects an item, generates a hypothesis, and updates the archive through local novelty and quality comparisons: QD-Rec's archives during search in three domains (claude-sonnet-5 proposer). Each map cell shows the highest score among its recommendations. Red lines extend from earlier recommendations (parents) to the new recommendation (child) generated from their ideas:",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.23470",
+      "pdf_url": "https://arxiv.org/pdf/2610.23470",
+      "github_links": [
+        "https://github.com/sakanaai/qd-rec",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.23470",
+      "scraped_at": "2026-10-20T10:45:52.113652"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Policy Is Not Capability: Some Safety Benchmarks Measure Which Definition of \"Unsafe\" You Trained On",
+    "paper_url": "https://huggingface.co/papers/2610.25060",
+    "authors": [
+      "Jianbang Zhang",
+      "Adrian Chan",
+      "Yijin Wang",
+      "Jonathon Romero",
+      "Vahid Jebraeeli"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Policy Is Not Capability: Some Safety Benchmarks Measure Which Definition of \"Unsafe\" You Trained On",
+      "abstract": "A guardrail's safety score depends on which definition of unsafe its training labels encode. Using ten guardrail classifiers trained on the same ~53k prompts labelled under two policies, we find that the training data already contained 88% of JailbreakBench-benign and 82% of OR-Bench-hard, that benchmarks differ 23x in how much the label policy decides their score, that changing 0.03% of the parameters can move a benchmark score across its entire range, and that validation accuracy tracks policy agreement (rho +0.74) rather than detection capability (rho +0.34). Guardrail evaluations should report contamination, a seed floor and the grading definition.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.25060",
+      "pdf_url": "https://arxiv.org/pdf/2610.25060",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.25060",
+      "scraped_at": "2026-10-20T10:45:53.688340"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models",
+    "paper_url": "https://huggingface.co/papers/2610.09496",
+    "authors": [
+      "Eunwoo Kim",
+      "Heayoun Choi",
+      "Jeongeun Park",
+      "taekyung-k",
+      "jiho-e"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models",
+      "abstract": "TL;DR: Can robots forget harmful behaviors without losing useful skills? SOUL (Sparse feature pOlicy UnLearnig) identifies interpretable sparse features associated with state hallucinations in VLAs and uses them to selectively unlearn harmful behaviors, reducing hallucination-induced failures while preserving successful manipulation capabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.09496",
+      "pdf_url": "https://arxiv.org/pdf/2610.09496",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.09496",
+      "scraped_at": "2026-10-20T10:45:55.274298"
+    },
+    "scraped_date": "2026-10-20"
+  },
+  {
+    "title": "SPARC: Spoken Profile Authorship Recognition Corpus",
+    "paper_url": "https://huggingface.co/papers/2610.25265",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SPARC: Spoken Profile Authorship Recognition Corpus",
+      "abstract": "SPARC asks a simple question, once you strip the voice from speech, how much of the speaker is still in the words? Dataset and code: https://huggingface.co/datasets/timtsapras23/SPARC https://github.com/bowenyi-pierre/SPARC",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.25265",
+      "pdf_url": "https://arxiv.org/pdf/2610.25265",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/bowenyi-pierre/SPARC"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.25265",
+      "scraped_at": "2026-10-20T10:45:56.964507"
+    },
+    "scraped_date": "2026-10-20"
   }
 ]
