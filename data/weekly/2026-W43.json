@@ -1,0 +1,624 @@
+[
+  {
+    "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+    "paper_url": "https://huggingface.co/papers/2610.31668",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API The Past Frames the Future: Memory for Autoregressive Video Generation (2026) A Plausible Future Is Not a Causal Future: Can Video Models Generate How the World Unfolds? (2026) WorldGraph: Graph-Native World Modeling (2026) World in World: Explore the World with World Models (2026) AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video (2026) Momentum: Persistent Dynamics for Video World Models (2026) HappyWorld-Bench (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31668",
+      "pdf_url": "https://arxiv.org/pdf/2610.31668",
+      "github_links": [
+        "https://github.com/vid-gen/awesome-video-world-model",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31668",
+      "scraped_at": "2026-10-26T11:59:46.745300"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
+    "paper_url": "https://huggingface.co/papers/2610.30932",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
+      "abstract": "Can simulated shoppers faithfully reproduce real users’ behavior over long shopping interactions? We introduce UserArena , an interactive benchmark grounded in real-world e-commerce data: 64,729 sessions from 11,010 users , covering 566,102 items and 13 action types. Its five-level evaluation goes beyond next-action accuracy to assess sequential behavior, personalization, and outcomes. It also validates offline policy comparisons against a controlled production A/B test. We further propose On-Policy Trajectory Distillation (OPTD) , which uses trajectory-level intent to guide dense token-level teacher supervision on student-generated responses. Among the evaluated simulators, OPTD achieves the strongest overall fidelity and most closely reproduces the policy effect observed in production. 💻 Code & data: https://github.com/RecGPT-Team/UserArena 🌐 Project: https://recgpt-team.github.io/UserArena-Page",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.30932",
+      "pdf_url": "https://arxiv.org/pdf/2610.30932",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/RecGPT-Team/UserArena"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.30932",
+      "scraped_at": "2026-10-26T11:59:48.450316"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
+    "paper_url": "https://huggingface.co/papers/2610.31162",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
+      "abstract": "🚀 We are excited to share our latest work: \"HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games\" ! Can an AI agent autonomously complete long-horizon tasks in Minecraft using only visual observations and native keyboard-and-mouse controls, just like a human player? Existing Minecraft agents typically focus on either native visuomotor control without long-horizon autonomy or high-level planning that relies on environment APIs and predefined skills. To this end, we introduce HiSTEVE 1.0 , a hierarchical Vision-Language-Action (VLA) agent that integrates a capability-aware agent harness with a native-control VLA policy, enabling autonomous planning and execution in Minecraft without privileged game states or environment APIs. 🔑 Key Highlights 🧠 Capability-Aware Agent Harness: We develop a hierarchical orchestration framework that combines capability-constrained planning, structured memory, and evidence-driven execution recovery. A policy-coupled task completion detector further enables the agent to determine when to advance, recover, or replan during long-horizon execution. 🎮 Reliable Native-Interface Control: We design a VLA policy that handles both first-person gameplay and GUI interactions through native keyboard-and-mouse actions. To mitigate interference between these heterogeneous interaction regimes, we introduce regime-specific RMSNorm branches and separate mouse-movement token embeddings, together with a three-stage training strategy combining world knowledge injection, imitation learning, and reinforcement learning. 📈 Extensive Experimental Validation: HiSTEVE achieves state-of-the-art atomic-task performance, reaching 85.0% on MineStudio Bench and 37.4% average success on OpenHA. The complete agent also successfully executes long-horizon tasks such as crafting an iron pickaxe from scratch using only the human interface. 📄 Paper: https://arxiv.org/abs/2610.31162 We welcome feedback and discussions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31162",
+      "pdf_url": "https://arxiv.org/pdf/2610.31162",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31162",
+      "scraped_at": "2026-10-26T11:59:50.162751"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
+    "paper_url": "https://huggingface.co/papers/2610.32253",
+    "authors": [],
+    "stars": "186",
+    "details": {
+      "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
+      "abstract": "Hi everyone! We’re sharing RSIHub, an open-source framework for building and comparing agent-evolution methods. RSIHub lets researchers compose reusable operators to improve agent prompts, skills, tools, and orchestration, while keeping evaluation protected and candidate histories traceable. We implement AHE, Hyperagents, A-Evolve, and GEPA on shared infrastructure and evaluate them with MiniSWE and Codex on Terminal Bench 2 and τ³ Banking. Our goal is to make agent self-improvement experiments easier to reproduce, compare, and extend. We’d love feedback, contributions, and ideas for new evolution methods and benchmarks! 💻 Code: https://github.com/simple-agent-lab/RSIHub 🌐 Project: https://simpleagentlab.com/rsihub/",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32253",
+      "pdf_url": "https://arxiv.org/pdf/2610.32253",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/simple-agent-lab/RSIHub"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32253",
+      "scraped_at": "2026-10-26T11:59:52.036317"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "RynnUnify: Towards Unified Embodied Brain",
+    "paper_url": "https://huggingface.co/papers/2610.32965",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "RynnUnify: Towards Unified Embodied Brain",
+      "abstract": "Introduction We present RynnUnify , a Mixture-of-Transformers architecture with an autoregressive Reasoner and a rectified-flow video Generator . Built on Cosmos3, RynnUnify connects embodied understanding, spatial grounding, and long-horizon visual planning through interleaved video-language reasoning. Unified Embodied Brain. RynnUnify brings embodied cognition, spatial grounding, and video generation into one architecture, connecting scene understanding with predictions of how the physical world evolves. Interleaved Visual Planning. RynnUnify alternates subtask reasoning with video prediction, using each generated outcome to plan the next step. Cross-chunk scene memory, self-forcing training, and adaptive durations support coherent visual planning over long horizons. Agentic Interleaved Thinking. An RL-trained agent learns when to answer directly and when to generate visual evidence. Through BCPO, it learns to formulate generation requests, interpret predicted outcomes, and select the reasoning path that benefits the task. Connect Prediction to Action. The World-Action Model ( WAM ) extension translates predictive world representations into robot control through joint video-action training, supporting composite manipulation tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32965",
+      "pdf_url": "https://arxiv.org/pdf/2610.32965",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/alibaba-damo-academy/RynnUnify"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32965",
+      "scraped_at": "2026-10-26T11:59:53.771344"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+    "paper_url": "https://huggingface.co/papers/2610.27103",
+    "authors": [],
+    "stars": "94",
+    "details": {
+      "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+      "abstract": "Paper: https://arxiv.org/abs/2610.27103 Code: https://github.com/ZiiJianLiu/Omni-Woodpecker",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.27103",
+      "pdf_url": "https://arxiv.org/pdf/2610.27103",
+      "github_links": [
+        "https://github.com/ZiiJianLiu/Omni-Woodpecker",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.27103",
+      "scraped_at": "2026-10-26T11:59:55.536521"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "Every Weight Is a Path of Shared Discrete Decisions",
+    "paper_url": "https://huggingface.co/papers/2610.31931",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Every Weight Is a Path of Shared Discrete Decisions",
+      "abstract": "We introduce state trees , a new representation in which every weight is a path of discrete decisions, and decisions can be shared across weights. Quantization, pruning, low-rank factorization and weight sharing all become edits on a tree, and applying the weights reduces to shifts and additions. We hope it opens new directions in compression, efficient kernels and hardware. As a first, deliberately simple application, we build a state tree on the original weights, one node per 64 values. Every weight and every KV-cache value still decodes to its exact BF16 bits directly on the tensorcores , with no calibration and no accuracy trade-off. On Qwen3-8B (A100, vLLM): 24% fewer bits for the weights (12.1 instead of 16) and 22% for the KV cache up to 1.28× faster generation, end to end 1.49× more tokens in the KV cache at the same memory budget decode attention 1.2–2.5× faster than FlashAttention-2 on the same values",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31931",
+      "pdf_url": "https://arxiv.org/pdf/2610.31931",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ammarali32/StateTree-Representation"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31931",
+      "scraped_at": "2026-10-26T11:59:57.243801"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
+    "paper_url": "https://huggingface.co/papers/2610.31066",
+    "authors": [
+      "Guohao Cai",
+      "Jingfan Chen",
+      "Xuan Zhang",
+      "Meng Chu",
+      "Zhefan Rao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
+      "abstract": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31066",
+      "pdf_url": "https://arxiv.org/pdf/2610.31066",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31066",
+      "scraped_at": "2026-10-26T11:59:59.058171"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "TenetBench: A Clause-Anchored Russian Corpus for Evaluating Language Models against Professional Codes of Ethics",
+    "paper_url": "https://huggingface.co/papers/2610.29477",
+    "authors": [
+      "Sergey Bolovtsov",
+      "Marina Polukoshko",
+      "Andrey Furov",
+      "Valery Vinogradov",
+      "user-7431"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "TenetBench: A Clause-Anchored Russian Corpus for Evaluating Language Models against Professional Codes of Ethics",
+      "abstract": "Preprint. TenetBench tests whether LLM-generated text conflicts with specific clauses of Russian-language professional codes, using conflicting requests paired with benign alternatives based on the same scenario. In the paper's main evaluation, each configuration was tested on 279 conflicting requests. Eleven of fourteen model and reasoning-mode configurations produced conflicting content on most requests, usually without a warning, as assessed by a frozen LLM judge. Available on Zenodo: 2,235 task pairs covering ten professional codes, 7,303 model-judge verdicts across twenty model and reasoning-mode configurations, human annotations on 1,260 request–response items, and the generation and evaluation pipeline. Data: CC BY 4.0. Code: Apache-2.0. https://doi.org/10.5281/zenodo.22678484",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.29477",
+      "pdf_url": "https://arxiv.org/pdf/2610.29477",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.29477",
+      "scraped_at": "2026-10-26T12:00:00.858044"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2610.32770",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
+      "abstract": "Can a language model improve itself without a single human-written question or answer? We introduce On-Policy Self-Training (OPST), which reformulates on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reasoning demonstrations. Guided only by coarse, high-level topic descriptions, the model builds its own curriculum of queries and privileged reasoning traces, with no human-curated prompts or answers. A pseudo-verification filter keeps a problem only if the model can reproduce its answer in a fresh context and under a paraphrase. We evaluate in-domain self-improvement as well as knowledge retention on out-of-domain benchmarks when mixing generation domains, and transfer to multimodal inputs with Visual OPST. OPST improves both language and multimodal reasoning without human-curated questions or answers, and outperforms alternative training strategies.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32770",
+      "pdf_url": "https://arxiv.org/pdf/2610.32770",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32770",
+      "scraped_at": "2026-10-26T12:00:02.690060"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "DraMaze: A Multi-Agent Pipeline with Future-Aware Memory for Diverse Microdrama Script Generation",
+    "paper_url": "https://huggingface.co/papers/2610.32002",
+    "authors": [
+      "Pengfei Xu",
+      "Yuncheng Huang",
+      "Fan Liu",
+      "Siyang He",
+      "qiqi4545"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DraMaze: A Multi-Agent Pipeline with Future-Aware Memory for Diverse Microdrama Script Generation",
+      "abstract": "The rapid growth of microdramas has increased demand for high-quality script production. Long-form microdrama script generation with LLMs requires both diverse plot progression and long-range narrative coherence. Our observations reveal that candidate continuations increasingly concentrate on fewer narrative mechanisms as generation progresses, while conventional retrieval may reinforce trope reuse and overlook historical information essential to future plots. To address these challenges, we propose DraMaze, a multi-agent pipeline that explores diverse causal paths through trope memory-guided evolutionary tree search and mutation. It further constructs a Backward Narrative Dependency Tree to organize, retain, and retrieve historical memories based on future narrative goals. We also introduce MiDramaBench, a bilingual benchmark for evaluating script logic and creative quality across different script lengths, together with causal-pattern metrics for narrative repetition and diversity. Experiments show consistent improvements across three backbone LLMs. For 60-episode scripts of up to 60k words, DraMaze reduces causal-pattern repetition by 32.1% and achieves a Logic score of 82.5, outperforming the best-performing baseline by 8.5 points.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32002",
+      "pdf_url": "https://arxiv.org/pdf/2610.32002",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32002",
+      "scraped_at": "2026-10-26T12:00:04.507933"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "FLOMSS: Generative Music Source Separation by Flow Matching",
+    "paper_url": "https://huggingface.co/papers/2610.17821",
+    "authors": [
+      "Qiyu Wu",
+      "Koichi Saito",
+      "Keisuke Toyama",
+      "Zhi Zhong",
+      "ik4sumii"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "FLOMSS: Generative Music Source Separation by Flow Matching",
+      "abstract": "FLOMSS systematically investigates flow matching for full-band stereo music source separation (MSS). Systematic design study: We investigate prediction targets, flow paths, single- vs. multi-source modeling, and mixture consistency. Optimal Transport-CFM with x-prediction provides the most balanced performance across the evaluated metrics. Beyond SDR: We evaluate MSS with signal-level, spectral, embedding-based, distributional, and subjective metrics, revealing a distributional–reconstruction trade-off: flow-matching models improve spectral and embedding-based similarity while generally sacrificing some SDR. Strong generative MSS performance: FLOMSS-S outperforms prior generative baselines on most spectral and perceptual metrics. Competitive subjective quality: Scaling to FLOMSS-M improves every reported objective metric over FLOMSS-S and ranks #2 overall in the listening test, despite its lower SDR than strong discriminative separators. These results highlight flow matching as a promising direction for generative music source separation with competitive perceptual quality.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.17821",
+      "pdf_url": "https://arxiv.org/pdf/2610.17821",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.17821",
+      "scraped_at": "2026-10-26T12:00:06.288984"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model",
+    "paper_url": "https://huggingface.co/papers/2610.31734",
+    "authors": [
+      "Ziqi Cai",
+      "Xiangcheng Cao",
+      "Penghao Luo",
+      "Lixin Xiu",
+      "Zixian Gao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31734",
+      "pdf_url": "https://arxiv.org/pdf/2610.31734",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31734",
+      "scraped_at": "2026-10-26T12:00:07.977012"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2610.23234",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation",
+      "abstract": "✨ Highlights Role-specific learning signals — MultiAgent-OPD combines local process supervision for Searchers with outcome-based reinforcement learning for the Leader and Answerer, addressing credit assignment in hierarchical multi-agent teams. Two-stage training recipe — First trains a teacher to search and summarize in a cascaded Search–Answer workflow, then transfers its expertise to Searchers during joint hierarchical training. Token-level on-policy distillation — A frozen, task-trained teacher scores student-generated queries and summaries on evolving subtask trajectories, providing fine-grained guidance for evidence acquisition and reporting. Joint training with a shared model — Leader, Searcher, and Answerer roles jointly optimize a shared language model to coordinate task decomposition, multi-wave search, and answer generation. Inference requires only the trained student. Strong performance across seven QA benchmarks — MultiAgent-OPD achieves 38.68% macro avg@4, outperforming M-GRPO like LLM Judge MAS-RL method by 4.06 percentage points and C-MAS + RL (cascaded MAS-RL method) by 2.61 points at the evaluated checkpoints.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.23234",
+      "pdf_url": "https://arxiv.org/pdf/2610.23234",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.23234",
+      "scraped_at": "2026-10-26T12:00:09.730142"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning",
+    "paper_url": "https://huggingface.co/papers/2610.01352",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning",
+      "abstract": "Open multimodal reasoning models have benefited from large-scale reasoning supervision, yet reliable post-training remains challenging due to uneven data quality, inefficient supervision construction, imbalanced difficulty, and cross-domain interference. We introduce MMVistaReason (MVR), an open-data post-training recipe with three components: (1) broader capability coverage across complementary Analytical and Real-World reasoning groups, emphasizing structured reasoning versus visual perception and spatial grounding; (2) efficient SFT and RL data construction, standardizing heterogeneous open data through staged cleaning and annotation, combining difficulty-aware cascaded teacher distillation with answer-likelihood-based trajectory selection to construct MVR-SFT-528K, and applying scale-specific frontier filtering for MVR-RL-63K; and (3) specialize-then-integrate training, which trains complementary RL experts and consolidates their capabilities through multi-teacher on-policy distillation (MOPD). Our analyses reveal a capacity-dependent interaction between supervision difficulty, trajectory quality, and model capacity: smaller students benefit more from selected supervision, while larger students are robust to trajectory variation and mixed-domain interference. Mixed-domain RL introduces benchmark-level negative transfer, whereas MOPD provides consistent capability integration, with the preferred KL direction varying across model scales. Across 15 multimodal benchmarks, MVR-4B achieves an average score of 72.8, outperforming Qwen3.5-9B (Instruct) and MMFineReason-8B while using about 70% fewer samples than MMFineReason. Scaling to 9B improves the average to 74.4, surpassing Qwen3.5-35B-A3B (Instruct). Overall, MMVistaReason demonstrates that systematic open-data construction and capacity-aware post-training provide a practical and scalable path toward reliable multimodal reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.01352",
+      "pdf_url": "https://arxiv.org/pdf/2610.01352",
+      "github_links": [
+        "https://github.com/JackieForest/MMVistaReason",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.01352",
+      "scraped_at": "2026-10-26T12:00:11.493808"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "Building Auditable AI Text Detectors with Sparse Autoencoders",
+    "paper_url": "https://huggingface.co/papers/2610.30006",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "Building Auditable AI Text Detectors with Sparse Autoencoders",
+      "abstract": "We propose DetectorScope---a pipeline that takes an arbitrary black-box AI detector and converts it into an auditable detector (i.e. one that is transparent about the features it uses to make its prediction). In our experiments we show that these auditable detectors maintain the performance of the underlying black box classifier on both in-distribution and out-of-distribution texts while exposing concrete and highly interpretable features for analysis. Paper: aclanthology.org/2026.emnlp-main.762/ Code: https://github.com/google-deepmind/detectorscope",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.30006",
+      "pdf_url": "https://arxiv.org/pdf/2610.30006",
+      "github_links": [
+        "https://github.com/google-deepmind/detectorscope",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.30006",
+      "scraped_at": "2026-10-26T12:00:13.202511"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "DuoLM: Fast and Effective Personalized Recommendation with Language Models",
+    "paper_url": "https://huggingface.co/papers/2610.24481",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DuoLM: Fast and Effective Personalized Recommendation with Language Models",
+      "abstract": "Introducing DuoLM DuoLM is a framework for fast, personalized recommendation with two jointly trained language models. An encoder turns item descriptions into compact representations that can be cached and reused across users. A ranker combines these representations with each user’s history and feedback to make personalized recommendations. Both models learn end to end from recommendation labels and guidance from a full-text teacher. The serving runtime makes this reuse practical: item representations stay on the GPU and are accessed through virtual token IDs, multiple candidates share history computation within each request, and CUDA Graphs reduce execution overhead. Together, the model and runtime reduce repeated work throughout the recommendation process.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.24481",
+      "pdf_url": "https://arxiv.org/pdf/2610.24481",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jiangLLM/DuoLM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.24481",
+      "scraped_at": "2026-10-26T12:00:14.995437"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
+    "paper_url": "https://huggingface.co/papers/2610.32894",
+    "authors": [
+      "Dimitris Christofis",
+      "Eleni Saka",
+      "Diogenis Antonopoulos",
+      "Eleanna Vali",
+      "pakoromilas"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
+      "abstract": "🌍 LoCA: Enabling Multi-Modality in Geospatial Location Encoders Location encoders such as SatCLIP and GeoCLIP turn (lat, lon) into general-purpose embeddings by contrastive alignment with satellite imagery. This paper shows why this works and what it takes to make it multimodal. Key findings 📐 Location encoders provably keep contrastive learning away from its optimum, and training image and location encoders jointly from scratch collapses the embedding covariance to very low rank. 🔁 SatCLIP-style encoders work because the frozen image encoder acts as a high-rank covariance regularizer that the location encoder folds onto. 🛰️ Extending this to multiple sensors requires a target that is co-aligned across modalities and has high effective rank. LoCA (Location Contrastive Alignment) Stage 1: Sentinel-1 and Sentinel-2 encoders are co-aligned with contrastive learning. Stage 2: location and metadata encoders are fitted onto them with multi-view contrastive learning. At inference, only coordinates are needed. Results: against SatCLIP, GeoCLIP, GT-Loc, AlphaEarth and Copernicus-FM on 17 tasks (land cover, wildfire, climate, geophysical, socio-economic, biodiversity), LoCA has the most task wins, ranks top-2 on 11, and wins 68.8% of pairwise comparisons against the other encoders. Its embeddings use 62% of their dimensions, compared with 35% for SatCLIP. 💻 Code and pretrained weights (coming soon): https://github.com/eleannavali/LoCA",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32894",
+      "pdf_url": "https://arxiv.org/pdf/2610.32894",
+      "github_links": [
+        "https://github.com/eleannavali/LoCA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32894",
+      "scraped_at": "2026-10-26T12:00:16.718712"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "Easy-3Dfy: Object-Level Geometric Composition for Single-Image 3D Scene Construction",
+    "paper_url": "https://huggingface.co/papers/2610.32250",
+    "authors": [
+      "Xintong Han",
+      "Jiachen Xu",
+      "Zehan Wang",
+      "Wenyou Yi",
+      "Viglong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Easy-3Dfy: Object-Level Geometric Composition for Single-Image 3D Scene Construction",
+      "abstract": "Easy-3Dfy: Object-Level Geometric Composition for Single-Image 3D Scene Construction",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32250",
+      "pdf_url": "https://arxiv.org/pdf/2610.32250",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32250",
+      "scraped_at": "2026-10-26T12:00:18.492293"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
+    "paper_url": "https://huggingface.co/papers/2610.31569",
+    "authors": [
+      "Hang Yu",
+      "Xinyi Wang",
+      "Juntu Zhao",
+      "Bohao Fan",
+      "Yufeng Liu"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
+      "abstract": "Recognizing task completion and failure enables robots to stop upon success and initiate recovery or replanning after failure. Existing methods augment Vision Language Action (VLA) policies with task status signal prediction to support these execution decisions. However, learning and integrating these signals can require fine-grained supervision, external monitoring models, or complex architectural designs. Moreover, the potential of task status signals to directly guide action generation remains underexplored. We present Echo, a framework that combines task status signal learning without frame-level progress annotations with a compact design for status prediction and action generation within a single VLA. Specifically, Echo represents task status with stop and failure signals, added as two dimensions of each action chunk and denoised together with robot actions. Their combination distinguishes ongoing execution, successful completion, and failure. To learn these signals without fine-grained progress annotations, Echo constructs successful, failed, and recovery trajectories with complementary supervision properties. To enable status signal-guided action generation, Echo controls interactions between the signals and actions and denoises the signals faster than the actions. These allow later action denoising steps to condition on cleaner status estimates while preserving accurate signal prediction. Extensive real-world manipulation experiments show that Echo accurately predicts task status and consistently improves policy performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31569",
+      "pdf_url": "https://arxiv.org/pdf/2610.31569",
+      "github_links": [
+        "https://github.com/lyfeng001/Echo-Sim",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31569",
+      "scraped_at": "2026-10-26T12:00:20.355805"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding",
+    "paper_url": "https://huggingface.co/papers/2610.29552",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding",
+      "abstract": "Extension of CycleGRPO (ECCV26: https://devinxzhang.github.io/CycleGRPO-Page/ )",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.29552",
+      "pdf_url": "https://arxiv.org/pdf/2610.29552",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/devinxzhang/CycleGRPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.29552",
+      "scraped_at": "2026-10-26T12:00:22.102342"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation",
+    "paper_url": "https://huggingface.co/papers/2610.27782",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation",
+      "abstract": "We introduce RoboJudge-Bench , a benchmark for evaluating multimodal LLMs as judges of embodied video generation, covering physical adherence and instruction alignment across diverse embodiments and video generators. We further present RoboJudge-Train , a dataset of 12K videos with 25K human-verified scores, and RoboJudge-9B , which achieves a Pearson correlation of 0.719 with human judgments, outperforming the evaluated proprietary and open-source judge models. Our work provides a systematic framework for evaluating embodied video generation and advancing reliable automated evaluation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.27782",
+      "pdf_url": "https://arxiv.org/pdf/2610.27782",
+      "github_links": [
+        "https://github.com/Sphere-AI-Lab/RoboJudge",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.27782",
+      "scraped_at": "2026-10-26T12:00:23.878625"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "DISC: Domain-Integrated Similarity Cost for Time-Series Dataset",
+    "paper_url": "https://huggingface.co/papers/2610.31288",
+    "authors": [
+      "Ryan Rossi",
+      "Hongjie Chen",
+      "Yen-Ku Liu",
+      "Franck-Dernoncourt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DISC: Domain-Integrated Similarity Cost for Time-Series Dataset",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31288",
+      "pdf_url": "https://arxiv.org/pdf/2610.31288",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31288",
+      "scraped_at": "2026-10-26T12:00:25.628265"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "A path-following framework on fiber bundle for variational inequalities",
+    "paper_url": "https://huggingface.co/papers/2606.00778",
+    "authors": [
+      "shb20"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "A path-following framework on fiber bundle for variational inequalities",
+      "abstract": "This paper presents a general-purpose path-following algorithm that solves general variational inequalities with continuous mappings and polytope domains to arbitrary precision, achieving global linear convergence: exact for nonsingular solutions, and up to any prescribed precision for singular ones. The key insight is to view the solution set of a fixed-point KKT system as a fiber bundle (the \"fixed-point bundle\") over the simplex, whose geometry separates motion along the base from motion along the fibers. This unifies starting point selection, path-following, and singularity avoidance: at a singular point, where existing path-following guarantees break down, the algorithm simply jumps along the fiber to a nonsingular point and continues. Experiments on 6400 random instances with dimensions up to 1024 reduce the gap below 1e-5 in every case; code and data are available at https://github.com/shb20tsinghua/FiberBundle_VI . A follow-up (arXiv:2609.16158) extends the framework to product-of-simplex domains for Nash equilibrium computation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.00778",
+      "pdf_url": "https://arxiv.org/pdf/2606.00778",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/shb20tsinghua/FiberBundle_VI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.00778",
+      "scraped_at": "2026-10-26T12:00:27.313217"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "The fixed-point bundle method over product-of-simplex domains arising from game equilibria",
+    "paper_url": "https://huggingface.co/papers/2609.16158",
+    "authors": [
+      "shb20"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The fixed-point bundle method over product-of-simplex domains arising from game equilibria",
+      "abstract": "This paper extends the fiber-bundle path-following framework of arXiv:2606.00778 to product-of-simplex domains, so that the algorithm solves arbitrary m-player n-action general-sum games to arbitrary precision, inheriting global linear convergence: exact for nonsingular equilibria, and up to any prescribed precision for singular ones. Rather than re-proving convergence, we construct an equivalent variational inequality on a single simplex and establish a fiber bundle isomorphism between the two frameworks, complemented by a slice-extension argument that transfers all guarantees from the original paper. The resulting composite bundle also permits jumps along fibers that avoid singular points, where existing path-following guarantees would otherwise break down. Experiments on 5600 random instances with dimensions ranging from 2-player 128-action to 128-player 2-action reduce the gap below 1e-5 in every case; code and data are available at https://github.com/shb20tsinghua/FiberBundle_VI .",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.16158",
+      "pdf_url": "https://arxiv.org/pdf/2609.16158",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/shb20tsinghua/FiberBundle_VI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.16158",
+      "scraped_at": "2026-10-26T12:00:29.055035"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training",
+    "paper_url": "https://huggingface.co/papers/2610.32909",
+    "authors": [
+      "Ziyue Liu",
+      "Yuhan Bao",
+      "Boxiong Li",
+      "Bo Zhang",
+      "Xihan Ma"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32909",
+      "pdf_url": "https://arxiv.org/pdf/2610.32909",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32909",
+      "scraped_at": "2026-10-26T12:00:30.789288"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing",
+    "paper_url": "https://huggingface.co/papers/2610.14253",
+    "authors": [
+      "Varun Manjunatha",
+      "Bryan Wang",
+      "Sayan Nag",
+      "Arman Zarei",
+      "Franck-Dernoncourt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.14253",
+      "pdf_url": "https://arxiv.org/pdf/2610.14253",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.14253",
+      "scraped_at": "2026-10-26T12:00:32.549044"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "Co-adaptive Rule Routing and Constraining for Structured Knowledge Retrieval",
+    "paper_url": "https://huggingface.co/papers/2610.14465",
+    "authors": [
+      "Bing He",
+      "Jiaxi Li",
+      "Haoyu Han",
+      "Zhisheng Qi",
+      "Franck-Dernoncourt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Co-adaptive Rule Routing and Constraining for Structured Knowledge Retrieval",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.14465",
+      "pdf_url": "https://arxiv.org/pdf/2610.14465",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.14465",
+      "scraped_at": "2026-10-26T12:00:34.283749"
+    },
+    "scraped_date": "2026-10-26"
+  }
+]
