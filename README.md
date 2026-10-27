@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-28-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-9240+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-43-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-9283+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">28</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">28</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">1479</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">9240+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">43</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">71</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">1522</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">9283+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** October 26, 2026
+**Last Updated:** October 27, 2026
 
 ---
 
@@ -119,177 +119,471 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Reading, Writing, Sharing, and Interacting with the World through Video</b> ⭐ 20</summary>
+<summary><b>1. Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.31668) • [📄 arXiv](https://arxiv.org/abs/2610.31668) • [📥 PDF](https://arxiv.org/pdf/2610.31668)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33568) • [📄 arXiv](https://arxiv.org/abs/2610.33568) • [📥 PDF](https://arxiv.org/pdf/2610.33568)
 
-**💻 Code:** [⭐ Code](https://github.com/vid-gen/awesome-video-world-model) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yihaohu0118/Trajectory2Gym)
 
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API The Past Frames the Future: Memory for Autoregressive Video Generation (202...
+> Trajectory2Gym is a framework for scaling tool-use agents through compositional coverage and decision-grounded supervision. It constructs executable interactions that capture multi-step dependencies and trains agents on decisions supported by thei...
 
 </details>
 
 <details>
-<summary><b>2. UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents</b> ⭐ 0</summary>
+<summary><b>2. StreamVibe: Proactive Video Agents for Evolving User Intent</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.30932) • [📄 arXiv](https://arxiv.org/abs/2610.30932) • [📥 PDF](https://arxiv.org/pdf/2610.30932)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/RecGPT-Team/UserArena)
-
-> Can simulated shoppers faithfully reproduce real users’ behavior over long shopping interactions? We introduce UserArena , an interactive benchmark grounded in real-world e-commerce data: 64,729 sessions from 11,010 users , covering 566,102 items ...
-
-</details>
-
-<details>
-<summary><b>3. HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.31162) • [📄 arXiv](https://arxiv.org/abs/2610.31162) • [📥 PDF](https://arxiv.org/pdf/2610.31162)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.34662) • [📄 arXiv](https://arxiv.org/abs/2610.34662) • [📥 PDF](https://arxiv.org/pdf/2610.34662)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> 🚀 We are excited to share our latest work: "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games" ! Can an AI agent autonomously complete long-horizon tasks in Minecraft using only visual observations and native keyboard-and-mou...
+> Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while overlooking implicit user intents (e.g., “where should I click next?” w...
 
 </details>
 
 <details>
-<summary><b>4. RSIHub: A Composable Framework for Agent-Evolution Methods</b> ⭐ 186</summary>
+<summary><b>3. DynaFlow: Learning Free-Form Multi-Agent Orchestration</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.32253) • [📄 arXiv](https://arxiv.org/abs/2610.32253) • [📥 PDF](https://arxiv.org/pdf/2610.32253)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.34467) • [📄 arXiv](https://arxiv.org/abs/2610.34467) • [📥 PDF](https://arxiv.org/pdf/2610.34467)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/simple-agent-lab/RSIHub)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/amiya-special/Dynaflow)
 
-> Hi everyone! We’re sharing RSIHub, an open-source framework for building and comparing agent-evolution methods. RSIHub lets researchers compose reusable operators to improve agent prompts, skills, tools, and orchestration, while keeping evaluation...
+> GitHub: https://github.com/amiya-special/Dynaflow Arxiv: https://arxiv.org/abs/2610.34467 Project Page: https://amiya-special.github.io/DynaFlow-website
 
 </details>
 
 <details>
-<summary><b>5. RynnUnify: Towards Unified Embodied Brain</b> ⭐ 7</summary>
+<summary><b>4. Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution</b> ⭐ 4</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.32965) • [📄 arXiv](https://arxiv.org/abs/2610.32965) • [📥 PDF](https://arxiv.org/pdf/2610.32965)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.32285) • [📄 arXiv](https://arxiv.org/abs/2610.32285) • [📥 PDF](https://arxiv.org/pdf/2610.32285)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/alibaba-damo-academy/RynnUnify)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/TraceLite-AI/TraceTrial-Bench)
 
-> Introduction We present RynnUnify , a Mixture-of-Transformers architecture with an autoregressive Reasoner and a rectified-flow video Generator . Built on Cosmos3, RynnUnify connects embodied understanding, spatial grounding, and long-horizon visu...
+> Task success does not always mean the agent harness worked reliably. We introduce TraceTrial-Bench, a benchmark that evaluates agent task performance and harness reliability separately, using 95 mechanism-oriented tasks across seven components: co...
 
 </details>
 
 <details>
-<summary><b>6. Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs</b> ⭐ 94</summary>
+<summary><b>5. InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants</b> ⭐ 6</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.27103) • [📄 arXiv](https://arxiv.org/abs/2610.27103) • [📥 PDF](https://arxiv.org/pdf/2610.27103)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33966) • [📄 arXiv](https://arxiv.org/abs/2610.33966) • [📥 PDF](https://arxiv.org/pdf/2610.33966)
 
-**💻 Code:** [⭐ Code](https://github.com/ZiiJianLiu/Omni-Woodpecker) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/facebookresearch/InteractiveWorld)
 
-> Paper: https://arxiv.org/abs/2610.27103 Code: https://github.com/ZiiJianLiu/Omni-Woodpecker
+> InteractiveWorld is the first environment that realistically simulates a human and a wearable AI assistant interacting in the physical world: the assistant sees through the human’s eyes and talks, the human decides and acts, and the world responds.
 
 </details>
 
 <details>
-<summary><b>7. Every Weight Is a Path of Shared Discrete Decisions</b> ⭐ 2</summary>
+<summary><b>6. Work Agents: Systems, Capabilities, and Optimization</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.31931) • [📄 arXiv](https://arxiv.org/abs/2610.31931) • [📥 PDF](https://arxiv.org/pdf/2610.31931)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.35845) • [📄 arXiv](https://arxiv.org/abs/2610.35845) • [📥 PDF](https://arxiv.org/pdf/2610.35845)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ammarali32/StateTree-Representation)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/EnjunDu/awesome-working-agent)
 
-> We introduce state trees , a new representation in which every weight is a path of discrete decisions, and decisions can be shared across weights. Quantization, pruning, low-rank factorization and weight sharing all become edits on a tree, and app...
+> As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how...
 
 </details>
 
 <details>
-<summary><b>8. Dual Exam: Controlled Evaluation of Multimodal Agents and World Models</b> ⭐ 0</summary>
+<summary><b>7. WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control</b> ⭐ 17</summary>
 
 <br/>
 
-**👥 Authors:** Guohao Cai, Jingfan Chen, Xuan Zhang, Meng Chu, Zhefan Rao
+**👥 Authors:** Fei Wang, Peng Zhang, Wenhua Liao, Yu Liu, sary11
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.31066) • [📄 arXiv](https://arxiv.org/abs/2610.31066) • [📥 PDF](https://arxiv.org/pdf/2610.31066)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33135) • [📄 arXiv](https://arxiv.org/abs/2610.33135) • [📥 PDF](https://arxiv.org/pdf/2610.33135)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/PixCtrol/WorldCast)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>8. Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.34415) • [📄 arXiv](https://arxiv.org/abs/2610.34415) • [📥 PDF](https://arxiv.org/pdf/2610.34415)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/WJM-George/AMBIT)
+
+> AMBIT is a unified First-Order Ambisonics framework that turns language into executable ScenePlans of source content, activity, and 3D trajectories, and renders them with a shared Transfusion model for both native generation and instruction-guided...
+
+</details>
+
+<details>
+<summary><b>9. Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33512) • [📄 arXiv](https://arxiv.org/abs/2610.33512) • [📥 PDF](https://arxiv.org/pdf/2610.33512)
+
+**💻 Code:** [⭐ Code](https://github.com/JHKim631/FORK) • [⭐ Code](https://github.com/huggingface)
+
+> Rubric-based rewards enable effective reinforcement learning on non-verifiable tasks. However, because these rewards are typically defined as a weighted measure of rubric coverage, models are trained primarily to maximize a recall objective. As a ...
+
+</details>
+
+<details>
+<summary><b>10. Principia: Test-Time Hypotheses to Principle Construction for Scientific Discovery</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.32195) • [📄 arXiv](https://arxiv.org/abs/2610.32195) • [📥 PDF](https://arxiv.org/pdf/2610.32195)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Dual Exam: Controlled Evaluation of Multimodal Agents and World Models
+> We introduce PRINCIPIA, an automatic framework for scientific knowledge construction at test time. By observing and interpreting experimental outcomes, PRINCIPIA forms hypotheses, generalizes them into  empirical principles, and revises hypotheses...
 
 </details>
 
 <details>
-<summary><b>9. TenetBench: A Clause-Anchored Russian Corpus for Evaluating Language Models against Professional Codes of Ethics</b> ⭐ 0</summary>
+<summary><b>11. World-in-Context: Interactive Video World Modeling with In-Context Conditioning</b> ⭐ 4</summary>
 
 <br/>
 
-**👥 Authors:** Sergey Bolovtsov, Marina Polukoshko, Andrey Furov, Valery Vinogradov, user-7431
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33169) • [📄 arXiv](https://arxiv.org/abs/2610.33169) • [📥 PDF](https://arxiv.org/pdf/2610.33169)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.29477) • [📄 arXiv](https://arxiv.org/abs/2610.29477) • [📥 PDF](https://arxiv.org/pdf/2610.29477)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/aigc3d/World-in-Context)
+
+> World-in-Context: Interactive Video World Modeling with In-Context Conditioning
+
+</details>
+
+<details>
+<summary><b>12. Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33472) • [📄 arXiv](https://arxiv.org/abs/2610.33472) • [📥 PDF](https://arxiv.org/pdf/2610.33472)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Preprint. TenetBench tests whether LLM-generated text conflicts with specific clauses of Russian-language professional codes, using conflicting requests paired with benign alternatives based on the same scenario. In the paper's main evaluation, ea...
+> We train a T2I prompt enhancer for visual design.
 
 </details>
 
 <details>
-<summary><b>10. On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models</b> ⭐ 0</summary>
+<summary><b>13. Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.32770) • [📄 arXiv](https://arxiv.org/abs/2610.32770) • [📥 PDF](https://arxiv.org/pdf/2610.32770)
+**👥 Authors:** Tongyu Wen, Qipeng Wang, Jinyi Bai, Ang Gao, Jiayue Pu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.35193) • [📄 arXiv](https://arxiv.org/abs/2610.35193) • [📥 PDF](https://arxiv.org/pdf/2610.35193)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Can a language model improve itself without a single human-written question or answer? We introduce On-Policy Self-Training (OPST), which reformulates on-policy self-distillation as a self-training framework, driven by self-generated question-answ...
+> AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mecha...
 
 </details>
 
 <details>
-<summary><b>11. DraMaze: A Multi-Agent Pipeline with Future-Aware Memory for Diverse Microdrama Script Generation</b> ⭐ 0</summary>
+<summary><b>14. Δτ-Bench: Pushing Agents Toward a Moving Capability</b> ⭐ 3</summary>
 
 <br/>
 
-**👥 Authors:** Pengfei Xu, Yuncheng Huang, Fan Liu, Siyang He, qiqi4545
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.34238) • [📄 arXiv](https://arxiv.org/abs/2610.34238) • [📥 PDF](https://arxiv.org/pdf/2610.34238)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.32002) • [📄 arXiv](https://arxiv.org/abs/2610.32002) • [📥 PDF](https://arxiv.org/pdf/2610.32002)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/zjunlp/delta-tau-bench)
+
+> In this paper, we introduce △τ-Bench, an executable agent benchmark that models the structural evolution of large tool ecosystems.
+
+</details>
+
+<details>
+<summary><b>15. Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents</b> ⭐ 2</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33956) • [📄 arXiv](https://arxiv.org/abs/2610.33956) • [📥 PDF](https://arxiv.org/pdf/2610.33956)
+
+**💻 Code:** [⭐ Code](https://github.com/haoyu-zhao/Continual-Learning-Exam) • [⭐ Code](https://github.com/huggingface)
+
+> 🚀 Introducing Continual Learning Exam (CLE): Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents! 🧠 Can LLM agents truly learn from experience and continuously improve over time? Most existing agent benchmarks focus on whether ag...
+
+</details>
+
+<details>
+<summary><b>16. AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33413) • [📄 arXiv](https://arxiv.org/abs/2610.33413) • [📥 PDF](https://arxiv.org/pdf/2610.33413)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> The rapid growth of microdramas has increased demand for high-quality script production. Long-form microdrama script generation with LLMs requires both diverse plot progression and long-range narrative coherence. Our observations reveal that candi...
+> AV-FABLE localizes sparse audio and visual manipulations on separate timelines in long-form video; NFSR reads frozen AV-LLM features with separate decoders and leads in-domain and on three OOD settings.
 
 </details>
 
 <details>
-<summary><b>12. FLOMSS: Generative Music Source Separation by Flow Matching</b> ⭐ 0</summary>
+<summary><b>17. S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning</b> ⭐ 5.22k</summary>
 
 <br/>
 
-**👥 Authors:** Qiyu Wu, Koichi Saito, Keisuke Toyama, Zhi Zhong, ik4sumii
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.35518) • [📄 arXiv](https://arxiv.org/abs/2610.35518) • [📥 PDF](https://arxiv.org/pdf/2610.35518)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.17821) • [📄 arXiv](https://arxiv.org/abs/2610.17821) • [📥 PDF](https://arxiv.org/pdf/2610.17821)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/InternLM/xtuner)
+
+> Critic-free methods are widely used in reinforcement learning with verifiable rewards (RLVR) for long chain-of-thought (CoT) reasoning, avoiding difficult and costly critic training. Common alternatives lack token-level credit assignment and typic...
+
+</details>
+
+<details>
+<summary><b>18. EmbodiedLab: Benchmarking Embodied Agents That Act to Know</b> ⭐ 10</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.35385) • [📄 arXiv](https://arxiv.org/abs/2610.35385) • [📥 PDF](https://arxiv.org/pdf/2610.35385)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/HexaFuture/EmbodiedLab)
+
+> Manipulation benchmarks test acting to change; EmbodiedLab tests acting to know. Given only an objective and the apparatus, a robot runs its own experiment in a physics-based lab to find out a result it cannot know in advance. 30 science experimen...
+
+</details>
+
+<details>
+<summary><b>19. RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions</b> ⭐ 6</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.34356) • [📄 arXiv](https://arxiv.org/abs/2610.34356) • [📥 PDF](https://arxiv.org/pdf/2610.34356)
+
+**💻 Code:** [⭐ Code](https://github.com/alibaba-damo-academy/RynnVLA-Latent) • [⭐ Code](https://github.com/huggingface)
+
+> Our contributions are as follows: 3D-grounded latent-action supervision. We introduce RynnLAM, which combines residual feature prediction, camera-compensated 3D-flow supervision, and camera-motion decoupling to construct continuous transition repr...
+
+</details>
+
+<details>
+<summary><b>20. ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning</b> ⭐ 6</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.18683) • [📄 arXiv](https://arxiv.org/abs/2610.18683) • [📥 PDF](https://arxiv.org/pdf/2610.18683)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/LINs-lab/ProAS)
+
+> We argue against the limitations of the traditional GRPO-type credit assignment, such as (1) the unreasonable reinforcement of unreasonable actions within the positively advantaged trajectory,  and (2) the fact that actions within the negatively a...
+
+</details>
+
+<details>
+<summary><b>21. miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.23928) • [📄 arXiv](https://arxiv.org/abs/2610.23928) • [📥 PDF](https://arxiv.org/pdf/2610.23928)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> FLOMSS systematically investigates flow matching for full-band stereo music source separation (MSS). Systematic design study: We investigate prediction targets, flow paths, single- vs. multi-source modeling, and mixture consistency. Optimal Transp...
+> 🚀 Can we really train LLMs with native FP4 reinforcement learning — without sacrificing stability? Excited to share miniTE , our open-source framework for stable and efficient native NVFP4 (W4A4) RL! One surprising finding: Same weights + same pre...
 
 </details>
 
 <details>
-<summary><b>13. DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model</b> ⭐ 0</summary>
+<summary><b>22. More Memory, Better Videos? A Controlled Study of Visual Memory in Long-Video Generation</b> ⭐ 2</summary>
 
 <br/>
 
-**👥 Authors:** Ziqi Cai, Xiangcheng Cao, Penghao Luo, Lixin Xiu, Zixian Gao
+**👥 Authors:** Yucheng Wang, Yulong Xu, Xinyu Wang, Huafeng Shi, Yuzhuo Chen
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.31734) • [📄 arXiv](https://arxiv.org/abs/2610.31734) • [📥 PDF](https://arxiv.org/pdf/2610.31734)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.35001) • [📄 arXiv](https://arxiv.org/abs/2610.35001) • [📥 PDF](https://arxiv.org/pdf/2610.35001)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Suchenl/VMem-Bench)
+
+> Does visual memory always improve generated video? VMem-Bench separates reference selection from generator outcomes. Across real-film and causal-story tracks, retrieval improves entity recall but can reduce precision and forbidden-entity avoidance...
+
+</details>
+
+<details>
+<summary><b>23. Rethinking Video Storage for AI Training: Breaking Cross-Frame Dependencies for Efficient Random Access</b> ⭐ 3</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33079) • [📄 arXiv](https://arxiv.org/abs/2610.33079) • [📥 PDF](https://arxiv.org/pdf/2610.33079)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/kaname-madoka18/codec4AI)
+
+> 🛑 Stop using LeRobot’s default video storage. 🚀 Upgrade your training-data infra with codec4AI! 🏛️ From Academician Wen Gao’s team at Peking University. Video training needs fast random frame access. codec4AI brings sparse decoding and dependency-...
+
+</details>
+
+<details>
+<summary><b>24. Build, Don't Play: Self-Improving LLM Research Agents Develop a Hearthstone Battlegrounds AI That Rivals Top Players</b> ⭐ 31</summary>
+
+<br/>
+
+**👥 Authors:** Limin Wang, Rizling
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33845) • [📄 arXiv](https://arxiv.org/abs/2610.33845) • [📥 PDF](https://arxiv.org/pdf/2610.33845)
+
+**💻 Code:** [⭐ Code](https://github.com/MCG-NJU/AutoTavern) • [⭐ Code](https://github.com/huggingface)
+
+> Excited to share our work, Build, Don't Play ! Can LLM agents build better game-playing AI systems than they can directly play? We introduce AutoTavern , a self-improving research system where LLM agents verify game mechanics, build a faithful Hea...
+
+</details>
+
+<details>
+<summary><b>25. Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33024) • [📄 arXiv](https://arxiv.org/abs/2610.33024) • [📥 PDF](https://arxiv.org/pdf/2610.33024)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/zhihaoyang30/skill-adaptation-code)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>26. Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization</b> ⭐ 3</summary>
+
+<br/>
+
+**👥 Authors:** Xinyi Shang, Peng Sun, Xiaohan Zhao, Yaxin Luo, Jiacheng Liu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.31309) • [📄 arXiv](https://arxiv.org/abs/2610.31309) • [📥 PDF](https://arxiv.org/pdf/2610.31309)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/VILA-Lab/optic)
+
+> Recent work shows that increasing embedding capacity can improve language models, making it a promising direction for scaling. As more capacity goes into embedding tables, extreme compression becomes increasingly important: we want to keep the ben...
+
+</details>
+
+<details>
+<summary><b>27. HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction</b> ⭐ 361</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.31635) • [📄 arXiv](https://arxiv.org/abs/2610.31635) • [📥 PDF](https://arxiv.org/pdf/2610.31635)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/HiP3Rs/HiP3R)
+
+> Turn long videos into coherent 3D worlds. HiP3R aligns overlapping reconstructions at the chunk level, then refines one shared camera pose per frame. Delivers 3D scenes across thousands of frames.
+
+</details>
+
+<details>
+<summary><b>28. Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination</b> ⭐ 7</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33503) • [📄 arXiv](https://arxiv.org/abs/2610.33503) • [📥 PDF](https://arxiv.org/pdf/2610.33503)
+
+**💻 Code:** [⭐ Code](https://github.com/AIforIP/PatEx-Gym) • [⭐ Code](https://github.com/huggingface)
+
+> PatEx-Gym introduces the first long-horizon agentic task in the patent domain, requiring agents to autonomously search for prior art, inspect technical evidence, iteratively refine their search strategies, and produce evidence-grounded Office Acti...
+
+</details>
+
+<details>
+<summary><b>29. AgentProofBench: Benchmarking Reusable Verifiers for Web Agents</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.34634) • [📄 arXiv](https://arxiv.org/abs/2610.34634) • [📥 PDF](https://arxiv.org/pdf/2610.34634)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/EthanNing/AgentProofBench)
+
+> Benchmarking Reusable Verifiers for Web Agents
+
+</details>
+
+<details>
+<summary><b>30. CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion</b> ⭐ 1</summary>
+
+<br/>
+
+**👥 Authors:** Yixin Chen, Ruolin Zuo, Shuwei Jiang, Yintianrun Zhang, j-zhu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.29915) • [📄 arXiv](https://arxiv.org/abs/2610.29915) • [📥 PDF](https://arxiv.org/pdf/2610.29915)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/PKU-VaLuE-Lab/CausalAlign)
+
+> Diffusion-based video generation models (VGMs) can synthesize visually compelling content, but maintaining geometrically consistent camera ego-motion across frames remains an open problem. Camera ego-motion describes these cross-frame viewpoint ch...
+
+</details>
+
+<details>
+<summary><b>31. Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** tardellirs
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.30970) • [📄 arXiv](https://arxiv.org/abs/2610.30970) • [📥 PDF](https://arxiv.org/pdf/2610.30970)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/tardellirs/crivo-decision-encoders)
+
+> Author here. Many LM pipelines end in a closed-set decision: pick a tool, a label, a route. We asked two things: how small an encoder for this can be, and whether it should read the options jointly or one at a time. Per-option vs joint: in a three...
+
+</details>
+
+<details>
+<summary><b>32. Mycelium: A Meta-Study of Hallucination Detection Across Provenance, Typology, and Granularities</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Julia Belikova, lmeribal
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33608) • [📄 arXiv](https://arxiv.org/abs/2610.33608) • [📥 PDF](https://arxiv.org/pdf/2610.33608)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/lmeribal/mycelium)
+
+> We share our study of hallucination detection benchmarks and evaluation practices. 🍄 Feedback and discussion are very welcome!
+
+</details>
+
+<details>
+<summary><b>33. Skill^{infty}: Recursive Self-Improvement for Agent Skill Optimization</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.35434) • [📄 arXiv](https://arxiv.org/abs/2610.35434) • [📥 PDF](https://arxiv.org/pdf/2610.35434)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> In Skill∞, a meta agent follows a meta-skill to optimize task skills and optimizes the meta-skill itself with the same procedure, so skill optimization becomes recursively self-improving.
+
+</details>
+
+<details>
+<summary><b>34. Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yun Zhou, Yawei Wang, Youzhi Luo, Han Ding, Jiongxiao Wang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.29139) • [📄 arXiv](https://arxiv.org/abs/2610.29139) • [📥 PDF](https://arxiv.org/pdf/2610.29139)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> Exploring selective world-model guidance in the agent loop for anticipating and avoiding future failures.
+
+</details>
+
+<details>
+<summary><b>35. Constrained Decoding: Harmful or Beneficial? Revisiting Its Impact on LLM Performance</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.35328) • [📄 arXiv](https://arxiv.org/abs/2610.35328) • [📥 PDF](https://arxiv.org/pdf/2610.35328)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
@@ -298,215 +592,110 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation</b> ⭐ 0</summary>
+<summary><b>36. RoboHarness: A Simple Harness Outperforms VLA and World Action Models</b> ⭐ 265</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.23234) • [📄 arXiv](https://arxiv.org/abs/2610.23234) • [📥 PDF](https://arxiv.org/pdf/2610.23234)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.14018) • [📄 arXiv](https://arxiv.org/abs/2610.14018) • [📥 PDF](https://arxiv.org/pdf/2610.14018)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/BinceQu/RoboHarness)
+
+> We've open-sourced RoboHarness! Try it with your own coding agent and model, and let us know what you build. On BEHAVIOR Challenge 2025 tasks, RoboHarness + Qwen3.8-Flash-Next outperforms state-of-the-art VLA models. 💻 https://github.com/BinceQu/R...
+
+</details>
+
+<details>
+<summary><b>37. Thinking-in-Bets at Test Time Reduces Sycophantic Revisions in LLM Agents</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.34654) • [📄 arXiv](https://arxiv.org/abs/2610.34654) • [📥 PDF](https://arxiv.org/pdf/2610.34654)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> ✨ Highlights Role-specific learning signals — MultiAgent-OPD combines local process supervision for Searchers with outcome-based reinforcement learning for the Leader and Answerer, addressing credit assignment in hierarchical multi-agent teams. Tw...
+> Language model agents often abandon correct work when a user challenges it, yet simply telling them to stand firm makes them ignore real mistakes. Once an agent reads a complaint, it tends to discount its own earlier checks in order to agree with ...
 
 </details>
 
 <details>
-<summary><b>15. MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning</b> ⭐ 2</summary>
+<summary><b>38. Nested Sparsity for Scalable Pretraining and Continual Learning</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.01352) • [📄 arXiv](https://arxiv.org/abs/2610.01352) • [📥 PDF](https://arxiv.org/pdf/2610.01352)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.31818) • [📄 arXiv](https://arxiv.org/abs/2610.31818) • [📥 PDF](https://arxiv.org/pdf/2610.31818)
 
-**💻 Code:** [⭐ Code](https://github.com/JackieForest/MMVistaReason) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Ma-Lab-Berkeley/Nestor)
 
-> Open multimodal reasoning models have benefited from large-scale reasoning supervision, yet reliable post-training remains challenging due to uneven data quality, inefficient supervision construction, imbalanced difficulty, and cross-domain interf...
+> Upload the paper.
 
 </details>
 
 <details>
-<summary><b>16. Building Auditable AI Text Detectors with Sparse Autoencoders</b> ⭐ 10</summary>
+<summary><b>39. Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?</b> ⭐ 1</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.30006) • [📄 arXiv](https://arxiv.org/abs/2610.30006) • [📥 PDF](https://arxiv.org/pdf/2610.30006)
+**👥 Authors:** Xin Yu, Ling Chen, Chen Liu, Tengyue Zhang, gtc-hf
 
-**💻 Code:** [⭐ Code](https://github.com/google-deepmind/detectorscope) • [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.34149) • [📄 arXiv](https://arxiv.org/abs/2610.34149) • [📥 PDF](https://arxiv.org/pdf/2610.34149)
 
-> We propose DetectorScope---a pipeline that takes an arbitrary black-box AI detector and converts it into an auditable detector (i.e. one that is transparent about the features it uses to make its prediction). In our experiments we show that these ...
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/gtc-gh/SATE-Bench)
+
+> SATE-Bench is an interactive benchmark that evaluates whether MLLMs know when to explore and when they have seen enough: an occluded initial view leaves the model "hungry" for information, and it has to explore the scene to fully "sate" that need.
 
 </details>
 
 <details>
-<summary><b>17. DuoLM: Fast and Effective Personalized Recommendation with Language Models</b> ⭐ 0</summary>
+<summary><b>40. DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.24481) • [📄 arXiv](https://arxiv.org/abs/2610.24481) • [📥 PDF](https://arxiv.org/pdf/2610.24481)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.21561) • [📄 arXiv](https://arxiv.org/abs/2610.21561) • [📥 PDF](https://arxiv.org/pdf/2610.21561)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/jiangLLM/DuoLM)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/idiap/dialfork)
 
-> Introducing DuoLM DuoLM is a framework for fast, personalized recommendation with two jointly trained language models. An encoder turns item descriptions into compact representations that can be cached and reused across users. A ranker combines th...
+> Ask an LLM agent to check the weather. It's polite, fluent and never says anything false... and twenty turns later you still don't have your forecast. 🌦️ That's procedural hallucination : the agent stops following the procedure it was given. Every...
 
 </details>
 
 <details>
-<summary><b>18. LoCA: Enabling Multi-Modality in Geospatial Location Encoders</b> ⭐ 1</summary>
+<summary><b>41. Trust Mechanisms for Offline Generative AI at the Edge: A Connectivity-Regime Framework and an Empirical Study on a Raspberry Pi 5</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Dimitris Christofis, Eleni Saka, Diogenis Antonopoulos, Eleanna Vali, pakoromilas
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33732) • [📄 arXiv](https://arxiv.org/abs/2610.33732) • [📥 PDF](https://arxiv.org/pdf/2610.33732)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.32894) • [📄 arXiv](https://arxiv.org/abs/2610.32894) • [📥 PDF](https://arxiv.org/pdf/2610.32894)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/securagenai/edge-rag-trust-mechanisms)
 
-**💻 Code:** [⭐ Code](https://github.com/eleannavali/LoCA) • [⭐ Code](https://github.com/huggingface)
-
-> 🌍 LoCA: Enabling Multi-Modality in Geospatial Location Encoders Location encoders such as SatCLIP and GeoCLIP turn (lat, lon) into general-purpose embeddings by contrastive alignment with satellite imagery. This paper shows why this works and what...
+> We study what trust mechanisms do, and cost, for a fully local RAG assistant on a Raspberry Pi 5 running under network isolation (Qwen2.5 1.5B/3B/7B, 300 SQuAD 2.0 questions). Key findings: A calibrated retrieval-score gate detects out-of-corpus q...
 
 </details>
 
 <details>
-<summary><b>19. Easy-3Dfy: Object-Level Geometric Composition for Single-Image 3D Scene Construction</b> ⭐ 0</summary>
+<summary><b>42. Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Xintong Han, Jiachen Xu, Zehan Wang, Wenyou Yi, Viglong
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.32250) • [📄 arXiv](https://arxiv.org/abs/2610.32250) • [📥 PDF](https://arxiv.org/pdf/2610.32250)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.24451) • [📄 arXiv](https://arxiv.org/abs/2610.24451) • [📥 PDF](https://arxiv.org/pdf/2610.24451)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Easy-3Dfy: Object-Level Geometric Composition for Single-Image 3D Scene Construction
+> Can frontier AI models generate CAD models that are actually usable in engineering? Unlike evaluations centered on simplified or toy examples, our study assesses GPT-6 Astra using realistic engineering CAD models with nontrivial complexity. More i...
 
 </details>
 
 <details>
-<summary><b>20. Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models</b> ⭐ 1</summary>
+<summary><b>43. Beyond Benchmarks: Can Small Open-Weight Models Get Real Coding Work Done?</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Hang Yu, Xinyi Wang, Juntu Zhao, Bohao Fan, Yufeng Liu
+**👥 Authors:** jainofficials
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.31569) • [📄 arXiv](https://arxiv.org/abs/2610.31569) • [📥 PDF](https://arxiv.org/pdf/2610.31569)
-
-**💻 Code:** [⭐ Code](https://github.com/lyfeng001/Echo-Sim) • [⭐ Code](https://github.com/huggingface)
-
-> Recognizing task completion and failure enables robots to stop upon success and initiate recovery or replanning after failure. Existing methods augment Vision Language Action (VLA) policies with task status signal prediction to support these execu...
-
-</details>
-
-<details>
-<summary><b>21. Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding</b> ⭐ 8</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.29552) • [📄 arXiv](https://arxiv.org/abs/2610.29552) • [📥 PDF](https://arxiv.org/pdf/2610.29552)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/devinxzhang/CycleGRPO)
-
-> Extension of CycleGRPO (ECCV26: https://devinxzhang.github.io/CycleGRPO-Page/ )
-
-</details>
-
-<details>
-<summary><b>22. RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation</b> ⭐ 2</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.27782) • [📄 arXiv](https://arxiv.org/abs/2610.27782) • [📥 PDF](https://arxiv.org/pdf/2610.27782)
-
-**💻 Code:** [⭐ Code](https://github.com/Sphere-AI-Lab/RoboJudge) • [⭐ Code](https://github.com/huggingface)
-
-> We introduce RoboJudge-Bench , a benchmark for evaluating multimodal LLMs as judges of embodied video generation, covering physical adherence and instruction alignment across diverse embodiments and video generators. We further present RoboJudge-T...
-
-</details>
-
-<details>
-<summary><b>23. DISC: Domain-Integrated Similarity Cost for Time-Series Dataset</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Ryan Rossi, Hongjie Chen, Yen-Ku Liu, Franck-Dernoncourt
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.31288) • [📄 arXiv](https://arxiv.org/abs/2610.31288) • [📥 PDF](https://arxiv.org/pdf/2610.31288)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.34241) • [📄 arXiv](https://arxiv.org/abs/2610.34241) • [📥 PDF](https://arxiv.org/pdf/2610.34241)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>24. A path-following framework on fiber bundle for variational inequalities</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** shb20
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.00778) • [📄 arXiv](https://arxiv.org/abs/2606.00778) • [📥 PDF](https://arxiv.org/pdf/2606.00778)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/shb20tsinghua/FiberBundle_VI)
-
-> This paper presents a general-purpose path-following algorithm that solves general variational inequalities with continuous mappings and polytope domains to arbitrary precision, achieving global linear convergence: exact for nonsingular solutions,...
-
-</details>
-
-<details>
-<summary><b>25. The fixed-point bundle method over product-of-simplex domains arising from game equilibria</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** shb20
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.16158) • [📄 arXiv](https://arxiv.org/abs/2609.16158) • [📥 PDF](https://arxiv.org/pdf/2609.16158)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/shb20tsinghua/FiberBundle_VI)
-
-> This paper extends the fiber-bundle path-following framework of arXiv:2606.00778 to product-of-simplex domains, so that the algorithm solves arbitrary m-player n-action general-sum games to arbitrary precision, inheriting global linear convergence...
-
-</details>
-
-<details>
-<summary><b>26. HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Ziyue Liu, Yuhan Bao, Boxiong Li, Bo Zhang, Xihan Ma
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.32909) • [📄 arXiv](https://arxiv.org/abs/2610.32909) • [📥 PDF](https://arxiv.org/pdf/2610.32909)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>27. SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Varun Manjunatha, Bryan Wang, Sayan Nag, Arman Zarei, Franck-Dernoncourt
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.14253) • [📄 arXiv](https://arxiv.org/abs/2610.14253) • [📥 PDF](https://arxiv.org/pdf/2610.14253)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>28. Co-adaptive Rule Routing and Constraining for Structured Knowledge Retrieval</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Bing He, Jiaxi Li, Haoyu Han, Zhisheng Qi, Franck-Dernoncourt
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.14465) • [📄 arXiv](https://arxiv.org/abs/2610.14465) • [📥 PDF](https://arxiv.org/pdf/2610.14465)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
+> Most coding benchmarks measure whether a model can solve a problem. But what happens when we ask smaller open-weight models to complete real software engineering tasks? In Beyond Benchmarks , I investigate this gap through practical coding workflo...
 
 </details>
 
@@ -518,28 +707,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 28 |
-| 📅 Today | [`2026-10-26.json`](data/daily/2026-10-26.json) | 28 |
-| 📆 This Week | [`2026-W43.json`](data/weekly/2026-W43.json) | 28 |
-| 🗓️ This Month | [`2026-10.json`](data/monthly/2026-10.json) | 1479 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 43 |
+| 📅 Today | [`2026-10-27.json`](data/daily/2026-10-27.json) | 43 |
+| 📆 This Week | [`2026-W43.json`](data/weekly/2026-W43.json) | 71 |
+| 🗓️ This Month | [`2026-10.json`](data/monthly/2026-10.json) | 1522 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-10-26 | 28 | [View JSON](data/daily/2026-10-26.json) |
+| 📌 2026-10-27 | 43 | [View JSON](data/daily/2026-10-27.json) |
+| 📄 2026-10-26 | 28 | [View JSON](data/daily/2026-10-26.json) |
 | 📄 2026-10-25 | 49 | [View JSON](data/daily/2026-10-25.json) |
 | 📄 2026-10-24 | 50 | [View JSON](data/daily/2026-10-24.json) |
 | 📄 2026-10-23 | 36 | [View JSON](data/daily/2026-10-23.json) |
 | 📄 2026-10-22 | 41 | [View JSON](data/daily/2026-10-22.json) |
 | 📄 2026-10-21 | 49 | [View JSON](data/daily/2026-10-21.json) |
-| 📄 2026-10-20 | 55 | [View JSON](data/daily/2026-10-20.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W43 | 28 | [View JSON](data/weekly/2026-W43.json) |
+| 📅 2026-W43 | 71 | [View JSON](data/weekly/2026-W43.json) |
 | 📅 2026-W42 | 334 | [View JSON](data/weekly/2026-W42.json) |
 | 📅 2026-W41 | 431 | [View JSON](data/weekly/2026-W41.json) |
 | 📅 2026-W40 | 391 | [View JSON](data/weekly/2026-W40.json) |
@@ -548,7 +737,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-10 | 1479 | [View JSON](data/monthly/2026-10.json) |
+| 🗓️ 2026-10 | 1522 | [View JSON](data/monthly/2026-10.json) |
 | 🗓️ 2026-09 | 781 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 709 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 583 | [View JSON](data/monthly/2026-07.json) |
