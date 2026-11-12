@@ -7441,5 +7441,408 @@
       "scraped_at": "2026-11-11T13:19:32.276033"
     },
     "scraped_date": "2026-11-11"
+  },
+  {
+    "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+    "paper_url": "https://huggingface.co/papers/2610.40394",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+      "abstract": "Introducing TOME-Math , a large-scale mathematical proof supervision corpus built from 2,118 university-level textbooks , containing 380K structured QA records . Unlike conventional math datasets that flatten knowledge into isolated question-answer pairs, TOME-Math preserves chapter progression, proposition-proof dependencies, and intermediate proof obligations . 🚀 Key findings: +16.7 percentage points in average performance across six mathematical reasoning benchmarks. Structured curriculum learning improves reasoning even with the same training data. Demonstrates the value of textbook structure for scalable mathematical supervision. 🔗 Project: https://tome-math.github.io/ 📢 The dataset is coming soon, stay tuned!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.40394",
+      "pdf_url": "https://arxiv.org/pdf/2610.40394",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.40394",
+      "scraped_at": "2026-11-12T14:23:37.973894"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+    "paper_url": "https://huggingface.co/papers/2611.13410",
+    "authors": [
+      "Yunxin Liu",
+      "Xin Ding",
+      "Zixu Hao",
+      "Xiangyu Li",
+      "Genming Cui"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+      "abstract": "SteerDistill: sub-4-bit LLM agents. A quantized agent can miss a task requirement and fail the whole task. SteerDistill trains it to avoid these mistakes through closed-loop teacher steering . A frozen BF16 teacher guides student retries and refines its guidance using execution feedback. Context distillation internalizes the locally verified corrections. The student then runs alone, without a teacher or steering prompts. Both start from the same BF16 checkpoint. At W4A16, average scores stay within one point of BF16 across three models and five agent benchmarks. At W2A16, SteerDistill achieves the highest average score among the tested quantized baselines on Qwen3-8B. Project & cases · Code · Paper",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.13410",
+      "pdf_url": "https://arxiv.org/pdf/2611.13410",
+      "github_links": [
+        "https://github.com/air-embodied-brain/SteerDistill",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.13410",
+      "scraped_at": "2026-11-12T14:23:39.830305"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2610.39671",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+      "abstract": "We study self-learning—autonomously retrieving, studying, and applying knowledge from long-form reference materials on the fly.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.39671",
+      "pdf_url": "https://arxiv.org/pdf/2610.39671",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.39671",
+      "scraped_at": "2026-11-12T14:23:41.825069"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",
+    "paper_url": "https://huggingface.co/papers/2608.22237",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",
+      "abstract": "Hi, we’re the authors of SparseRead! We built it for a problem you might recognize: you ask an agent to explain one error, and it reads the entire log. SparseRead lets the agent preview a file, read the relevant sections with source locations, and ask for more when it needs to. If the task requires the whole file, the agent can still read it directly. In our evaluation across 125 tasks and six models, the largest reductions compared with full reading were 92.9% in token use and 89.0% in wall time. Task scores stayed the same or improved in 26 of 30 model–workload combinations. Code and setup: https: https://github.com/Zedong-Liu/SparseReading Web of project: https://sparseread.pages.dev/ If you try it on your own files or repos, we’d like to hear where reading less helps and where it gets in the way.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.22237",
+      "pdf_url": "https://arxiv.org/pdf/2608.22237",
+      "github_links": [
+        "https://github.com/Zedong-Liu/SparseReading",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.22237",
+      "scraped_at": "2026-11-12T14:23:43.743961"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference",
+    "paper_url": "https://huggingface.co/papers/2611.10193",
+    "authors": [
+      "Matteo Mordacchini",
+      "Patrizio Dazzi",
+      "Emanuele Carlini",
+      "SaulUrso"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference",
+      "abstract": "Most LLM routing approaches select a single model per prompt, while ensembling introduces a different question: which models should we combine, and how many are actually worth invoking? In this paper, we introduce PISA, a cost-aware single-model router, and PISA-E, which extends routing to ensembles with prompt-adaptive composition and size. PISA-E estimates ensemble utility from individual model capability predictions, without requiring ensemble-specific training. It then selects the models to invoke based on the prompt and a configurable cost–quality preference. We evaluate both methods across four routing benchmarks under in-distribution and out-of-distribution settings. PISA achieves the highest macro-average cost–performance hypervolume among the evaluated single-model routers. PISA-E achieves the highest macro-average ensemble task performance when prioritizing quality, while also offering operating points with higher performance at approximately 36% (ID) and 25% (OOD) lower average inference cost than the strongest competing ensembles. Feedback and discussion are welcome, particularly on the ensemble-selection formulation and adaptive ensemble cardinality.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.10193",
+      "pdf_url": "https://arxiv.org/pdf/2611.10193",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.10193",
+      "scraped_at": "2026-11-12T14:23:45.586784"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2611.13028",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
+      "abstract": "Code: https://github.com/ljbro/GTAGym Data: https://huggingface.co/datasets/OpenMOSS-Team/GTAVBench",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.13028",
+      "pdf_url": "https://arxiv.org/pdf/2611.13028",
+      "github_links": [
+        "https://github.com/ljbro/GTAGym",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.13028",
+      "scraped_at": "2026-11-12T14:23:47.545520"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+    "paper_url": "https://huggingface.co/papers/2611.12304",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+      "abstract": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limitations lead to load imbalance between prefill and decode nodes and eviction of KV caches that agents will reuse. We present Evolving Infra, an agent-adaptive serving framework that adapts compute allocation to agent workloads and KV cache management to agent context management at runtime. We decouple compute allocation from key--value (KV) cache management, allowing nodes to switch efficiently between prefill and decode. Building on this design, an online planner matches the PD split to workload composition, while an agent-aware distributed KV manager guides cache eviction and transfer with signals from agent context management. Across coding, math, and computer-use tasks with GLM-5.2 and Kimi K2.6 on up to 256 GB300 GPUs, Evolving Infra reduces mean end-to-end request latency and P95 TTFT by up to 4.1x and 14x over Dynamo, NVIDIA's production framework.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.12304",
+      "pdf_url": "https://arxiv.org/pdf/2611.12304",
+      "github_links": [
+        "https://github.com/mit-han-lab/EvolvingInfra",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.12304",
+      "scraped_at": "2026-11-12T14:23:49.625337"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
+    "paper_url": "https://huggingface.co/papers/2611.12869",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
+      "abstract": "Where does alignment emerge? In later layers (not the final ones) and within a small subspace of ~100 dimensions. Does the capability-alignment trend still hold? It does, but it depends on the data: with clean, informative captions, stronger language models align more closely with vision models. How strong is cross-modal alignment, actually? Separately trained vision and language models exceed CLIP and SigLIP 2 in neighborhood agreement, but remain far below models of the same modality.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.12869",
+      "pdf_url": "https://arxiv.org/pdf/2611.12869",
+      "github_links": [
+        "https://github.com/ExplainableML/prh-closer-look",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.12869",
+      "scraped_at": "2026-11-12T14:23:51.452908"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "Mixed Signals: Weight-Space Programming for EEG and ECG",
+    "paper_url": "https://huggingface.co/papers/2611.13758",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Mixed Signals: Weight-Space Programming for EEG and ECG",
+      "abstract": "Can a language model train a neural network just by reasoning about its weights, with no gradient descent? We tested this on small EEG and ECG networks: Starting from an empty EEG network, Opus wrote every weight and matched gradient-descent training with 6× fewer training subjects. Without being told what was wrong, the models found the hidden recording artifacts that ECG networks relied on. But no model could improve a network that was already well trained. Prompts, reasoning traces and a short video found on the project page.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.13758",
+      "pdf_url": "https://arxiv.org/pdf/2611.13758",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.13758",
+      "scraped_at": "2026-11-12T14:23:53.366508"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "Module-Aware Optimization for Graph Neural Networks",
+    "paper_url": "https://huggingface.co/papers/2611.08379",
+    "authors": [
+      "Bracha Shapira",
+      "Moshe Eliasof",
+      "Haggai Roitman",
+      "Guy Hadad"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Module-Aware Optimization for Graph Neural Networks",
+      "abstract": "Different optimizers impose different geometries on parameter updates. Adaptive methods such as Adam and AdamW use coordinate-wise updates, while matrix-aware optimizers such as Muon utilize weight-matrix structure through orthogonalized updates. For Graph Neural Networks (GNNs), however, the effective geometry of its weight matrices is shaped not only by its learned channel-mixing weights, but also by the graph-propagated representations it acts on. Thus, even if an update is well normalized as a matrix, its effect on the layer output can be amplified when applied to graph-propagated features. To address this gap, we introduce GraphMuon, a graph-aware optimizer that adapts Muon's matrix updates to the covariance structure of graph-propagated layer inputs. GraphMuon performs orthogonalization in a metric defined by these propagated representations and normalizes step sizes according to the update's induced effect on the layer representation. We show that theoretically, vanilla Muon can suffer from graph-induced update amplification, while our GraphMuon can mitigate this effect. As such, our GraphMuon yields a graph-metric analogue of Muon's polar update step. Empirically, GraphMuon achieves 1.32x-2.42x validation-loss time-to-target speedups over AdamW on three large-scale OGB benchmarks. Across 15 dataset-architecture configurations spanning node classification, inductive graph classification, and graph regression, it achieves lower time-to-target in 13 cases, while maintaining competitive or superior predictive performance. Code is available at https://github.com/guy-hadad/GraphMuon .",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.08379",
+      "pdf_url": "https://arxiv.org/pdf/2611.08379",
+      "github_links": [
+        "https://github.com/guy-hadad/GraphMuon",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.08379",
+      "scraped_at": "2026-11-12T14:23:55.200802"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "CogBattery: Human-Referenced Evaluation of Cognitive Task Behavior and Structure in Language Models",
+    "paper_url": "https://huggingface.co/papers/2607.24999",
+    "authors": [
+      "Kazunori D Yamada",
+      "Fangzhou Lin",
+      "Lingyu Jiang",
+      "dengzhe-hou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CogBattery: Human-Referenced Evaluation of Cognitive Task Behavior and Structure in Language Models",
+      "abstract": "CogBattery compares 54 open-weight language models with human data on text adaptations of 13 cognitive paradigms. Matching the direction of a human effect does not mean matching human errors or confidence calibration. Leaderboard and community submissions: https://dengzhe-hou.github.io/CogBattery/",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.24999",
+      "pdf_url": "https://arxiv.org/pdf/2607.24999",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/dengzhe-hou/CogBattery"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.24999",
+      "scraped_at": "2026-11-12T14:23:57.016205"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "WMIP: A Working-Memory-Inspired Programmable Probe of Cumulative State Tracking in Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2603.27343",
+    "authors": [
+      "Fangzhou Lin",
+      "Zirui Li",
+      "Deng Li",
+      "Lingyu Jiang",
+      "dengzhe-hou"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "WMIP: A Working-Memory-Inspired Programmable Probe of Cumulative State Tracking in Large Language Models",
+      "abstract": "We introduce WMIP, a programmable probe of cumulative state tracking in LLMs. Across 18 LLMs, single-step arithmetic reaches 84.9%, but core items with three to seven updates drop to 31.7%, and from 50 updates on no model exceeds 10%. With instructions to write steps and put the answer on the last line, core accuracy reaches 88.0%. We release the generator, items, scoring code and all responses, and the leaderboard accepts community submissions: https://dengzhe-hou.github.io/WMIP/",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.27343",
+      "pdf_url": "https://arxiv.org/pdf/2603.27343",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/dengzhe-hou/WMIP"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.27343",
+      "scraped_at": "2026-11-12T14:23:58.903268"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
+    "paper_url": "https://huggingface.co/papers/2611.14418",
+    "authors": [
+      "Aliyas Ahmad Misri",
+      "Logesh L",
+      "Mohammed Nayeem Khan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
+      "abstract": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.14418",
+      "pdf_url": "https://arxiv.org/pdf/2611.14418",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.14418",
+      "scraped_at": "2026-11-12T14:24:00.712820"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds",
+    "paper_url": "https://huggingface.co/papers/2611.08286",
+    "authors": [
+      "Jieyu Zhang",
+      "Kanchana Ranasinghe",
+      "Kai Li",
+      "Zixian Ma",
+      "Chenhao Zheng"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds",
+      "abstract": "We introduce Interactive Visual Gym, a framework for evaluating and training visual interaction models in closed loop with simulated human users. IVG-Bench covers 315 interaction scenarios across cooking, household manipulation, and mobile interfaces, with persona-conditioned users and controlled execution errors. The benchmark evaluates task success, interaction quality, and response latency, and includes a human validation study and a proof-of-concept closed-loop training experiment. Code and the interactive leaderboard are available below.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.08286",
+      "pdf_url": "https://arxiv.org/pdf/2611.08286",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/SalesforceAIResearch/Interactive-Visual-Gym"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.08286",
+      "scraped_at": "2026-11-12T14:24:02.492992"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
+    "paper_url": "https://huggingface.co/papers/2611.13766",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
+      "abstract": "PyPI: https://pypi.org/project/fame-qp/",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.13766",
+      "pdf_url": "https://arxiv.org/pdf/2611.13766",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/santoshrajkumar/fame-qp"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.13766",
+      "scraped_at": "2026-11-12T14:24:04.331727"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
+    "paper_url": "https://huggingface.co/papers/2611.05862",
+    "authors": [
+      "Yueqi Zhang",
+      "Zhouheng Yao",
+      "Honghui Yang",
+      "Zhanwei Zhang",
+      "dayll"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
+      "abstract": "We introduce CARTBench, a benchmark for evaluating shopping advice for Complex and Ambiguous Requests with Timelines. It contains 169 timestamped shopping cases across 17 retail domains, with 1,603 product records and 1,328 case-specific rubric criteria covering Core, Excellence, and Safety. Code: https://github.com/Da1yuqin/CARTBench Dataset: https://huggingface.co/datasets/dayll/CARTBench",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.05862",
+      "pdf_url": "https://arxiv.org/pdf/2611.05862",
+      "github_links": [
+        "https://github.com/Da1yuqin/CARTBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.05862",
+      "scraped_at": "2026-11-12T14:24:06.234941"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
+    "paper_url": "https://huggingface.co/papers/2611.14413",
+    "authors": [
+      "Aliyas Ahmad Misri",
+      "Logesh L",
+      "Mohammed Nayeem Khan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
+      "abstract": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.14413",
+      "pdf_url": "https://arxiv.org/pdf/2611.14413",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.14413",
+      "scraped_at": "2026-11-12T14:24:08.083182"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "PolyRoute: A Twelve-Language and Code-Mixed Benchmark for Typed-Decision Routing, with Baselines and a Leaderboard",
+    "paper_url": "https://huggingface.co/papers/2611.13843",
+    "authors": [
+      "Sarun Kumar K S",
+      "Mohammed Nayeem Khan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PolyRoute: A Twelve-Language and Code-Mixed Benchmark for Typed-Decision Routing, with Baselines and a Leaderboard",
+      "abstract": "PolyRoute: A Twelve-Language and Code-Mixed Benchmark for Typed-Decision Routing, with Baselines and a Leaderboard",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.13843",
+      "pdf_url": "https://arxiv.org/pdf/2611.13843",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.13843",
+      "scraped_at": "2026-11-12T14:24:09.887584"
+    },
+    "scraped_date": "2026-11-12"
   }
 ]
