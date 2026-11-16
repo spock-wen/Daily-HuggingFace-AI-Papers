@@ -1,0 +1,556 @@
+[
+  {
+    "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+    "paper_url": "https://huggingface.co/papers/2611.18359",
+    "authors": [
+      "geekyutao",
+      "mwxely",
+      "visity",
+      "littlepure2333",
+      "wegg111"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.18359",
+      "pdf_url": "https://arxiv.org/pdf/2611.18359",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.18359",
+      "scraped_at": "2026-11-16T14:24:43.541299"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+    "paper_url": "https://huggingface.co/papers/2611.15789",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+      "abstract": "awesome work～",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.15789",
+      "pdf_url": "https://arxiv.org/pdf/2611.15789",
+      "github_links": [
+        "https://github.com/vibeprevisbench/vibeprevisbench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.15789",
+      "scraped_at": "2026-11-16T14:24:45.350548"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+    "paper_url": "https://huggingface.co/papers/2611.18397",
+    "authors": [
+      "Zhihao Yang",
+      "Yukun Chen",
+      "Qi Deng",
+      "Run Luo",
+      "iTheresaApocalypse"
+    ],
+    "stars": "124",
+    "details": {
+      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.18397",
+      "pdf_url": "https://arxiv.org/pdf/2611.18397",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/RainBowLuoCS/Gamer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.18397",
+      "scraped_at": "2026-11-16T14:24:47.116749"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2611.18482",
+    "authors": [],
+    "stars": "13",
+    "details": {
+      "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+      "abstract": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence between next-token distributions with and without visual input. We find that acceptance rates decrease from 46% in the lowest visual-dependence quartile to 22% in the highest, with this disparity persisting after multimodal training. Motivated by this observation, we propose MMFlash, a simple and effective framework that adaptively upweights visually dependent tokens that the drafter predicts poorly. For long video inputs, MMFlash further employs sparse attention to reduce redundant attention computation and improve drafting quality. Across various multimodal benchmarks, MMFlash achieves lossless decoding speedups of up to 3.58×, outperforming EAGLE-3 and DFlash by up to 195.4% and 17.1%, respectively.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.18482",
+      "pdf_url": "https://arxiv.org/pdf/2611.18482",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/fscdc/MMFlash"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.18482",
+      "scraped_at": "2026-11-16T14:24:48.900495"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
+    "paper_url": "https://huggingface.co/papers/2611.12901",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
+      "abstract": "• We analyze the relationship between entropy spike steps and hallucinations in multimodal diffusion models from the perspective of uncertainty dynamics across denoising steps. • We propose StepRefine, a plug-and-play decoding approach that mitigates hallucinations through entropy spike detection and step-aware mode switching. • Extensive evaluations across four MDLM backbones and diverse multimodal benchmarks show the superior performance of StepRefine, offering an effective solution for multimodal diffusion hallucinations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.12901",
+      "pdf_url": "https://arxiv.org/pdf/2611.12901",
+      "github_links": [
+        "https://github.com/mdlm-steprefine/mdlm-steprefine",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.12901",
+      "scraped_at": "2026-11-16T14:24:50.591245"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
+    "paper_url": "https://huggingface.co/papers/2611.17831",
+    "authors": [
+      "Yong Suk Choi",
+      "Dongjun Kim",
+      "kkt94"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
+      "abstract": "We release Llama-V-JEPA-LM, open video-language models that join a frozen V-JEPA 2.1 world-model encoder to Qwen3 / Llama (1B–8B), trained in a single stage with counterfactual supervision: a clip and its transformed copy (reversed, mirrored, re-timed) get the same question with different answers, so only the change itself can explain the answer. Leads every size class on 11 video benchmarks (4B: 72.14 avg), strongest on dynamics (TOMATO, Vinoground, SSv2) Beats Meta's V-JEPA 2 / 2.1 video LLMs with 1/20 of the training data and 1/9 of the visual tokens 4.53M public samples, 32 visual tokens per frame, one training stage All 6 checkpoints, code and a live demo are open.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.17831",
+      "pdf_url": "https://arxiv.org/pdf/2611.17831",
+      "github_links": [
+        "https://github.com/kkt94/Llama-V-JEPA-LM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.17831",
+      "scraped_at": "2026-11-16T14:24:52.322400"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "MIRIX-2.0: Multi-Agent Memory System",
+    "paper_url": "https://huggingface.co/papers/2611.12068",
+    "authors": [
+      "Yu Wang",
+      "Peng Xia",
+      "Jiayan Nan",
+      "Weizhi Zhang",
+      "Wei-Chieh Huang"
+    ],
+    "stars": "3.47k",
+    "details": {
+      "title": "MIRIX-2.0: Multi-Agent Memory System",
+      "abstract": "MIRIX-2.0 is out  🚀 🚀 🚀 one system for both factual and procedural memory. Complete records as the system of record, a provenance hypergraph citing answers back to raw rows, and AutoDream merging duplicates and distilling skills offline, outside the write path. No fine-tuning. Numbers: User Factual memory: AutoDream with 91.4 on LoCoMo and 72.6 on LongMemEval-S, +14.3 over the strongest baseline. AutoDream alone adds +3.0 on LoCoMo without rewriting a single stored record. Agent Procedural memory: AutoDream skills lift ALFWorld to 76.4% vs 69.4 without memory, best of the memory methods on WebShop with the fewest tokens, 49.2% vs 44.0 on MetaClaw-Bench, file completion 27.7% vs 17.1%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.12068",
+      "pdf_url": "https://arxiv.org/pdf/2611.12068",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Mirix-AI/MIRIX"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.12068",
+      "scraped_at": "2026-11-16T14:24:54.060442"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "MEM-SQL: Memory-Empowered Text-to-SQL",
+    "paper_url": "https://huggingface.co/papers/2611.18338",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MEM-SQL: Memory-Empowered Text-to-SQL",
+      "abstract": "Most Text-to-SQL benchmarks overlook a common scenario where a new request can reuse parts of an earlier query. For example, this month’s revenue report by region can use the same joins and revenue calculation as last month’s, with only the date range changing. We built HARE to benchmark this kind of reuse and MEM-SQL to carry it out using verified query history.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.18338",
+      "pdf_url": "https://arxiv.org/pdf/2611.18338",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.18338",
+      "scraped_at": "2026-11-16T14:24:55.757665"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands",
+    "paper_url": "https://huggingface.co/papers/2611.17814",
+    "authors": [
+      "Jin Zhang",
+      "Wenzheng Kong",
+      "Yuechun Yu",
+      "xiaofengmao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands",
+      "abstract": "G-CAST helps deployed agents adapt to evolving user needs, tools, and workflows through reward-guided training, validated reward updates, and cumulative regression checks. Deployed in Alibaba’s 1688 procurement agent, it improves adaptation while preserving previously learned capabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.17814",
+      "pdf_url": "https://arxiv.org/pdf/2611.17814",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.17814",
+      "scraped_at": "2026-11-16T14:24:57.504626"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+    "paper_url": "https://huggingface.co/papers/2611.18549",
+    "authors": [
+      "Hua Geng",
+      "ghy0324",
+      "ZhouTimeMachine"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+      "abstract": "Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rely on specialized architectures. We introduce JVT (Just Video Transformer), a simple large-patch DiT-style Transformer for pixel-space video diffusion, without a pretrained autoencoder, auxiliary detailers, cascaded stages, or U-Net-style skip connections. We systematically examine video patch embeddings, register tokens, and adaptive layer normalization to identify design choices that balance generation quality and computational efficiency. The resulting JVT design achieves generation quality competitive with latent diffusion baselines in both class-conditioned and unconditional settings. The pixel-space formulation of JVT also naturally supports joint generation of pixel-aligned modalities. We demonstrate this capability through camera-conditioned RGB-disparity generation, which improves camera following relative to RGB-only baselines and yields explicit scene geometry without an additional reconstruction model at inference. These results highlight the potential of simple DiT-style Transformers for pixel-space video diffusion, and we hope our findings offer useful insights and practical guidance for future research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.18549",
+      "pdf_url": "https://arxiv.org/pdf/2611.18549",
+      "github_links": [
+        "https://github.com/ZhouTimeMachine/JVT",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.18549",
+      "scraped_at": "2026-11-16T14:24:59.167412"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Loopback Transformer: Towards a Unified View of Residual Looped Transformers",
+    "paper_url": "https://huggingface.co/papers/2611.07226",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Loopback Transformer: Towards a Unified View of Residual Looped Transformers",
+      "abstract": "In this paper, we study how residual connections should retain and reuse information when the same Transformer blocks run repeatedly. Inspired by recurrent memory, we develop a unified view of residual connections as memory operating along network depth . The write–transport–read formulation lets us compare different residual designs through what they store, how they carry information forward, and how they retrieve it for subsequent computation. Guided by this view, we introduce Loopback Transformer . Loopback stores individual block updates, uses geometric forgetting to progressively discount earlier passes, and learns content-dependent attention over the stored updates. This allows the model to retrieve useful information from earlier computation. At matched training tokens and executed depth, Loopback achieves lower validation loss and higher mean accuracy across 13 zero-shot tasks than Standard Transformers at both 1.4B and 3B, retaining only 68% and 75% of their Transformer parameters , respectively. At 3B, validation loss improves from 2.0005 to 1.9849 , mean accuracy rises from 48.56% to 49.45% , and Loopback scores higher on 11 of 13 tasks . In our main comparisons at 191M, 374M, and 778M, it also achieves the lowest validation loss and highest thirteen-task mean among Standard and seven looped residual baselines. Parameter counts exclude token embeddings and the output head. Our results highlight residual design as an important part of parameter-efficient modeling: sharing computation works better when the model also learns how to retain and reuse its outputs. We welcome feedback and discussion!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.07226",
+      "pdf_url": "https://arxiv.org/pdf/2611.07226",
+      "github_links": [
+        "https://github.com/yancyou/Loopback",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.07226",
+      "scraped_at": "2026-11-16T14:25:00.862856"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Evidence-Governed Adoption of Self-Generated Updates in Autonomous AI Agents",
+    "paper_url": "https://huggingface.co/papers/2611.16378",
+    "authors": [
+      "learner-subodh"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Evidence-Governed Adoption of Self-Generated Updates in Autonomous AI Agents",
+      "abstract": "What happens when an AI agent decides to improve itself? More importantly, how do we know whether those improvements are actually making it better? As agents begin modifying their own prompts, memories, tools, and workflows, one question becomes increasingly important: Should every self-generated improvement be trusted? This paper introduces Evidence-Governed Evolution (EGE), a framework for ensuring that an agent's proposed improvements earn the right to become permanent through independent evaluation, measurable evidence, and safeguards against capability degradation. The central idea is simple: An AI agent should be free to propose changes, but evidence should decide which changes survive. I'd be interested to hear your thoughts on how we should govern the next generation of self-evolving AI agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.16378",
+      "pdf_url": "https://arxiv.org/pdf/2611.16378",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.16378",
+      "scraped_at": "2026-11-16T14:25:02.576109"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Aligning AI Teams",
+    "paper_url": "https://huggingface.co/papers/2611.17820",
+    "authors": [
+      "Erik Jones",
+      "Jascha Sohl-Dickstein",
+      "Morgan Jane Matthews",
+      "Siddarth Srinivasan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Aligning AI Teams",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2611.17820",
+      "pdf_url": "https://arxiv.org/pdf/2611.17820",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.17820",
+      "scraped_at": "2026-11-16T14:25:04.314421"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+    "paper_url": "https://huggingface.co/papers/2611.14504",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+      "abstract": "Bonbon is a vertical foundation model for biology that independently learned the hidden relationships governing molecular interactions, just as LLMs learned math without being explicitly trained on it. Accepted to the NeurIPS 2026 main track as an Oral (top 0.4% of submissions). Trained on sequences alone, with no structure, physics, task-specific labels, or supervision, Bonbon developed emergent biological capabilities as we scaled it from 42M to 1.6B parameters. Pretraining loss fell smoothly, while new capabilities appeared sharply at the largest scale: What it does: predicts mechanism of action across six classes, including which molecules switch the same target on and which switch it off. Today this requires functional lab assays. Where it happens: localizes the binding site and distinguishes orthosteric from allosteric engagement on the same target. How it bonds: recognizes covalent binding and pinpoints the residue involved, without being told covalency is present. Which atoms matter: identifies the active moiety at single-bond resolution, work that usually takes many rounds of making and testing analogs. All capabilities were evaluated zero-shot on held-out proteins and molecules. The same representation space reaches state-of-the-art performance on widely used binding and affinity benchmarks, and runs at 2,500 molecular interactions per second on a single H100, about 50,000× faster than a leading co-folding model. In blinded dose-response assays at an external CRO, de novo molecules ranked by Bonbon achieved a 61.5% hit rate across nine disease targets in seven protein families, compared with the ~0.1% typical of high-throughput screening. Every molecule was less than 60% similar to anything in training. Some examples: HDAC6: most known inhibitors rely on hydroxamate chemistry linked to toxicity. Bonbon found novel non-hydroxamate inhibitors. MNK2: novel inhibitors outside the documented chemical space for this cancer target. VEGFR2 and ELANE: both absent from training, yet Bonbon found confirmed inhibitors for each. Why it matters Most AI in drug discovery answers one narrow question: does a molecule fit a protein? But a molecule can fit perfectly and still do nothing, or the opposite of what you need. What it does, where it acts, how it holds, and which atoms drive it are usually answered through a long chain of separate assays and lab iterations. Bonbon answers these questions together, in a single inference pass, at the scale biology demands. That collapses months of sequential experiments into one step, opens chemistry beyond known scaffolds, and puts the hardest drug programs within reach, including targets with no good starting points. More broadly, it shows that the rules of molecular biology are learnable from sequence alone and emerge with scale. That is the foundation for moving from single interactions to pathways, cells, and understanding biology as a complex system.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.14504",
+      "pdf_url": "https://arxiv.org/pdf/2611.14504",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.14504",
+      "scraped_at": "2026-11-16T14:25:06.098556"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation",
+    "paper_url": "https://huggingface.co/papers/2611.16439",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation",
+      "abstract": "What if you could teach a mobile robot by walking with it and guiding its grippers by hand? HALO collects demonstrations up to 2.9× faster. The learned policies grasp and steer a chair precisely while staying in motion, pull apart tightly fitted LEGO pieces in different configurations, guide a tiny zip-tie tip through its locking head, and coordinate both arms and the moving base to pack boxes quickly on a conveyor line, cycle after cycle.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.16439",
+      "pdf_url": "https://arxiv.org/pdf/2611.16439",
+      "github_links": [
+        "https://github.com/robbyant-research/Lingbot-ALOHA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.16439",
+      "scraped_at": "2026-11-16T14:25:07.858290"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
+    "paper_url": "https://huggingface.co/papers/2611.13509",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
+      "abstract": "In this paper, we ask whether a specialized language model can be built automatically for a given task and a given phone. Mobile AI Factory is an agentic system that fine-tunes and quantizes small language models, and uses real measurements of the target phone to choose the model, precision, inference engine and backend. Across ten tasks and four Android phones, its on-device models outperform or match five-shot frontier models on eight tasks, and the best configuration changes from phone to phone. Code is available at https://github.com/evanly-gh/SLM_Factory",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.13509",
+      "pdf_url": "https://arxiv.org/pdf/2611.13509",
+      "github_links": [
+        "https://github.com/evanly-gh/SLM_Factory",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.13509",
+      "scraped_at": "2026-11-16T14:25:09.627626"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings and Large Archives via e-means",
+    "paper_url": "https://huggingface.co/papers/2611.18529",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings and Large Archives via e-means",
+      "abstract": "We take the speaker embeddings from each slot (WeSpeaker ResNet34) and split them using Meta's recently released e-means. For streaming, each chunk reclusters only the most recent 90-second window and allows label corrections only within the last 10 seconds. This keeps the computational cost constant regardless of meeting length, at about 57 ms per update. The results: With 20 speakers, DER drops from 66.5% to 43.7%, a relative reduction of about 34%. At the 45-minute mark of one-hour meetings with 12–20 speakers, Streaming Sortformer reaches around 57% DER, while our method stays around 25%. When e-means is used for frame-level speaker association, matching the same speaker across recordings with 1,251 speakers is several times faster than with Lloyd's k-means.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.18529",
+      "pdf_url": "https://arxiv.org/pdf/2611.18529",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.18529",
+      "scraped_at": "2026-11-16T14:25:11.263464"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+    "paper_url": "https://huggingface.co/papers/2611.18442",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+      "abstract": "TL;DR: Removing GPS from vehicle logs does not protect location privacy: we introduce CANTraj (3,940 naturalistic drives paired with GNSS trajectories) and CANTraj-Bench (1,380 hours, 85,919 km) to benchmark six re-implemented route-inference attacks and new baselines under unified protocols, showing that combining CAN steering signals with road-network constraints recovers 87%–88% of 5-minute routes with a median error of just 37–43 m—even under signal quantization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.18442",
+      "pdf_url": "https://arxiv.org/pdf/2611.18442",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.18442",
+      "scraped_at": "2026-11-16T14:25:12.982916"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "AI Reviews Are Biased Towards the Appendix",
+    "paper_url": "https://huggingface.co/papers/2611.17811",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AI Reviews Are Biased Towards the Appendix",
+      "abstract": "Large language models (LLMs) are increasingly used by reviewers to highlight weaknesses during the reviewing process, and their outputs often shape the reviews that humans submit. Prior work studies how LLM reviews align with human ones, yet we know little about which parts of a paper these models actually criticize. In this work, we investigate 2,000 papers from ACL, EMNLP, COLM, and ICLR, and show that the latest GPT and Claude models draw about 50% or more of their review weaknesses from the appendix. This behavior holds across the API, coding-agent, and web access methods for using LLMs to review a paper. In contrast, we find that humans draw only 8.4% of their weaknesses from the appendix, and these weaknesses primarily revolve around a paper’s presentation and content related to its core idea. Meanwhile, LLMs draw weaknesses from deep in the appendix that concern fine-grained technical details not central to the paper’s contributions. We anticipate that our analysis will contribute to the scholarly discourse on AI reviews.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.17811",
+      "pdf_url": "https://arxiv.org/pdf/2611.17811",
+      "github_links": [
+        "https://github.com/cincynlp/review_appendix",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.17811",
+      "scraped_at": "2026-11-16T14:25:14.664508"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs",
+    "paper_url": "https://huggingface.co/papers/2611.06866",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs",
+      "abstract": "A dataset ( https://huggingface.co/datasets/jaykay9999/GHAWTrace ) containing agent trajectories from real-world agentic workflows in software projects. You can use the dataset to study: single-agent vs. multi-agent memory collaboration & communication cost ...",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.06866",
+      "pdf_url": "https://arxiv.org/pdf/2611.06866",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.06866",
+      "scraped_at": "2026-11-16T14:25:16.396073"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Do Underwater Image Quality Metrics Agree with Human Perception? A Benchmark with Human Choices, Simple Edits and Generative Drift",
+    "paper_url": "https://huggingface.co/papers/2611.18429",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Do Underwater Image Quality Metrics Agree with Human Perception? A Benchmark with Human Choices, Simple Edits and Generative Drift",
+      "abstract": "We test whether 73 no-reference image quality metrics agree with what people prefer on underwater photos. Using four opinion-score sets and our own paired-comparison study (20 raters, 1,920 choices), we find that agreement with human choices is low. Simple edits such as saturation, sharpening and CLAHE raise the scores of popular underwater metrics, and repeated generative edits with Nano Banana drift away from the scene while some metrics still reward them. Code and all scores are public on GitHub and Hugging Face.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.18429",
+      "pdf_url": "https://arxiv.org/pdf/2611.18429",
+      "github_links": [
+        "https://github.com/TrustUIQA/TrustUIQA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.18429",
+      "scraped_at": "2026-11-16T14:25:18.126066"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
+    "paper_url": "https://huggingface.co/papers/2611.18130",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
+      "abstract": "JFinBench is a Japanese financial benchmark comprising 321 examples from six certification exams held in 2026. Building benchmarks from public exam PDFs is challenging due to heterogeneous layouts, complex tables and figures, and diverse question formats. We address this with a human-in-the-loop agentic pipeline: a vision-language model converts PDFs into layout-preserving Markdown, a coding agent generates exam-specific conversion code and review interfaces, and humans verify all examples and provide feedback for corrections. This reduces verification to roughly two hours per exam, enabling practical benchmark updates as new exams are released. Evaluating 12 LLMs, we find that leading proprietary models exceed 93%, outperforming the best open-weight model by 12 percentage points, mainly due to gaps in specialized knowledge. Web and terminal access improves all models and narrows the gap, but a 4-point difference remains, with rankings largely unchanged (Spearman ρ = 0.87). These findings highlight the importance of knowledge encoded in model parameters, even when external tools are available.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.18130",
+      "pdf_url": "https://arxiv.org/pdf/2611.18130",
+      "github_links": [
+        "https://github.com/SakanaAI/JFinBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.18130",
+      "scraped_at": "2026-11-16T14:25:20.165314"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Disen-Forcing: Disentangling Semantic Anchoring from Motion for Autoregressive Video Diffusion",
+    "paper_url": "https://huggingface.co/papers/2611.02822",
+    "authors": [
+      "Xuesong Li",
+      "Qingtao Yu",
+      "Masato Ishii",
+      "Akio Hayakawa",
+      "Zhengyang Yu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Disen-Forcing: Disentangling Semantic Anchoring from Motion for Autoregressive Video Diffusion",
+      "abstract": "The frame sink trick in autoregressive video diffusion models helps keep long-horizon rollouts consistent, but it also pulls motion toward low-dynamic modes. We find that long-range consistency is carried by a small subset of attention heads, while most heads handle local temporal dynamics. Disen-Forcing is a distillation-time plug-in that routes the frame sink context only to those anchoring heads and regularizes motion to be invariant to the frame sink, so long-horizon consistency and motion dynamics both improve.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.02822",
+      "pdf_url": "https://arxiv.org/pdf/2611.02822",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.02822",
+      "scraped_at": "2026-11-16T14:25:21.863688"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+    "paper_url": "https://huggingface.co/papers/2611.17955",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+      "abstract": "We're releasing WebArena-Pro, a benchmark for web agents covering 20 self-hosted applications across six domains, with 300 human-validated tasks spanning text, vision, audio, and video, and isolated task execution for reproducible, parallel evaluation. The benchmark supports multiple harness integrations, including BrowserGym and Harbor for running MCP and coding agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.17955",
+      "pdf_url": "https://arxiv.org/pdf/2611.17955",
+      "github_links": [
+        "https://github.com/McGill-NLP/webarena-pro",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.17955",
+      "scraped_at": "2026-11-16T14:25:23.791496"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+    "paper_url": "https://huggingface.co/papers/2611.17878",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+      "abstract": "Cities account for over two-thirds of the world’s energy and more than 70% of global carbon dioxide emissions. Urban Building Energy Modelling (UBEM) is essential for achieving the 2050 net-zero target and the UN’s Sustainable Development Goals 7 and 11. Although existing studies have made progress, they are limited by data and methodological gaps. Existing UBEM is largely predictive for existing cities rather than generative for future cities; fine-grained, aligned monthly dynamic energy data are scarce and limited; and existing GenAI models struggle to generate dynamic urban functional monthly energy. We present DySENSE, a joint multimodal generative AI framework that synthesizes static urban satellite imagery together with spatially aligned, dynamic monthly building energy consumption maps. We decouple long-term static urban morphology from short-term dynamic energy consumption. By conditioning on static urban land use, DySENSE can generate realistic, diverse and new static urban imagery with aligned energy maps. By conditioning on dynamic monthly and climate prompts, DySENSE can jointly generate dynamic, monthly energy consumption maps while keeping the urban morphology static. Experiments across four cities (New York City, Washington, D.C., Norfolk, and Busan) demonstrated that DySENSE can generate annotated high-fidelity synthetic energy data using less than 25% labelled data, boosting downstream prediction performance by 8% mIoU, and achieving strong energy dynamic consistency. Compared to existing energy prediction methods, DySENSE significantly improved prediction performance (about 8.7% accuracy) and reduced prediction error (9%-18% CVRMSE, ASHRAE metrics). DySENSE offers an effective foundation to support energy-efficient urban planning, peak-load analysis, building performance simulation and dynamic demand response for urban, energy, and building science.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.17878",
+      "pdf_url": "https://arxiv.org/pdf/2611.17878",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/kailaisun/DySENSE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.17878",
+      "scraped_at": "2026-11-16T14:25:25.576939"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+    "paper_url": "https://huggingface.co/papers/2611.14505",
+    "authors": [],
+    "stars": "37",
+    "details": {
+      "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+      "abstract": "We built Continual-ARC to see whether agents get better with experience, scoring notes in a harness and updates to the weights on the same scale. ARC tasks recur through a stream of 200 instances, each time with a fresh input, and every demonstration or wrong answer costs the learner part of a fixed budget. After the stream we freeze the learner and test it on new instances of the tasks it met (memorization) and on 100 tasks it never met (generalization). Out of the box, most harnesses didn't learn measurably, and most of the harness-based methods we tried learned less than a baseline that just caches each task's demonstrations. Told explicitly to save a verified program per task, all three harnesses we ran on GPT-6 Luna memorized, but they gained little or nothing on unseen tasks. Training the weights did generalize: Qwen3.5-9B, trained with DAgger to imitate GLM-5.3 Flash, spent 29% less than its untrained self on the 100 unseen tasks. Caveat: it's one domain, and most of our runs use fairly small models. Would love to hear where you think the benchmark falls short!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.14505",
+      "pdf_url": "https://arxiv.org/pdf/2611.14505",
+      "github_links": [
+        "https://github.com/unifyai/continual-arc",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.14505",
+      "scraped_at": "2026-11-16T14:25:27.296045"
+    },
+    "scraped_date": "2026-11-16"
+  }
+]
