@@ -3,7 +3,7 @@
     "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
     "paper_url": "https://huggingface.co/papers/2611.21373",
     "authors": [],
-    "stars": "48",
+    "stars": "51",
     "details": {
       "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
       "abstract": "We present WeVisForensics, an agentic framework for AI-generated video detection in which a main investigator agent coordinates a self-evolving library of forensic inspector sub-agents spanning visual and audio cues. Github: https://github.com/Tencent/WeVisForensics Model: https://huggingface.co/tencent/WeVisForensics Project page: https://tencent.github.io/WeVisForensics",
@@ -15,15 +15,15 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.21373",
-      "scraped_at": "2026-11-21T13:58:16.550774"
+      "scraped_at": "2026-11-22T13:51:20.244867"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
     "paper_url": "https://huggingface.co/papers/2611.26444",
     "authors": [],
-    "stars": "28",
+    "stars": "32",
     "details": {
       "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
       "abstract": "Excited to share Mind2Act World ! 🤖 We introduce a diagnostic benchmark that disentangles embodied reasoning, physical execution, and their closed-loop composition in robotic manipulation, revealing a critical gap between individual capabilities and reliable embodied intelligence.",
@@ -35,9 +35,29 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26444",
-      "scraped_at": "2026-11-21T13:58:18.212596"
+      "scraped_at": "2026-11-22T13:51:22.061992"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2611.26409",
+    "authors": [],
+    "stars": "68",
+    "details": {
+      "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+      "abstract": "Technical report of the WeMM-Video family.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26409",
+      "pdf_url": "https://arxiv.org/pdf/2611.26409",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Tencent/WeMM-Video"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26409",
+      "scraped_at": "2026-11-22T13:51:23.801185"
+    },
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
@@ -54,77 +74,57 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26590",
-      "scraped_at": "2026-11-21T13:58:19.923670"
+      "scraped_at": "2026-11-22T13:51:25.532348"
     },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
-    "paper_url": "https://huggingface.co/papers/2611.26409",
-    "authors": [],
-    "stars": "55",
-    "details": {
-      "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
-      "abstract": "Technical report of the WeMM-Video family.",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.26409",
-      "pdf_url": "https://arxiv.org/pdf/2611.26409",
-      "github_links": [
-        "https://github.com/huggingface",
-        "https://github.com/Tencent/WeMM-Video"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.26409",
-      "scraped_at": "2026-11-21T13:58:21.535548"
-    },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "Posterior Matching Distillation",
     "paper_url": "https://huggingface.co/papers/2611.26629",
     "authors": [],
-    "stars": "9",
+    "stars": "13",
     "details": {
       "title": "Posterior Matching Distillation",
       "abstract": "Project Page: https://pmd-distillation.github.io/",
       "arxiv_page_url": "https://arxiv.org/abs/2611.26629",
       "pdf_url": "https://arxiv.org/pdf/2611.26629",
       "github_links": [
-        "https://github.com/yesiltepe-hidir/PMD/issues/1",
         "https://github.com/huggingface",
+        "https://github.com/yesiltepe-hidir/PMD/issues/1",
         "https://github.com/yesiltepe-hidir/PMD"
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26629",
-      "scraped_at": "2026-11-21T13:58:23.242045"
+      "scraped_at": "2026-11-22T13:51:27.265488"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
     "paper_url": "https://huggingface.co/papers/2611.26595",
     "authors": [],
-    "stars": "16",
+    "stars": "24",
     "details": {
       "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
       "abstract": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompting. The results reveal task-dependent trade-offs: coarse proxies favor natural motion, while medium-grained proxies favor consistency. Physics simulation and proxy-aligned prompting further improve average quality. Guided by these findings, we introduce Coda-DaVinci, a task-adaptive agentic framework for Code2Video generation that selects between proxy-guided and direct generation, adapts modeling granularity to each entity, and coordinates simulation with proxy-grounded prompting. Its multi-agent harness preserves scene assets and guides repairs through visual inspection and independent review. Experiments demonstrate leading instruction following on VTR and scene consistency on R2M, improved physical plausibility over direct generation, and higher visual realism than the compared Code2Video baselines. Long-video evaluations further show gains in event structure and consistency across successive interactions, while revealing limitations in transition stability and adherence to scene settings.",
       "arxiv_page_url": "https://arxiv.org/abs/2611.26595",
       "pdf_url": "https://arxiv.org/pdf/2611.26595",
       "github_links": [
+        "https://github.com/huggingface",
         "https://github.com/FrankYang-17/Coda/issues/1",
-        "https://github.com/FrankYang-17/Coda",
-        "https://github.com/huggingface"
+        "https://github.com/FrankYang-17/Coda"
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26595",
-      "scraped_at": "2026-11-21T13:58:24.905521"
+      "scraped_at": "2026-11-22T13:51:28.961271"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
     "paper_url": "https://huggingface.co/papers/2611.21383",
     "authors": [],
-    "stars": "24",
+    "stars": "25",
     "details": {
       "title": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
       "abstract": "",
@@ -136,15 +136,15 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.21383",
-      "scraped_at": "2026-11-21T13:58:26.566498"
+      "scraped_at": "2026-11-22T13:51:30.688058"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
     "paper_url": "https://huggingface.co/papers/2611.26603",
     "authors": [],
-    "stars": "205",
+    "stars": "354",
     "details": {
       "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
       "abstract": "Depth Pro 2 estimates the depth of every pixel, in meters, from images taken with an ordinary camera. One network handles a single photo, a whole video, or a live camera feed, at the input's full resolution. Its depth is sharp at object edges and steady from frame to frame.",
@@ -156,29 +156,29 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26603",
-      "scraped_at": "2026-11-21T13:58:28.233313"
+      "scraped_at": "2026-11-22T13:51:32.451875"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
     "paper_url": "https://huggingface.co/papers/2611.26380",
     "authors": [],
-    "stars": "6",
+    "stars": "7",
     "details": {
       "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
       "abstract": "Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion. Existing caption formats also offer limited support for combining detailed narration with precise timing. We present EgoCaptioner, which pairs a video-level overview of the setting, participants, and the wearer's overall activity with timed steps whose narration adapts to varying perceptual demands and marks key moments at specific timestamps. We develop a coarse-to-fine annotation pipeline that establishes event structure before expanding step descriptions, yielding 50,000 training examples from eight egocentric video sources. Complementary rewards assess factual accuracy and coverage, measure step-level temporal alignment, and penalize fragmented or redundant narration, guiding caption refinement through Group Relative Policy Optimization (GRPO). To improve the reliability of factual supervision, we supplement caption references with pose-derived motion facts when sensor data are available. Across five egocentric benchmarks, EgoCaptioner achieves leading performance among evaluated open-source models in caption quality, caption-conditioned question answering, and temporal alignment. It also surpasses Gemini 3.1 Pro on PhysCapBench and all evaluated proprietary baselines on Minerva-Ego under the caption-to-QA protocol. Ablations support the complementary roles of factual and temporal rewards and show that coarse-to-fine annotation provides more effective supervision than single-pass annotation.",
       "arxiv_page_url": "https://arxiv.org/abs/2611.26380",
       "pdf_url": "https://arxiv.org/pdf/2611.26380",
       "github_links": [
-        "https://github.com/cactusqq/EgoCaptioner",
-        "https://github.com/huggingface"
+        "https://github.com/huggingface",
+        "https://github.com/cactusqq/EgoCaptioner"
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26380",
-      "scraped_at": "2026-11-21T13:58:29.925877"
+      "scraped_at": "2026-11-22T13:51:34.269288"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
@@ -195,9 +195,9 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26073",
-      "scraped_at": "2026-11-21T13:58:31.643264"
+      "scraped_at": "2026-11-22T13:51:35.973746"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
@@ -215,9 +215,9 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26107",
-      "scraped_at": "2026-11-21T13:58:33.271692"
+      "scraped_at": "2026-11-22T13:51:37.728977"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs",
@@ -235,15 +235,15 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.25387",
-      "scraped_at": "2026-11-21T13:58:34.952959"
+      "scraped_at": "2026-11-22T13:51:39.453599"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
     "paper_url": "https://huggingface.co/papers/2611.26414",
     "authors": [],
-    "stars": "21",
+    "stars": "25",
     "details": {
       "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
       "abstract": "We introduce ZeroVLN， the first slow–fast vision-language navigation framework with zero navigation-domain supervised fine-tuning of the VLM brain , and the first to jointly optimize the brain and a continuous-action expert through closed-loop agentic reinforcement learning in continuous navigation environments. Our central insight is to minimize what the brain must relearn to navigate . The brain conveys movement decisions through natural-language tool calls, and a trainable action expert translates them into continuous motion. We first construct reference trajectories from the base brain’s own movement requests and supervise only the action prefix executed before each replan. We then develop a closed-loop agentic RL algorithm that jointly optimizes the brain’s semantic tool calls and the expert’s continuous actions. The algorithm combines complementary process and outcome rewards and uses a shared trajectory-level advantage to update both policies across all interaction rounds, with separate gradient paths for the brain and the expert. With the same backbone and training episodes, ZeroVLN achieves higher success rates than NaVILA and DualVLN on all three benchmarks, with only 0.01497% relative VLM weight displacement , while largely preserving the base brain’s general visual capabilities.",
@@ -255,9 +255,9 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26414",
-      "scraped_at": "2026-11-21T13:58:36.626356"
+      "scraped_at": "2026-11-22T13:51:41.084660"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
@@ -280,9 +280,9 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26627",
-      "scraped_at": "2026-11-21T13:58:38.225863"
+      "scraped_at": "2026-11-22T13:51:42.725239"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "WAM-Policy: World Action Models with On-Policy Distillation for Quadrupedal Loco-Manipulation",
@@ -295,34 +295,14 @@
       "arxiv_page_url": "https://arxiv.org/abs/2611.24011",
       "pdf_url": "https://arxiv.org/pdf/2611.24011",
       "github_links": [
-        "https://github.com/AIGeeksGroup/WAM-Policy",
-        "https://github.com/huggingface"
+        "https://github.com/huggingface",
+        "https://github.com/AIGeeksGroup/WAM-Policy"
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.24011",
-      "scraped_at": "2026-11-21T13:58:39.944318"
+      "scraped_at": "2026-11-22T13:51:44.530184"
     },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "WM^MLLM: Turning MLLMs into World Models",
-    "paper_url": "https://huggingface.co/papers/2611.24193",
-    "authors": [],
-    "stars": "11",
-    "details": {
-      "title": "WM^MLLM: Turning MLLMs into World Models",
-      "abstract": "WM^MLLM rethinks world modeling by moving the world state out of the generator. The scene is stored as an explicit panorama with version history, and MLLMs plan, place and verify each edit. This makes consistency a built-in guarantee: revisits are pixel-exact and local edits stay contained, which directly addresses the drift common in video-based world models. Results are strong across MBench-A, CompBench and blind edit evaluations. An open question is how well the panorama representation extends to large, multi-room or dynamic 3D scenes.",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.24193",
-      "pdf_url": "https://arxiv.org/pdf/2611.24193",
-      "github_links": [
-        "https://github.com/ztMotaLee/WM_mllm",
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.24193",
-      "scraped_at": "2026-11-21T13:58:41.588194"
-    },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
@@ -342,29 +322,9 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26408",
-      "scraped_at": "2026-11-21T13:58:43.279655"
+      "scraped_at": "2026-11-22T13:51:46.292716"
     },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "Accelerating Mixture of Block Attention via Dynamic Routing, KV-Centric Execution and Runtime Pipelining",
-    "paper_url": "https://huggingface.co/papers/2611.26268",
-    "authors": [],
-    "stars": "6",
-    "details": {
-      "title": "Accelerating Mixture of Block Attention via Dynamic Routing, KV-Centric Execution and Runtime Pipelining",
-      "abstract": "Sparse attention improves efficiency by reducing unnecessary computation. On GPUs, however, sparse-index construction, irregular memory access, and task scheduling can offset part of those savings. MoBA reduces computation by routing each query to relevant KV blocks, while FlashMoBA further optimizes GPU execution. Building on this foundation, we address two limitations: fixed Top-k budgets do not adapt to different query score distributions, and query-centric task ownership can lead to repeated KV-block loads across tasks, limiting data reuse. We designed LightningMoBA to jointly optimize routing and GPU kernel execution, with three main improvements over FlashMoBA: 🔹 Dynamic routing: ​ Replace fixed Top-k with a relative threshold, allowing each query to retain a different number of relevant blocks. Sparse indices are generated directly during scoring, without maintaining an ordered Top-k candidate set or training an additional indexer. 🔹 KV reuse: ​ Within each attention head, group queries that access the same KV block so that each task reuses its loaded K/V. Work for heavily accessed blocks is split across multiple tasks to bound the per-task workload. 🔹 Pipelined execution: ​ On Hopper GPUs, overlap data movement and query gathers with Tensor Core computation to reduce stalls. 🚀 Our experiments evaluate both end-to-end performance and the contributions of individual optimizations. Across five models and context lengths from 4K to 128K on the full RULER suite, matching the average retention budget to Top-16 yields 1.20–1.60× average end-to-end speedups per model over FlashMoBA, while the overall mean RULER score increases from 74.42 to 75.28 . To separate routing gains from execution-backend improvements, we also compare both routing strategies under the same optimized backend. Across six configurations on two models, dynamic routing at the Top-64 budget improves both speed and quality, achieving 1.16–1.56× end-to-end speedups and 0.85–5.95 percentage-point gains in RULER scores . We also extend LightningMoBA to training. In a 100-step Qwen3-4B training experiment with 128K context, both routing strategies use the same optimized forward and adapted backward implementations. Dynamic routing achieves 1.23× and 1.60× end-to-end training speedups at Top-32 and Top-64, respectively, while training cross-entropy remains close between the two strategies. We hope LightningMoBA can further improve MoBA’s training and inference efficiency and provide useful guidance for implementing other dynamic sparse attention methods on GPUs.",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.26268",
-      "pdf_url": "https://arxiv.org/pdf/2611.26268",
-      "github_links": [
-        "https://github.com/huggingface",
-        "https://github.com/Tencent/LightningMoBA"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.26268",
-      "scraped_at": "2026-11-21T13:58:45.007890"
-    },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
@@ -385,15 +345,55 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.25980",
-      "scraped_at": "2026-11-21T13:58:46.648650"
+      "scraped_at": "2026-11-22T13:51:48.040025"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "WM^MLLM: Turning MLLMs into World Models",
+    "paper_url": "https://huggingface.co/papers/2611.24193",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "WM^MLLM: Turning MLLMs into World Models",
+      "abstract": "WM^MLLM rethinks world modeling by moving the world state out of the generator. The scene is stored as an explicit panorama with version history, and MLLMs plan, place and verify each edit. This makes consistency a built-in guarantee: revisits are pixel-exact and local edits stay contained, which directly addresses the drift common in video-based world models. Results are strong across MBench-A, CompBench and blind edit evaluations. An open question is how well the panorama representation extends to large, multi-room or dynamic 3D scenes.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.24193",
+      "pdf_url": "https://arxiv.org/pdf/2611.24193",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ztMotaLee/WM_mllm"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.24193",
+      "scraped_at": "2026-11-22T13:51:49.669476"
+    },
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "Accelerating Mixture of Block Attention via Dynamic Routing, KV-Centric Execution and Runtime Pipelining",
+    "paper_url": "https://huggingface.co/papers/2611.26268",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Accelerating Mixture of Block Attention via Dynamic Routing, KV-Centric Execution and Runtime Pipelining",
+      "abstract": "Sparse attention improves efficiency by reducing unnecessary computation. On GPUs, however, sparse-index construction, irregular memory access, and task scheduling can offset part of those savings. MoBA reduces computation by routing each query to relevant KV blocks, while FlashMoBA further optimizes GPU execution. Building on this foundation, we address two limitations: fixed Top-k budgets do not adapt to different query score distributions, and query-centric task ownership can lead to repeated KV-block loads across tasks, limiting data reuse. We designed LightningMoBA to jointly optimize routing and GPU kernel execution, with three main improvements over FlashMoBA: 🔹 Dynamic routing: ​ Replace fixed Top-k with a relative threshold, allowing each query to retain a different number of relevant blocks. Sparse indices are generated directly during scoring, without maintaining an ordered Top-k candidate set or training an additional indexer. 🔹 KV reuse: ​ Within each attention head, group queries that access the same KV block so that each task reuses its loaded K/V. Work for heavily accessed blocks is split across multiple tasks to bound the per-task workload. 🔹 Pipelined execution: ​ On Hopper GPUs, overlap data movement and query gathers with Tensor Core computation to reduce stalls. 🚀 Our experiments evaluate both end-to-end performance and the contributions of individual optimizations. Across five models and context lengths from 4K to 128K on the full RULER suite, matching the average retention budget to Top-16 yields 1.20–1.60× average end-to-end speedups per model over FlashMoBA, while the overall mean RULER score increases from 74.42 to 75.28 . To separate routing gains from execution-backend improvements, we also compare both routing strategies under the same optimized backend. Across six configurations on two models, dynamic routing at the Top-64 budget improves both speed and quality, achieving 1.16–1.56× end-to-end speedups and 0.85–5.95 percentage-point gains in RULER scores . We also extend LightningMoBA to training. In a 100-step Qwen3-4B training experiment with 128K context, both routing strategies use the same optimized forward and adapted backward implementations. Dynamic routing achieves 1.23× and 1.60× end-to-end training speedups at Top-32 and Top-64, respectively, while training cross-entropy remains close between the two strategies. We hope LightningMoBA can further improve MoBA’s training and inference efficiency and provide useful guidance for implementing other dynamic sparse attention methods on GPUs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26268",
+      "pdf_url": "https://arxiv.org/pdf/2611.26268",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Tencent/LightningMoBA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26268",
+      "scraped_at": "2026-11-22T13:51:51.371144"
+    },
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
     "paper_url": "https://huggingface.co/papers/2611.26510",
     "authors": [],
-    "stars": "16",
+    "stars": "23",
     "details": {
       "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
       "abstract": "Task success does not guarantee good teaching . Even successful agent trajectories may contain undesirable behaviors that SFT can inadvertently reinforce. We introduce AutoMaster , an autonomous post-training framework that makes the same model a better teacher through Skill-FT . AutoMaster autonomously analyzes behavioral patterns, designs and refines natural-language skills to shape teacher rollouts, and selects valuable demonstrations through iterative feedback. Across Terminal, Search, and SWE benchmarks with 4B and 9B models, AutoMaster outperforms Vanilla SFT by 1.42–8.99 percentage points , with the teacher, task pool, training set size, and SFT recipe held fixed. Our analysis reveals two key insights: (1) skill guidance improves demonstrated behaviors even when both guided and unguided trajectories succeed; (2) retaining skill instructions during SFT improves performance by 2.15–4.01 points over removing them, highlighting the importance of skill context for behavioral internalization. Better post-training requires shaping what teachers demonstrate, not merely selecting successful trajectories .",
@@ -405,9 +405,9 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26510",
-      "scraped_at": "2026-11-21T13:58:48.356071"
+      "scraped_at": "2026-11-22T13:51:53.152738"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "On-Policy Morphing into Hybrid Attention Models",
@@ -424,69 +424,9 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.24809",
-      "scraped_at": "2026-11-21T13:58:49.999471"
+      "scraped_at": "2026-11-22T13:51:54.843925"
     },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
-    "paper_url": "https://huggingface.co/papers/2611.25567",
-    "authors": [],
-    "stars": "0",
-    "details": {
-      "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
-      "abstract": "TL;DR: We tackle online, instruction-conditioned mistake detection in egocentric procedural videos—catching errors as they happen rather than offline after the task is done. Key takeaways: Joint vs. Modular: Predicting step ID, temporal boundaries, and execution quality (correct, modified, slip, correction, addition) in a single joint step beats a modular pipeline on binary mistake detection (84.1% vs. 80.7% F1@0.5 ), largely by avoiding error propagation between stages. Catching subtle errors: The joint model shows a massive jump on detecting execution slips (56.4% vs. 37.5%). Benchmark fix: We repartitioned EgoPER so erroneous videos are included across all splits, enabling proper supervised learning from mistakes. Happy to answer any questions about the setup, error taxonomy, or EgoPER split!",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.25567",
-      "pdf_url": "https://arxiv.org/pdf/2611.25567",
-      "github_links": [
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.25567",
-      "scraped_at": "2026-11-21T13:58:51.674601"
-    },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
-    "paper_url": "https://huggingface.co/papers/2611.26286",
-    "authors": [
-      "Ilya Gusev"
-    ],
-    "stars": "1",
-    "details": {
-      "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
-      "abstract": "This is an analytical paper about side effects of LLM use in reviewing papers in major conferences and journals. One of the main findings is that reviewers of the same paper now repeat each other’s critiques more often. This overlap rose sharply at ICLR 2027, with smaller rises at other venues. Another finding is that two LLM-flagged reviews of one paper share more critiques than two unflagged ones, at conferences and in journals. Repo: https://github.com/IlyaGusev/twicetold Dataset: https://huggingface.co/datasets/IlyaGusev/twicetold",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.26286",
-      "pdf_url": "https://arxiv.org/pdf/2611.26286",
-      "github_links": [
-        "https://github.com/huggingface",
-        "https://github.com/IlyaGusev/twicetold"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.26286",
-      "scraped_at": "2026-11-21T13:58:53.272625"
-    },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "CompoundingKernel: Self-Improving from Zero to First",
-    "paper_url": "https://huggingface.co/papers/2611.19230",
-    "authors": [],
-    "stars": "0",
-    "details": {
-      "title": "CompoundingKernel: Self-Improving from Zero to First",
-      "abstract": "A self-improving agent system that writes GPU kernels by search, starting from only the PyTorch spec. As of Nov 11, 2026 it was #1 on all three public SOL-ExecBench leaderboards (L1, L2, Quantization) on NVIDIA B200: all 235 kernels correct on the site, 4.40× faster than the baseline on the 209 public tasks. Arxiv: https://arxiv.org/abs/2611.19230 Kernels + code: https://huggingface.co/spaces/QianQu/CompoundingKernel-Explorer",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.19230",
-      "pdf_url": "https://arxiv.org/pdf/2611.19230",
-      "github_links": [
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.19230",
-      "scraped_at": "2026-11-21T13:58:54.919271"
-    },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "Language Models Can Rewrite Their Own Weights",
@@ -509,32 +449,89 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.21885",
-      "scraped_at": "2026-11-21T13:58:56.580501"
+      "scraped_at": "2026-11-22T13:51:56.576192"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
-    "title": "System 1 agents: a method for local, reliable and fast agentic AI",
-    "paper_url": "https://huggingface.co/papers/2611.21053",
-    "authors": [
-      "Eleftherios Tzanis",
-      "mklont"
-    ],
-    "stars": "12",
+    "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
+    "paper_url": "https://huggingface.co/papers/2611.25567",
+    "authors": [],
+    "stars": "0",
     "details": {
-      "title": "System 1 agents: a method for local, reliable and fast agentic AI",
-      "abstract": "Turning each tool call into small multiple-choice questions, so the agent never has to invent a value, is a neat way to deal with hallucination in clinical settings. Running it locally also keeps patient data off a cloud model. How does it handle a request where the right answer is not among the options the compiler builds from the schema?",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.21053",
-      "pdf_url": "https://arxiv.org/pdf/2611.21053",
+      "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
+      "abstract": "TL;DR: We tackle online, instruction-conditioned mistake detection in egocentric procedural videos—catching errors as they happen rather than offline after the task is done. Key takeaways: Joint vs. Modular: Predicting step ID, temporal boundaries, and execution quality (correct, modified, slip, correction, addition) in a single joint step beats a modular pipeline on binary mistake detection (84.1% vs. 80.7% F1@0.5 ), largely by avoiding error propagation between stages. Catching subtle errors: The joint model shows a massive jump on detecting execution slips (56.4% vs. 37.5%). Benchmark fix: We repartitioned EgoPER so erroneous videos are included across all splits, enabling proper supervised learning from mistakes. Happy to answer any questions about the setup, error taxonomy, or EgoPER split!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.25567",
+      "pdf_url": "https://arxiv.org/pdf/2611.25567",
       "github_links": [
-        "https://github.com/eltzanis/SystemOneAgents",
         "https://github.com/huggingface"
       ],
       "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.21053",
-      "scraped_at": "2026-11-21T13:58:58.282704"
+      "page_url": "https://huggingface.co/papers/2611.25567",
+      "scraped_at": "2026-11-22T13:51:58.281881"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
+    "paper_url": "https://huggingface.co/papers/2611.26286",
+    "authors": [
+      "Ilya Gusev"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
+      "abstract": "This is an analytical paper about side effects of LLM use in reviewing papers in major conferences and journals. One of the main findings is that reviewers of the same paper now repeat each other’s critiques more often. This overlap rose sharply at ICLR 2027, with smaller rises at other venues. Another finding is that two LLM-flagged reviews of one paper share more critiques than two unflagged ones, at conferences and in journals. Repo: https://github.com/IlyaGusev/twicetold Dataset: https://huggingface.co/datasets/IlyaGusev/twicetold",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26286",
+      "pdf_url": "https://arxiv.org/pdf/2611.26286",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/IlyaGusev/twicetold"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26286",
+      "scraped_at": "2026-11-22T13:52:00.147698"
+    },
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "CompoundingKernel: Self-Improving from Zero to First",
+    "paper_url": "https://huggingface.co/papers/2611.19230",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CompoundingKernel: Self-Improving from Zero to First",
+      "abstract": "A self-improving agent system that writes GPU kernels by search, starting from only the PyTorch spec. As of Nov 11, 2026 it was #1 on all three public SOL-ExecBench leaderboards (L1, L2, Quantization) on NVIDIA B200: all 235 kernels correct on the site, 4.40× faster than the baseline on the 209 public tasks. Arxiv: https://arxiv.org/abs/2611.19230 Kernels + code: https://huggingface.co/spaces/QianQu/CompoundingKernel-Explorer",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.19230",
+      "pdf_url": "https://arxiv.org/pdf/2611.19230",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.19230",
+      "scraped_at": "2026-11-22T13:52:01.942378"
+    },
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "Teaching Vision-Language-Action Models to Stop Safely",
+    "paper_url": "https://huggingface.co/papers/2611.26239",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Teaching Vision-Language-Action Models to Stop Safely",
+      "abstract": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain challenging. Our evaluation reveals that policies which suppress a task from its initial state can still complete it when taking over partway through execution. Even when the task remains unfinished, the robot may drop a held object, making non-completion an incomplete measure of safety. To address these challenges, we introduce State-Aware Fallback Imitation (SAFI) for tasks where holding provides an appropriate alternative response. SAFI comprises two stages, (1) fallback target construction, which assigns stationary arm commands and consistent gripper targets throughout prohibited-task demonstrations, and (2) joint policy adaptation, which learns these targets alongside the original actions of retained tasks. This supervision teaches an explicit alternative response at intermediate execution states while maintaining the robot’s other skills. Extensive experiments with OpenVLA-OFT across LIBERO and BadLIBERO tasks evaluate prohibited completion, physical incidents, and retained-task performance. On the evaluated LIBERO tasks, SAFI reduces aggregate target success after takeover to 1.3%, with no recorded physical incidents or action saturation, while preserving high retained-task success.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26239",
+      "pdf_url": "https://arxiv.org/pdf/2611.26239",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/franciscoliu/SAFI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26239",
+      "scraped_at": "2026-11-22T13:52:03.662155"
+    },
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "Embeddings vs. Grep: Rethinking the Dense Advantage in Code Search",
@@ -551,89 +548,51 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.20455",
-      "scraped_at": "2026-11-21T13:58:59.887298"
+      "scraped_at": "2026-11-22T13:52:05.402030"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
-    "title": "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU",
-    "paper_url": "https://huggingface.co/papers/2611.25279",
-    "authors": [],
-    "stars": "34",
+    "title": "System 1 agents: a method for local, reliable and fast agentic AI",
+    "paper_url": "https://huggingface.co/papers/2611.21053",
+    "authors": [
+      "mklont",
+      "eltzanis"
+    ],
+    "stars": "13",
     "details": {
-      "title": "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU",
-      "abstract": "Online Universal Dense Metric Mapping from Any Camera with an IMU",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.25279",
-      "pdf_url": "https://arxiv.org/pdf/2611.25279",
+      "title": "System 1 agents: a method for local, reliable and fast agentic AI",
+      "abstract": "Turning each tool call into small multiple-choice questions, so the agent never has to invent a value, is a neat way to deal with hallucination in clinical settings. Running it locally also keeps patient data off a cloud model. How does it handle a request where the right answer is not among the options the compiler builds from the schema?",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.21053",
+      "pdf_url": "https://arxiv.org/pdf/2611.21053",
       "github_links": [
         "https://github.com/huggingface",
-        "https://github.com/be2rlab/ACCORD"
+        "https://github.com/eltzanis/SystemOneAgents"
       ],
       "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.25279",
-      "scraped_at": "2026-11-21T13:59:01.609019"
+      "page_url": "https://huggingface.co/papers/2611.21053",
+      "scraped_at": "2026-11-22T13:52:07.130732"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
-    "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
-    "paper_url": "https://huggingface.co/papers/2611.26248",
+    "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+    "paper_url": "https://huggingface.co/papers/2611.26211",
     "authors": [],
-    "stars": "6",
+    "stars": "0",
     "details": {
-      "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
-      "abstract": "Excited to share TwinLab-Bench! 🔬 We evaluate AI scientists on experiments they design themselves, across 52 tasks from real labs in the physical sciences, life sciences, and engineering. In each task, a TwinLab agent grounded in real lab records runs the experiments the tested agent designs. Frontier models still struggle: the strongest, Claude Fable 5.2, averages only 45.0.",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.26248",
-      "pdf_url": "https://arxiv.org/pdf/2611.26248",
+      "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+      "abstract": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference. Existing speculative methods combine their strengths through fast draft generation and selective target regeneration guided by rewards on decoded frames. However, verification covers only the external scorer’s evaluation dimensions and adds decoding and scoring costs. Moreover, these scores provide no correction, requiring costly target regeneration for rejected drafts. To address these limitations, we propose Speculative World Model (SpecWM), a unified, trainingfree inference framework for streaming world models. It verifies draft chunks using the target’s latent velocity field. Verification also yields a reusable correction; two thresholds select Accept, Refine, or Reject. Specifically, one-step refinement reuses it to improve perceptual quality, while three-step refinement strengthens camera following and trajectory consistency. These findings motivate transitionaware refinement. On WBench Navigation, SpecWM improves visual quality at 1.63× speedup over the target and raises NavScore from the draft’s 75.99 to 85.63, achieving the best quality-speed-control trade-off. Additionally, our LongSpecBench shows sustained quality and control over long, multi-turn rollouts, while experiments on Hy-Nomas validate SpecWM across backbones and denoising budgets.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26211",
+      "pdf_url": "https://arxiv.org/pdf/2611.26211",
       "github_links": [
-        "https://github.com/ZJUSCL/TwinLab-Bench",
         "https://github.com/huggingface"
       ],
       "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.26248",
-      "scraped_at": "2026-11-21T13:59:03.304661"
+      "page_url": "https://huggingface.co/papers/2611.26211",
+      "scraped_at": "2026-11-22T13:52:08.725560"
     },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models",
-    "paper_url": "https://huggingface.co/papers/2611.22666",
-    "authors": [],
-    "stars": "7",
-    "details": {
-      "title": "VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models",
-      "abstract": "Our aim is to accelerate autoregressive vision-language-action models (VLAs), which generate robot actions one token at a time. Speculative decoding makes this possible: a lightweight draft model proposes several tokens at once, and the VLA verifies them in a single pass, accepting only those that match its own predictions, so decoding remains lossless. The speedup, however, is limited in robot control, where many different tokens encode nearly the same motion and a draft close to the correct action is still rejected. To address this, our approach, VSpark, is built upon three design choices: (i) rollouts collected with calibrated action noise, which expose the draft to a wider range of robot states; (ii) feature alignment, which trains the draft to match the VLA’s hidden features rather than its output tokens alone; and (iii) continuation reuse, which keeps the predictions the VLA has already computed along rejected drafts as candidates for the next verification step, instead of discarding them.",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.22666",
-      "pdf_url": "https://arxiv.org/pdf/2611.22666",
-      "github_links": [
-        "https://github.com/huggingface",
-        "https://github.com/suho-yoo/VSpark"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.22666",
-      "scraped_at": "2026-11-21T13:59:04.959554"
-    },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
-    "paper_url": "https://huggingface.co/papers/2611.26511",
-    "authors": [],
-    "stars": "24",
-    "details": {
-      "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
-      "abstract": "Project Page: https://dreamtechai.github.io/Direct3D-V3 Code: https://github.com/DreamTechAI/Direct3D-V3",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.26511",
-      "pdf_url": "https://arxiv.org/pdf/2611.26511",
-      "github_links": [
-        "https://github.com/DreamTechAI/Direct3D-V3",
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.26511",
-      "scraped_at": "2026-11-21T13:59:06.617789"
-    },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
@@ -652,9 +611,109 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26450",
-      "scraped_at": "2026-11-21T13:59:08.213225"
+      "scraped_at": "2026-11-22T13:52:10.438689"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU",
+    "paper_url": "https://huggingface.co/papers/2611.25279",
+    "authors": [],
+    "stars": "62",
+    "details": {
+      "title": "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU",
+      "abstract": "Online Universal Dense Metric Mapping from Any Camera with an IMU",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.25279",
+      "pdf_url": "https://arxiv.org/pdf/2611.25279",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/be2rlab/ACCORD/issues/3",
+        "https://github.com/be2rlab/ACCORD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.25279",
+      "scraped_at": "2026-11-22T13:52:12.115754"
+    },
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models",
+    "paper_url": "https://huggingface.co/papers/2611.22666",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models",
+      "abstract": "Our aim is to accelerate autoregressive vision-language-action models (VLAs), which generate robot actions one token at a time. Speculative decoding makes this possible: a lightweight draft model proposes several tokens at once, and the VLA verifies them in a single pass, accepting only those that match its own predictions, so decoding remains lossless. The speedup, however, is limited in robot control, where many different tokens encode nearly the same motion and a draft close to the correct action is still rejected. To address this, our approach, VSpark, is built upon three design choices: (i) rollouts collected with calibrated action noise, which expose the draft to a wider range of robot states; (ii) feature alignment, which trains the draft to match the VLA’s hidden features rather than its output tokens alone; and (iii) continuation reuse, which keeps the predictions the VLA has already computed along rejected drafts as candidates for the next verification step, instead of discarding them.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.22666",
+      "pdf_url": "https://arxiv.org/pdf/2611.22666",
+      "github_links": [
+        "https://github.com/suho-yoo/VSpark",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.22666",
+      "scraped_at": "2026-11-22T13:52:13.794919"
+    },
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
+    "paper_url": "https://huggingface.co/papers/2611.26248",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
+      "abstract": "Excited to share TwinLab-Bench! 🔬 We evaluate AI scientists on experiments they design themselves, across 52 tasks from real labs in the physical sciences, life sciences, and engineering. In each task, a TwinLab agent grounded in real lab records runs the experiments the tested agent designs. Frontier models still struggle: the strongest, Claude Fable 5.2, averages only 45.0.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26248",
+      "pdf_url": "https://arxiv.org/pdf/2611.26248",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ZJUSCL/TwinLab-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26248",
+      "scraped_at": "2026-11-22T13:52:15.654409"
+    },
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
+    "paper_url": "https://huggingface.co/papers/2611.23835",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
+      "abstract": "Speculative decoding is widely used to speed up generation in large language models (LLMs), with a small draft model proposing tokens that one forward pass of the target model verifies. Draft models that read the target's hidden states, such as DFlash and EAGLE-3, typically inherit the target's hidden width. We show that the draft's whole residual stream can run at half or a quarter of that width while largely preserving acceptance. For DFlash, which borrows the target's vocabulary projection, the trained output adapter folds into it, giving one narrower projection with logits unchanged up to floating-point rounding. We test two drafter families, DFlash and EAGLE-3, on two targets, Qwen3-8B (NVFP4) and GPT-OSS-20B (MXFP4), in SGLang on a B200 and a DGX Spark (GB10). At batch size 1 and temperature 0, narrowing the draft to half or a quarter width speeds up end-to-end decoding by 1.06-1.12x on B200 and 1.13-1.44x on GB10. The speedup holds at larger batch sizes. From batch 32 to the largest batch each GPU fits, narrowing reaches up to 1.21x on both GPUs, and no narrow draft is slower than full width.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.23835",
+      "pdf_url": "https://arxiv.org/pdf/2611.23835",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.23835",
+      "scraped_at": "2026-11-22T13:52:17.351639"
+    },
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
+    "paper_url": "https://huggingface.co/papers/2611.26511",
+    "authors": [],
+    "stars": "45",
+    "details": {
+      "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
+      "abstract": "Project Page: https://dreamtechai.github.io/Direct3D-V3 Code: https://github.com/DreamTechAI/Direct3D-V3",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26511",
+      "pdf_url": "https://arxiv.org/pdf/2611.26511",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DreamTechAI/Direct3D-V3"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26511",
+      "scraped_at": "2026-11-22T13:52:19.013609"
+    },
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "Phantom Success, Silent Failure: Auditing the Success Checkers of Simulated Manipulation Benchmarks",
@@ -671,9 +730,9 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.25179",
-      "scraped_at": "2026-11-21T13:59:09.915260"
+      "scraped_at": "2026-11-22T13:52:20.697975"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "Do Probing and Steering Favor the Same Directions Within and Across Language Models?",
@@ -690,9 +749,52 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.19499",
-      "scraped_at": "2026-11-21T13:59:11.563563"
+      "scraped_at": "2026-11-22T13:52:22.390726"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+    "paper_url": "https://huggingface.co/papers/2611.26617",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+      "abstract": "Project page: https://showlab.github.io/o2laf/ Code: https://github.com/showlab/O2LaF",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26617",
+      "pdf_url": "https://arxiv.org/pdf/2611.26617",
+      "github_links": [
+        "https://github.com/showlab/O2LaF",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26617",
+      "scraped_at": "2026-11-22T13:52:24.031243"
+    },
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments",
+    "paper_url": "https://huggingface.co/papers/2611.00911",
+    "authors": [
+      "Kazunori D Yamada",
+      "dengzhe-hou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments",
+      "abstract": "S1CogBench tests System One decision models, which return one fast typed decision over the legal options, on 24 established cognitive experiments (27 modes), with seven open models and the Jev API. Acting well does not imply predicting humans. In WCST, Nox has the highest autonomous accuracy among the evaluated models (32.1%) yet predicts held-out human choices worse than uniform choice. When more choices remain in the Horizon task, humans pick the less-observed arm 10.00 points more often, while the models predict changes of only -0.49 to 2.62 points. Code, results, a community leaderboard and an extension track for new tasks are at https://dengzhe-hou.github.io/S1CogBench/",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.00911",
+      "pdf_url": "https://arxiv.org/pdf/2611.00911",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/dengzhe-hou/S1CogBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.00911",
+      "scraped_at": "2026-11-22T13:52:25.730485"
+    },
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "DailySafe: Benchmarking Dynamic Safety Awareness in Everyday Multi-Turn Multimodal Interactions",
@@ -716,48 +818,9 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26298",
-      "scraped_at": "2026-11-21T13:59:13.167992"
+      "scraped_at": "2026-11-22T13:52:27.512847"
     },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
-    "paper_url": "https://huggingface.co/papers/2611.23835",
-    "authors": [],
-    "stars": "0",
-    "details": {
-      "title": "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
-      "abstract": "Speculative decoding is widely used to speed up generation in large language models (LLMs), with a small draft model proposing tokens that one forward pass of the target model verifies. Draft models that read the target's hidden states, such as DFlash and EAGLE-3, typically inherit the target's hidden width. We show that the draft's whole residual stream can run at half or a quarter of that width while largely preserving acceptance. For DFlash, which borrows the target's vocabulary projection, the trained output adapter folds into it, giving one narrower projection with logits unchanged up to floating-point rounding. We test two drafter families, DFlash and EAGLE-3, on two targets, Qwen3-8B (NVFP4) and GPT-OSS-20B (MXFP4), in SGLang on a B200 and a DGX Spark (GB10). At batch size 1 and temperature 0, narrowing the draft to half or a quarter width speeds up end-to-end decoding by 1.06-1.12x on B200 and 1.13-1.44x on GB10. The speedup holds at larger batch sizes. From batch 32 to the largest batch each GPU fits, narrowing reaches up to 1.21x on both GPUs, and no narrow draft is slower than full width.",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.23835",
-      "pdf_url": "https://arxiv.org/pdf/2611.23835",
-      "github_links": [
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.23835",
-      "scraped_at": "2026-11-21T13:59:14.834656"
-    },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "Teaching Vision-Language-Action Models to Stop Safely",
-    "paper_url": "https://huggingface.co/papers/2611.26239",
-    "authors": [],
-    "stars": "0",
-    "details": {
-      "title": "Teaching Vision-Language-Action Models to Stop Safely",
-      "abstract": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain challenging. Our evaluation reveals that policies which suppress a task from its initial state can still complete it when taking over partway through execution. Even when the task remains unfinished, the robot may drop a held object, making non-completion an incomplete measure of safety. To address these challenges, we introduce State-Aware Fallback Imitation (SAFI) for tasks where holding provides an appropriate alternative response. SAFI comprises two stages, (1) fallback target construction, which assigns stationary arm commands and consistent gripper targets throughout prohibited-task demonstrations, and (2) joint policy adaptation, which learns these targets alongside the original actions of retained tasks. This supervision teaches an explicit alternative response at intermediate execution states while maintaining the robot’s other skills. Extensive experiments with OpenVLA-OFT across LIBERO and BadLIBERO tasks evaluate prohibited completion, physical incidents, and retained-task performance. On the evaluated LIBERO tasks, SAFI reduces aggregate target success after takeover to 1.3%, with no recorded physical incidents or action saturation, while preserving high retained-task success.",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.26239",
-      "pdf_url": "https://arxiv.org/pdf/2611.26239",
-      "github_links": [
-        "https://github.com/huggingface",
-        "https://github.com/franciscoliu/SAFI"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.26239",
-      "scraped_at": "2026-11-21T13:59:16.478621"
-    },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
@@ -769,7 +832,7 @@
       "Yicheng Guo",
       "ChengkaiXu"
     ],
-    "stars": "3",
+    "stars": "4",
     "details": {
       "title": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
       "abstract": "A different way to scale. A demonstration’s value depends on the policy learning from it. PAD connects real driving outcomes to the learning signal of each demonstration. The result: a synthetic dataset selected for your planner, with every retained example ranked by policy-specific value.",
@@ -781,53 +844,9 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.25604",
-      "scraped_at": "2026-11-21T13:59:18.061351"
+      "scraped_at": "2026-11-22T13:52:29.233895"
     },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
-    "paper_url": "https://huggingface.co/papers/2611.26617",
-    "authors": [],
-    "stars": "5",
-    "details": {
-      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
-      "abstract": "Project page: https://showlab.github.io/o2laf/ Code: https://github.com/showlab/O2LaF",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.26617",
-      "pdf_url": "https://arxiv.org/pdf/2611.26617",
-      "github_links": [
-        "https://github.com/showlab/O2LaF",
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.26617",
-      "scraped_at": "2026-11-21T13:59:19.667949"
-    },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "Suppressing the Shortcut Hidden Behind the Gains of VideoLLM Fine-Tuning",
-    "paper_url": "https://huggingface.co/papers/2611.25776",
-    "authors": [
-      "Junmo Kim",
-      "Jongsuk Kim",
-      "yshin0917"
-    ],
-    "stars": "0",
-    "details": {
-      "title": "Suppressing the Shortcut Hidden Behind the Gains of VideoLLM Fine-Tuning",
-      "abstract": "SFT raises the accuracy of VideoLLMs, yet behind this rise the model increasingly relies on textual regularities of the training data, a shortcut that bypasses the video. VETO suppresses this shortcut by projecting the fine-tuning update onto the orthogonal complement of the subspace the text alone occupies, so the model keeps the gains of SFT while grounding its answer in both the video and the text.",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.25776",
-      "pdf_url": "https://arxiv.org/pdf/2611.25776",
-      "github_links": [
-        "https://github.com/Youngwoo-git/VETO",
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.25776",
-      "scraped_at": "2026-11-21T13:59:21.286593"
-    },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
@@ -850,9 +869,9 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.25200",
-      "scraped_at": "2026-11-21T13:59:22.907287"
+      "scraped_at": "2026-11-22T13:52:30.892271"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "In Situ Training of Optical Neural Networks by Coding Agents",
@@ -869,75 +888,33 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.23875",
-      "scraped_at": "2026-11-21T13:59:24.599642"
+      "scraped_at": "2026-11-22T13:52:32.556591"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
-    "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
-    "paper_url": "https://huggingface.co/papers/2611.26211",
-    "authors": [],
+    "title": "Suppressing the Shortcut Hidden Behind the Gains of VideoLLM Fine-Tuning",
+    "paper_url": "https://huggingface.co/papers/2611.25776",
+    "authors": [
+      "Junmo Kim",
+      "Jongsuk Kim",
+      "yshin0917"
+    ],
     "stars": "0",
     "details": {
-      "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
-      "abstract": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference. Existing speculative methods combine their strengths through fast draft generation and selective target regeneration guided by rewards on decoded frames. However, verification covers only the external scorer’s evaluation dimensions and adds decoding and scoring costs. Moreover, these scores provide no correction, requiring costly target regeneration for rejected drafts. To address these limitations, we propose Speculative World Model (SpecWM), a unified, trainingfree inference framework for streaming world models. It verifies draft chunks using the target’s latent velocity field. Verification also yields a reusable correction; two thresholds select Accept, Refine, or Reject. Specifically, one-step refinement reuses it to improve perceptual quality, while three-step refinement strengthens camera following and trajectory consistency. These findings motivate transitionaware refinement. On WBench Navigation, SpecWM improves visual quality at 1.63× speedup over the target and raises NavScore from the draft’s 75.99 to 85.63, achieving the best quality-speed-control trade-off. Additionally, our LongSpecBench shows sustained quality and control over long, multi-turn rollouts, while experiments on Hy-Nomas validate SpecWM across backbones and denoising budgets.",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.26211",
-      "pdf_url": "https://arxiv.org/pdf/2611.26211",
+      "title": "Suppressing the Shortcut Hidden Behind the Gains of VideoLLM Fine-Tuning",
+      "abstract": "SFT raises the accuracy of VideoLLMs, yet behind this rise the model increasingly relies on textual regularities of the training data, a shortcut that bypasses the video. VETO suppresses this shortcut by projecting the fine-tuning update onto the orthogonal complement of the subspace the text alone occupies, so the model keeps the gains of SFT while grounding its answer in both the video and the text.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.25776",
+      "pdf_url": "https://arxiv.org/pdf/2611.25776",
       "github_links": [
+        "https://github.com/Youngwoo-git/VETO",
         "https://github.com/huggingface"
       ],
       "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.26211",
-      "scraped_at": "2026-11-21T13:59:26.207202"
+      "page_url": "https://huggingface.co/papers/2611.25776",
+      "scraped_at": "2026-11-22T13:52:34.273890"
     },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
-    "paper_url": "https://huggingface.co/papers/2611.25005",
-    "authors": [
-      "Yu Xiao",
-      "Yao Zhang",
-      "Ryenhails"
-    ],
-    "stars": "1",
-    "details": {
-      "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
-      "abstract": "Inhabitant is a training-free agent framework for long-horizon human-scene interaction. An LLM agent writes spatial control for a pretrained motion generator, measures the executed motion in a scene simulator, and revises until the task is done. On our new benchmark Inhabit (75 household tasks, 31 layouts), it completes 74 of 75 tasks with Claude Opus 5.5. Project page: https://ryenhails.github.io/Inhabitant/ Code: https://github.com/yaozhang182/inhabitant Benchmark: https://huggingface.co/datasets/zyyy12138/Inhabit",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.25005",
-      "pdf_url": "https://arxiv.org/pdf/2611.25005",
-      "github_links": [
-        "https://github.com/huggingface",
-        "https://github.com/yaozhang182/inhabitant"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.25005",
-      "scraped_at": "2026-11-21T13:59:27.897998"
-    },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments",
-    "paper_url": "https://huggingface.co/papers/2611.00911",
-    "authors": [
-      "Kazunori D Yamada",
-      "dengzhe-hou"
-    ],
-    "stars": "0",
-    "details": {
-      "title": "S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments",
-      "abstract": "S1CogBench tests System One decision models, which return one fast typed decision over the legal options, on 24 established cognitive experiments (27 modes), with seven open models and the Jev API. Acting well does not imply predicting humans. In WCST, Nox has the highest autonomous accuracy among the evaluated models (32.1%) yet predicts held-out human choices worse than uniform choice. When more choices remain in the Horizon task, humans pick the less-observed arm 10.00 points more often, while the models predict changes of only -0.49 to 2.62 points. Code, results, a community leaderboard and an extension track for new tasks are at https://dengzhe-hou.github.io/S1CogBench/",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.00911",
-      "pdf_url": "https://arxiv.org/pdf/2611.00911",
-      "github_links": [
-        "https://github.com/huggingface",
-        "https://github.com/dengzhe-hou/S1CogBench"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.00911",
-      "scraped_at": "2026-11-21T13:59:29.517148"
-    },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
@@ -957,29 +934,73 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26624",
-      "scraped_at": "2026-11-21T13:59:31.129052"
+      "scraped_at": "2026-11-22T13:52:35.944710"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "Time Series Structure Learning with Local Causal Parent Discovery",
     "paper_url": "https://huggingface.co/papers/2611.26232",
     "authors": [],
-    "stars": "0",
+    "stars": "1",
     "details": {
       "title": "Time Series Structure Learning with Local Causal Parent Discovery",
       "abstract": "Iterative Temporal Parent Discovery (ITPD) is a constraint-based causal discovery algorithm for multivariate time series.",
       "arxiv_page_url": "https://arxiv.org/abs/2611.26232",
       "pdf_url": "https://arxiv.org/pdf/2611.26232",
       "github_links": [
-        "https://github.com/jmaasch/itpd",
-        "https://github.com/huggingface"
+        "https://github.com/huggingface",
+        "https://github.com/jmaasch/itpd"
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.26232",
-      "scraped_at": "2026-11-21T13:59:32.761038"
+      "scraped_at": "2026-11-22T13:52:37.616650"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "AURA: AUdio-dRiven streaming Avatar",
+    "paper_url": "https://huggingface.co/papers/2611.26540",
+    "authors": [],
+    "stars": "27",
+    "details": {
+      "title": "AURA: AUdio-dRiven streaming Avatar",
+      "abstract": "A live demo is available at https://aura.kyutai.org/",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26540",
+      "pdf_url": "https://arxiv.org/pdf/2611.26540",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/kyutai-labs/aura"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26540",
+      "scraped_at": "2026-11-22T13:52:39.316487"
+    },
+    "scraped_date": "2026-11-22"
+  },
+  {
+    "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
+    "paper_url": "https://huggingface.co/papers/2611.25005",
+    "authors": [
+      "Yu Xiao",
+      "Yao Zhang",
+      "Ryenhails"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
+      "abstract": "Inhabitant is a training-free agent framework for long-horizon human-scene interaction. An LLM agent writes spatial control for a pretrained motion generator, measures the executed motion in a scene simulator, and revises until the task is done. On our new benchmark Inhabit (75 household tasks, 31 layouts), it completes 74 of 75 tasks with Claude Opus 5.5. Project page: https://ryenhails.github.io/Inhabitant/ Code: https://github.com/yaozhang182/inhabitant Benchmark: https://huggingface.co/datasets/zyyy12138/Inhabit",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.25005",
+      "pdf_url": "https://arxiv.org/pdf/2611.25005",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yaozhang182/inhabitant"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.25005",
+      "scraped_at": "2026-11-22T13:52:41.001135"
+    },
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
@@ -996,29 +1017,9 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.15941",
-      "scraped_at": "2026-11-21T13:59:34.390194"
+      "scraped_at": "2026-11-22T13:52:42.704511"
     },
-    "scraped_date": "2026-11-21"
-  },
-  {
-    "title": "AURA: AUdio-dRiven streaming Avatar",
-    "paper_url": "https://huggingface.co/papers/2611.26540",
-    "authors": [],
-    "stars": "16",
-    "details": {
-      "title": "AURA: AUdio-dRiven streaming Avatar",
-      "abstract": "A live demo is available at https://aura.kyutai.org/",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.26540",
-      "pdf_url": "https://arxiv.org/pdf/2611.26540",
-      "github_links": [
-        "https://github.com/huggingface",
-        "https://github.com/kyutai-labs/aura"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.26540",
-      "scraped_at": "2026-11-21T13:59:36.014126"
-    },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   },
   {
     "title": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
@@ -1029,7 +1030,7 @@
       "Jan Cech",
       "yermandy"
     ],
-    "stars": "1",
+    "stars": "2",
     "details": {
       "title": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
       "abstract": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
@@ -1041,8 +1042,8 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.25935",
-      "scraped_at": "2026-11-21T13:59:37.635535"
+      "scraped_at": "2026-11-22T13:52:44.354620"
     },
-    "scraped_date": "2026-11-21"
+    "scraped_date": "2026-11-22"
   }
 ]
