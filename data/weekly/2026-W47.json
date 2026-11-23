@@ -1,0 +1,422 @@
+[
+  {
+    "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+    "paper_url": "https://huggingface.co/papers/2611.27193",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+      "abstract": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices. In this work, we investigate how to effectively mix residual streams within the Birkhoff polytope . We reveal a mixing trade-off : when under-mixed residual matrices stay close to the vertices of the Birkhoff polytope, hyper-connections will degenerate into a set of nearly independent streams; when over-mixe d residual matrices are concentrated around the uniform barycenter of the polytope, streams will become less distinguishable from each other. We theoretically validate our findings by bounding the cumulative residual mixing, stream difference and gradient difference of mixing coefficients across layers. Motivated by these findings, we propose Contraction for Manifold-Constrained Hyper-Connections (cmHC), an exact doubly stochastic method which geometrically contracts the Birkhoff polytope toward its interior. This contraction mitigates under-mixing by forcing the residual matrices to explore deeper into the polytope, with a provable stream mixing bound and no new parameterization. Moreover, we apply a moderate contraction at the shallow layers to prevent over-mixing, enabling stable gradient propagation on extremely large-scale model pretraining. Extensive experiments across dense and mixture-of-experts models at various parameter scales demonstrate the effectiveness and scalability of cmHC. We also develop fused operators for cmHC on Ascend NPUs, reducing hyper-connection execution latency by up to 44.8%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.27193",
+      "pdf_url": "https://arxiv.org/pdf/2611.27193",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Newiz430/cmHC"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.27193",
+      "scraped_at": "2026-11-23T16:58:45.392981"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Non-penetrating World Models",
+    "paper_url": "https://huggingface.co/papers/2611.27963",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Non-penetrating World Models",
+      "abstract": "🚧 World models can generate amazing worlds, but they still walk through walls! 👻 🎮 Today's video world models can generate impressive interactive environments, but they often fail to respect basic physical boundaries. For example, when you press W toward a wall, the model may simply walk straight through it! 💡 We introduce NoPeWorld , a lightweight framework that helps video world models stop at obstacles instead of walking through them . Interestingly, we find that world models already encode collision information in their hidden states. NoPeWorld leverages this information to prevent physical violations without retraining the entire world model. 📊 We also introduce NoPeBench , a benchmark for evaluating whether world models respect physical boundaries. 🚀 Check out our demos and open-source resources! 🌐 Project & Demos | 💻 Code | 🤗 Dataset | 📄 Paper",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.27963",
+      "pdf_url": "https://arxiv.org/pdf/2611.27963",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yuhangdai427/NoPeWorld"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.27963",
+      "scraped_at": "2026-11-23T16:58:47.047396"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Clover-35B-A3B-Preview Technical Report",
+    "paper_url": "https://huggingface.co/papers/2611.24636",
+    "authors": [],
+    "stars": "162",
+    "details": {
+      "title": "Clover-35B-A3B-Preview Technical Report",
+      "abstract": "Clover-35B-A3B-Preview Technical Report",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.24636",
+      "pdf_url": "https://arxiv.org/pdf/2611.24636",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DiffuSpace/Clover-35B-A3B-Preview"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.24636",
+      "scraped_at": "2026-11-23T16:58:48.751741"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning",
+    "paper_url": "https://huggingface.co/papers/2611.15449",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning",
+      "abstract": "[TL;DR] Text-aware image super-resolution (TAISR) needs reasoning! Humans can often read badly degraded text by reasoning over context: a word repeated elsewhere in the image, neighboring numbers on a ruler, or a familiar logo. Super-resolution (SR) models rely on local visual evidence alone, so they struggle with exactly this kind of text. 🔍 ReasonText is a human-curated benchmark that separates reasoning-required text from locally recoverable text, paired with GTTCA , a recognition-based metric that measures text restoration without text-detection errors. Across 12 recent SR models, including TAISR models built for text, accuracy on reasoning-required text stays below 25%. 💡 RTC (Reasoning Transfer via Captioning) is a training-free plug-in. An MLLM reasons out the degraded text and writes it into the caption of a frozen text-conditioned SR model. RTC improves all six text-conditioned SR models we tested, especially on reasoning-required text (e.g., DiT4SR: 24.5% → 45.8%). Surprisingly, DiT4SR + RTC, a general real-world SR model, outperforms UniT + RTC, a TAISR model built on the same backbone with extra text-aware modules. This suggests that reasoning should be a core design axis for future TAISR. 🤗 Dataset: https://huggingface.co/datasets/Jasonleex1995/ReasonText 🌐 Project page: https://jasonleex1995.github.io/TAISR_needs_Reasoning/ 💻 Code: https://github.com/jasonleex1995/TAISR_needs_Reasoning 📍 Accepted to NeurIPS 2026. Poster in Sydney: Wed, Dec 9 · Hall 1-4 · #S3613. Happy to answer questions here!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.15449",
+      "pdf_url": "https://arxiv.org/pdf/2611.15449",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jasonleex1995/TAISR_needs_Reasoning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.15449",
+      "scraped_at": "2026-11-23T16:58:50.385133"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2611.27973",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+      "abstract": "MemOnce is a scalable foundation memory architecture for large language models that caches compact memory states once, retrieves relevant memory once per query, and decodes them into layer-specific KV caches on demand — eliminating multi-layer KV explosion while preserving fine-grained recall.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.27973",
+      "pdf_url": "https://arxiv.org/pdf/2611.27973",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Clare-Nie/MemOnce"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.27973",
+      "scraped_at": "2026-11-23T16:58:52.023723"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Duopra: From Full-Duplex Conversation to Full-Duplex Agency",
+    "paper_url": "https://huggingface.co/papers/2611.25773",
+    "authors": [
+      "Can Liu",
+      "Xiaocheng Li",
+      "Yuezhao Ma",
+      "Pengzhou Cheng",
+      "Chechen123"
+    ],
+    "stars": "45",
+    "details": {
+      "title": "Duopra: From Full-Duplex Conversation to Full-Duplex Agency",
+      "abstract": "We introduce Duopra , a full-duplex speech model that brings task agency into real-time conversational interaction. Duopra learns to invoke tools and delegate tasks while preserving natural turn-taking and interruption handling. On Full-Duplex-Bench v3, Duopra achieves 47.7% Pass@1 with direct tool execution and 49.3% with a DeepSeek backend, demonstrating that conversational agency and task agency can coexist. Project & Demo: https://cychen2003.github.io/duopra/ Code: https://github.com/cyChen2003/duopra Model: https://huggingface.co/Chechen123/Duopra",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.25773",
+      "pdf_url": "https://arxiv.org/pdf/2611.25773",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/cyChen2003/duopra"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.25773",
+      "scraped_at": "2026-11-23T16:58:53.655268"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits",
+    "paper_url": "https://huggingface.co/papers/2611.21485",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.21485",
+      "pdf_url": "https://arxiv.org/pdf/2611.21485",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.21485",
+      "scraped_at": "2026-11-23T16:58:55.284470"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+    "paper_url": "https://huggingface.co/papers/2611.27915",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+      "abstract": "Training StereoVLM to predict stereo disparity yields more accurate depth estimates in unfamiliar scenes than training it to predict depth directly. What it learns from stereo pairs also transfers to spatial reasoning in single images and videos and to robot manipulation in RoboCasa.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.27915",
+      "pdf_url": "https://arxiv.org/pdf/2611.27915",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.27915",
+      "scraped_at": "2026-11-23T16:58:56.900413"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+    "paper_url": "https://huggingface.co/papers/2611.26613",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+      "abstract": "🤖 Can frontier agents control robots directly with low-level actions? And how do we actually tell how good they are? 📉 Existing evaluations focus on episode-level scores such as success rates. They hide the action-level feedback that is key to improving embodied agents! 💡 We introduce AgentRoboCritic . The policy agent states a local intent alongside each action, and a critic evaluates every action against it. For a failed action, the critic also returns its failure mode. With GPT-6 Astra as the critic, we annotate 12,844 actions across 12 manipulation benchmarks. 🔍 What the action-level feedback reveals: Closed-loop recovery: 49.8% of successful episodes contain at least one failed action, and 57.7% of failed actions are recovered by the end of the episode. Reliable semantic grounding: acting on the wrong object, order or category accounts for only 0.2% of failed actions. Strong zero-shot manipulation: GPT-6 Astra succeeds in 91% of RoboTwin 2.0 and 90% of YAMLab episodes, where π0.5 reaches 6% and 0%. The remaining bottleneck is physical execution: Grasp is the leading failure mode on most benchmarks. 🚀 To make action-level feedback low-cost, we release the 12,844 annotated actions, a 400-action human-annotated benchmark, and a fine-tuned Muse-Glimmer-30B critic. Its failure-mode accuracy rises from 32.6% to 74.2%, at over 30× lower cost than GPT-6 Astra. 🌐 Project page | 💻 Code | 🤗 Dataset | 📊 Benchmark | 🧠 Critic model | 📄 Paper",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26613",
+      "pdf_url": "https://arxiv.org/pdf/2611.26613",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/cxcscmu/AgentRoboCritic"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26613",
+      "scraped_at": "2026-11-23T16:58:58.510903"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation",
+    "paper_url": "https://huggingface.co/papers/2611.24077",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation",
+      "abstract": "Hi everyone, we're the authors! AeroRSI lets a drone navigation policy fix its own failures: before each failure, it flies on from every candidate action, learns the ones it actually completes, and repeats on the failures that remain, since each repair uncovers the next one. Three rounds take a 2B VLA policy on TravelUAV from 46.4% to 67.5% success and halve its collisions, 10.6 points above AeroDPO (the prior SOTA baseline), with no extra human labels or inference cost. 🌐 Project page (with demo video): https://starsholic.github.io/AeroRSI/ 💻 Code: https://github.com/starsholic/AeroRSI 🤗 Models: https://huggingface.co/DavidWu1116/AeroRSI Happy to answer any questions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.24077",
+      "pdf_url": "https://arxiv.org/pdf/2611.24077",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/starsholic/AeroRSI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.24077",
+      "scraped_at": "2026-11-23T16:59:00.191603"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
+    "paper_url": "https://huggingface.co/papers/2611.25252",
+    "authors": [
+      "Anne Barros",
+      "Zhiguo Zeng",
+      "CC3369"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
+      "abstract": "Should generality live in the model, or in the agent that builds a model for each new machine? NextUnit-Bench tests coding agents on 24 PHM datasets with sealed evaluation on unseen machines. The best agents beat AutoML and foundation models, and often even state-of-the-art methods from the literature; their edge is a design made on the data, and the designs are strikingly plain: textbook methods, rarely deep networks. If agents can out-know and out-code most human experts, the next general model in PHM may not be a model at all.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.25252",
+      "pdf_url": "https://arxiv.org/pdf/2611.25252",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/JialingRichard/nextunit-bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.25252",
+      "scraped_at": "2026-11-23T16:59:01.818091"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Intent Contracts: Taking Tools Away from Agents",
+    "paper_url": "https://huggingface.co/papers/2611.24025",
+    "authors": [
+      "Chu Wang",
+      "Xiaobo Chen",
+      "Genliang Zhu",
+      "zwang-devv"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Intent Contracts: Taking Tools Away from Agents",
+      "abstract": "Instead of letting the agent write commands and having a classifier approve them, we take the tools away from the planner: it states its intent with a verbatim quote of the user, and a small trusted model writes every tool call. This gives a complete pre-action record and lets the trusted side do only the authorized part of a bundled request (27/30 vs 16/30 tasks completed). It did not reduce unauthorized actions compared with a blind command reviewer, and we report that as a main result. One model pair, benign over-reach only. Code and run logs: https://github.com/zwang-devv/intent-contracts",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.24025",
+      "pdf_url": "https://arxiv.org/pdf/2611.24025",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zwang-devv/intent-contracts"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.24025",
+      "scraped_at": "2026-11-23T16:59:03.403006"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
+    "paper_url": "https://huggingface.co/papers/2611.22343",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
+      "abstract": "Hi HF community! 👋 I’m one of the authors of PURE. Same design, different color: should two product listings count as a match? The answer depends on whether we care about the underlying product design or the specific variant. We introduce PURE , a diagnostic benchmark built from real-world e-commerce matching pairs , with 1,457 multiple-choice questions verified by domain experts across 14 tasks. It examines four capabilities involved in multimodal identity matching: Perception, Understanding, Reasoning, and Evidence-grounded Judgment , with explicit distinctions between base-level and variant-level matching. A few interesting findings from our evaluation of 10 multimodal LLMs: Understanding scores highest on average, while evidence-grounded judgment scores lowest. Locating visual differences and applying variant-level matching rules remain challenging. Models can incorrectly report attribute conflicts between records that actually match. The pattern changes with granularity: most models recognize matching pairs more accurately than non-matching pairs at the base level, while the reverse holds at the variant level. We hope PURE helps the community identify weaknesses that aggregate matching accuracy can hide, and provides a useful testbed for improving multimodal grounding and matching. 📊 Dataset and evaluation code We’d love to hear your thoughts and see how your models perform!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.22343",
+      "pdf_url": "https://arxiv.org/pdf/2611.22343",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/alibaba-multimodal-industrial-ai/PURE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.22343",
+      "scraped_at": "2026-11-23T16:59:04.983063"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Prune to Expand: Training Prompt Enhancers with Less to Imitate",
+    "paper_url": "https://huggingface.co/papers/2611.27229",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Prune to Expand: Training Prompt Enhancers with Less to Imitate",
+      "abstract": "We show that dense captions yielding larger gains in image generation do not necessarily provide better supervision for prompt enhancement, and introduce Prune to Expand (P2E), which removes sentences weakly related to user intent from training captions to improve visual quality and human preference scores across multiple image generators.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.27229",
+      "pdf_url": "https://arxiv.org/pdf/2611.27229",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.27229",
+      "scraped_at": "2026-11-23T16:59:06.543437"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
+    "paper_url": "https://huggingface.co/papers/2611.27398",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
+      "abstract": "Video trackers like SAM 2/3 keep one identity per object, so they break when objects are taken apart or put together. We introduce Transformation Tracking and Understanding (TTU): tracking objects through physical assemblies and disassemblies while keeping a state graph of the transformation process. TIPO , a training-free framework that generates split/merge proposals, scores them against mask-decoder priors, and asks an MLLM to verify and label them. It's state-of-the-art on tracking and state-graph accuracy while running 6–15× faster than prior methods. VISTA , a new benchmark: 50 videos (IKEA ASM, Assembly101 and custom recordings) with dense masks and 256 annotated transformations (124 assemblies, 132 disassemblies). 🌐 Project page: https://davidegardenal.github.io/tipo-tracking 🤗 Dataset: https://huggingface.co/datasets/davidegarde/VISTA",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.27398",
+      "pdf_url": "https://arxiv.org/pdf/2611.27398",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.27398",
+      "scraped_at": "2026-11-23T16:59:08.125609"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Exploited Before It Was Fixed? Vulnerability Timelines from Open, Machine-Readable Evidence",
+    "paper_url": "https://huggingface.co/papers/2611.22479",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Exploited Before It Was Fixed? Vulnerability Timelines from Open, Machine-Readable Evidence",
+      "abstract": "How long are vulnerabilities exploited before a fix is available? We compute, for each vulnerability, the interval between exploitation and patch, and lifecycle intervals adapted from the Vulnerability Timeline and Exposure Metrics framework (VTEM), from open, machine-readable evidence: CVE and CSAF records, publisher timelines (GCVE BCP-05-X-03), several Known Exploited Vulnerabilities catalogs and sightings. An evidence model selects the earliest evidence of each lifecycle event, uses only records that describe the vulnerability itself, carries the precision of every date and traces each figure to the record that produced it; it is implemented in Vulnerability-Lookup. Over the 3,758 identifiers with exploitation evidence on one instance, disclosure is dated for 98%, patch evidence exists for 15.7%, and the vendor-side dates VTEM requires are never published. Most exploitation dates are catalog listings, 1,041 of them on days a catalog listed or imported a backlog. Setting those and unordered same-day pairs aside, 59 vulnerabilities have patch evidence after exploitation evidence, by a median of 7.6 days, mostly from a catalog listing to a distributor’s fix. Traceability made the data correctable: one collector recorded exploit publications as exploitation, 40% of the exploitation dates of a first measurement, and one catalog dated 11% of its listings with the vulnerability’s publication time.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.22479",
+      "pdf_url": "https://arxiv.org/pdf/2611.22479",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/vulnerability-lookup/exploitation-patch-timeline-paper"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.22479",
+      "scraped_at": "2026-11-23T16:59:09.755836"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Explicit Style Extraction for Personalized Long-Form Text Generation",
+    "paper_url": "https://huggingface.co/papers/2611.27211",
+    "authors": [
+      "Anisa Dye",
+      "Amulya Rayasam",
+      "Sameeksha Kini",
+      "Jenitha Reddy Patel",
+      "Franck-Dernoncourt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Explicit Style Extraction for Personalized Long-Form Text Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2611.27211",
+      "pdf_url": "https://arxiv.org/pdf/2611.27211",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.27211",
+      "scraped_at": "2026-11-23T16:59:11.321900"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Search From the Start: Search-Native Pretraining for Language Models",
+    "paper_url": "https://huggingface.co/papers/2611.26809",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Search From the Start: Search-Native Pretraining for Language Models",
+      "abstract": "We introduce Search-Native Pretraining , a practical approach to teaching language models to search the web during pretraining. We augment ordinary text corpora with synthetic web-search queries, execute these queries against a local search index, and train language models to issue search calls and incorporate retrieved evidence into language modeling. Search-pretrained models (\"QueryLM\") are better at knowledge-intensive tasks and show higher steerability toward the retrieved evidence. Throughout our experiments, we find that a 1.4B QueryLM consistently beats or matches the performance of a FLOP-matched 3.3B baseline model across all knowledge intensive tasks. We release the training data and model checkpoints. Paper: https://arxiv.org/abs/2611.26809v1 Models and data: https://huggingface.co/collections/Kausp11/search-native-pretraining",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26809v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26809",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26809",
+      "scraped_at": "2026-11-23T16:59:12.955681"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
+    "paper_url": "https://huggingface.co/papers/2611.19247",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
+      "abstract": "Hey everyone, Excited to share our new work, GameWM. We ask one question: if we design the next generation of games around the generative power of video models, what should a game's structure look like? From that answer follows a second one: what data pairs and what protocol do we need to build the next generation of games? Recent work often uses video models as \"renderers\" that turn engine frames into final frames. But for rendering alone, image models such as DLSS 5 are the better fit: more stable, real-time, and free of long-term memory problems. What a video model adds over an image model is generation along time. In a game, that means animation detail and semantically fine-grained interaction, and that is where it should be used. AAA games ship with enormous libraries of hand-authored animation. GTA 6 has cost more than $2 billion and contains over 600,000 unique animations. That is a vast market. For stability and control, though, the video model should not generate the whole world. A lightweight game engine handles state and computes and stores every number. The engine also sets the camera and the protagonist's movement and passes them to the video model as a proxy video, which keeps the output controllable. With today's technology, a sensible split looks like this. The engine provides a coarse white-box clip: character A hits character B with a ranged attack for 80 damage, with no detailed motion. From the player's character sheet, the video model turns that \"ranged attack\" into something concrete. It can be a fireball, with the casting motion and fire effects, or a thunder hammer, with the swing and the lightning. However it looks, the hit timing and the 80 damage stay exactly as the engine computed them. Everyone plays the same engine, but each player gets their own game. 🌐 Project: https://game-world-model.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.19247",
+      "pdf_url": "https://arxiv.org/pdf/2611.19247",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/hebing-sjtu/GameWM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.19247",
+      "scraped_at": "2026-11-23T16:59:14.550507"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Motion-Aware Reward Modeling for Instruction-Guided Video Editing",
+    "paper_url": "https://huggingface.co/papers/2611.22495",
+    "authors": [
+      "Samyadeep Basu",
+      "Bo Ni",
+      "Xiangbo Gao",
+      "Li Li",
+      "Franck-Dernoncourt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Motion-Aware Reward Modeling for Instruction-Guided Video Editing",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2611.22495",
+      "pdf_url": "https://arxiv.org/pdf/2611.22495",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.22495",
+      "scraped_at": "2026-11-23T16:59:16.153932"
+    },
+    "scraped_date": "2026-11-23"
+  }
+]
