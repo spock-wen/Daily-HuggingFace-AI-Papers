@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-19-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-10335+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-22-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-10357+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">19</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">203</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">934</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">10335+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">22</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">225</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">956</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">10357+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** November 27, 2026
+**Last Updated:** November 28, 2026
 
 ---
 
@@ -132,48 +132,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>2. OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms</b> ⭐ 29</summary>
+<summary><b>2. OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms</b> ⭐ 106</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.34232) • [📄 arXiv](https://arxiv.org/abs/2611.34232) • [📥 PDF](https://arxiv.org/pdf/2611.34232)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/OS-Copilot/OS-Omni)
+**💻 Code:** [⭐ Code](https://github.com/OS-Copilot/OS-Omni) • [⭐ Code](https://github.com/huggingface)
 
 > NeurIPS 2026
 
 </details>
 
 <details>
-<summary><b>3. What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models</b> ⭐ 7</summary>
-
-<br/>
-
-**👥 Authors:** therealram18, Skider
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.31619) • [📄 arXiv](https://arxiv.org/abs/2611.31619) • [📥 PDF](https://arxiv.org/pdf/2611.31619)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/therealram18/vernier)
-
-> A foundation model for time series is pre-trained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, y...
-
-</details>
-
-<details>
-<summary><b>4. ProxyGenBench: Benchmarking Proxy-Guided Video Generation</b> ⭐ 7</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.34457) • [📄 arXiv](https://arxiv.org/abs/2611.34457) • [📥 PDF](https://arxiv.org/pdf/2611.34457)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/2kxx/ProxyGenBench)
-
-> Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. Howe...
-
-</details>
-
-<details>
-<summary><b>5. Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models</b> ⭐ 0</summary>
+<summary><b>3. Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models</b> ⭐ 0</summary>
 
 <br/>
 
@@ -186,7 +158,35 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>6. StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation</b> ⭐ 46</summary>
+<summary><b>4. What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models</b> ⭐ 11</summary>
+
+<br/>
+
+**👥 Authors:** therealram18, Skider
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.31619) • [📄 arXiv](https://arxiv.org/abs/2611.31619) • [📥 PDF](https://arxiv.org/pdf/2611.31619)
+
+**💻 Code:** [⭐ Code](https://github.com/therealram18/vernier) • [⭐ Code](https://github.com/huggingface)
+
+> A foundation model for time series is pre-trained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, y...
+
+</details>
+
+<details>
+<summary><b>5. ProxyGenBench: Benchmarking Proxy-Guided Video Generation</b> ⭐ 8</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.34457) • [📄 arXiv](https://arxiv.org/abs/2611.34457) • [📥 PDF](https://arxiv.org/pdf/2611.34457)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/2kxx/ProxyGenBench)
+
+> Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. Howe...
+
+</details>
+
+<details>
+<summary><b>6. StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation</b> ⭐ 49</summary>
 
 <br/>
 
@@ -194,33 +194,33 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.34290) • [📄 arXiv](https://arxiv.org/abs/2611.34290) • [📥 PDF](https://arxiv.org/pdf/2611.34290)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ghost233lism/StateWeaver)
+**💻 Code:** [⭐ Code](https://github.com/ghost233lism/StateWeaver) • [⭐ Code](https://github.com/huggingface)
 
 > Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual plann...
 
 </details>
 
 <details>
-<summary><b>7. ShowNow: Fine-Grained Speculative Streaming for Responsive World Models</b> ⭐ 9</summary>
+<summary><b>7. ShowNow: Fine-Grained Speculative Streaming for Responsive World Models</b> ⭐ 10</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.34693) • [📄 arXiv](https://arxiv.org/abs/2611.34693) • [📥 PDF](https://arxiv.org/pdf/2611.34693)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/showlab/ShowNow)
+**💻 Code:** [⭐ Code](https://github.com/showlab/ShowNow) • [⭐ Code](https://github.com/huggingface)
 
 > Real-Time on a Single H100: Distilled to 3 denoising steps (AnyFlow + Self-Forcing) and paired with FlashAttention-3, CUDA graphs, and fused commit kernels, the optimized path runs all 8 candidates in ~228 ms/step—fitting inside the 250 ms budget ...
 
 </details>
 
 <details>
-<summary><b>8. DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents</b> ⭐ 21</summary>
+<summary><b>8. DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents</b> ⭐ 22</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.34852) • [📄 arXiv](https://arxiv.org/abs/2611.34852) • [📥 PDF](https://arxiv.org/pdf/2611.34852)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ZJU-REAL/DRBenchPro)
+**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/DRBenchPro) • [⭐ Code](https://github.com/huggingface)
 
 > How much of the relevant knowledge does a deep research agent actually cover? We built DRBench Pro to answer this question. For each case, we derive a research query and evidence-grounded rubrics from the same Wikipedia-derived knowledge tree. Thi...
 
@@ -240,7 +240,33 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. When an AI agent makes a mistake in a database, what decides the damage?</b> ⭐ 2</summary>
+<summary><b>10. Revisiting LLMs as Context Engineers</b> ⭐ 3</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.30494) • [📄 arXiv](https://arxiv.org/abs/2611.30494) • [📥 PDF](https://arxiv.org/pdf/2611.30494)
+
+**💻 Code:** [⭐ Code](https://github.com/costa-nus/LCEBench) • [⭐ Code](https://github.com/huggingface)
+
+> LLMs can engineer contexts via task-specific training, but no single method can achieve the best performance in all datasets at test time. Scaling helps but cannot reverse existing failures of LCEs. Even scaling to newer generations and more param...
+
+</details>
+
+<details>
+<summary><b>11. LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.33885) • [📄 arXiv](https://arxiv.org/abs/2611.33885) • [📥 PDF](https://arxiv.org/pdf/2611.33885)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> Project Page: https://ykchizs.github.io/layoutrecall.github.io/
+
+</details>
+
+<details>
+<summary><b>12. When an AI agent makes a mistake in a database, what decides the damage?</b> ⭐ 2</summary>
 
 <br/>
 
@@ -253,20 +279,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>11. Revisiting LLMs as Context Engineers</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.30494) • [📄 arXiv](https://arxiv.org/abs/2611.30494) • [📥 PDF](https://arxiv.org/pdf/2611.30494)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/costa-nus/LCEBench)
-
-> LLMs can engineer contexts via task-specific training, but no single method can achieve the best performance in all datasets at test time. Scaling helps but cannot reverse existing failures of LCEs. Even scaling to newer generations and more param...
-
-</details>
-
-<details>
-<summary><b>12. Guarding with Judgment: Learning to Intervene for Multimodal Safety</b> ⭐ 0</summary>
+<summary><b>13. Guarding with Judgment: Learning to Intervene for Multimodal Safety</b> ⭐ 0</summary>
 
 <br/>
 
@@ -279,7 +292,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>13. Generation as Reverse Encoding</b> ⭐ 0</summary>
+<summary><b>14. Generation as Reverse Encoding</b> ⭐ 0</summary>
 
 <br/>
 
@@ -294,7 +307,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection</b> ⭐ 1</summary>
+<summary><b>15. Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection</b> ⭐ 1</summary>
 
 <br/>
 
@@ -307,7 +320,50 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. Pretrained Tabular Features and the Measurement of Financial Proximity</b> ⭐ 0</summary>
+<summary><b>16. Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning</b> ⭐ 2</summary>
+
+<br/>
+
+**👥 Authors:** Justin Kim, yumakemore
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.30025) • [📄 arXiv](https://arxiv.org/abs/2611.30025) • [📥 PDF](https://arxiv.org/pdf/2611.30025)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yumakemore/DAWIN)
+
+> 👋 Hi everyone! Author here sharing Damped Atomic Wave Integration Neurons (DAWIN) — a solver-free, continuous-time neural primitive designed to replace standard perceptrons across MLPs, Transformers, and GNNs when modeling irregularly sampled spat...
+
+</details>
+
+<details>
+<summary><b>17. BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.30723) • [📄 arXiv](https://arxiv.org/abs/2611.30723) • [📥 PDF](https://arxiv.org/pdf/2611.30723)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> Hi everyone! We are excited to share BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models ( arXiv:2611.30723 ). 🎧 Listen to Live Audio Demos: https://seekmind-lab.github.io/bisat-demo/ (zero-shot TTS & speech re...
+
+</details>
+
+<details>
+<summary><b>18. Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** sandeepdhuriauthor
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.27112) • [📄 arXiv](https://arxiv.org/abs/2611.27112) • [📥 PDF](https://arxiv.org/pdf/2611.27112)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> Four coding agents, one 278-word rules file. One agent's hidden-test pass rate fell from 99.0 to 67.7 percent. A network gate blocked all 5 attempts to cross a boundary. Pre-registered, open data and transcripts.
+
+</details>
+
+<details>
+<summary><b>19. Pretrained Tabular Features and the Measurement of Financial Proximity</b> ⭐ 0</summary>
 
 <br/>
 
@@ -320,7 +376,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>16. Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration</b> ⭐ 11</summary>
+<summary><b>20. Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration</b> ⭐ 11</summary>
 
 <br/>
 
@@ -333,35 +389,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>17. Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Sandeep Dhuri
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.27112) • [📄 arXiv](https://arxiv.org/abs/2611.27112) • [📥 PDF](https://arxiv.org/pdf/2611.27112)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> Four coding agents, one 278-word rules file. One agent's hidden-test pass rate fell from 99.0 to 67.7 percent. A network gate blocked all 5 attempts to cross a boundary. Pre-registered, open data and transcripts.
-
-</details>
-
-<details>
-<summary><b>18. InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion</b> ⭐ 3</summary>
+<summary><b>21. InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion</b> ⭐ 3</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.31516) • [📄 arXiv](https://arxiv.org/abs/2611.31516) • [📥 PDF](https://arxiv.org/pdf/2611.31516)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/simonwebertum/initfree-sfm)
+**💻 Code:** [⭐ Code](https://github.com/simonwebertum/initfree-sfm) • [⭐ Code](https://github.com/huggingface)
 
 > Initialization-free bundle adjustment (InitFree BA) aims to jointly recover camera poses and scene structure without requiring an initial global estimate. It is a very challenging problem, especially compared to traditional BA where a good estimat...
 
 </details>
 
 <details>
-<summary><b>19. So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes</b> ⭐ 0</summary>
+<summary><b>22. So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes</b> ⭐ 0</summary>
 
 <br/>
 
@@ -369,7 +410,7 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.31155) • [📄 arXiv](https://arxiv.org/abs/2611.31155) • [📥 PDF](https://arxiv.org/pdf/2611.31155)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/dronperminov/rank23_3x3_dataset)
+**💻 Code:** [⭐ Code](https://github.com/dronperminov/rank23_3x3_dataset) • [⭐ Code](https://github.com/huggingface)
 
 > Dataset of rank-23 schemes for 3x3 matrix multiplication with pairwise distinct rank patterns. The dataset currently contains 62029 schemes, one for every rank pattern found, so no two schemes of the dataset are equivalent. The coefficients are te...
 
@@ -383,28 +424,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 19 |
-| 📅 Today | [`2026-11-27.json`](data/daily/2026-11-27.json) | 19 |
-| 📆 This Week | [`2026-W47.json`](data/weekly/2026-W47.json) | 203 |
-| 🗓️ This Month | [`2026-11.json`](data/monthly/2026-11.json) | 934 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 22 |
+| 📅 Today | [`2026-11-28.json`](data/daily/2026-11-28.json) | 22 |
+| 📆 This Week | [`2026-W47.json`](data/weekly/2026-W47.json) | 225 |
+| 🗓️ This Month | [`2026-11.json`](data/monthly/2026-11.json) | 956 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-11-27 | 19 | [View JSON](data/daily/2026-11-27.json) |
+| 📌 2026-11-28 | 22 | [View JSON](data/daily/2026-11-28.json) |
+| 📄 2026-11-27 | 19 | [View JSON](data/daily/2026-11-27.json) |
 | 📄 2026-11-26 | 53 | [View JSON](data/daily/2026-11-26.json) |
 | 📄 2026-11-25 | 51 | [View JSON](data/daily/2026-11-25.json) |
 | 📄 2026-11-24 | 60 | [View JSON](data/daily/2026-11-24.json) |
 | 📄 2026-11-23 | 20 | [View JSON](data/daily/2026-11-23.json) |
 | 📄 2026-11-22 | 50 | [View JSON](data/daily/2026-11-22.json) |
-| 📄 2026-11-21 | 50 | [View JSON](data/daily/2026-11-21.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W47 | 203 | [View JSON](data/weekly/2026-W47.json) |
+| 📅 2026-W47 | 225 | [View JSON](data/weekly/2026-W47.json) |
 | 📅 2026-W46 | 268 | [View JSON](data/weekly/2026-W46.json) |
 | 📅 2026-W45 | 193 | [View JSON](data/weekly/2026-W45.json) |
 | 📅 2026-W44 | 231 | [View JSON](data/weekly/2026-W44.json) |
@@ -413,7 +454,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-11 | 934 | [View JSON](data/monthly/2026-11.json) |
+| 🗓️ 2026-11 | 956 | [View JSON](data/monthly/2026-11.json) |
 | 🗓️ 2026-10 | 1640 | [View JSON](data/monthly/2026-10.json) |
 | 🗓️ 2026-09 | 781 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 709 | [View JSON](data/monthly/2026-08.json) |
